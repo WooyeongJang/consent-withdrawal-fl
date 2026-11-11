@@ -1,0 +1,21 @@
+\begin{table}[t]
+\centering
+\caption{E1 on Kairos under the acceptance-time check (acc), one run per condition (6 rounds, real local training, decisions judged from block timestamps). Accepted: accepted updates; rej.: correct rejections; wrong: wrong rejections; viol.: violations; inclusion: transaction inclusion latency, mean (range) in seconds. $^{\ast}$The harness submitted each of these 24 withdrawals three times (72 transactions, one per data center); v3.1 accepts such replays, which v3.2 rejects (Section~\ref{app:v32}).}
+\label{tab:a-e1chain}
+\footnotesize
+\setlength{\tabcolsep}{2.5pt}
+\adjustbox{max width=\columnwidth}{%
+\begin{tabular}{@{}l r r r r r r l@{}}
+\toprule
+Condition & withdr. & updates & accepted & rej. & wrong & viol. & inclusion (s) \\
+\midrule
+during training & 24$^{\ast}$ & 18 & 6 & 12 & 0 & 0 & 0.96 (0.38--1.68) \\
+after sending & 24 & 18 & 6 & 12 & 0 & 0 & 0.99 (0.26--1.56) \\
+aggregation delay 0\,s & 24 & 18 & 8 & 10 & 0 & 0 & 1.07 (0.39--2.24) \\
+aggregation delay 10\,s & 24 & 18 & 8 & 10 & 0 & 0 & 1.04 (0.26--2.87) \\
+aggregation delay 40\,s & 24 & 18 & 8 & 10 & 0 & 0 & 0.97 (0.29--1.61) \\
+stale policy replica & 24 & 18 & 12 & 6 & 0 & 0 & 0.98 (0.72--1.32) \\
+offline and reconnecting (2 rounds) & 24 & 16 & 15 & 1 & 0 & 0 & 1.02 (0.50--2.10) \\
+\bottomrule
+\end{tabular}}
+\end{table}

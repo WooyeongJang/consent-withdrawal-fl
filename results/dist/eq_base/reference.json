@@ -1,0 +1,22 @@
+{
+ "units": 150,
+ "unit_diffs": [],
+ "round_diffs": [],
+ "final_equal": true,
+ "norm_single": [
+  -0.0008255738933323695,
+  0.23210063658945243
+ ],
+ "norm_dist": [
+  -0.0008255738933323695,
+  0.23210063658945274
+ ],
+ "norm_rel_diff": [
+  0.0,
+  1.3154265160933756e-15
+ ],
+ "norm_bit_equal": [
+  true,
+  false
+ ]
+}

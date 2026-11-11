@@ -1,0 +1,119 @@
+snomed,abbr,dx,n_5cohorts,superclass,ptbxl_scp,note
+164889003,AF,atrial fibrillation,3724,,,리듬·형태·기타 문장: 상위 범주 없음
+164890007,AFL,atrial flutter,8300,,,리듬·형태·기타 문장: 상위 범주 없음
+6374002,BBB,bundle branch block,501,CD,CD(BBB 미분류),bundle branch block
+426627000,Brady,bradycardia,284,,,리듬·형태·기타 문장: 상위 범주 없음
+733534002,CLBBB,complete left bundle branch block,213,CD,CLBBB,
+713427006,CRBBB,complete right bundle branch block,1237,CD,CRBBB,
+270492004,IAVB,1st degree av block,2737,CD,1AVB,
+713426002,IRBBB,incomplete right bundle branch block,739,CD,IRBBB,
+39732003,LAD,left axis deviation,2485,,,리듬·형태·기타 문장: 상위 범주 없음
+445118002,LAnFB,left anterior fascicular block,560,CD,LAFB,
+164909002,LBBB,left bundle branch block,745,CD,CLBBB,
+251146004,LQRSV,low qrs voltages,1417,,,리듬·형태·기타 문장: 상위 범주 없음
+698252002,NSIVCB,nonspecific intraventricular conduction disorder,978,CD,IVCD,
+426783006,NSR,sinus rhythm,10799,,,NSR는 리듬 문장. NORM은 'NSR 외 다른 코드가 전혀 없는 기록'으로 정의(규칙)
+284470004,PAC,premature atrial contraction,2640,,,리듬·형태·기타 문장: 상위 범주 없음
+10370003,PR,pacing rhythm,1185,,,리듬·형태·기타 문장: 상위 범주 없음
+365413008,PRWP,poor R wave Progression,638,,,리듬·형태·기타 문장: 상위 범주 없음
+427172004,PVC,premature ventricular contractions,1279,,,리듬·형태·기타 문장: 상위 범주 없음
+164947007,LPR,prolonged pr interval,52,,,LPR: 형태 문장
+111975006,LQT,prolonged qt interval,1789,STTC,LNGQT,prolonged QT
+164917005,QAb,qwave abnormal,1528,,,QAb: 형태 문장(QWAVE)
+47665007,RAD,right axis deviation,937,,,리듬·형태·기타 문장: 상위 범주 없음
+59118001,RBBB,right bundle branch block,3049,CD,CRBBB/IRBBB,RBBB(완전·불완전 미구분)
+427393009,SA,sinus arrhythmia,3016,,,리듬·형태·기타 문장: 상위 범주 없음
+426177001,SB,sinus bradycardia,18281,,,리듬·형태·기타 문장: 상위 범주 없음
+427084000,STach,sinus tachycardia,8819,,,리듬·형태·기타 문장: 상위 범주 없음
+63593006,SVPB,supraventricular premature beats,63,,,리듬·형태·기타 문장: 상위 범주 없음
+164934002,TAb,t wave abnormal,9371,,,TAb: 형태 문장(TAB_)
+59931005,TInv,t wave inversion,3694,,,TInv: 형태 문장(INVT)
+17338001,VPB,ventricular premature beats,659,,,리듬·형태·기타 문장: 상위 범주 없음
+233892002,AAR,accelerated atrial escape rhythm,16,,,리듬·형태·기타 문장: 상위 범주 없음
+251187003,AED,atrial escape beat,17,,,리듬·형태·기타 문장: 상위 범주 없음
+61277005,AIVR,accelerated idioventricular rhythm,14,,,리듬·형태·기타 문장: 상위 범주 없음
+426664006,AJR,accelerated junctional rhythm,31,,,리듬·형태·기타 문장: 상위 범주 없음
+251139008,ALR,suspect arm ecg leads reversed,12,,,리듬·형태·기타 문장: 상위 범주 없음
+57054005,AMI,acute myocardial infarction,49,MI,MI_ 계열(acute),acute MI
+413444003,AMIs,acute myocardial ischemia,2,STTC,ISC_,acute myocardial ischemia
+426434006,AnMIs,anterior ischemia,281,STTC,ISCAN,anterior ischemia
+54329005,AnMI,anterior myocardial infarction,119,MI,AMI,anterior MI
+251173003,AB,atrial bigeminy,3,,,리듬·형태·기타 문장: 상위 범주 없음
+195080001,AFAFL,atrial fibrillation and flutter,41,,,리듬·형태·기타 문장: 상위 범주 없음
+195126007,AH,atrial hypertrophy,62,HYP,LAO/LAE·RAO/RAE,atrial hypertrophy
+251268003,AP,atrial pacing pattern,52,,,리듬·형태·기타 문장: 상위 범주 없음
+106068003,ARH,atrial rhythm,215,,,리듬·형태·기타 문장: 상위 범주 없음
+713422000,ATach,atrial tachycardia,340,,,리듬·형태·기타 문장: 상위 범주 없음
+233917008,AVB,av block,323,CD,AVB 계열,av block(미분류)
+50799005,AVD,atrioventricular dissociation,59,,,리듬·형태·기타 문장: 상위 범주 없음
+29320008,AVJR,atrioventricular junctional rhythm,145,,,리듬·형태·기타 문장: 상위 범주 없음
+251166008,AVNRT,atrioventricular  node reentrant tachycardia,16,,,리듬·형태·기타 문장: 상위 범주 없음
+233897008,AVRT,atrioventricular reentrant tachycardia,26,,,리듬·형태·기타 문장: 상위 범주 없음
+251170000,BPAC,blocked premature atrial contraction,64,,,리듬·형태·기타 문장: 상위 범주 없음
+418818005,BRU,brugada,5,,,리듬·형태·기타 문장: 상위 범주 없음
+74615001,BTS,brady tachy syndrome,1,,,리듬·형태·기타 문장: 상위 범주 없음
+426749004,CAF,chronic atrial fibrillation,1,,,리듬·형태·기타 문장: 상위 범주 없음
+251199005,CCR,countercolockwise rotation,162,,,리듬·형태·기타 문장: 상위 범주 없음
+61721007,CVCL/CCVCL,clockwise or counterclockwise vectorcardiographic loop,653,,,리듬·형태·기타 문장: 상위 범주 없음
+27885002,CHB,complete heart block,111,CD,3AVB,
+413844008,CMI,chronic myocardial ischemia,161,STTC,ISC_,chronic myocardial ischemia
+251198002,CR,clockwise rotation,76,,,리듬·형태·기타 문장: 상위 범주 없음
+82226007,DIB,diffuse intraventricular block,1,CD,IVCD,diffuse intraventricular block
+428417006,ERe,early repolarization,506,,,리듬·형태·기타 문장: 상위 범주 없음
+13640000,FB,fusion beats,116,,,리듬·형태·기타 문장: 상위 범주 없음
+164942001,FQRS,fqrs wave,3,,,리듬·형태·기타 문장: 상위 범주 없음
+251259000,HTV,high t-voltage,1,,,리듬·형태·기타 문장: 상위 범주 없음
+195042002,IIAVB,2nd degree av block,110,CD,2AVB,
+426183003,IIAVBII,mobitz type II atrioventricular block,7,CD,2AVB,Mobitz II
+425419005,IIs,inferior ischaemia,451,STTC,ISCIN,inferior ischaemia
+251120003,ILBBB,incomplete left bundle branch block,134,CD,ILBBB,
+704997005,ISTD,inferior ST segment depression,1,,,리듬·형태·기타 문장: 상위 범주 없음
+426995002,JE,junctional escape,84,,,리듬·형태·기타 문장: 상위 범주 없음
+251164006,JPC,junctional premature complex,13,,,리듬·형태·기타 문장: 상위 범주 없음
+426648003,JTach,junctional tachycardia,30,,,리듬·형태·기타 문장: 상위 범주 없음
+253352002,LAA,left atrial abnormality,72,HYP,LAO/LAE,left atrial abnormality
+67741000119109,LAE,left atrial enlargement,872,HYP,LAO/LAE,
+446813000,LAH,left atrial hypertrophy,48,HYP,LAO/LAE,left atrial hypertrophy
+425623009,LIs,lateral ischaemia,903,STTC,ISCAL,lateral ischaemia
+445211001,LPFB,left posterior fascicular block,30,CD,LPFB,
+164873001,LVH,left ventricular hypertrophy,2037,HYP,LVH,
+55827005,LVHV,left ventricular high voltage,5401,,,LVHV: 전압 기준(VCLVH)은 형태 문장 — HYP에 넣지 않음(보수적)
+370365005,LVS,left ventricular strain,1,,,리듬·형태·기타 문장: 상위 범주 없음
+164865005,MI,myocardial infarction,506,MI,MI_ 계열,myocardial infarction
+164861001,MIs,myocardial ischemia,384,STTC,ISC_,myocardial ischemia
+54016002,MoI,mobitz type i wenckebach atrioventricular block,31,CD,2AVB,Mobitz I
+428750005,NSSTTA,nonspecific st t abnormality,4331,STTC,NST_,nonspecific ST-T abnormality
+164867002,OldMI,old myocardial infarction,1168,MI,MI_ 계열(old),old MI
+251205003,PPW,prolonged P wave,106,,,리듬·형태·기타 문장: 상위 범주 없음
+425856008,PVT,paroxysmal ventricular tachycardia,109,,,리듬·형태·기타 문장: 상위 범주 없음
+164912004,PWC,p wave change,142,,,리듬·형태·기타 문장: 상위 범주 없음
+253339007,RAAb,right atrial abnormality,14,HYP,RAO/RAE,right atrial abnormality
+164921003,RAb,r wave abnormal,11,,,리듬·형태·기타 문장: 상위 범주 없음
+446358003,RAH,right atrial hypertrophy,54,HYP,RAO/RAE,
+67751000119106,RAHV,right atrial  high voltage,36,,,리듬·형태·기타 문장: 상위 범주 없음
+89792004,RVH,right ventricular hypertrophy,216,HYP,RVH,
+17366009,SAAWR,sinus atrium to atrial wandering rhythm,7,,,리듬·형태·기타 문장: 상위 범주 없음
+65778007,SAB,sinoatrial block,14,,,리듬·형태·기타 문장: 상위 범주 없음
+5609005,SARR,sinus arrest,33,,,리듬·형태·기타 문장: 상위 범주 없음
+49578007,SPRI,shortened pr interval,28,,,리듬·형태·기타 문장: 상위 범주 없음
+77867006,SQT,decreased qt interval,3,,,리듬·형태·기타 문장: 상위 범주 없음
+55930002,STC,s t changes,4239,STTC,STTC,ST-T changes
+429622005,STD,st depression,2632,,,STD: PTB-XL에서 형태(form) 문장(STD_) — 진단 상위 범주에 넣지 않음
+164931005,STE,st elevation,596,,,STE: 형태 문장(STE_)
+164930006,STIAb,st interval abnormal,2274,,,STIAb: 형태 문장
+426761007,SVT,supraventricular tachycardia,759,,,리듬·형태·기타 문장: 상위 범주 없음
+251223006,TPW,tall p wave,215,,,리듬·형태·기타 문장: 상위 범주 없음
+164937009,UAb,u wave abnormal,137,,,리듬·형태·기타 문장: 상위 범주 없음
+11157007,VBig,ventricular bigeminy,10,,,리듬·형태·기타 문장: 상위 범주 없음
+164884008,VEB,ventricular ectopics,741,,,리듬·형태·기타 문장: 상위 범주 없음
+75532003,VEsB,ventricular escape beat,59,,,리듬·형태·기타 문장: 상위 범주 없음
+81898007,VEsR,ventricular escape rhythm,98,,,리듬·형태·기타 문장: 상위 범주 없음
+164896001,VF,ventricular fibrillation,72,,,리듬·형태·기타 문장: 상위 범주 없음
+111288001,VFL,ventricular flutter,8,,,리듬·형태·기타 문장: 상위 범주 없음
+266249003,VH,ventricular hypertrophy,76,HYP,SEHYP/LVH·RVH,ventricular hypertrophy
+195060002,VPEx,ventricular pre excitation,20,,,리듬·형태·기타 문장: 상위 범주 없음
+251266004,VPP,ventricular pacing pattern,46,,,리듬·형태·기타 문장: 상위 범주 없음
+164895002,VTach,ventricular tachycardia,1,,,리듬·형태·기타 문장: 상위 범주 없음
+251180001,VTrig,ventricular trigeminy,13,,,리듬·형태·기타 문장: 상위 범주 없음
+195101003,WAP,wandering atrial pacemaker,9,,,리듬·형태·기타 문장: 상위 범주 없음
+74390002,WPW,wolff parkinson white pattern,74,CD,WPW,

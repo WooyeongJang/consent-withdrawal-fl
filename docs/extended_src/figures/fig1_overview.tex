@@ -1,0 +1,40 @@
+% Fig. 1: system overview. Solid = data and models, dashed = control and ledger records.
+\begin{tikzpicture}[font=\footnotesize, >=latex,
+  box/.style={draw, rounded corners=2pt, align=center, inner sep=3pt, minimum height=9mm, fill=white},
+  data/.style={->, thick},
+  ctrl/.style={->, dashed},
+  lab/.style={font=\scriptsize, inner sep=1pt, fill=white, align=center}]
+  % jurisdictions
+  \draw[densely dotted, rounded corners=4pt, fill=black!4] (-0.9,-0.25) rectangle (6.4,2.35);
+  \node[font=\scriptsize\itshape, anchor=south east, inner sep=1pt] at (6.4,2.37) {data centers $k=1,\dots,K$: raw records stay here};
+  % parties
+  \node[box] (dev)  at (0.6,4.1) {Data subject device\\[-1pt]\scriptsize signs $W$, checks model (\Lfour{})};
+  \node[box] (plat) at (6.1,4.1) {Platform\\[-1pt]\scriptsize authorizes uploads, deploys,\\[-2pt]\scriptsize pays fees (delegation)};
+  \node[box] (dc1)  at (0.6,1.5) {Data center $1$\\[-1pt]\scriptsize store $D_1$, local training};
+  \node at (2.65,1.5) {$\cdots$};
+  \node[box] (dck)  at (4.7,1.5) {Data center $K$\\[-1pt]\scriptsize store $D_K$, local training};
+  \node[box] (aud)  at (2.65,0.35) {Independent auditor\\[-1pt]\scriptsize read-only; \Lone{}--\Lthree{}};
+  \node[box] (agg)  at (10.2,1.5) {Aggregator\\[-1pt]\scriptsize acceptance, lineage, jobs};
+  \node[box, minimum width=13.4cm, minimum height=9mm, fill=black!10, anchor=north west] (led) at (-1.6,-0.95)
+    {\textbf{Ledger} (Kaia Kairos, consensus operated outside the system)\\[-1pt]
+     \scriptsize policies $\cdot$ withdrawals $\cdot$ config commitment $\cdot$ $C_{k,r},U_{k,r}$ $\cdot$ acceptance $\cdot$ approvals $\cdot$ jobs $\cdot$ verifications $\cdot$ deployment state};
+  % data path
+  \draw[data] (dev.south) -- node[lab, pos=0.3] {authorized\\record upload} (dc1.north);
+  \draw[data] ([yshift=1.5mm]dck.east) -- node[lab, above=1pt] {update $\Delta_{k,r}$} ([yshift=1.5mm]agg.west);
+  \draw[data] ([yshift=-1.5mm]agg.west) -- node[lab, below=1pt, pos=0.65] {model $M_r$} ([yshift=-1.5mm]dck.east);
+  \draw[data] (agg.north) |- node[lab, pos=0.75, above=1pt] {approved model} (plat.east);
+  \draw[data] ([yshift=1.5mm]plat.west) -- node[lab, above=1pt] {model} ([yshift=1.5mm]dev.east);
+  \draw[data, densely dotted] (dc1.south) |- (aud.west);
+  \draw[data, densely dotted] (dck.south) |- (aud.east);
+  % control path
+  \draw[ctrl] ([yshift=-1.5mm]dev.east) -- node[lab, below=1pt] {consent,\\upload request} ([yshift=-1.5mm]plat.west);
+  \draw[ctrl] (dev.west) -| node[lab, pos=0.64] {signed\\withdrawal\\$W$ (fee-\\delegated)} ([xshift=3mm]led.north west);
+  \draw[ctrl] ([yshift=-3mm]plat.east) -| node[lab, pos=0.86] {policies,\\deployment} (7.9,-0.95);
+  \draw[ctrl] ([xshift=-8mm]dc1.south) -- node[lab, pos=0.55] {$C_{k,r}$,\\$U_{k,r}$} ([xshift=-8mm]dc1.south |- led.north);
+  \draw[ctrl] (aud.south) -- node[lab, right=1pt] {verification results} (aud.south |- led.north);
+  \draw[ctrl] ([xshift=-3mm]agg.south east) -- node[lab, pos=0.78] {acceptance,\\jobs} ([xshift=-3mm]agg.south east |- led.north);
+  % legend
+  \draw[data] (8.65,0.75) -- ++(0.5,0) node[right, font=\scriptsize] {data, models};
+  \draw[ctrl] (8.65,0.4) -- ++(0.5,0) node[right, font=\scriptsize] {control, ledger record};
+  \draw[data, densely dotted] (8.65,0.05) -- ++(0.5,0) node[right, font=\scriptsize] {read-only access};
+\end{tikzpicture}

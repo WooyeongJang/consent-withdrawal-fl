@@ -1,0 +1,178 @@
+{
+ "type": "A",
+ "seed": 5,
+ "p": 0.3,
+ "contract": "0x4a5A8815b48db552Cf51a8E00dA6d374cA2BdC19",
+ "b3_contract": "0x10E5BF33CEA7a7E2F0F8153F28fD985Be732772D",
+ "instances": [
+  {
+   "attack": "T1",
+   "k": "1",
+   "r": 32,
+   "pid": 6418,
+   "evidence": {
+    "a": true,
+    "b": false,
+    "s": false,
+    "c": {
+     "0.1": false,
+     "0.3": false,
+     "0.5": false,
+     "1.0": false
+    }
+   },
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "정보주체가 보관한 서명 요청이 원장에 없음 → 누락 사실 드러남(지연 길이는 증명 불가, 7.1)",
+   "latency_rounds": 18,
+   "unit_sampled": false
+  },
+  {
+   "attack": "T2a",
+   "k": "0",
+   "r": 20,
+   "pid": 12541,
+   "evidence": {
+    "a": false,
+    "b": true,
+    "s": true,
+    "c": {
+     "0.1": false,
+     "0.3": false,
+     "0.5": true,
+     "1.0": true
+    }
+   },
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "집계 수락 검사(알고리즘 2) 거절: rejected",
+   "latency_rounds": 0,
+   "unit_sampled": false
+  },
+  {
+   "attack": "T2b",
+   "k": "0",
+   "r": 38,
+   "pid": 14812,
+   "evidence": {
+    "a": false,
+    "b": false,
+    "s": false,
+    "c": {
+     "0.1": true,
+     "0.3": true,
+     "0.5": true,
+     "1.0": true
+    }
+   },
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 표본 재실행 출력 불일치",
+   "latency_rounds": 0,
+   "unit_sampled": true
+  },
+  {
+   "attack": "T3",
+   "k": "2",
+   "r": 8,
+   "pid": 14836,
+   "evidence": {
+    "a": false,
+    "b": true,
+    "s": true,
+    "c": {
+     "0.1": false,
+     "0.3": true,
+     "0.5": true,
+     "1.0": true
+    }
+   },
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "집계 수락 검사(알고리즘 2) 거절: rejected",
+   "latency_rounds": 0,
+   "unit_sampled": true
+  },
+  {
+   "attack": "T10",
+   "k": "1",
+   "r": 14,
+   "pid": 1624,
+   "evidence": {
+    "a": false,
+    "b": false,
+    "s": true,
+    "c": {
+     "0.1": false,
+     "0.3": false,
+     "0.5": false,
+     "1.0": true
+    }
+   },
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "정보주체 자기 비소속 검증 실패 라운드 [14]",
+   "latency_rounds": 0,
+   "unit_sampled": false
+  }
+ ],
+ "false_positives": {
+  "rejected_honest": [],
+  "l1_fail_honest": [],
+  "subject_check_fail_honest": {}
+ },
+ "l1_sampled_units": 44,
+ "sampled_units_by_p": {
+  "0.1": 20,
+  "0.3": 44,
+  "0.5": 79,
+  "1.0": 150
+ },
+ "baseline_rationale": {
+  "B0": "감사 기록 없음",
+  "B1": "운영자의 동의 DB(데이터 선택 시점 판정)만 있음. 기관의 실제 입력·계산을 대조할 증거 없음",
+  "B2": "운영자가 서명한 중앙 로그(접수·모델 해시). 접수 기록 작성자가 운영자이고 입력 커밋이 없음",
+  "B3": "운영자가 원장에 기록한 철회 접수·완료·모델 해시. 기록 작성자가 운영자이고 입력 커밋이 없음",
+  "B5": "B2 + 외부 증인 공동 서명. 증인은 운영자가 제출한 기록에만 서명"
+ },
+ "t1_signed_request": {
+  "sender": "0xa5bE925a445b6027153303F7481E345F15836CE4",
+  "signed_at": 1792931584.2142093,
+  "round": 32
+ },
+ "withdrawal_count_on_chain": 4,
+ "tx_total": 660,
+ "fee_kaia": 1.14274017,
+ "train_wall_s": 224.73009252548218,
+ "final_hash": "910d70922c6cc5c35cd05bd9d64ce93215da4e0c27737741f8d7282bef678f8d"
+}

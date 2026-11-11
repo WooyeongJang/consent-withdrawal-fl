@@ -1,0 +1,6 @@
+/usr/local/lib/python3.12/site-packages/web3/__init__.py:2: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+# testnet_harness start 2026-11-09T06:06:37+0000 version v3.1 n 3 label pilot seed 20261109 rpc https://public-en-kairos.node.kaia.io web3 6.3.0 script_sha256 79d5983e03cfc932f8efa3c0d5d9d48a7e05b7fc9126e7af2728b51460bb5ea7 common_sha256 622f229685d781fe86ecf2fc0675a4a2146600a82ba2233732e79ea0203cb50f
+# roles ['aggregator', 'auditor', 'dc0', 'dc1', 'dc2', 'dc3', 'dc4', 'dc5', 'dc6', 'dc7', 'dc8', 'dc9', 'platform'] payer 0x02F6771C74ab530301d77641955dF630290cA5c4 balance 50.3519 KAIA client Klaytn/v2.2.2a/linux-amd64/go1.25.3 gasPrice 27500000000
+# deployed {"address": "0x3fe79BE3EEDc9Ef2a8128Cd41FC65848652F38a4", "tx": "0x85aed0c51e2f05b66ef6fc29c71202818c513194de5cf4725f92e11fe7247364", "block": 232559990, "gas_used": 2608906, "code_matches_local_compile": true, "code_bytes": 10882}
+# done 3 trials, events 22, fee 0.1096 KAIA (balance diff 0.1096)

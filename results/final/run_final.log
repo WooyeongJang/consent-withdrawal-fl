@@ -1,0 +1,63 @@
+== [final] E0 시작 2026-10-28 00:06:59
+== 1. 같은 시드 반복: 기관 0, 1라운드 × 10회 × 3조건
+{"mode": "unit", "cond": "gpu_det", "run": 1, "seconds": 1.184183438308537, "hash": "4df780be8f157d674adcad9d2dbf3d8b90f9f25fd576da8ebd72880efe93460f"}
+{"mode": "unit", "cond": "gpu_det", "run": 2, "seconds": 1.1931428220123053, "hash": "4df780be8f157d674adcad9d2dbf3d8b90f9f25fd576da8ebd72880efe93460f"}
+{"mode": "unit", "cond": "gpu_det", "run": 3, "seconds": 1.1841309359297156, "hash": "4df780be8f157d674adcad9d2dbf3d8b90f9f25fd576da8ebd72880efe93460f"}
+{"mode": "unit", "cond": "gpu_det", "run": 4, "seconds": 1.1820377726107836, "hash": "4df780be8f157d674adcad9d2dbf3d8b90f9f25fd576da8ebd72880efe93460f"}
+{"mode": "unit", "cond": "gpu_det", "run": 5, "seconds": 1.1708474457263947, "hash": "4df780be8f157d674adcad9d2dbf3d8b90f9f25fd576da8ebd72880efe93460f"}
+{"mode": "unit", "cond": "gpu_det", "run": 6, "seconds": 1.1769846994429827, "hash": "4df780be8f157d674adcad9d2dbf3d8b90f9f25fd576da8ebd72880efe93460f"}
+{"mode": "unit", "cond": "gpu_det", "run": 7, "seconds": 1.186907167546451, "hash": "4df780be8f157d674adcad9d2dbf3d8b90f9f25fd576da8ebd72880efe93460f"}
+{"mode": "unit", "cond": "gpu_det", "run": 8, "seconds": 1.1742623131722212, "hash": "4df780be8f157d674adcad9d2dbf3d8b90f9f25fd576da8ebd72880efe93460f"}
+{"mode": "unit", "cond": "gpu_det", "run": 9, "seconds": 1.1743564512580633, "hash": "4df780be8f157d674adcad9d2dbf3d8b90f9f25fd576da8ebd72880efe93460f"}
+{"mode": "unit", "cond": "gpu_det", "run": 10, "seconds": 1.1552393548190594, "hash": "4df780be8f157d674adcad9d2dbf3d8b90f9f25fd576da8ebd72880efe93460f"}
+{"mode": "unit", "cond": "cpu", "run": 1, "seconds": 25.772837958298624, "hash": "bd598bcdfcb328f19b343d93a01bf66efd879de3cc7a9d176eb8f071e2e0a2d3"}
+{"mode": "unit", "cond": "cpu", "run": 2, "seconds": 25.626507970504463, "hash": "bd598bcdfcb328f19b343d93a01bf66efd879de3cc7a9d176eb8f071e2e0a2d3"}
+{"mode": "unit", "cond": "cpu", "run": 3, "seconds": 26.419341074302793, "hash": "bd598bcdfcb328f19b343d93a01bf66efd879de3cc7a9d176eb8f071e2e0a2d3"}
+{"mode": "unit", "cond": "cpu", "run": 4, "seconds": 26.31527333613485, "hash": "bd598bcdfcb328f19b343d93a01bf66efd879de3cc7a9d176eb8f071e2e0a2d3"}
+{"mode": "unit", "cond": "cpu", "run": 5, "seconds": 25.992383212782443, "hash": "bd598bcdfcb328f19b343d93a01bf66efd879de3cc7a9d176eb8f071e2e0a2d3"}
+{"mode": "unit", "cond": "cpu", "run": 6, "seconds": 26.185696782544255, "hash": "bd598bcdfcb328f19b343d93a01bf66efd879de3cc7a9d176eb8f071e2e0a2d3"}
+{"mode": "unit", "cond": "cpu", "run": 7, "seconds": 25.650050047785044, "hash": "bd598bcdfcb328f19b343d93a01bf66efd879de3cc7a9d176eb8f071e2e0a2d3"}
+{"mode": "unit", "cond": "cpu", "run": 8, "seconds": 26.387142070569098, "hash": "bd598bcdfcb328f19b343d93a01bf66efd879de3cc7a9d176eb8f071e2e0a2d3"}
+{"mode": "unit", "cond": "cpu", "run": 9, "seconds": 25.806468470953405, "hash": "bd598bcdfcb328f19b343d93a01bf66efd879de3cc7a9d176eb8f071e2e0a2d3"}
+{"mode": "unit", "cond": "cpu", "run": 10, "seconds": 25.890451517887414, "hash": "bd598bcdfcb328f19b343d93a01bf66efd879de3cc7a9d176eb8f071e2e0a2d3"}
+{"mode": "unit", "cond": "gpu_nondet", "run": 1, "seconds": 4.301303396932781, "hash": "5049db64dea40550d4b3efa20a51ad9a53fd955343f656b2d143ade7db41fe7a"}
+{"mode": "unit", "cond": "gpu_nondet", "run": 2, "seconds": 4.214177904650569, "hash": "e610da72c268263ce4e8fd5af2e35709abf2a0d7b82cdb782479b016ccaaa81e"}
+{"mode": "unit", "cond": "gpu_nondet", "run": 3, "seconds": 4.211635636165738, "hash": "7876d1db0ef03659f4da1bff276095393c2701ca11e5f57336a917421096c71f"}
+{"mode": "unit", "cond": "gpu_nondet", "run": 4, "seconds": 4.036953108385205, "hash": "e143b7a624f0ba1d8338363bbb6316ea7c7c7ca3577c8e0c86e791b4c37d6a26"}
+{"mode": "unit", "cond": "gpu_nondet", "run": 5, "seconds": 4.263175675645471, "hash": "8d8097f372bf4c3c2aa8bd08cb4c537ac47f6bdd8cbc9f14e2f1b0f3c431d108"}
+{"mode": "unit", "cond": "gpu_nondet", "run": 6, "seconds": 4.229497187770903, "hash": "73a099dbde1cd74976af04031b6f23bcde72214c599e7f8746cb99c363e16b4d"}
+{"mode": "unit", "cond": "gpu_nondet", "run": 7, "seconds": 4.233507203869522, "hash": "784b74972b2a0ceba6096820638ea44a0ecdea93acbc66465f9b47f78fbeb27b"}
+{"mode": "unit", "cond": "gpu_nondet", "run": 8, "seconds": 4.033484253101051, "hash": "ff9287ba65e9bae43c0937327445207adf7ced47b35057d3b729b396a0e70fb7"}
+{"mode": "unit", "cond": "gpu_nondet", "run": 9, "seconds": 4.03921115398407, "hash": "bb500a33c50ac384f651dee9809fc3c115f8de4d6e2f5e9e0893efb447cf11b7"}
+{"mode": "unit", "cond": "gpu_nondet", "run": 10, "seconds": 4.04758738912642, "hash": "7ad7da21402285d8432e06f20ef8f1b54ca7cf1143bd3d30f77651c38a022dca"}
+== 2. CPU 스레드 수 변경(8→4) 2회
+{"mode": "unit", "cond": "cpu", "run": 1, "seconds": 33.28616521600634, "hash": "3cce2a864dca73c8e498b0d81fbcb528acbbc448c492621b3b89f7bc0d6d9039"}
+{"mode": "unit", "cond": "cpu", "run": 2, "seconds": 33.31445179786533, "hash": "3cce2a864dca73c8e498b0d81fbcb528acbbc448c492621b3b89f7bc0d6d9039"}
+== 3. 라운드 연쇄: 세 기관 × 5라운드 × 2회 (gpu_det, cpu)
+{"mode": "chain", "cond": "gpu_det", "run": 1, "hash": "17996070d8ac494a8627de521300f19e854071c1d08f6538907f57679416c1bf"}
+{"mode": "chain", "cond": "gpu_det", "run": 2, "hash": "17996070d8ac494a8627de521300f19e854071c1d08f6538907f57679416c1bf"}
+{"mode": "chain", "cond": "cpu", "run": 1, "hash": "c13b6b21aa36a895698493c6523a77fd4e4aa41d18ff03b68f5c4e7aac3480f1"}
+{"mode": "chain", "cond": "cpu", "run": 2, "hash": "c13b6b21aa36a895698493c6523a77fd4e4aa41d18ff03b68f5c4e7aac3480f1"}
+== 4. 성능 분산 예비 측정: R=50 전체 학습 × 시드 5개 (gpu_det)
+{"mode": "pilot", "cond": "gpu_det", "run": 1, "hash": "0fe210c24e37b1f3d89da0191f4488823193fb952842f794bf0eaaf46a60df0c", "test_macro_auc": 0.9315961592811426}
+{"mode": "pilot", "cond": "gpu_det", "run": 1, "hash": "ddcc2693ecdefb0e9b7a13ddbf3be8c94ac23c1d6518500058b34b24dc2e3eee", "test_macro_auc": 0.9306896048063917}
+{"mode": "pilot", "cond": "gpu_det", "run": 1, "hash": "9ae09f3335283d08f1149596932cf83c512d029a31ccf4627529b75614079f7c", "test_macro_auc": 0.9313313533684067}
+{"mode": "pilot", "cond": "gpu_det", "run": 1, "hash": "c3988757f428ec0a67d5f75fe0dd47c3f92b8a67363bbf703985183f3c2cda9f", "test_macro_auc": 0.930844168894669}
+{"mode": "pilot", "cond": "gpu_det", "run": 1, "hash": "2db0b296629ff686b519f8221e348603162a413dd92dfe3eba8d2a64e99723d6", "test_macro_auc": 0.9309569226968003}
+== 완료
+| 모드 | 조건 | 실행 수 | 서로 다른 해시 수 | 최빈 해시 일치율 | 평균 시간(초) |
+|---|---|---:|---:|---:|---:|
+| chain | cpu | 2 | 1 | 100% | 299.18 |
+| chain | gpu_det | 2 | 1 | 100% | 8.75 |
+| unit | cpu | 10 | 1 | 100% | 26.00 |
+| unit | cpu_t4 | 2 | 1 | 100% | 33.30 |
+| unit | gpu_det | 10 | 1 | 100% | 1.18 |
+| unit | gpu_nondet | 10 | 10 | 10% | 4.16 |
+
+조건 간 해시 일치: {'gpu_det vs cpu': False, 'cpu vs cpu_t4': False}
+
+예비 측정[초기값 고정](R=50, 시드 5개) 평가 macro AUC: 평균 0.9311, SD 0.0004, 95% CI [0.9306, 0.9315], 1회 84초
+범주별 평균: {'NORM': 0.9504, 'MI': 0.9375, 'STTC': 0.9355, 'CD': 0.9283, 'HYP': 0.9037}
+E0 관문(gpu_det 단위·연쇄 해시 일치): True
+== [final] E0 완료 2026-10-28 00:33:09
+== [final] 중단: 원장 갈래(E1·E3) 실패 — results/final/run_ledger_branch.log 2026-10-28 00:33:10

@@ -1,0 +1,61 @@
+{"datetime": "2026-11-09T14:56:51+0900", "git_head": "4649db5ed6fc4f7ba750ba8a431081abbcda7a87", "script": "<repo>/validation/C_independent_audit/code/c3_verify_typeA.py", "script_sha256": "4c1dc01956f8e1b2dd646e6227551ef5ba9dc46942197dc018392653bdd4e2cc", "lib_sha256": "cd035864d471c72ee8ee3b662317f09e18b7c11d11f03bf3f9ae3d2c798338b6", "python": "3.12.3", "platform": "Linux-6.17.0-1031-nvidia-aarch64-with-glibc2.39", "rpc": "https://public-en-kairos.node.kaia.io"}
+{
+ "runs": 20,
+ "B4": {
+  "T1": 20,
+  "T2a": 20,
+  "T2b": 0,
+  "T3": 20,
+  "T10": 20
+ },
+ "B6_T2b": 0,
+ "T2b_by_p": {
+  "0.1": 1,
+  "0.3": 4,
+  "0.5": 11,
+  "1.0": 20
+ },
+ "T10_l1_by_p": {
+  "0.1": 4,
+  "0.3": 9,
+  "0.5": 11,
+  "1.0": 20
+ },
+ "T10_without_self_check": 9,
+ "T2a_sampled_p0.3": 5,
+ "T3_sampled_p0.3": 4,
+ "types_found_exactly_once_per_run": true,
+ "location_match_all": {
+  "T1": 20,
+  "T2a": 20,
+  "T2b": 20,
+  "T3": 20,
+  "T10": 20
+ },
+ "B4_equals_json": {
+  "T1": 20,
+  "T2a": 20,
+  "T2b": 16,
+  "T3": 20,
+  "T10": 20
+ },
+ "unit_sampled_equals_json": 80,
+ "sampled_units_p0.3_total": 899,
+ "sampled_counts_equal_json": 20,
+ "l1_record_set_equals_sample": 0,
+ "honest_sampled_total": 877,
+ "honest_l1_fail_total": 877,
+ "rejected_honest_total": 0,
+ "accept_version_ok_runs": 20,
+ "listRoot_ok": 80,
+ "withdrawals_total": 80,
+ "t1_sender_nonce_zero": 20,
+ "progs_from_typeB_chain": [
+  "7e312e28fddf3b3edc2063709de91ca038b1375ba3b4e4111288fd02e10b053a"
+ ],
+ "prog_matched_runs": 0,
+ "self_check_T10_fail_runs": 20,
+ "self_check_other_fail_runs": 0,
+ "units_total": 3000,
+ "units_honest_root": 2940
+}

@@ -1,0 +1,51 @@
+== E2-seq3 s1 13:14:32
+[E2-seq3 s1] P1       test 0.9319  LiRA 0.5377  gapX 0.0291/Z 0.0292  L3 불통과  (0s)
+[E2-seq3 s1] P2       test 0.5439  LiRA 0.4837  gapX 0.4113/Z 0.4068  L3 -  (0s)
+[E2-seq3 s1] U0-seq   test 0.9313  LiRA 0.5002  gapX 0.0295/Z 0.0297  L3 통과  (251s)
+[E2-seq3 s1] U1-seq   test 0.9306  LiRA 0.5073  gapX 0.0276/Z 0.0288  L3 통과  (251s)
+[E2-seq3 s1] U2-seq   test 0.9199  LiRA 0.4882  gapX 0.0493/Z 0.0504  L3 통과  (68s)
+[E2-seq3 s1] U3-seq   test 0.9225  LiRA 0.5004  gapX 0.0449/Z 0.0458  L3 통과  (293s)
+[E2-seq3 s1] U4-seq   test 0.9318  LiRA 0.5265  gapX 0.0280/Z 0.0286  L3 통과  (73s)
+[E2-seq3 s1] U4s-seq  test 0.9318  LiRA 0.5201  gapX 0.0292/Z 0.0298  L3 통과  (146s)
+[E2-seq3-perwave s1] done
+== E2-seq3 s2 13:36:09
+[E2-seq3 s2] P1       test 0.9317  LiRA 0.5289  gapX 0.0289/Z 0.0288  L3 통과  (0s)
+[E2-seq3 s2] P2       test 0.5439  LiRA 0.4837  gapX 0.4113/Z 0.4068  L3 -  (0s)
+[E2-seq3 s2] U0-seq   test 0.9310  LiRA 0.5139  gapX 0.0275/Z 0.0287  L3 통과  (252s)
+[E2-seq3 s2] U1-seq   test 0.9317  LiRA 0.4804  gapX 0.0277/Z 0.0276  L3 불통과  (251s)
+[E2-seq3 s2] U2-seq   test 0.9211  LiRA 0.5009  gapX 0.0490/Z 0.0506  L3 통과  (68s)
+[E2-seq3 s2] U3-seq   test 0.9230  LiRA 0.5014  gapX 0.0458/Z 0.0471  L3 통과  (291s)
+[E2-seq3 s2] U4-seq   test 0.9317  LiRA 0.5201  gapX 0.0293/Z 0.0297  L3 통과  (73s)
+[E2-seq3 s2] U4s-seq  test 0.9320  LiRA 0.5172  gapX 0.0312/Z 0.0311  L3 통과  (146s)
+[E2-seq3-perwave s2] done
+== E2-seq3 s3 13:57:44
+[E2-seq3 s3] P1       test 0.9320  LiRA 0.5578  gapX 0.0283/Z 0.0288  L3 불통과  (0s)
+[E2-seq3 s3] P2       test 0.5439  LiRA 0.4837  gapX 0.4113/Z 0.4068  L3 -  (0s)
+[E2-seq3 s3] U0-seq   test 0.9313  LiRA 0.5118  gapX 0.0279/Z 0.0295  L3 통과  (251s)
+[E2-seq3 s3] U1-seq   test 0.9307  LiRA 0.5261  gapX 0.0278/Z 0.0279  L3 통과  (250s)
+[E2-seq3 s3] U2-seq   test 0.9195  LiRA 0.5055  gapX 0.0505/Z 0.0523  L3 통과  (68s)
+[E2-seq3 s3] U3-seq   test 0.9233  LiRA 0.5042  gapX 0.0436/Z 0.0448  L3 통과  (292s)
+[E2-seq3 s3] U4-seq   test 0.9314  LiRA 0.5496  gapX 0.0299/Z 0.0305  L3 불통과  (73s)
+[E2-seq3 s3] U4s-seq  test 0.9318  LiRA 0.5360  gapX 0.0303/Z 0.0309  L3 불통과  (146s)
+[E2-seq3-perwave s3] done
+== E2-seq3 s4 14:19:19
+[E2-seq3 s4] P1       test 0.9318  LiRA 0.5387  gapX 0.0277/Z 0.0281  L3 불통과  (0s)
+[E2-seq3 s4] P2       test 0.5439  LiRA 0.4837  gapX 0.4113/Z 0.4068  L3 -  (0s)
+[E2-seq3 s4] U0-seq   test 0.9313  LiRA 0.5130  gapX 0.0278/Z 0.0293  L3 통과  (251s)
+[E2-seq3 s4] U1-seq   test 0.9297  LiRA 0.5188  gapX 0.0276/Z 0.0279  L3 통과  (338s)
+[E2-seq3 s4] U2-seq   test 0.9208  LiRA 0.5095  gapX 0.0491/Z 0.0511  L3 통과  (157s)
+[E2-seq3 s4] U3-seq   test 0.9232  LiRA 0.5021  gapX 0.0448/Z 0.0457  L3 통과  (295s)
+[E2-seq3 s4] U4-seq   test 0.9319  LiRA 0.5397  gapX 0.0284/Z 0.0290  L3 불통과  (73s)
+[E2-seq3 s4] U4s-seq  test 0.9318  LiRA 0.5187  gapX 0.0296/Z 0.0306  L3 통과  (147s)
+[E2-seq3-perwave s4] done
+== E2-seq3 s5 14:43:54
+[E2-seq3 s5] P1       test 0.9305  LiRA 0.5308  gapX 0.0298/Z 0.0297  L3 통과  (0s)
+[E2-seq3 s5] P2       test 0.5439  LiRA 0.4837  gapX 0.4113/Z 0.4068  L3 -  (0s)
+[E2-seq3 s5] U0-seq   test 0.9304  LiRA 0.4991  gapX 0.0282/Z 0.0292  L3 통과  (252s)
+[E2-seq3 s5] U1-seq   test 0.9319  LiRA 0.5133  gapX 0.0269/Z 0.0281  L3 통과  (253s)
+[E2-seq3 s5] U2-seq   test 0.9200  LiRA 0.5060  gapX 0.0495/Z 0.0519  L3 통과  (69s)
+[E2-seq3 s5] U3-seq   test 0.9226  LiRA 0.5105  gapX 0.0447/Z 0.0451  L3 통과  (290s)
+[E2-seq3 s5] U4-seq   test 0.9308  LiRA 0.5350  gapX 0.0296/Z 0.0295  L3 불통과  (73s)
+[E2-seq3 s5] U4s-seq  test 0.9307  LiRA 0.5184  gapX 0.0318/Z 0.0321  L3 통과  (147s)
+[E2-seq3-perwave s5] done
+== all done 15:05:32

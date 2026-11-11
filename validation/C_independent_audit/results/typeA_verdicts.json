@@ -1,0 +1,5715 @@
+{
+ "header": {
+  "datetime": "2026-11-09T14:58:05+0900",
+  "git_head": "4649db5ed6fc4f7ba750ba8a431081abbcda7a87",
+  "script": "<repo>/validation/C_independent_audit/code/c3_verify_typeA.py",
+  "script_sha256": "b0cc8db0d375cec38dd6e7c79f7a6abf6b367d5d1b8045f8e95e28250555cd97",
+  "lib_sha256": "7962945f1c61b09145994f18ccd00286abe4d7e483617224d5ef457d0cf6f0a5",
+  "python": "3.12.3",
+  "platform": "Linux-6.17.0-1031-nvidia-aarch64-with-glibc2.39",
+  "rpc": "https://public-en-kairos.node.kaia.io"
+ },
+ "aggregate": {
+  "runs": 20,
+  "B4": {
+   "T1": 20,
+   "T2a": 20,
+   "T2b": 4,
+   "T3": 20,
+   "T10": 20
+  },
+  "B6_T2b": 4,
+  "T2b_by_p": {
+   "0.1": 1,
+   "0.3": 4,
+   "0.5": 11,
+   "1.0": 20
+  },
+  "T10_l1_by_p": {
+   "0.1": 4,
+   "0.3": 9,
+   "0.5": 11,
+   "1.0": 20
+  },
+  "T10_without_self_check": 9,
+  "T2a_sampled_p0.3": 5,
+  "T3_sampled_p0.3": 4,
+  "types_found_exactly_once_per_run": true,
+  "location_match_all": {
+   "T1": 20,
+   "T2a": 20,
+   "T2b": 20,
+   "T3": 20,
+   "T10": 20
+  },
+  "B4_equals_json": {
+   "T1": 20,
+   "T2a": 20,
+   "T2b": 20,
+   "T3": 20,
+   "T10": 20
+  },
+  "unit_sampled_equals_json": 80,
+  "sampled_units_p0.3_total": 899,
+  "sampled_counts_equal_json": 20,
+  "l1_record_set_equals_sample": 20,
+  "honest_sampled_total": 877,
+  "honest_l1_fail_total": 0,
+  "rejected_honest_total": 0,
+  "accept_version_ok_runs": 20,
+  "listRoot_ok": 80,
+  "withdrawals_total": 80,
+  "t1_sender_nonce_zero": 20,
+  "progs_from_typeB_chain": [
+   "7e312e28fddf3b3edc2063709de91ca038b1375ba3b4e4111288fd02e10b053a"
+  ],
+  "config_commit_reconstructed_runs": 20,
+  "config_commit_first_runs": 20,
+  "config_commit_code_commits": [
+   "b0b0e87092d50cdf9b8360e08f9f43a2392bdcb3"
+  ],
+  "l1_records_total": 899,
+  "l1_records_unmatched_total": 0,
+  "l1_fail_records": {
+   "T10:입력 재구성 실패": 9,
+   "T2b:출력 불일치": 4,
+   "T2a:입력 재구성 실패": 5,
+   "T3:입력 재구성 실패": 4
+  },
+  "prog_matched_runs": 20,
+  "self_check_T10_fail_runs": 20,
+  "self_check_other_fail_runs": 0,
+  "units_total": 3000,
+  "units_honest_root": 2940
+ },
+ "runs": [
+  {
+   "seed": 1,
+   "contract": "0x874F2Fa575d87e8C6bFb889E5715e2f2818DC9Ad",
+   "rounds": 50,
+   "n_units": 150,
+   "registered": 5,
+   "withdrawals_on_chain": 4,
+   "unknown_subjects": [],
+   "withdrawals": {
+    "661": {
+     "subject": "a156e09002f92747fe48967230a8735634c6f3dc3148e7bd8e18c2cc504461cd",
+     "round": 8,
+     "k": "1",
+     "listRoot_ok": true
+    },
+    "21555": {
+     "subject": "945fbda569e14928c91bace619091c84419c40ad99131b1856e2f8f4f006d47e",
+     "round": 20,
+     "k": "2",
+     "listRoot_ok": true
+    },
+    "6651": {
+     "subject": "2ae19eeb78a8c33262188c2ed21421d83ec17ef190d01927584203056426bb5f",
+     "round": 32,
+     "k": "1",
+     "listRoot_ok": true
+    },
+    "14983": {
+     "subject": "57e5a81c8a1b9b477aa9b481b06cd416177e721f51fa0bb2305f253d2733fa1d",
+     "round": 38,
+     "k": "0",
+     "listRoot_ok": true
+    }
+   },
+   "found": {
+    "T3": [
+     [
+      "2",
+      "20",
+      "21555"
+     ]
+    ],
+    "T2a": [
+     [
+      "1",
+      "32",
+      "6651"
+     ]
+    ],
+    "T10": [
+     [
+      "0",
+      "38",
+      "14983"
+     ]
+    ],
+    "T2b": [
+     [
+      "1",
+      "8",
+      "661"
+     ]
+    ],
+    "T1": [
+     [
+      "0",
+      "None",
+      "9827"
+     ]
+    ]
+   },
+   "anomalous_units": [
+    [
+     "2",
+     20
+    ],
+    [
+     "1",
+     32
+    ],
+    [
+     "0",
+     38
+    ]
+   ],
+   "accept_version_matches_effective_count": true,
+   "multi_seed_rounds": [],
+   "sampled_counts": {
+    "0.1": 10,
+    "0.3": 38,
+    "0.5": 67,
+    "1.0": 150
+   },
+   "l1_records": 38,
+   "l1_records_unmatched": [],
+   "l1_record_set_equals_sample_p0.3": true,
+   "prog_matched": [
+    "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed"
+   ],
+   "config_commit_progs": [
+    {
+     "prog": "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed",
+     "commit": "b0b0e87092d50cdf9b8360e08f9f43a2392bdcb3",
+     "time": "2026-10-27T18:54:02+09:00",
+     "code_hash": "96636e64837c08f2d72b6a73899f167c13b985590d786f43f6fd2ae151e81da0"
+    }
+   ],
+   "config_commit_before_round1_and_withdrawals": true,
+   "honest_sampled_p0.3": 37,
+   "honest_l1_fail": [],
+   "rejected_honest": [],
+   "self_check_fail": {
+    "T2a": [],
+    "T3": [],
+    "T10": [
+     38
+    ],
+    "T2b": []
+   },
+   "s_evidence": {
+    "T2a": true,
+    "T3": true,
+    "T10": true
+   },
+   "detected": {
+    "T1": {
+     "B4": true,
+     "basis": "정책 등록 5건 중 철회 요청이 원장에 없는 정보주체 1명"
+    },
+    "T2a": {
+     "B4": true,
+     "reason": "policy_conflict",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null
+    },
+    "T3": {
+     "B4": true,
+     "reason": "stale_snapshot",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null
+    },
+    "T2b": {
+     "unit": [
+      "1",
+      8
+     ],
+     "sampled": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null,
+     "B4": false,
+     "B6": false
+    },
+    "T10": {
+     "unit": [
+      "0",
+      38
+     ],
+     "self_check_fail_rounds": [
+      38
+     ],
+     "sampled": {
+      "0.1": true,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": {
+      "passed": false,
+      "reason": "입력 재구성 실패",
+      "keyed_by": "hDelta"
+     },
+     "B4": true,
+     "without_self_check": true
+    }
+   },
+   "t1_sender_nonce_latest": 0,
+   "compare_json": {
+    "T1": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": null,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": false
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T2a": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T2b": {
+     "location_match": true,
+     "json_B4": false,
+     "mine_B4": false,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T3": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T10": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": true,
+     "mine_unit_sampled": true,
+     "json_c": {
+      "0.1": true,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": false
+    }
+   },
+   "json_l1_sampled_units": 38,
+   "json_sampled_units_by_p": {
+    "0.1": 10,
+    "0.3": 38,
+    "0.5": 67,
+    "1.0": 150
+   },
+   "json_withdrawal_count_on_chain": 4,
+   "json_false_positives": {
+    "rejected_honest": [],
+    "l1_fail_honest": [],
+    "subject_check_fail_honest": {}
+   }
+  },
+  {
+   "seed": 2,
+   "contract": "0xF831be9774cb76ECb3e4Ac140463b01B5b2D7b2C",
+   "rounds": 50,
+   "n_units": 150,
+   "registered": 5,
+   "withdrawals_on_chain": 4,
+   "unknown_subjects": [],
+   "withdrawals": {
+    "17345": {
+     "subject": "974183a289566e37ba1345dd74ef5825ac48410c5f6a1316e5d98a505527be40",
+     "round": 8,
+     "k": "2",
+     "listRoot_ok": true
+    },
+    "19325": {
+     "subject": "40a473fcfbeef4b17c7156196003efc796009efe0be9a7e6fbd8c5671929ede9",
+     "round": 14,
+     "k": "0",
+     "listRoot_ok": true
+    },
+    "15683": {
+     "subject": "9f1b380cf28b94d894b930fe5c9daca05609718c63baba29229ada974ff7f95b",
+     "round": 32,
+     "k": "0",
+     "listRoot_ok": true
+    },
+    "2362": {
+     "subject": "c3e6e78df339a0240c4045a57e95bc861adac2b05b690bf4ed689fa13cb7744a",
+     "round": 38,
+     "k": "1",
+     "listRoot_ok": true
+    }
+   },
+   "found": {
+    "T2a": [
+     [
+      "2",
+      "8",
+      "17345"
+     ]
+    ],
+    "T10": [
+     [
+      "0",
+      "14",
+      "19325"
+     ]
+    ],
+    "T3": [
+     [
+      "0",
+      "32",
+      "15683"
+     ]
+    ],
+    "T2b": [
+     [
+      "1",
+      "38",
+      "2362"
+     ]
+    ],
+    "T1": [
+     [
+      "1",
+      "None",
+      "7855"
+     ]
+    ]
+   },
+   "anomalous_units": [
+    [
+     "2",
+     8
+    ],
+    [
+     "0",
+     14
+    ],
+    [
+     "0",
+     32
+    ]
+   ],
+   "accept_version_matches_effective_count": true,
+   "multi_seed_rounds": [],
+   "sampled_counts": {
+    "0.1": 21,
+    "0.3": 59,
+    "0.5": 76,
+    "1.0": 150
+   },
+   "l1_records": 59,
+   "l1_records_unmatched": [],
+   "l1_record_set_equals_sample_p0.3": true,
+   "prog_matched": [
+    "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed"
+   ],
+   "config_commit_progs": [
+    {
+     "prog": "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed",
+     "commit": "b0b0e87092d50cdf9b8360e08f9f43a2392bdcb3",
+     "time": "2026-10-27T18:54:02+09:00",
+     "code_hash": "96636e64837c08f2d72b6a73899f167c13b985590d786f43f6fd2ae151e81da0"
+    }
+   ],
+   "config_commit_before_round1_and_withdrawals": true,
+   "honest_sampled_p0.3": 57,
+   "honest_l1_fail": [],
+   "rejected_honest": [],
+   "self_check_fail": {
+    "T2a": [],
+    "T3": [],
+    "T10": [
+     14
+    ],
+    "T2b": []
+   },
+   "s_evidence": {
+    "T2a": true,
+    "T3": true,
+    "T10": true
+   },
+   "detected": {
+    "T1": {
+     "B4": true,
+     "basis": "정책 등록 5건 중 철회 요청이 원장에 없는 정보주체 1명"
+    },
+    "T2a": {
+     "B4": true,
+     "reason": "policy_conflict",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null
+    },
+    "T3": {
+     "B4": true,
+     "reason": "stale_snapshot",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null
+    },
+    "T2b": {
+     "unit": [
+      "1",
+      38
+     ],
+     "sampled": {
+      "0.1": false,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": {
+      "passed": false,
+      "reason": "출력 불일치",
+      "keyed_by": "B"
+     },
+     "B4": true,
+     "B6": true
+    },
+    "T10": {
+     "unit": [
+      "0",
+      14
+     ],
+     "self_check_fail_rounds": [
+      14
+     ],
+     "sampled": {
+      "0.1": false,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": {
+      "passed": false,
+      "reason": "입력 재구성 실패",
+      "keyed_by": "hDelta"
+     },
+     "B4": true,
+     "without_self_check": true
+    }
+   },
+   "t1_sender_nonce_latest": 0,
+   "compare_json": {
+    "T1": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": true,
+     "mine_unit_sampled": null,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": false
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T2a": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T2b": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": true,
+     "mine_unit_sampled": true,
+     "json_c": {
+      "0.1": false,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T3": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T10": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": true,
+     "mine_unit_sampled": true,
+     "json_c": {
+      "0.1": false,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": false
+    }
+   },
+   "json_l1_sampled_units": 59,
+   "json_sampled_units_by_p": {
+    "0.1": 21,
+    "0.3": 59,
+    "0.5": 76,
+    "1.0": 150
+   },
+   "json_withdrawal_count_on_chain": 4,
+   "json_false_positives": {
+    "rejected_honest": [],
+    "l1_fail_honest": [],
+    "subject_check_fail_honest": {}
+   }
+  },
+  {
+   "seed": 3,
+   "contract": "0xB00DF621b8368c56e73F89A50dED288499d9425c",
+   "rounds": 50,
+   "n_units": 150,
+   "registered": 5,
+   "withdrawals_on_chain": 4,
+   "unknown_subjects": [],
+   "withdrawals": {
+    "2794": {
+     "subject": "901b9c36204f797e8da4ed8e06e649766f0b21f4aa075b47263180d0dc1aabc4",
+     "round": 26,
+     "k": "1",
+     "listRoot_ok": true
+    },
+    "12727": {
+     "subject": "d24fbfbaa76a1e88a10201589286937fdea61e4f044004b00d83fa6bc4d233d7",
+     "round": 32,
+     "k": "0",
+     "listRoot_ok": true
+    },
+    "15032": {
+     "subject": "960d01482932efcdccfff8a16de5c0f55b9e88f74bb78ed51f16f2ad8fc488ad",
+     "round": 38,
+     "k": "2",
+     "listRoot_ok": true
+    },
+    "12317": {
+     "subject": "b7312b5d36564d41f52f85f261bf7bb1832f6a513f69889db8165bcb6b14fcfe",
+     "round": 44,
+     "k": "0",
+     "listRoot_ok": true
+    }
+   },
+   "found": {
+    "T10": [
+     [
+      "1",
+      "26",
+      "2794"
+     ]
+    ],
+    "T2a": [
+     [
+      "0",
+      "32",
+      "12727"
+     ]
+    ],
+    "T3": [
+     [
+      "0",
+      "44",
+      "12317"
+     ]
+    ],
+    "T2b": [
+     [
+      "2",
+      "38",
+      "15032"
+     ]
+    ],
+    "T1": [
+     [
+      "1",
+      "None",
+      "6420"
+     ]
+    ]
+   },
+   "anomalous_units": [
+    [
+     "1",
+     26
+    ],
+    [
+     "0",
+     32
+    ],
+    [
+     "0",
+     44
+    ]
+   ],
+   "accept_version_matches_effective_count": true,
+   "multi_seed_rounds": [],
+   "sampled_counts": {
+    "0.1": 8,
+    "0.3": 36,
+    "0.5": 70,
+    "1.0": 150
+   },
+   "l1_records": 36,
+   "l1_records_unmatched": [],
+   "l1_record_set_equals_sample_p0.3": true,
+   "prog_matched": [
+    "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed"
+   ],
+   "config_commit_progs": [
+    {
+     "prog": "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed",
+     "commit": "b0b0e87092d50cdf9b8360e08f9f43a2392bdcb3",
+     "time": "2026-10-27T18:54:02+09:00",
+     "code_hash": "96636e64837c08f2d72b6a73899f167c13b985590d786f43f6fd2ae151e81da0"
+    }
+   ],
+   "config_commit_before_round1_and_withdrawals": true,
+   "honest_sampled_p0.3": 36,
+   "honest_l1_fail": [],
+   "rejected_honest": [],
+   "self_check_fail": {
+    "T2a": [],
+    "T3": [],
+    "T10": [
+     26
+    ],
+    "T2b": []
+   },
+   "s_evidence": {
+    "T2a": true,
+    "T3": true,
+    "T10": true
+   },
+   "detected": {
+    "T1": {
+     "B4": true,
+     "basis": "정책 등록 5건 중 철회 요청이 원장에 없는 정보주체 1명"
+    },
+    "T2a": {
+     "B4": true,
+     "reason": "policy_conflict",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": null
+    },
+    "T3": {
+     "B4": true,
+     "reason": "stale_snapshot",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null
+    },
+    "T2b": {
+     "unit": [
+      "2",
+      38
+     ],
+     "sampled": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null,
+     "B4": false,
+     "B6": false
+    },
+    "T10": {
+     "unit": [
+      "1",
+      26
+     ],
+     "self_check_fail_rounds": [
+      26
+     ],
+     "sampled": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null,
+     "B4": true,
+     "without_self_check": false
+    }
+   },
+   "t1_sender_nonce_latest": 0,
+   "compare_json": {
+    "T1": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": null,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": false
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T2a": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T2b": {
+     "location_match": true,
+     "json_B4": false,
+     "mine_B4": false,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T3": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T10": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": false
+    }
+   },
+   "json_l1_sampled_units": 36,
+   "json_sampled_units_by_p": {
+    "0.1": 8,
+    "0.3": 36,
+    "0.5": 70,
+    "1.0": 150
+   },
+   "json_withdrawal_count_on_chain": 4,
+   "json_false_positives": {
+    "rejected_honest": [],
+    "l1_fail_honest": [],
+    "subject_check_fail_honest": {}
+   }
+  },
+  {
+   "seed": 4,
+   "contract": "0xae30E2dECDb2A548425B4850714fa38DC78adD08",
+   "rounds": 50,
+   "n_units": 150,
+   "registered": 5,
+   "withdrawals_on_chain": 4,
+   "unknown_subjects": [],
+   "withdrawals": {
+    "21755": {
+     "subject": "bb2736b66ec03a47a18a369fa5c197571f619a5e61c68da64c56a15dd50712f2",
+     "round": 8,
+     "k": "0",
+     "listRoot_ok": true
+    },
+    "13323": {
+     "subject": "73c6d8cd86cc865f795a773d847a7bcb495126a5b38c2eaf2cee155cecb177c6",
+     "round": 20,
+     "k": "0",
+     "listRoot_ok": true
+    },
+    "3260": {
+     "subject": "fc0a1010918322c957af6238e5e3ba26520d29c0d0067a6d100e06e60e44fb32",
+     "round": 26,
+     "k": "2",
+     "listRoot_ok": true
+    },
+    "3178": {
+     "subject": "eb047a9ea51c1984b8a2c87d22d3f7d85b5af5d011a6e01812a4708b66790356",
+     "round": 44,
+     "k": "1",
+     "listRoot_ok": true
+    }
+   },
+   "found": {
+    "T2a": [
+     [
+      "0",
+      "20",
+      "13323"
+     ]
+    ],
+    "T3": [
+     [
+      "2",
+      "26",
+      "3260"
+     ]
+    ],
+    "T10": [
+     [
+      "1",
+      "44",
+      "3178"
+     ]
+    ],
+    "T2b": [
+     [
+      "0",
+      "8",
+      "21755"
+     ]
+    ],
+    "T1": [
+     [
+      "1",
+      "None",
+      "7436"
+     ]
+    ]
+   },
+   "anomalous_units": [
+    [
+     "0",
+     20
+    ],
+    [
+     "2",
+     26
+    ],
+    [
+     "1",
+     44
+    ]
+   ],
+   "accept_version_matches_effective_count": true,
+   "multi_seed_rounds": [],
+   "sampled_counts": {
+    "0.1": 15,
+    "0.3": 51,
+    "0.5": 81,
+    "1.0": 150
+   },
+   "l1_records": 51,
+   "l1_records_unmatched": [],
+   "l1_record_set_equals_sample_p0.3": true,
+   "prog_matched": [
+    "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed"
+   ],
+   "config_commit_progs": [
+    {
+     "prog": "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed",
+     "commit": "b0b0e87092d50cdf9b8360e08f9f43a2392bdcb3",
+     "time": "2026-10-27T18:54:02+09:00",
+     "code_hash": "96636e64837c08f2d72b6a73899f167c13b985590d786f43f6fd2ae151e81da0"
+    }
+   ],
+   "config_commit_before_round1_and_withdrawals": true,
+   "honest_sampled_p0.3": 50,
+   "honest_l1_fail": [],
+   "rejected_honest": [],
+   "self_check_fail": {
+    "T2a": [],
+    "T3": [],
+    "T10": [
+     44
+    ],
+    "T2b": []
+   },
+   "s_evidence": {
+    "T2a": true,
+    "T3": true,
+    "T10": true
+   },
+   "detected": {
+    "T1": {
+     "B4": true,
+     "basis": "정책 등록 5건 중 철회 요청이 원장에 없는 정보주체 1명"
+    },
+    "T2a": {
+     "B4": true,
+     "reason": "policy_conflict",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": null
+    },
+    "T3": {
+     "B4": true,
+     "reason": "stale_snapshot",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null
+    },
+    "T2b": {
+     "unit": [
+      "0",
+      8
+     ],
+     "sampled": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": null,
+     "B4": false,
+     "B6": false
+    },
+    "T10": {
+     "unit": [
+      "1",
+      44
+     ],
+     "self_check_fail_rounds": [
+      44
+     ],
+     "sampled": {
+      "0.1": false,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": {
+      "passed": false,
+      "reason": "입력 재구성 실패",
+      "keyed_by": "hDelta"
+     },
+     "B4": true,
+     "without_self_check": true
+    }
+   },
+   "t1_sender_nonce_latest": 0,
+   "compare_json": {
+    "T1": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": null,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": false
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T2a": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T2b": {
+     "location_match": true,
+     "json_B4": false,
+     "mine_B4": false,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T3": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T10": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": true,
+     "mine_unit_sampled": true,
+     "json_c": {
+      "0.1": false,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": false
+    }
+   },
+   "json_l1_sampled_units": 51,
+   "json_sampled_units_by_p": {
+    "0.1": 15,
+    "0.3": 51,
+    "0.5": 81,
+    "1.0": 150
+   },
+   "json_withdrawal_count_on_chain": 4,
+   "json_false_positives": {
+    "rejected_honest": [],
+    "l1_fail_honest": [],
+    "subject_check_fail_honest": {}
+   }
+  },
+  {
+   "seed": 5,
+   "contract": "0x053C8B1ABFe2c6a20DeC444CdfAD4A3E5b18cfd1",
+   "rounds": 50,
+   "n_units": 150,
+   "registered": 5,
+   "withdrawals_on_chain": 4,
+   "unknown_subjects": [],
+   "withdrawals": {
+    "14836": {
+     "subject": "7fd6ead188009688a89ed1249bd211368451c83b802e28e39a314bde4e0183cc",
+     "round": 8,
+     "k": "2",
+     "listRoot_ok": true
+    },
+    "1624": {
+     "subject": "fd1d3c1088f33c943cf8fcc2ffd8fe0693ad27f3337e526e7ceb0d34ed7702f8",
+     "round": 14,
+     "k": "1",
+     "listRoot_ok": true
+    },
+    "12541": {
+     "subject": "82d7ccd1a008730ca0f3f36d0081dcc44ee8a484d5a8f1f4c137132a33876295",
+     "round": 20,
+     "k": "0",
+     "listRoot_ok": true
+    },
+    "14812": {
+     "subject": "c2a1ac678eb427dfbd2a80616b4294899f30ce9549bba3811f991a81bf814620",
+     "round": 38,
+     "k": "0",
+     "listRoot_ok": true
+    }
+   },
+   "found": {
+    "T3": [
+     [
+      "2",
+      "8",
+      "14836"
+     ]
+    ],
+    "T10": [
+     [
+      "1",
+      "14",
+      "1624"
+     ]
+    ],
+    "T2a": [
+     [
+      "0",
+      "20",
+      "12541"
+     ]
+    ],
+    "T2b": [
+     [
+      "0",
+      "38",
+      "14812"
+     ]
+    ],
+    "T1": [
+     [
+      "1",
+      "None",
+      "6418"
+     ]
+    ]
+   },
+   "anomalous_units": [
+    [
+     "2",
+     8
+    ],
+    [
+     "1",
+     14
+    ],
+    [
+     "0",
+     20
+    ]
+   ],
+   "accept_version_matches_effective_count": true,
+   "multi_seed_rounds": [],
+   "sampled_counts": {
+    "0.1": 19,
+    "0.3": 50,
+    "0.5": 82,
+    "1.0": 150
+   },
+   "l1_records": 50,
+   "l1_records_unmatched": [],
+   "l1_record_set_equals_sample_p0.3": true,
+   "prog_matched": [
+    "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed"
+   ],
+   "config_commit_progs": [
+    {
+     "prog": "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed",
+     "commit": "b0b0e87092d50cdf9b8360e08f9f43a2392bdcb3",
+     "time": "2026-10-27T18:54:02+09:00",
+     "code_hash": "96636e64837c08f2d72b6a73899f167c13b985590d786f43f6fd2ae151e81da0"
+    }
+   ],
+   "config_commit_before_round1_and_withdrawals": true,
+   "honest_sampled_p0.3": 49,
+   "honest_l1_fail": [],
+   "rejected_honest": [],
+   "self_check_fail": {
+    "T2a": [],
+    "T3": [],
+    "T10": [
+     14
+    ],
+    "T2b": []
+   },
+   "s_evidence": {
+    "T2a": true,
+    "T3": true,
+    "T10": true
+   },
+   "detected": {
+    "T1": {
+     "B4": true,
+     "basis": "정책 등록 5건 중 철회 요청이 원장에 없는 정보주체 1명"
+    },
+    "T2a": {
+     "B4": true,
+     "reason": "policy_conflict",
+     "l1_sampled_fail": {
+      "0.1": true,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": {
+      "passed": false,
+      "reason": "입력 재구성 실패",
+      "keyed_by": "hDelta"
+     }
+    },
+    "T3": {
+     "B4": true,
+     "reason": "stale_snapshot",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": null
+    },
+    "T2b": {
+     "unit": [
+      "0",
+      38
+     ],
+     "sampled": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null,
+     "B4": false,
+     "B6": false
+    },
+    "T10": {
+     "unit": [
+      "1",
+      14
+     ],
+     "self_check_fail_rounds": [
+      14
+     ],
+     "sampled": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null,
+     "B4": true,
+     "without_self_check": false
+    }
+   },
+   "t1_sender_nonce_latest": 0,
+   "compare_json": {
+    "T1": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": null,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": false
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T2a": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": true,
+     "mine_unit_sampled": true,
+     "json_c": {
+      "0.1": true,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T2b": {
+     "location_match": true,
+     "json_B4": false,
+     "mine_B4": false,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T3": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T10": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": false
+    }
+   },
+   "json_l1_sampled_units": 50,
+   "json_sampled_units_by_p": {
+    "0.1": 19,
+    "0.3": 50,
+    "0.5": 82,
+    "1.0": 150
+   },
+   "json_withdrawal_count_on_chain": 4,
+   "json_false_positives": {
+    "rejected_honest": [],
+    "l1_fail_honest": [],
+    "subject_check_fail_honest": {}
+   }
+  },
+  {
+   "seed": 6,
+   "contract": "0x18F4AA04486460e6A3D1d866600e5369c810eD39",
+   "rounds": 50,
+   "n_units": 150,
+   "registered": 5,
+   "withdrawals_on_chain": 4,
+   "unknown_subjects": [],
+   "withdrawals": {
+    "12948": {
+     "subject": "29ebea6941501c59634680a44bc18a6341e30d3f66a7dab98306235496dad382",
+     "round": 8,
+     "k": "0",
+     "listRoot_ok": true
+    },
+    "19837": {
+     "subject": "e6998612d6499a626ab9b3d99c97753de93ded4827eb740ef0acdc102e703487",
+     "round": 14,
+     "k": "2",
+     "listRoot_ok": true
+    },
+    "6663": {
+     "subject": "fd2a8b1b986cffe84238d2076785f026046e40ce2c5f9b9daa55ae6df33513d3",
+     "round": 26,
+     "k": "1",
+     "listRoot_ok": true
+    },
+    "576": {
+     "subject": "7f238878fa5b07137289f95a082cad474e8ab6ce0b773959a6342bd0de8b5083",
+     "round": 32,
+     "k": "1",
+     "listRoot_ok": true
+    }
+   },
+   "found": {
+    "T10": [
+     [
+      "2",
+      "14",
+      "19837"
+     ]
+    ],
+    "T3": [
+     [
+      "1",
+      "26",
+      "6663"
+     ]
+    ],
+    "T2a": [
+     [
+      "1",
+      "32",
+      "576"
+     ]
+    ],
+    "T2b": [
+     [
+      "0",
+      "8",
+      "12948"
+     ]
+    ],
+    "T1": [
+     [
+      "0",
+      "None",
+      "13945"
+     ]
+    ]
+   },
+   "anomalous_units": [
+    [
+     "2",
+     14
+    ],
+    [
+     "1",
+     26
+    ],
+    [
+     "1",
+     32
+    ]
+   ],
+   "accept_version_matches_effective_count": true,
+   "multi_seed_rounds": [],
+   "sampled_counts": {
+    "0.1": 18,
+    "0.3": 52,
+    "0.5": 83,
+    "1.0": 150
+   },
+   "l1_records": 52,
+   "l1_records_unmatched": [],
+   "l1_record_set_equals_sample_p0.3": true,
+   "prog_matched": [
+    "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed"
+   ],
+   "config_commit_progs": [
+    {
+     "prog": "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed",
+     "commit": "b0b0e87092d50cdf9b8360e08f9f43a2392bdcb3",
+     "time": "2026-10-27T18:54:02+09:00",
+     "code_hash": "96636e64837c08f2d72b6a73899f167c13b985590d786f43f6fd2ae151e81da0"
+    }
+   ],
+   "config_commit_before_round1_and_withdrawals": true,
+   "honest_sampled_p0.3": 50,
+   "honest_l1_fail": [],
+   "rejected_honest": [],
+   "self_check_fail": {
+    "T2a": [],
+    "T3": [],
+    "T10": [
+     14
+    ],
+    "T2b": []
+   },
+   "s_evidence": {
+    "T2a": true,
+    "T3": true,
+    "T10": true
+   },
+   "detected": {
+    "T1": {
+     "B4": true,
+     "basis": "정책 등록 5건 중 철회 요청이 원장에 없는 정보주체 1명"
+    },
+    "T2a": {
+     "B4": true,
+     "reason": "policy_conflict",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": {
+      "passed": false,
+      "reason": "입력 재구성 실패",
+      "keyed_by": "hDelta"
+     }
+    },
+    "T3": {
+     "B4": true,
+     "reason": "stale_snapshot",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": {
+      "passed": false,
+      "reason": "입력 재구성 실패",
+      "keyed_by": "hDelta"
+     }
+    },
+    "T2b": {
+     "unit": [
+      "0",
+      8
+     ],
+     "sampled": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": null,
+     "B4": false,
+     "B6": false
+    },
+    "T10": {
+     "unit": [
+      "2",
+      14
+     ],
+     "self_check_fail_rounds": [
+      14
+     ],
+     "sampled": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null,
+     "B4": true,
+     "without_self_check": false
+    }
+   },
+   "t1_sender_nonce_latest": 0,
+   "compare_json": {
+    "T1": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": null,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": false
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T2a": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": true,
+     "mine_unit_sampled": true,
+     "json_c": {
+      "0.1": false,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T2b": {
+     "location_match": true,
+     "json_B4": false,
+     "mine_B4": false,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T3": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": true,
+     "mine_unit_sampled": true,
+     "json_c": {
+      "0.1": false,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T10": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": false
+    }
+   },
+   "json_l1_sampled_units": 52,
+   "json_sampled_units_by_p": {
+    "0.1": 18,
+    "0.3": 52,
+    "0.5": 83,
+    "1.0": 150
+   },
+   "json_withdrawal_count_on_chain": 4,
+   "json_false_positives": {
+    "rejected_honest": [],
+    "l1_fail_honest": [],
+    "subject_check_fail_honest": {}
+   }
+  },
+  {
+   "seed": 7,
+   "contract": "0x2E08F8669410EA4e21Fb2f6AfceCC13eE755d07D",
+   "rounds": 50,
+   "n_units": 150,
+   "registered": 5,
+   "withdrawals_on_chain": 4,
+   "unknown_subjects": [],
+   "withdrawals": {
+    "15448": {
+     "subject": "e9cd6ffc6563c222483077e3991e874aec9fddf4142a808a5aa75ddd1b5465f4",
+     "round": 8,
+     "k": "0",
+     "listRoot_ok": true
+    },
+    "9650": {
+     "subject": "f49e646462db4d118d4a993db7fdae9f5756f20c07cd129eef7e20ef4db72f70",
+     "round": 14,
+     "k": "0",
+     "listRoot_ok": true
+    },
+    "5940": {
+     "subject": "3dedcc569a32df70306f390e8b03c159717df8c18ee6383e2d29ce4fb7993ba9",
+     "round": 26,
+     "k": "1",
+     "listRoot_ok": true
+    },
+    "3711": {
+     "subject": "a0a74d392df3646441f37d01a5af8b2ac246c9627499323c637810e7ea24efed",
+     "round": 32,
+     "k": "2",
+     "listRoot_ok": true
+    }
+   },
+   "found": {
+    "T3": [
+     [
+      "0",
+      "8",
+      "15448"
+     ]
+    ],
+    "T2a": [
+     [
+      "0",
+      "14",
+      "9650"
+     ]
+    ],
+    "T10": [
+     [
+      "2",
+      "32",
+      "3711"
+     ]
+    ],
+    "T2b": [
+     [
+      "1",
+      "26",
+      "5940"
+     ]
+    ],
+    "T1": [
+     [
+      "1",
+      "None",
+      "780"
+     ]
+    ]
+   },
+   "anomalous_units": [
+    [
+     "0",
+     8
+    ],
+    [
+     "0",
+     14
+    ],
+    [
+     "2",
+     32
+    ]
+   ],
+   "accept_version_matches_effective_count": true,
+   "multi_seed_rounds": [],
+   "sampled_counts": {
+    "0.1": 16,
+    "0.3": 41,
+    "0.5": 77,
+    "1.0": 150
+   },
+   "l1_records": 41,
+   "l1_records_unmatched": [],
+   "l1_record_set_equals_sample_p0.3": true,
+   "prog_matched": [
+    "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed"
+   ],
+   "config_commit_progs": [
+    {
+     "prog": "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed",
+     "commit": "b0b0e87092d50cdf9b8360e08f9f43a2392bdcb3",
+     "time": "2026-10-27T18:54:02+09:00",
+     "code_hash": "96636e64837c08f2d72b6a73899f167c13b985590d786f43f6fd2ae151e81da0"
+    }
+   ],
+   "config_commit_before_round1_and_withdrawals": true,
+   "honest_sampled_p0.3": 40,
+   "honest_l1_fail": [],
+   "rejected_honest": [],
+   "self_check_fail": {
+    "T2a": [],
+    "T3": [],
+    "T10": [
+     32
+    ],
+    "T2b": []
+   },
+   "s_evidence": {
+    "T2a": true,
+    "T3": true,
+    "T10": true
+   },
+   "detected": {
+    "T1": {
+     "B4": true,
+     "basis": "정책 등록 5건 중 철회 요청이 원장에 없는 정보주체 1명"
+    },
+    "T2a": {
+     "B4": true,
+     "reason": "policy_conflict",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": null
+    },
+    "T3": {
+     "B4": true,
+     "reason": "stale_snapshot",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": null
+    },
+    "T2b": {
+     "unit": [
+      "1",
+      26
+     ],
+     "sampled": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null,
+     "B4": false,
+     "B6": false
+    },
+    "T10": {
+     "unit": [
+      "2",
+      32
+     ],
+     "self_check_fail_rounds": [
+      32
+     ],
+     "sampled": {
+      "0.1": false,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": {
+      "passed": false,
+      "reason": "입력 재구성 실패",
+      "keyed_by": "hDelta"
+     },
+     "B4": true,
+     "without_self_check": true
+    }
+   },
+   "t1_sender_nonce_latest": 0,
+   "compare_json": {
+    "T1": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": null,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": false
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T2a": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T2b": {
+     "location_match": true,
+     "json_B4": false,
+     "mine_B4": false,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T3": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T10": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": true,
+     "mine_unit_sampled": true,
+     "json_c": {
+      "0.1": false,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": false
+    }
+   },
+   "json_l1_sampled_units": 41,
+   "json_sampled_units_by_p": {
+    "0.1": 16,
+    "0.3": 41,
+    "0.5": 77,
+    "1.0": 150
+   },
+   "json_withdrawal_count_on_chain": 4,
+   "json_false_positives": {
+    "rejected_honest": [],
+    "l1_fail_honest": [],
+    "subject_check_fail_honest": {}
+   }
+  },
+  {
+   "seed": 8,
+   "contract": "0x6bE2896FEB4b9D37a111D06a31a96e5d94264baB",
+   "rounds": 50,
+   "n_units": 150,
+   "registered": 5,
+   "withdrawals_on_chain": 4,
+   "unknown_subjects": [],
+   "withdrawals": {
+    "6214": {
+     "subject": "7a14c8d10dae295cce8c2dc174ef6218af41a625366be465f8d12b89e86ce210",
+     "round": 8,
+     "k": "1",
+     "listRoot_ok": true
+    },
+    "690": {
+     "subject": "ad8567548b06e7d75aecf71e5a8531c09db05641c2d67f7c6f33761c67bb714f",
+     "round": 20,
+     "k": "1",
+     "listRoot_ok": true
+    },
+    "16189": {
+     "subject": "feed2b634b1cd25f4a36d2b5f50d0e19c1ad229659d250aa1b87cc64a0ba53ff",
+     "round": 26,
+     "k": "0",
+     "listRoot_ok": true
+    },
+    "13550": {
+     "subject": "16d00bd26438b667a8a35cdf50d8d73f91597eaccf8127a65bdf2b8a9e5865e8",
+     "round": 44,
+     "k": "2",
+     "listRoot_ok": true
+    }
+   },
+   "found": {
+    "T10": [
+     [
+      "1",
+      "8",
+      "6214"
+     ]
+    ],
+    "T2a": [
+     [
+      "1",
+      "20",
+      "690"
+     ]
+    ],
+    "T3": [
+     [
+      "2",
+      "44",
+      "13550"
+     ]
+    ],
+    "T2b": [
+     [
+      "0",
+      "26",
+      "16189"
+     ]
+    ],
+    "T1": [
+     [
+      "0",
+      "None",
+      "15159"
+     ]
+    ]
+   },
+   "anomalous_units": [
+    [
+     "1",
+     8
+    ],
+    [
+     "1",
+     20
+    ],
+    [
+     "2",
+     44
+    ]
+   ],
+   "accept_version_matches_effective_count": true,
+   "multi_seed_rounds": [],
+   "sampled_counts": {
+    "0.1": 18,
+    "0.3": 54,
+    "0.5": 76,
+    "1.0": 150
+   },
+   "l1_records": 54,
+   "l1_records_unmatched": [],
+   "l1_record_set_equals_sample_p0.3": true,
+   "prog_matched": [
+    "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed"
+   ],
+   "config_commit_progs": [
+    {
+     "prog": "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed",
+     "commit": "b0b0e87092d50cdf9b8360e08f9f43a2392bdcb3",
+     "time": "2026-10-27T18:54:02+09:00",
+     "code_hash": "96636e64837c08f2d72b6a73899f167c13b985590d786f43f6fd2ae151e81da0"
+    }
+   ],
+   "config_commit_before_round1_and_withdrawals": true,
+   "honest_sampled_p0.3": 53,
+   "honest_l1_fail": [],
+   "rejected_honest": [],
+   "self_check_fail": {
+    "T2a": [],
+    "T3": [],
+    "T10": [
+     8
+    ],
+    "T2b": []
+   },
+   "s_evidence": {
+    "T2a": true,
+    "T3": true,
+    "T10": true
+   },
+   "detected": {
+    "T1": {
+     "B4": true,
+     "basis": "정책 등록 5건 중 철회 요청이 원장에 없는 정보주체 1명"
+    },
+    "T2a": {
+     "B4": true,
+     "reason": "policy_conflict",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null
+    },
+    "T3": {
+     "B4": true,
+     "reason": "stale_snapshot",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null
+    },
+    "T2b": {
+     "unit": [
+      "0",
+      26
+     ],
+     "sampled": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": null,
+     "B4": false,
+     "B6": false
+    },
+    "T10": {
+     "unit": [
+      "1",
+      8
+     ],
+     "self_check_fail_rounds": [
+      8
+     ],
+     "sampled": {
+      "0.1": true,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": {
+      "passed": false,
+      "reason": "입력 재구성 실패",
+      "keyed_by": "hDelta"
+     },
+     "B4": true,
+     "without_self_check": true
+    }
+   },
+   "t1_sender_nonce_latest": 0,
+   "compare_json": {
+    "T1": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": true,
+     "mine_unit_sampled": null,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": false
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T2a": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T2b": {
+     "location_match": true,
+     "json_B4": false,
+     "mine_B4": false,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T3": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T10": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": true,
+     "mine_unit_sampled": true,
+     "json_c": {
+      "0.1": true,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": false
+    }
+   },
+   "json_l1_sampled_units": 54,
+   "json_sampled_units_by_p": {
+    "0.1": 18,
+    "0.3": 54,
+    "0.5": 76,
+    "1.0": 150
+   },
+   "json_withdrawal_count_on_chain": 4,
+   "json_false_positives": {
+    "rejected_honest": [],
+    "l1_fail_honest": [],
+    "subject_check_fail_honest": {}
+   }
+  },
+  {
+   "seed": 9,
+   "contract": "0x3573cFc20a3Fad8D7A6b7570ad00A4B19805f3ED",
+   "rounds": 50,
+   "n_units": 150,
+   "registered": 5,
+   "withdrawals_on_chain": 4,
+   "unknown_subjects": [],
+   "withdrawals": {
+    "14786": {
+     "subject": "f6c9f7f59ef875f1d1d78c59e12881f86fa824ccb16f17b68d0243cf094e41fd",
+     "round": 8,
+     "k": "0",
+     "listRoot_ok": true
+    },
+    "816": {
+     "subject": "aa8a39fc2d2c8666477a449582dd8ca81f03ecd77f8b7a70f6c34adf7a83312b",
+     "round": 20,
+     "k": "1",
+     "listRoot_ok": true
+    },
+    "17932": {
+     "subject": "2d137f2f3264a8560aadc7725181288803693c3109ea7b7410eddf6756e1ba61",
+     "round": 32,
+     "k": "0",
+     "listRoot_ok": true
+    },
+    "18336": {
+     "subject": "6a3afa3ba2146907950fb3ed0f5084019c6245531413f2e1a1cc2703cbb0720c",
+     "round": 38,
+     "k": "2",
+     "listRoot_ok": true
+    }
+   },
+   "found": {
+    "T10": [
+     [
+      "0",
+      "8",
+      "14786"
+     ]
+    ],
+    "T2a": [
+     [
+      "0",
+      "32",
+      "17932"
+     ]
+    ],
+    "T3": [
+     [
+      "2",
+      "38",
+      "18336"
+     ]
+    ],
+    "T2b": [
+     [
+      "1",
+      "20",
+      "816"
+     ]
+    ],
+    "T1": [
+     [
+      "1",
+      "None",
+      "4650"
+     ]
+    ]
+   },
+   "anomalous_units": [
+    [
+     "0",
+     8
+    ],
+    [
+     "0",
+     32
+    ],
+    [
+     "2",
+     38
+    ]
+   ],
+   "accept_version_matches_effective_count": true,
+   "multi_seed_rounds": [],
+   "sampled_counts": {
+    "0.1": 16,
+    "0.3": 43,
+    "0.5": 79,
+    "1.0": 150
+   },
+   "l1_records": 43,
+   "l1_records_unmatched": [],
+   "l1_record_set_equals_sample_p0.3": true,
+   "prog_matched": [
+    "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed"
+   ],
+   "config_commit_progs": [
+    {
+     "prog": "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed",
+     "commit": "b0b0e87092d50cdf9b8360e08f9f43a2392bdcb3",
+     "time": "2026-10-27T18:54:02+09:00",
+     "code_hash": "96636e64837c08f2d72b6a73899f167c13b985590d786f43f6fd2ae151e81da0"
+    }
+   ],
+   "config_commit_before_round1_and_withdrawals": true,
+   "honest_sampled_p0.3": 43,
+   "honest_l1_fail": [],
+   "rejected_honest": [],
+   "self_check_fail": {
+    "T2a": [],
+    "T3": [],
+    "T10": [
+     8
+    ],
+    "T2b": []
+   },
+   "s_evidence": {
+    "T2a": true,
+    "T3": true,
+    "T10": true
+   },
+   "detected": {
+    "T1": {
+     "B4": true,
+     "basis": "정책 등록 5건 중 철회 요청이 원장에 없는 정보주체 1명"
+    },
+    "T2a": {
+     "B4": true,
+     "reason": "policy_conflict",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null
+    },
+    "T3": {
+     "B4": true,
+     "reason": "stale_snapshot",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null
+    },
+    "T2b": {
+     "unit": [
+      "1",
+      20
+     ],
+     "sampled": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null,
+     "B4": false,
+     "B6": false
+    },
+    "T10": {
+     "unit": [
+      "0",
+      8
+     ],
+     "self_check_fail_rounds": [
+      8
+     ],
+     "sampled": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null,
+     "B4": true,
+     "without_self_check": false
+    }
+   },
+   "t1_sender_nonce_latest": 0,
+   "compare_json": {
+    "T1": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": true,
+     "mine_unit_sampled": null,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": false
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T2a": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T2b": {
+     "location_match": true,
+     "json_B4": false,
+     "mine_B4": false,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T3": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T10": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": false
+    }
+   },
+   "json_l1_sampled_units": 43,
+   "json_sampled_units_by_p": {
+    "0.1": 16,
+    "0.3": 43,
+    "0.5": 79,
+    "1.0": 150
+   },
+   "json_withdrawal_count_on_chain": 4,
+   "json_false_positives": {
+    "rejected_honest": [],
+    "l1_fail_honest": [],
+    "subject_check_fail_honest": {}
+   }
+  },
+  {
+   "seed": 10,
+   "contract": "0xC85a5fb4EE7de3Ff9f2B40d6406Da40539710C18",
+   "rounds": 50,
+   "n_units": 150,
+   "registered": 5,
+   "withdrawals_on_chain": 4,
+   "unknown_subjects": [],
+   "withdrawals": {
+    "2383": {
+     "subject": "aca524590b81fa173cdac715efff1f61defe168b5ff1a7a2192b1d7166f7a1a3",
+     "round": 8,
+     "k": "1",
+     "listRoot_ok": true
+    },
+    "6678": {
+     "subject": "442b9c96252a831fc04ab50b1ee67b4962564186111052b3032cca8efcfdf222",
+     "round": 20,
+     "k": "1",
+     "listRoot_ok": true
+    },
+    "8647": {
+     "subject": "c919e9b839c9a2238586ad7381d3df5ade878210c363e71e64004236e5b9700b",
+     "round": 26,
+     "k": "0",
+     "listRoot_ok": true
+    },
+    "14128": {
+     "subject": "204cf35d464b5239368ce5995c31fa3738a38371583e543e6f9510cd203483b9",
+     "round": 44,
+     "k": "2",
+     "listRoot_ok": true
+    }
+   },
+   "found": {
+    "T2a": [
+     [
+      "1",
+      "8",
+      "2383"
+     ]
+    ],
+    "T10": [
+     [
+      "1",
+      "20",
+      "6678"
+     ]
+    ],
+    "T3": [
+     [
+      "2",
+      "44",
+      "14128"
+     ]
+    ],
+    "T2b": [
+     [
+      "0",
+      "26",
+      "8647"
+     ]
+    ],
+    "T1": [
+     [
+      "0",
+      "None",
+      "19646"
+     ]
+    ]
+   },
+   "anomalous_units": [
+    [
+     "1",
+     8
+    ],
+    [
+     "1",
+     20
+    ],
+    [
+     "2",
+     44
+    ]
+   ],
+   "accept_version_matches_effective_count": true,
+   "multi_seed_rounds": [],
+   "sampled_counts": {
+    "0.1": 16,
+    "0.3": 42,
+    "0.5": 78,
+    "1.0": 150
+   },
+   "l1_records": 42,
+   "l1_records_unmatched": [],
+   "l1_record_set_equals_sample_p0.3": true,
+   "prog_matched": [
+    "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed"
+   ],
+   "config_commit_progs": [
+    {
+     "prog": "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed",
+     "commit": "b0b0e87092d50cdf9b8360e08f9f43a2392bdcb3",
+     "time": "2026-10-27T18:54:02+09:00",
+     "code_hash": "96636e64837c08f2d72b6a73899f167c13b985590d786f43f6fd2ae151e81da0"
+    }
+   ],
+   "config_commit_before_round1_and_withdrawals": true,
+   "honest_sampled_p0.3": 40,
+   "honest_l1_fail": [],
+   "rejected_honest": [],
+   "self_check_fail": {
+    "T2a": [],
+    "T3": [],
+    "T10": [
+     20
+    ],
+    "T2b": []
+   },
+   "s_evidence": {
+    "T2a": true,
+    "T3": true,
+    "T10": true
+   },
+   "detected": {
+    "T1": {
+     "B4": true,
+     "basis": "정책 등록 5건 중 철회 요청이 원장에 없는 정보주체 1명"
+    },
+    "T2a": {
+     "B4": true,
+     "reason": "policy_conflict",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": null
+    },
+    "T3": {
+     "B4": true,
+     "reason": "stale_snapshot",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": null
+    },
+    "T2b": {
+     "unit": [
+      "0",
+      26
+     ],
+     "sampled": {
+      "0.1": false,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": {
+      "passed": false,
+      "reason": "출력 불일치",
+      "keyed_by": "B"
+     },
+     "B4": true,
+     "B6": true
+    },
+    "T10": {
+     "unit": [
+      "1",
+      20
+     ],
+     "self_check_fail_rounds": [
+      20
+     ],
+     "sampled": {
+      "0.1": false,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": {
+      "passed": false,
+      "reason": "입력 재구성 실패",
+      "keyed_by": "hDelta"
+     },
+     "B4": true,
+     "without_self_check": true
+    }
+   },
+   "t1_sender_nonce_latest": 0,
+   "compare_json": {
+    "T1": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": null,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": false
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T2a": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T2b": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": true,
+     "mine_unit_sampled": true,
+     "json_c": {
+      "0.1": false,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T3": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T10": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": true,
+     "mine_unit_sampled": true,
+     "json_c": {
+      "0.1": false,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": false
+    }
+   },
+   "json_l1_sampled_units": 42,
+   "json_sampled_units_by_p": {
+    "0.1": 16,
+    "0.3": 42,
+    "0.5": 78,
+    "1.0": 150
+   },
+   "json_withdrawal_count_on_chain": 4,
+   "json_false_positives": {
+    "rejected_honest": [],
+    "l1_fail_honest": [],
+    "subject_check_fail_honest": {}
+   }
+  },
+  {
+   "seed": 11,
+   "contract": "0x4714bE6B06a452C6c49367DA4A294B443AcA86Fe",
+   "rounds": 50,
+   "n_units": 150,
+   "registered": 5,
+   "withdrawals_on_chain": 4,
+   "unknown_subjects": [],
+   "withdrawals": {
+    "4673": {
+     "subject": "283cf865626c401207d5f1b253913c7117b6dac4376a93d8da5398664a76078e",
+     "round": 20,
+     "k": "2",
+     "listRoot_ok": true
+    },
+    "6127": {
+     "subject": "65388ed45a6eaab83938450dc9cc590b5d93dfd022a29ae1cae50adbdb614044",
+     "round": 32,
+     "k": "1",
+     "listRoot_ok": true
+    },
+    "10651": {
+     "subject": "4cdbd0132ad08c63f297f230d30408bb9d1c80a1a1d05e8b495ef73a1d28f674",
+     "round": 38,
+     "k": "0",
+     "listRoot_ok": true
+    },
+    "13603": {
+     "subject": "226771e33fd8604c8724572fef80171fe8b8176ddc5829482f443d538a7fade9",
+     "round": 44,
+     "k": "0",
+     "listRoot_ok": true
+    }
+   },
+   "found": {
+    "T10": [
+     [
+      "2",
+      "20",
+      "4673"
+     ]
+    ],
+    "T2a": [
+     [
+      "1",
+      "32",
+      "6127"
+     ]
+    ],
+    "T3": [
+     [
+      "0",
+      "38",
+      "10651"
+     ]
+    ],
+    "T2b": [
+     [
+      "0",
+      "44",
+      "13603"
+     ]
+    ],
+    "T1": [
+     [
+      "1",
+      "None",
+      "1528"
+     ]
+    ]
+   },
+   "anomalous_units": [
+    [
+     "2",
+     20
+    ],
+    [
+     "1",
+     32
+    ],
+    [
+     "0",
+     38
+    ]
+   ],
+   "accept_version_matches_effective_count": true,
+   "multi_seed_rounds": [],
+   "sampled_counts": {
+    "0.1": 9,
+    "0.3": 48,
+    "0.5": 76,
+    "1.0": 150
+   },
+   "l1_records": 48,
+   "l1_records_unmatched": [],
+   "l1_record_set_equals_sample_p0.3": true,
+   "prog_matched": [
+    "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed"
+   ],
+   "config_commit_progs": [
+    {
+     "prog": "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed",
+     "commit": "b0b0e87092d50cdf9b8360e08f9f43a2392bdcb3",
+     "time": "2026-10-27T18:54:02+09:00",
+     "code_hash": "96636e64837c08f2d72b6a73899f167c13b985590d786f43f6fd2ae151e81da0"
+    }
+   ],
+   "config_commit_before_round1_and_withdrawals": true,
+   "honest_sampled_p0.3": 47,
+   "honest_l1_fail": [],
+   "rejected_honest": [],
+   "self_check_fail": {
+    "T2a": [],
+    "T3": [],
+    "T10": [
+     20
+    ],
+    "T2b": []
+   },
+   "s_evidence": {
+    "T2a": true,
+    "T3": true,
+    "T10": true
+   },
+   "detected": {
+    "T1": {
+     "B4": true,
+     "basis": "정책 등록 5건 중 철회 요청이 원장에 없는 정보주체 1명"
+    },
+    "T2a": {
+     "B4": true,
+     "reason": "policy_conflict",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null
+    },
+    "T3": {
+     "B4": true,
+     "reason": "stale_snapshot",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": null
+    },
+    "T2b": {
+     "unit": [
+      "0",
+      44
+     ],
+     "sampled": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null,
+     "B4": false,
+     "B6": false
+    },
+    "T10": {
+     "unit": [
+      "2",
+      20
+     ],
+     "self_check_fail_rounds": [
+      20
+     ],
+     "sampled": {
+      "0.1": false,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": {
+      "passed": false,
+      "reason": "입력 재구성 실패",
+      "keyed_by": "hDelta"
+     },
+     "B4": true,
+     "without_self_check": true
+    }
+   },
+   "t1_sender_nonce_latest": 0,
+   "compare_json": {
+    "T1": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": true,
+     "mine_unit_sampled": null,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": false
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T2a": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T2b": {
+     "location_match": true,
+     "json_B4": false,
+     "mine_B4": false,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T3": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T10": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": true,
+     "mine_unit_sampled": true,
+     "json_c": {
+      "0.1": false,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": false
+    }
+   },
+   "json_l1_sampled_units": 48,
+   "json_sampled_units_by_p": {
+    "0.1": 9,
+    "0.3": 48,
+    "0.5": 76,
+    "1.0": 150
+   },
+   "json_withdrawal_count_on_chain": 4,
+   "json_false_positives": {
+    "rejected_honest": [],
+    "l1_fail_honest": [],
+    "subject_check_fail_honest": {}
+   }
+  },
+  {
+   "seed": 12,
+   "contract": "0x183BbB068D5FA34cf15c9125302C404833920249",
+   "rounds": 50,
+   "n_units": 150,
+   "registered": 5,
+   "withdrawals_on_chain": 4,
+   "unknown_subjects": [],
+   "withdrawals": {
+    "323": {
+     "subject": "b8821cb59eb690f358cf5dee4fceec2ef98b41d02223df72014279177e1c72ba",
+     "round": 8,
+     "k": "1",
+     "listRoot_ok": true
+    },
+    "16203": {
+     "subject": "78b65f4d08edde95e189ffebb8a60c05ece21b37f4d7b4421e745b96230e0b65",
+     "round": 20,
+     "k": "0",
+     "listRoot_ok": true
+    },
+    "3253": {
+     "subject": "6818763326b8046e9eeb412a9b71757d3cabcfa91f98fb689772953f37da9762",
+     "round": 32,
+     "k": "1",
+     "listRoot_ok": true
+    },
+    "15166": {
+     "subject": "d07c80ea04097c3dc4789c06dec1ac84c591a740e6803cb6eac36f3136867972",
+     "round": 38,
+     "k": "2",
+     "listRoot_ok": true
+    }
+   },
+   "found": {
+    "T10": [
+     [
+      "1",
+      "8",
+      "323"
+     ]
+    ],
+    "T2a": [
+     [
+      "0",
+      "20",
+      "16203"
+     ]
+    ],
+    "T3": [
+     [
+      "2",
+      "38",
+      "15166"
+     ]
+    ],
+    "T2b": [
+     [
+      "1",
+      "32",
+      "3253"
+     ]
+    ],
+    "T1": [
+     [
+      "0",
+      "None",
+      "19426"
+     ]
+    ]
+   },
+   "anomalous_units": [
+    [
+     "1",
+     8
+    ],
+    [
+     "0",
+     20
+    ],
+    [
+     "2",
+     38
+    ]
+   ],
+   "accept_version_matches_effective_count": true,
+   "multi_seed_rounds": [],
+   "sampled_counts": {
+    "0.1": 7,
+    "0.3": 38,
+    "0.5": 67,
+    "1.0": 150
+   },
+   "l1_records": 38,
+   "l1_records_unmatched": [],
+   "l1_record_set_equals_sample_p0.3": true,
+   "prog_matched": [
+    "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed"
+   ],
+   "config_commit_progs": [
+    {
+     "prog": "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed",
+     "commit": "b0b0e87092d50cdf9b8360e08f9f43a2392bdcb3",
+     "time": "2026-10-27T18:54:02+09:00",
+     "code_hash": "96636e64837c08f2d72b6a73899f167c13b985590d786f43f6fd2ae151e81da0"
+    }
+   ],
+   "config_commit_before_round1_and_withdrawals": true,
+   "honest_sampled_p0.3": 38,
+   "honest_l1_fail": [],
+   "rejected_honest": [],
+   "self_check_fail": {
+    "T2a": [],
+    "T3": [],
+    "T10": [
+     8
+    ],
+    "T2b": []
+   },
+   "s_evidence": {
+    "T2a": true,
+    "T3": true,
+    "T10": true
+   },
+   "detected": {
+    "T1": {
+     "B4": true,
+     "basis": "정책 등록 5건 중 철회 요청이 원장에 없는 정보주체 1명"
+    },
+    "T2a": {
+     "B4": true,
+     "reason": "policy_conflict",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null
+    },
+    "T3": {
+     "B4": true,
+     "reason": "stale_snapshot",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null
+    },
+    "T2b": {
+     "unit": [
+      "1",
+      32
+     ],
+     "sampled": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null,
+     "B4": false,
+     "B6": false
+    },
+    "T10": {
+     "unit": [
+      "1",
+      8
+     ],
+     "self_check_fail_rounds": [
+      8
+     ],
+     "sampled": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null,
+     "B4": true,
+     "without_self_check": false
+    }
+   },
+   "t1_sender_nonce_latest": 0,
+   "compare_json": {
+    "T1": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": true,
+     "mine_unit_sampled": null,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": false
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T2a": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T2b": {
+     "location_match": true,
+     "json_B4": false,
+     "mine_B4": false,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T3": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T10": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": false
+    }
+   },
+   "json_l1_sampled_units": 38,
+   "json_sampled_units_by_p": {
+    "0.1": 7,
+    "0.3": 38,
+    "0.5": 67,
+    "1.0": 150
+   },
+   "json_withdrawal_count_on_chain": 4,
+   "json_false_positives": {
+    "rejected_honest": [],
+    "l1_fail_honest": [],
+    "subject_check_fail_honest": {}
+   }
+  },
+  {
+   "seed": 13,
+   "contract": "0x9964554EAb9516c599A9E82162a7d03Ec9A11b39",
+   "rounds": 50,
+   "n_units": 150,
+   "registered": 5,
+   "withdrawals_on_chain": 4,
+   "unknown_subjects": [],
+   "withdrawals": {
+    "20674": {
+     "subject": "eebed04846b93f5bafcf9a53916f0d084325f693ef875648368c48a577e369ec",
+     "round": 14,
+     "k": "2",
+     "listRoot_ok": true
+    },
+    "11919": {
+     "subject": "95b4071ce50b5669229a081f65d364e9e04aa8aba2b9049250e04501e2575ed0",
+     "round": 32,
+     "k": "0",
+     "listRoot_ok": true
+    },
+    "21402": {
+     "subject": "854b976c9a1b0b6eb599e2f87e23a97ebb000db8842c88d6986426c37e71e7a8",
+     "round": 38,
+     "k": "0",
+     "listRoot_ok": true
+    },
+    "7204": {
+     "subject": "979bcf32c115690ce8c0b3c222b3fcfc8f71c4678b9f93dea3de382db436336f",
+     "round": 44,
+     "k": "1",
+     "listRoot_ok": true
+    }
+   },
+   "found": {
+    "T3": [
+     [
+      "0",
+      "32",
+      "11919"
+     ]
+    ],
+    "T10": [
+     [
+      "0",
+      "38",
+      "21402"
+     ]
+    ],
+    "T2a": [
+     [
+      "1",
+      "44",
+      "7204"
+     ]
+    ],
+    "T2b": [
+     [
+      "2",
+      "14",
+      "20674"
+     ]
+    ],
+    "T1": [
+     [
+      "1",
+      "None",
+      "1214"
+     ]
+    ]
+   },
+   "anomalous_units": [
+    [
+     "0",
+     32
+    ],
+    [
+     "0",
+     38
+    ],
+    [
+     "1",
+     44
+    ]
+   ],
+   "accept_version_matches_effective_count": true,
+   "multi_seed_rounds": [],
+   "sampled_counts": {
+    "0.1": 13,
+    "0.3": 37,
+    "0.5": 71,
+    "1.0": 150
+   },
+   "l1_records": 37,
+   "l1_records_unmatched": [],
+   "l1_record_set_equals_sample_p0.3": true,
+   "prog_matched": [
+    "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed"
+   ],
+   "config_commit_progs": [
+    {
+     "prog": "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed",
+     "commit": "b0b0e87092d50cdf9b8360e08f9f43a2392bdcb3",
+     "time": "2026-10-27T18:54:02+09:00",
+     "code_hash": "96636e64837c08f2d72b6a73899f167c13b985590d786f43f6fd2ae151e81da0"
+    }
+   ],
+   "config_commit_before_round1_and_withdrawals": true,
+   "honest_sampled_p0.3": 35,
+   "honest_l1_fail": [],
+   "rejected_honest": [],
+   "self_check_fail": {
+    "T2a": [],
+    "T3": [],
+    "T10": [
+     38
+    ],
+    "T2b": []
+   },
+   "s_evidence": {
+    "T2a": true,
+    "T3": true,
+    "T10": true
+   },
+   "detected": {
+    "T1": {
+     "B4": true,
+     "basis": "정책 등록 5건 중 철회 요청이 원장에 없는 정보주체 1명"
+    },
+    "T2a": {
+     "B4": true,
+     "reason": "policy_conflict",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": {
+      "passed": false,
+      "reason": "입력 재구성 실패",
+      "keyed_by": "hDelta"
+     }
+    },
+    "T3": {
+     "B4": true,
+     "reason": "stale_snapshot",
+     "l1_sampled_fail": {
+      "0.1": true,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": {
+      "passed": false,
+      "reason": "입력 재구성 실패",
+      "keyed_by": "hDelta"
+     }
+    },
+    "T2b": {
+     "unit": [
+      "2",
+      14
+     ],
+     "sampled": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": null,
+     "B4": false,
+     "B6": false
+    },
+    "T10": {
+     "unit": [
+      "0",
+      38
+     ],
+     "self_check_fail_rounds": [
+      38
+     ],
+     "sampled": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": null,
+     "B4": true,
+     "without_self_check": false
+    }
+   },
+   "t1_sender_nonce_latest": 0,
+   "compare_json": {
+    "T1": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": null,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": false
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T2a": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": true,
+     "mine_unit_sampled": true,
+     "json_c": {
+      "0.1": false,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T2b": {
+     "location_match": true,
+     "json_B4": false,
+     "mine_B4": false,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T3": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": true,
+     "mine_unit_sampled": true,
+     "json_c": {
+      "0.1": true,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T10": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": false
+    }
+   },
+   "json_l1_sampled_units": 37,
+   "json_sampled_units_by_p": {
+    "0.1": 13,
+    "0.3": 37,
+    "0.5": 71,
+    "1.0": 150
+   },
+   "json_withdrawal_count_on_chain": 4,
+   "json_false_positives": {
+    "rejected_honest": [],
+    "l1_fail_honest": [],
+    "subject_check_fail_honest": {}
+   }
+  },
+  {
+   "seed": 14,
+   "contract": "0x005B7D1E538E61C386aca4E4e66Fd3FB682d09d0",
+   "rounds": 50,
+   "n_units": 150,
+   "registered": 5,
+   "withdrawals_on_chain": 4,
+   "unknown_subjects": [],
+   "withdrawals": {
+    "15098": {
+     "subject": "5da5d271ccc44e317b08915e2f978b47ca5a88d7ac8fa2cf89d888d219131034",
+     "round": 14,
+     "k": "0",
+     "listRoot_ok": true
+    },
+    "5444": {
+     "subject": "d246e8359c8706a0db876f9be5f256a57f2daa5b6d333bbb8a889ccad8c5420f",
+     "round": 26,
+     "k": "1",
+     "listRoot_ok": true
+    },
+    "6387": {
+     "subject": "cc41568ff21ab9243b0895adcbe3209b3882fb931119c1d7bde02cd29870374f",
+     "round": 32,
+     "k": "1",
+     "listRoot_ok": true
+    },
+    "20218": {
+     "subject": "fb6624a4938ec60389f0e81434f90eb1a0a73c8449d745558440fe52b7b8a5fb",
+     "round": 38,
+     "k": "0",
+     "listRoot_ok": true
+    }
+   },
+   "found": {
+    "T3": [
+     [
+      "0",
+      "14",
+      "15098"
+     ]
+    ],
+    "T10": [
+     [
+      "1",
+      "26",
+      "5444"
+     ]
+    ],
+    "T2a": [
+     [
+      "1",
+      "32",
+      "6387"
+     ]
+    ],
+    "T2b": [
+     [
+      "0",
+      "38",
+      "20218"
+     ]
+    ],
+    "T1": [
+     [
+      "2",
+      "None",
+      "10225"
+     ]
+    ]
+   },
+   "anomalous_units": [
+    [
+     "0",
+     14
+    ],
+    [
+     "1",
+     26
+    ],
+    [
+     "1",
+     32
+    ]
+   ],
+   "accept_version_matches_effective_count": true,
+   "multi_seed_rounds": [],
+   "sampled_counts": {
+    "0.1": 12,
+    "0.3": 51,
+    "0.5": 76,
+    "1.0": 150
+   },
+   "l1_records": 51,
+   "l1_records_unmatched": [],
+   "l1_record_set_equals_sample_p0.3": true,
+   "prog_matched": [
+    "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed"
+   ],
+   "config_commit_progs": [
+    {
+     "prog": "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed",
+     "commit": "b0b0e87092d50cdf9b8360e08f9f43a2392bdcb3",
+     "time": "2026-10-27T18:54:02+09:00",
+     "code_hash": "96636e64837c08f2d72b6a73899f167c13b985590d786f43f6fd2ae151e81da0"
+    }
+   ],
+   "config_commit_before_round1_and_withdrawals": true,
+   "honest_sampled_p0.3": 50,
+   "honest_l1_fail": [],
+   "rejected_honest": [],
+   "self_check_fail": {
+    "T2a": [],
+    "T3": [],
+    "T10": [
+     26
+    ],
+    "T2b": []
+   },
+   "s_evidence": {
+    "T2a": true,
+    "T3": true,
+    "T10": true
+   },
+   "detected": {
+    "T1": {
+     "B4": true,
+     "basis": "정책 등록 5건 중 철회 요청이 원장에 없는 정보주체 1명"
+    },
+    "T2a": {
+     "B4": true,
+     "reason": "policy_conflict",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": null
+    },
+    "T3": {
+     "B4": true,
+     "reason": "stale_snapshot",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null
+    },
+    "T2b": {
+     "unit": [
+      "0",
+      38
+     ],
+     "sampled": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null,
+     "B4": false,
+     "B6": false
+    },
+    "T10": {
+     "unit": [
+      "1",
+      26
+     ],
+     "self_check_fail_rounds": [
+      26
+     ],
+     "sampled": {
+      "0.1": true,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": {
+      "passed": false,
+      "reason": "입력 재구성 실패",
+      "keyed_by": "hDelta"
+     },
+     "B4": true,
+     "without_self_check": true
+    }
+   },
+   "t1_sender_nonce_latest": 0,
+   "compare_json": {
+    "T1": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": null,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": false
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T2a": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T2b": {
+     "location_match": true,
+     "json_B4": false,
+     "mine_B4": false,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T3": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T10": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": true,
+     "mine_unit_sampled": true,
+     "json_c": {
+      "0.1": true,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": false
+    }
+   },
+   "json_l1_sampled_units": 51,
+   "json_sampled_units_by_p": {
+    "0.1": 12,
+    "0.3": 51,
+    "0.5": 76,
+    "1.0": 150
+   },
+   "json_withdrawal_count_on_chain": 4,
+   "json_false_positives": {
+    "rejected_honest": [],
+    "l1_fail_honest": [],
+    "subject_check_fail_honest": {}
+   }
+  },
+  {
+   "seed": 15,
+   "contract": "0x0DCd758174248Ac6D221b78C9302167eb9e65F2b",
+   "rounds": 50,
+   "n_units": 150,
+   "registered": 5,
+   "withdrawals_on_chain": 4,
+   "unknown_subjects": [],
+   "withdrawals": {
+    "10221": {
+     "subject": "60ea4e536383f5dd23af4496a9508d49e8c4737b2c6bc7a24fca79c0d62a7212",
+     "round": 8,
+     "k": "0",
+     "listRoot_ok": true
+    },
+    "4930": {
+     "subject": "e871dc380737845c500312b80a25e72bff40b22b590012b9d06c08f2cff78314",
+     "round": 26,
+     "k": "1",
+     "listRoot_ok": true
+    },
+    "14236": {
+     "subject": "9e1322dee864e48fd827c05f44fe49ea81b6249315fda3be70612648c79da835",
+     "round": 32,
+     "k": "0",
+     "listRoot_ok": true
+    },
+    "13201": {
+     "subject": "d628794dcc1f58f161bbeab21ff09fb8c7419798959961caba049a3d380e3c61",
+     "round": 38,
+     "k": "2",
+     "listRoot_ok": true
+    }
+   },
+   "found": {
+    "T2a": [
+     [
+      "0",
+      "8",
+      "10221"
+     ]
+    ],
+    "T10": [
+     [
+      "1",
+      "26",
+      "4930"
+     ]
+    ],
+    "T3": [
+     [
+      "2",
+      "38",
+      "13201"
+     ]
+    ],
+    "T2b": [
+     [
+      "0",
+      "32",
+      "14236"
+     ]
+    ],
+    "T1": [
+     [
+      "1",
+      "None",
+      "3417"
+     ]
+    ]
+   },
+   "anomalous_units": [
+    [
+     "0",
+     8
+    ],
+    [
+     "1",
+     26
+    ],
+    [
+     "2",
+     38
+    ]
+   ],
+   "accept_version_matches_effective_count": true,
+   "multi_seed_rounds": [],
+   "sampled_counts": {
+    "0.1": 6,
+    "0.3": 33,
+    "0.5": 60,
+    "1.0": 150
+   },
+   "l1_records": 33,
+   "l1_records_unmatched": [],
+   "l1_record_set_equals_sample_p0.3": true,
+   "prog_matched": [
+    "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed"
+   ],
+   "config_commit_progs": [
+    {
+     "prog": "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed",
+     "commit": "b0b0e87092d50cdf9b8360e08f9f43a2392bdcb3",
+     "time": "2026-10-27T18:54:02+09:00",
+     "code_hash": "96636e64837c08f2d72b6a73899f167c13b985590d786f43f6fd2ae151e81da0"
+    }
+   ],
+   "config_commit_before_round1_and_withdrawals": true,
+   "honest_sampled_p0.3": 33,
+   "honest_l1_fail": [],
+   "rejected_honest": [],
+   "self_check_fail": {
+    "T2a": [],
+    "T3": [],
+    "T10": [
+     26
+    ],
+    "T2b": []
+   },
+   "s_evidence": {
+    "T2a": true,
+    "T3": true,
+    "T10": true
+   },
+   "detected": {
+    "T1": {
+     "B4": true,
+     "basis": "정책 등록 5건 중 철회 요청이 원장에 없는 정보주체 1명"
+    },
+    "T2a": {
+     "B4": true,
+     "reason": "policy_conflict",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null
+    },
+    "T3": {
+     "B4": true,
+     "reason": "stale_snapshot",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null
+    },
+    "T2b": {
+     "unit": [
+      "0",
+      32
+     ],
+     "sampled": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": null,
+     "B4": false,
+     "B6": false
+    },
+    "T10": {
+     "unit": [
+      "1",
+      26
+     ],
+     "self_check_fail_rounds": [
+      26
+     ],
+     "sampled": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null,
+     "B4": true,
+     "without_self_check": false
+    }
+   },
+   "t1_sender_nonce_latest": 0,
+   "compare_json": {
+    "T1": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": null,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": false
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T2a": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T2b": {
+     "location_match": true,
+     "json_B4": false,
+     "mine_B4": false,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T3": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T10": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": false
+    }
+   },
+   "json_l1_sampled_units": 33,
+   "json_sampled_units_by_p": {
+    "0.1": 6,
+    "0.3": 33,
+    "0.5": 60,
+    "1.0": 150
+   },
+   "json_withdrawal_count_on_chain": 4,
+   "json_false_positives": {
+    "rejected_honest": [],
+    "l1_fail_honest": [],
+    "subject_check_fail_honest": {}
+   }
+  },
+  {
+   "seed": 16,
+   "contract": "0x439eB7509beE20E7A81c2976A4b1e001fb10321c",
+   "rounds": 50,
+   "n_units": 150,
+   "registered": 5,
+   "withdrawals_on_chain": 4,
+   "unknown_subjects": [],
+   "withdrawals": {
+    "10069": {
+     "subject": "7f8226af6b6fe19fbf313101e8a540bf53baa181268a79e54a9958d7a3c49fbb",
+     "round": 14,
+     "k": "2",
+     "listRoot_ok": true
+    },
+    "19275": {
+     "subject": "5cbe2d5f32b2738eeb0b70473c7ad6e00884e830e8eb969d84c2770c702b8c78",
+     "round": 26,
+     "k": "0",
+     "listRoot_ok": true
+    },
+    "12112": {
+     "subject": "ac8054ee8bbb4ee85c34a147a1c388a444dccac05928132b8902ccc8faa6af6b",
+     "round": 38,
+     "k": "0",
+     "listRoot_ok": true
+    },
+    "429": {
+     "subject": "0ea003f8106803c26ff1b4f5bb2589358efc23f55a1f327502d4e292ee939411",
+     "round": 44,
+     "k": "1",
+     "listRoot_ok": true
+    }
+   },
+   "found": {
+    "T10": [
+     [
+      "2",
+      "14",
+      "10069"
+     ]
+    ],
+    "T2a": [
+     [
+      "0",
+      "26",
+      "19275"
+     ]
+    ],
+    "T3": [
+     [
+      "1",
+      "44",
+      "429"
+     ]
+    ],
+    "T2b": [
+     [
+      "0",
+      "38",
+      "12112"
+     ]
+    ],
+    "T1": [
+     [
+      "1",
+      "None",
+      "3394"
+     ]
+    ]
+   },
+   "anomalous_units": [
+    [
+     "2",
+     14
+    ],
+    [
+     "0",
+     26
+    ],
+    [
+     "1",
+     44
+    ]
+   ],
+   "accept_version_matches_effective_count": true,
+   "multi_seed_rounds": [],
+   "sampled_counts": {
+    "0.1": 14,
+    "0.3": 41,
+    "0.5": 68,
+    "1.0": 150
+   },
+   "l1_records": 41,
+   "l1_records_unmatched": [],
+   "l1_record_set_equals_sample_p0.3": true,
+   "prog_matched": [
+    "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed"
+   ],
+   "config_commit_progs": [
+    {
+     "prog": "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed",
+     "commit": "b0b0e87092d50cdf9b8360e08f9f43a2392bdcb3",
+     "time": "2026-10-27T18:54:02+09:00",
+     "code_hash": "96636e64837c08f2d72b6a73899f167c13b985590d786f43f6fd2ae151e81da0"
+    }
+   ],
+   "config_commit_before_round1_and_withdrawals": true,
+   "honest_sampled_p0.3": 40,
+   "honest_l1_fail": [],
+   "rejected_honest": [],
+   "self_check_fail": {
+    "T2a": [],
+    "T3": [],
+    "T10": [
+     14
+    ],
+    "T2b": []
+   },
+   "s_evidence": {
+    "T2a": true,
+    "T3": true,
+    "T10": true
+   },
+   "detected": {
+    "T1": {
+     "B4": true,
+     "basis": "정책 등록 5건 중 철회 요청이 원장에 없는 정보주체 1명"
+    },
+    "T2a": {
+     "B4": true,
+     "reason": "policy_conflict",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null
+    },
+    "T3": {
+     "B4": true,
+     "reason": "stale_snapshot",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null
+    },
+    "T2b": {
+     "unit": [
+      "0",
+      38
+     ],
+     "sampled": {
+      "0.1": true,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": {
+      "passed": false,
+      "reason": "출력 불일치",
+      "keyed_by": "B"
+     },
+     "B4": true,
+     "B6": true
+    },
+    "T10": {
+     "unit": [
+      "2",
+      14
+     ],
+     "self_check_fail_rounds": [
+      14
+     ],
+     "sampled": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null,
+     "B4": true,
+     "without_self_check": false
+    }
+   },
+   "t1_sender_nonce_latest": 0,
+   "compare_json": {
+    "T1": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": null,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": false
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T2a": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T2b": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": true,
+     "mine_unit_sampled": true,
+     "json_c": {
+      "0.1": true,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T3": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T10": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": false
+    }
+   },
+   "json_l1_sampled_units": 41,
+   "json_sampled_units_by_p": {
+    "0.1": 14,
+    "0.3": 41,
+    "0.5": 68,
+    "1.0": 150
+   },
+   "json_withdrawal_count_on_chain": 4,
+   "json_false_positives": {
+    "rejected_honest": [],
+    "l1_fail_honest": [],
+    "subject_check_fail_honest": {}
+   }
+  },
+  {
+   "seed": 17,
+   "contract": "0xC4326a8DC2f8BAdfaCE13d8A7CF3671eaf8142D1",
+   "rounds": 50,
+   "n_units": 150,
+   "registered": 5,
+   "withdrawals_on_chain": 4,
+   "unknown_subjects": [],
+   "withdrawals": {
+    "3584": {
+     "subject": "1c5415b8fbf3431a9f3ee744aef751367763430d41ab0394d800c6dcf768e2ba",
+     "round": 14,
+     "k": "1",
+     "listRoot_ok": true
+    },
+    "21427": {
+     "subject": "0c58aeec69b7d6465d7ad52c715c46e068601fa9b28dcd4e7659286a33406c16",
+     "round": 20,
+     "k": "0",
+     "listRoot_ok": true
+    },
+    "20071": {
+     "subject": "333e9ee8f2fd6a75bb5a2b131202b13ae5c40c4d28c09804b64fc0cd6e090b49",
+     "round": 26,
+     "k": "2",
+     "listRoot_ok": true
+    },
+    "15461": {
+     "subject": "82257e0699422dbe88e39eaf863fce2d39994982d2ba37a0ed9e37446a41cbc4",
+     "round": 44,
+     "k": "0",
+     "listRoot_ok": true
+    }
+   },
+   "found": {
+    "T10": [
+     [
+      "1",
+      "14",
+      "3584"
+     ]
+    ],
+    "T2a": [
+     [
+      "2",
+      "26",
+      "20071"
+     ]
+    ],
+    "T3": [
+     [
+      "0",
+      "44",
+      "15461"
+     ]
+    ],
+    "T2b": [
+     [
+      "0",
+      "20",
+      "21427"
+     ]
+    ],
+    "T1": [
+     [
+      "1",
+      "None",
+      "5326"
+     ]
+    ]
+   },
+   "anomalous_units": [
+    [
+     "1",
+     14
+    ],
+    [
+     "2",
+     26
+    ],
+    [
+     "0",
+     44
+    ]
+   ],
+   "accept_version_matches_effective_count": true,
+   "multi_seed_rounds": [],
+   "sampled_counts": {
+    "0.1": 14,
+    "0.3": 52,
+    "0.5": 87,
+    "1.0": 150
+   },
+   "l1_records": 52,
+   "l1_records_unmatched": [],
+   "l1_record_set_equals_sample_p0.3": true,
+   "prog_matched": [
+    "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed"
+   ],
+   "config_commit_progs": [
+    {
+     "prog": "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed",
+     "commit": "b0b0e87092d50cdf9b8360e08f9f43a2392bdcb3",
+     "time": "2026-10-27T18:54:02+09:00",
+     "code_hash": "96636e64837c08f2d72b6a73899f167c13b985590d786f43f6fd2ae151e81da0"
+    }
+   ],
+   "config_commit_before_round1_and_withdrawals": true,
+   "honest_sampled_p0.3": 50,
+   "honest_l1_fail": [],
+   "rejected_honest": [],
+   "self_check_fail": {
+    "T2a": [],
+    "T3": [],
+    "T10": [
+     14
+    ],
+    "T2b": []
+   },
+   "s_evidence": {
+    "T2a": true,
+    "T3": true,
+    "T10": true
+   },
+   "detected": {
+    "T1": {
+     "B4": true,
+     "basis": "정책 등록 5건 중 철회 요청이 원장에 없는 정보주체 1명"
+    },
+    "T2a": {
+     "B4": true,
+     "reason": "policy_conflict",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": {
+      "passed": false,
+      "reason": "입력 재구성 실패",
+      "keyed_by": "hDelta"
+     }
+    },
+    "T3": {
+     "B4": true,
+     "reason": "stale_snapshot",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": null
+    },
+    "T2b": {
+     "unit": [
+      "0",
+      20
+     ],
+     "sampled": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": null,
+     "B4": false,
+     "B6": false
+    },
+    "T10": {
+     "unit": [
+      "1",
+      14
+     ],
+     "self_check_fail_rounds": [
+      14
+     ],
+     "sampled": {
+      "0.1": true,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": {
+      "passed": false,
+      "reason": "입력 재구성 실패",
+      "keyed_by": "hDelta"
+     },
+     "B4": true,
+     "without_self_check": true
+    }
+   },
+   "t1_sender_nonce_latest": 0,
+   "compare_json": {
+    "T1": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": null,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": false
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T2a": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": true,
+     "mine_unit_sampled": true,
+     "json_c": {
+      "0.1": false,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T2b": {
+     "location_match": true,
+     "json_B4": false,
+     "mine_B4": false,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T3": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T10": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": true,
+     "mine_unit_sampled": true,
+     "json_c": {
+      "0.1": true,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": false
+    }
+   },
+   "json_l1_sampled_units": 52,
+   "json_sampled_units_by_p": {
+    "0.1": 14,
+    "0.3": 52,
+    "0.5": 87,
+    "1.0": 150
+   },
+   "json_withdrawal_count_on_chain": 4,
+   "json_false_positives": {
+    "rejected_honest": [],
+    "l1_fail_honest": [],
+    "subject_check_fail_honest": {}
+   }
+  },
+  {
+   "seed": 18,
+   "contract": "0x3C7197fcFDAF3a98b5D955C05db6B3e18b607878",
+   "rounds": 50,
+   "n_units": 150,
+   "registered": 5,
+   "withdrawals_on_chain": 4,
+   "unknown_subjects": [],
+   "withdrawals": {
+    "13431": {
+     "subject": "6dd2edf4ceb4736e82668eebe7e0dcf4950caca9bdf62813d334fd8f5310eab8",
+     "round": 8,
+     "k": "0",
+     "listRoot_ok": true
+    },
+    "3738": {
+     "subject": "97743b8a1947639fa06be0b1b4dccf003719245b1180fbe4bd148d406ca81a37",
+     "round": 20,
+     "k": "1",
+     "listRoot_ok": true
+    },
+    "13075": {
+     "subject": "0322bcbe93631eedfce5c47d0fa3985a3cd14e6d168488aa5784d57f006d0ac0",
+     "round": 26,
+     "k": "2",
+     "listRoot_ok": true
+    },
+    "11606": {
+     "subject": "4d6924f97667995cb36da63cb3c9138d9e568a4f78f3a6c5b2e219c5ccee81e4",
+     "round": 38,
+     "k": "0",
+     "listRoot_ok": true
+    }
+   },
+   "found": {
+    "T2a": [
+     [
+      "0",
+      "8",
+      "13431"
+     ]
+    ],
+    "T3": [
+     [
+      "1",
+      "20",
+      "3738"
+     ]
+    ],
+    "T10": [
+     [
+      "0",
+      "38",
+      "11606"
+     ]
+    ],
+    "T2b": [
+     [
+      "2",
+      "26",
+      "13075"
+     ]
+    ],
+    "T1": [
+     [
+      "1",
+      "None",
+      "6549"
+     ]
+    ]
+   },
+   "anomalous_units": [
+    [
+     "0",
+     8
+    ],
+    [
+     "1",
+     20
+    ],
+    [
+     "0",
+     38
+    ]
+   ],
+   "accept_version_matches_effective_count": true,
+   "multi_seed_rounds": [],
+   "sampled_counts": {
+    "0.1": 16,
+    "0.3": 43,
+    "0.5": 74,
+    "1.0": 150
+   },
+   "l1_records": 43,
+   "l1_records_unmatched": [],
+   "l1_record_set_equals_sample_p0.3": true,
+   "prog_matched": [
+    "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed"
+   ],
+   "config_commit_progs": [
+    {
+     "prog": "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed",
+     "commit": "b0b0e87092d50cdf9b8360e08f9f43a2392bdcb3",
+     "time": "2026-10-27T18:54:02+09:00",
+     "code_hash": "96636e64837c08f2d72b6a73899f167c13b985590d786f43f6fd2ae151e81da0"
+    }
+   ],
+   "config_commit_before_round1_and_withdrawals": true,
+   "honest_sampled_p0.3": 42,
+   "honest_l1_fail": [],
+   "rejected_honest": [],
+   "self_check_fail": {
+    "T2a": [],
+    "T3": [],
+    "T10": [
+     38
+    ],
+    "T2b": []
+   },
+   "s_evidence": {
+    "T2a": true,
+    "T3": true,
+    "T10": true
+   },
+   "detected": {
+    "T1": {
+     "B4": true,
+     "basis": "정책 등록 5건 중 철회 요청이 원장에 없는 정보주체 1명"
+    },
+    "T2a": {
+     "B4": true,
+     "reason": "policy_conflict",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null
+    },
+    "T3": {
+     "B4": true,
+     "reason": "stale_snapshot",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": {
+      "passed": false,
+      "reason": "입력 재구성 실패",
+      "keyed_by": "hDelta"
+     }
+    },
+    "T2b": {
+     "unit": [
+      "2",
+      26
+     ],
+     "sampled": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": null,
+     "B4": false,
+     "B6": false
+    },
+    "T10": {
+     "unit": [
+      "0",
+      38
+     ],
+     "self_check_fail_rounds": [
+      38
+     ],
+     "sampled": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": null,
+     "B4": true,
+     "without_self_check": false
+    }
+   },
+   "t1_sender_nonce_latest": 0,
+   "compare_json": {
+    "T1": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": null,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": false
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T2a": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T2b": {
+     "location_match": true,
+     "json_B4": false,
+     "mine_B4": false,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T3": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": true,
+     "mine_unit_sampled": true,
+     "json_c": {
+      "0.1": false,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T10": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": false
+    }
+   },
+   "json_l1_sampled_units": 43,
+   "json_sampled_units_by_p": {
+    "0.1": 16,
+    "0.3": 43,
+    "0.5": 74,
+    "1.0": 150
+   },
+   "json_withdrawal_count_on_chain": 4,
+   "json_false_positives": {
+    "rejected_honest": [],
+    "l1_fail_honest": [],
+    "subject_check_fail_honest": {}
+   }
+  },
+  {
+   "seed": 19,
+   "contract": "0xB47145FE30a498702b8e6f973A3Cc6c4cbB5b387",
+   "rounds": 50,
+   "n_units": 150,
+   "registered": 5,
+   "withdrawals_on_chain": 4,
+   "unknown_subjects": [],
+   "withdrawals": {
+    "10084": {
+     "subject": "ceec22759cad04a0223f7ca186f8a07c8e1c8d751de29ccaee8e0ead9efa47b3",
+     "round": 8,
+     "k": "0",
+     "listRoot_ok": true
+    },
+    "14066": {
+     "subject": "61d2bb464a96bb7831defcf66a4ba16fdbad30e7a703d56c215e2ea8177a5a2f",
+     "round": 20,
+     "k": "0",
+     "listRoot_ok": true
+    },
+    "3681": {
+     "subject": "32e1ae7f49daa838f077f9ca031f82a09a98af9435e46d063c26eeda019f9306",
+     "round": 32,
+     "k": "1",
+     "listRoot_ok": true
+    },
+    "12206": {
+     "subject": "8624d3029da168776116f1dcab095eb44cfb44508c82224b9d70eb1e27464a8c",
+     "round": 44,
+     "k": "2",
+     "listRoot_ok": true
+    }
+   },
+   "found": {
+    "T2a": [
+     [
+      "0",
+      "8",
+      "10084"
+     ]
+    ],
+    "T10": [
+     [
+      "0",
+      "20",
+      "14066"
+     ]
+    ],
+    "T3": [
+     [
+      "2",
+      "44",
+      "12206"
+     ]
+    ],
+    "T2b": [
+     [
+      "1",
+      "32",
+      "3681"
+     ]
+    ],
+    "T1": [
+     [
+      "1",
+      "None",
+      "3689"
+     ]
+    ]
+   },
+   "anomalous_units": [
+    [
+     "0",
+     8
+    ],
+    [
+     "0",
+     20
+    ],
+    [
+     "2",
+     44
+    ]
+   ],
+   "accept_version_matches_effective_count": true,
+   "multi_seed_rounds": [],
+   "sampled_counts": {
+    "0.1": 9,
+    "0.3": 39,
+    "0.5": 68,
+    "1.0": 150
+   },
+   "l1_records": 39,
+   "l1_records_unmatched": [],
+   "l1_record_set_equals_sample_p0.3": true,
+   "prog_matched": [
+    "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed"
+   ],
+   "config_commit_progs": [
+    {
+     "prog": "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed",
+     "commit": "b0b0e87092d50cdf9b8360e08f9f43a2392bdcb3",
+     "time": "2026-10-27T18:54:02+09:00",
+     "code_hash": "96636e64837c08f2d72b6a73899f167c13b985590d786f43f6fd2ae151e81da0"
+    }
+   ],
+   "config_commit_before_round1_and_withdrawals": true,
+   "honest_sampled_p0.3": 39,
+   "honest_l1_fail": [],
+   "rejected_honest": [],
+   "self_check_fail": {
+    "T2a": [],
+    "T3": [],
+    "T10": [
+     20
+    ],
+    "T2b": []
+   },
+   "s_evidence": {
+    "T2a": true,
+    "T3": true,
+    "T10": true
+   },
+   "detected": {
+    "T1": {
+     "B4": true,
+     "basis": "정책 등록 5건 중 철회 요청이 원장에 없는 정보주체 1명"
+    },
+    "T2a": {
+     "B4": true,
+     "reason": "policy_conflict",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null
+    },
+    "T3": {
+     "B4": true,
+     "reason": "stale_snapshot",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null
+    },
+    "T2b": {
+     "unit": [
+      "1",
+      32
+     ],
+     "sampled": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null,
+     "B4": false,
+     "B6": false
+    },
+    "T10": {
+     "unit": [
+      "0",
+      20
+     ],
+     "self_check_fail_rounds": [
+      20
+     ],
+     "sampled": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null,
+     "B4": true,
+     "without_self_check": false
+    }
+   },
+   "t1_sender_nonce_latest": 0,
+   "compare_json": {
+    "T1": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": true,
+     "mine_unit_sampled": null,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": false
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T2a": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T2b": {
+     "location_match": true,
+     "json_B4": false,
+     "mine_B4": false,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T3": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T10": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": false
+    }
+   },
+   "json_l1_sampled_units": 39,
+   "json_sampled_units_by_p": {
+    "0.1": 9,
+    "0.3": 39,
+    "0.5": 68,
+    "1.0": 150
+   },
+   "json_withdrawal_count_on_chain": 4,
+   "json_false_positives": {
+    "rejected_honest": [],
+    "l1_fail_honest": [],
+    "subject_check_fail_honest": {}
+   }
+  },
+  {
+   "seed": 20,
+   "contract": "0xb95733f7ea147094e8DbE7db3052Ef6197795b79",
+   "rounds": 50,
+   "n_units": 150,
+   "registered": 5,
+   "withdrawals_on_chain": 4,
+   "unknown_subjects": [],
+   "withdrawals": {
+    "9390": {
+     "subject": "e0262dce14850a47d196511523e1ebfda02d2f012444fff3ad5b9476b69eaaba",
+     "round": 14,
+     "k": "0",
+     "listRoot_ok": true
+    },
+    "1637": {
+     "subject": "6a445e4f1f93f8e4a6b1014ee80735e6051d72ea5d78ea2489c9d88549093f6c",
+     "round": 20,
+     "k": "1",
+     "listRoot_ok": true
+    },
+    "1928": {
+     "subject": "b40e5bbed4eee9c9661249ac8c9e01a70fa9e970463fe0a96b6b4071f2ae2aab",
+     "round": 26,
+     "k": "1",
+     "listRoot_ok": true
+    },
+    "12115": {
+     "subject": "802c518113a5feb6e9909b52eef0d98dd762ff24454b143b94fe44e7e091d226",
+     "round": 44,
+     "k": "2",
+     "listRoot_ok": true
+    }
+   },
+   "found": {
+    "T3": [
+     [
+      "1",
+      "20",
+      "1637"
+     ]
+    ],
+    "T10": [
+     [
+      "1",
+      "26",
+      "1928"
+     ]
+    ],
+    "T2a": [
+     [
+      "2",
+      "44",
+      "12115"
+     ]
+    ],
+    "T2b": [
+     [
+      "0",
+      "14",
+      "9390"
+     ]
+    ],
+    "T1": [
+     [
+      "0",
+      "None",
+      "15339"
+     ]
+    ]
+   },
+   "anomalous_units": [
+    [
+     "1",
+     20
+    ],
+    [
+     "1",
+     26
+    ],
+    [
+     "2",
+     44
+    ]
+   ],
+   "accept_version_matches_effective_count": true,
+   "multi_seed_rounds": [],
+   "sampled_counts": {
+    "0.1": 19,
+    "0.3": 51,
+    "0.5": 88,
+    "1.0": 150
+   },
+   "l1_records": 51,
+   "l1_records_unmatched": [],
+   "l1_record_set_equals_sample_p0.3": true,
+   "prog_matched": [
+    "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed"
+   ],
+   "config_commit_progs": [
+    {
+     "prog": "a69d149962e7ebc6f1ed1383c790a29841aa063f42aee5cac673a72f4cf319ed",
+     "commit": "b0b0e87092d50cdf9b8360e08f9f43a2392bdcb3",
+     "time": "2026-10-27T18:54:02+09:00",
+     "code_hash": "96636e64837c08f2d72b6a73899f167c13b985590d786f43f6fd2ae151e81da0"
+    }
+   ],
+   "config_commit_before_round1_and_withdrawals": true,
+   "honest_sampled_p0.3": 48,
+   "honest_l1_fail": [],
+   "rejected_honest": [],
+   "self_check_fail": {
+    "T2a": [],
+    "T3": [],
+    "T10": [
+     26
+    ],
+    "T2b": []
+   },
+   "s_evidence": {
+    "T2a": true,
+    "T3": true,
+    "T10": true
+   },
+   "detected": {
+    "T1": {
+     "B4": true,
+     "basis": "정책 등록 5건 중 철회 요청이 원장에 없는 정보주체 1명"
+    },
+    "T2a": {
+     "B4": true,
+     "reason": "policy_conflict",
+     "l1_sampled_fail": {
+      "0.1": true,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": {
+      "passed": false,
+      "reason": "입력 재구성 실패",
+      "keyed_by": "hDelta"
+     }
+    },
+    "T3": {
+     "B4": true,
+     "reason": "stale_snapshot",
+     "l1_sampled_fail": {
+      "0.1": false,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": {
+      "passed": false,
+      "reason": "입력 재구성 실패",
+      "keyed_by": "hDelta"
+     }
+    },
+    "T2b": {
+     "unit": [
+      "0",
+      14
+     ],
+     "sampled": {
+      "0.1": false,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "l1_record": {
+      "passed": false,
+      "reason": "출력 불일치",
+      "keyed_by": "B"
+     },
+     "B4": true,
+     "B6": true
+    },
+    "T10": {
+     "unit": [
+      "1",
+      26
+     ],
+     "self_check_fail_rounds": [
+      26
+     ],
+     "sampled": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "l1_record": null,
+     "B4": true,
+     "without_self_check": false
+    }
+   },
+   "t1_sender_nonce_latest": 0,
+   "compare_json": {
+    "T1": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": null,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": false
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T2a": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": true,
+     "mine_unit_sampled": true,
+     "json_c": {
+      "0.1": true,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T2b": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": true,
+     "mine_unit_sampled": true,
+     "json_c": {
+      "0.1": false,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": false,
+     "json_b": false
+    },
+    "T3": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": true,
+     "mine_unit_sampled": true,
+     "json_c": {
+      "0.1": false,
+      "0.3": true,
+      "0.5": true,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": true
+    },
+    "T10": {
+     "location_match": true,
+     "json_B4": true,
+     "mine_B4": true,
+     "json_unit_sampled": false,
+     "mine_unit_sampled": false,
+     "json_c": {
+      "0.1": false,
+      "0.3": false,
+      "0.5": false,
+      "1.0": true
+     },
+     "json_s": true,
+     "json_b": false
+    }
+   },
+   "json_l1_sampled_units": 51,
+   "json_sampled_units_by_p": {
+    "0.1": 19,
+    "0.3": 51,
+    "0.5": 88,
+    "1.0": 150
+   },
+   "json_withdrawal_count_on_chain": 4,
+   "json_false_positives": {
+    "rejected_honest": [],
+    "l1_fail_honest": [],
+    "subject_check_fail_honest": {}
+   }
+  }
+ ]
+}

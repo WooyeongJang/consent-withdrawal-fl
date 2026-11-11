@@ -1,0 +1,20 @@
+% Generated from results/final/shadow_count_sensitivity.json (scripts/shadow_count_sensitivity.py; stored shadow outputs only, no training).
+\begin{table}[h]
+\centering
+\caption{Shadow-model count (post hoc). Each of the 16 stored shadow models of a scenario is scored by the offline LiRA built from $n$ of the other 15 (all 15, or the mean over 20 random subsets for $n=4$ and 8), with its own member half of the pool as members; entries are means over the 16 targets and over the scenarios of each timing (the ten late scenarios and the four early and four mid-training scenarios of the rate $\times$ timing grid). The audited models (P1, U0--U4s) are not re-scored, since their per-record statistics were not stored, and no more than 16 shadow models were trained.}
+\label{tab:a-shadowcount}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\adjustbox{max width=\columnwidth}{%
+\begin{tabular}{@{}l c c c c c c c@{}}
+\toprule
+ & & \multicolumn{3}{c}{AUC at $n$} & \multicolumn{3}{c}{TPR at 1\% FPR at $n$} \\
+\cmidrule(lr){3-5}\cmidrule(l){6-8}
+Withdrawal & Scenarios & 4 & 8 & 15 & 4 & 8 & 15 \\
+\midrule
+Late & 10 & 0.549 & 0.558 & 0.562 & 0.012 & 0.020 & 0.022 \\
+Mid-training & 4 & 0.513 & 0.516 & 0.517 & 0.012 & 0.013 & 0.015 \\
+Early & 4 & 0.503 & 0.503 & 0.503 & 0.013 & 0.012 & 0.012 \\
+\bottomrule
+\end{tabular}}
+\end{table}

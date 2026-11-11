@@ -1,0 +1,72 @@
+== E2-latejoin s1 15:05:41
+[E2-latejoin] shadow 1/16
+[E2-latejoin] shadow 2/16
+[E2-latejoin] shadow 3/16
+[E2-latejoin] shadow 4/16
+[E2-latejoin] shadow 5/16
+[E2-latejoin] shadow 6/16
+[E2-latejoin] shadow 7/16
+[E2-latejoin] shadow 8/16
+[E2-latejoin] shadow 9/16
+[E2-latejoin] shadow 10/16
+[E2-latejoin] shadow 11/16
+[E2-latejoin] shadow 12/16
+[E2-latejoin] shadow 13/16
+[E2-latejoin] shadow 14/16
+[E2-latejoin] shadow 15/16
+[E2-latejoin] shadow 16/16
+[E2-latejoin s1] P1       test 0.9296  LiRA 0.5715  gapX 0.0283/Z 0.0259  L3 불통과  (0s)
+[E2-latejoin s1] P2       test 0.9222  LiRA 0.4991  gapX 0.0618/Z 0.0562  L3 -  (0s)
+[E2-latejoin s1] U0       test 0.9288  LiRA 0.5065  gapX 0.0286/Z 0.0277  L3 통과  (77s)
+[E2-latejoin s1] U1       test 0.9288  LiRA 0.5065  gapX 0.0228/Z 0.0222  L3 통과  (43s)
+[E2-latejoin s1] U2       test 0.9197  LiRA 0.5101  gapX 0.0529/Z 0.0498  L3 통과  (21s)
+[E2-latejoin s1] U3-orig  test 0.9220  LiRA 0.5366  gapX 0.0486/Z 0.0461  L3 통과  (0s)
+[E2-latejoin s1] U3       test 0.9218  LiRA 0.5136  gapX 0.0501/Z 0.0466  L3 통과  (92s)
+[E2-latejoin s1] U4       test 0.9295  LiRA 0.5676  gapX 0.0282/Z 0.0258  L3 불통과  (24s)
+[E2-latejoin s1] U4s      test 0.9295  LiRA 0.5613  gapX 0.0290/Z 0.0269  L3 불통과  (49s)
+[E2-latejoin s1] done
+== E2-latejoin s2 15:39:17
+[E2-latejoin s2] P1       test 0.9306  LiRA 0.5769  gapX 0.0289/Z 0.0268  L3 불통과  (0s)
+[E2-latejoin s2] P2       test 0.9208  LiRA 0.4917  gapX 0.0588/Z 0.0546  L3 -  (0s)
+[E2-latejoin s2] U0       test 0.9296  LiRA 0.5108  gapX 0.0293/Z 0.0288  L3 통과  (77s)
+[E2-latejoin s2] U1       test 0.9296  LiRA 0.5108  gapX 0.0235/Z 0.0230  L3 통과  (43s)
+[E2-latejoin s2] U2       test 0.9196  LiRA 0.5151  gapX 0.0550/Z 0.0510  L3 통과  (20s)
+[E2-latejoin s2] U3-orig  test 0.9222  LiRA 0.5332  gapX 0.0479/Z 0.0452  L3 통과  (0s)
+[E2-latejoin s2] U3       test 0.9219  LiRA 0.5069  gapX 0.0482/Z 0.0454  L3 통과  (92s)
+[E2-latejoin s2] U4       test 0.9310  LiRA 0.5775  gapX 0.0293/Z 0.0274  L3 불통과  (24s)
+[E2-latejoin s2] U4s      test 0.9310  LiRA 0.5687  gapX 0.0291/Z 0.0273  L3 불통과  (49s)
+[E2-latejoin s2] done
+== E2-latejoin s3 15:46:34
+[E2-latejoin s3] P1       test 0.9303  LiRA 0.5786  gapX 0.0279/Z 0.0263  L3 불통과  (0s)
+[E2-latejoin s3] P2       test 0.9210  LiRA 0.5142  gapX 0.0525/Z 0.0488  L3 -  (0s)
+[E2-latejoin s3] U0       test 0.9300  LiRA 0.5064  gapX 0.0284/Z 0.0283  L3 통과  (77s)
+[E2-latejoin s3] U1       test 0.9300  LiRA 0.5064  gapX 0.0227/Z 0.0226  L3 통과  (42s)
+[E2-latejoin s3] U2       test 0.9198  LiRA 0.5163  gapX 0.0553/Z 0.0534  L3 통과  (21s)
+[E2-latejoin s3] U3-orig  test 0.9222  LiRA 0.5269  gapX 0.0477/Z 0.0449  L3 통과  (0s)
+[E2-latejoin s3] U3       test 0.9220  LiRA 0.5056  gapX 0.0487/Z 0.0457  L3 통과  (93s)
+[E2-latejoin s3] U4       test 0.9303  LiRA 0.5774  gapX 0.0279/Z 0.0264  L3 불통과  (24s)
+[E2-latejoin s3] U4s      test 0.9303  LiRA 0.5668  gapX 0.0284/Z 0.0267  L3 불통과  (49s)
+[E2-latejoin s3] done
+== E2-latejoin s4 15:53:52
+[E2-latejoin s4] P1       test 0.9299  LiRA 0.5905  gapX 0.0288/Z 0.0266  L3 불통과  (0s)
+[E2-latejoin s4] P2       test 0.9210  LiRA 0.4962  gapX 0.0574/Z 0.0515  L3 -  (0s)
+[E2-latejoin s4] U0       test 0.9302  LiRA 0.5166  gapX 0.0284/Z 0.0282  L3 통과  (77s)
+[E2-latejoin s4] U1       test 0.9302  LiRA 0.5166  gapX 0.0227/Z 0.0226  L3 통과  (43s)
+[E2-latejoin s4] U2       test 0.9187  LiRA 0.5032  gapX 0.0561/Z 0.0513  L3 통과  (21s)
+[E2-latejoin s4] U3-orig  test 0.9221  LiRA 0.5366  gapX 0.0481/Z 0.0462  L3 통과  (0s)
+[E2-latejoin s4] U3       test 0.9220  LiRA 0.5135  gapX 0.0492/Z 0.0463  L3 통과  (92s)
+[E2-latejoin s4] U4       test 0.9299  LiRA 0.5910  gapX 0.0289/Z 0.0267  L3 불통과  (24s)
+[E2-latejoin s4] U4s      test 0.9298  LiRA 0.5790  gapX 0.0291/Z 0.0272  L3 불통과  (49s)
+[E2-latejoin s4] done
+== E2-latejoin s5 16:01:09
+[E2-latejoin s5] P1       test 0.9303  LiRA 0.5941  gapX 0.0281/Z 0.0272  L3 불통과  (0s)
+[E2-latejoin s5] P2       test 0.9205  LiRA 0.5033  gapX 0.0595/Z 0.0545  L3 -  (0s)
+[E2-latejoin s5] U0       test 0.9287  LiRA 0.5197  gapX 0.0294/Z 0.0293  L3 통과  (77s)
+[E2-latejoin s5] U1       test 0.9287  LiRA 0.5197  gapX 0.0235/Z 0.0234  L3 통과  (43s)
+[E2-latejoin s5] U2       test 0.9186  LiRA 0.5019  gapX 0.0555/Z 0.0503  L3 통과  (20s)
+[E2-latejoin s5] U3-orig  test 0.9213  LiRA 0.5267  gapX 0.0492/Z 0.0457  L3 통과  (0s)
+[E2-latejoin s5] U3       test 0.9217  LiRA 0.5083  gapX 0.0501/Z 0.0461  L3 통과  (92s)
+[E2-latejoin s5] U4       test 0.9302  LiRA 0.5813  gapX 0.0271/Z 0.0266  L3 불통과  (24s)
+[E2-latejoin s5] U4s      test 0.9305  LiRA 0.5772  gapX 0.0276/Z 0.0273  L3 불통과  (49s)
+[E2-latejoin s5] done
+== all done 16:08:27

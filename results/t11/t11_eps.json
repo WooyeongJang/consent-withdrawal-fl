@@ -1,0 +1,9 @@
+{
+ "rel_dist_nondet_pair": 0.6529203707737139,
+ "rel_dist_nondet_vs_det": [
+  0.6146296182977751,
+  0.6230389678565729
+ ],
+ "note": "\u03b5 = \uc815\uc9c1\ud55c \ube44\uacb0\uc815 \uc7ac\uc2e4\ud589 \ub450 \ubc88 \uc0ac\uc774\uc758 \uc0c1\ub300 \uac70\ub9ac(\uac19\uc740 \uc785\ub825\u00b7\uc2dc\ub4dc\u00b7\uc774\ubbf8\uc9c0, cudnn.benchmark, \uacb0\uc815\uc801 \uc54c\uace0\ub9ac\uc998 \ubbf8\uc0ac\uc6a9)",
+ "eps": 0.6529203707737139
+}

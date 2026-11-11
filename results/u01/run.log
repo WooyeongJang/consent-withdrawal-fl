@@ -1,0 +1,60 @@
+
+=============
+== PyTorch ==
+=============
+
+NVIDIA Release 26.08 (build 406036885)
+PyTorch Version 2.14.0a0+4fdf77b
+Container image Copyright (c) 2026, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+Copyright (c) 2014-2024 Facebook Inc.
+Copyright (c) 2011-2014 Idiap Research Institute (Ronan Collobert)
+Copyright (c) 2012-2014 Deepmind Technologies    (Koray Kavukcuoglu)
+Copyright (c) 2011-2012 NEC Laboratories America (Koray Kavukcuoglu)
+Copyright (c) 2011-2013 NYU                      (Clement Farabet)
+Copyright (c) 2006-2010 NEC Laboratories America (Ronan Collobert, Leon Bottou, Iain Melvin, Jason Weston)
+Copyright (c) 2006      Idiap Research Institute (Samy Bengio)
+Copyright (c) 2001-2004 Idiap Research Institute (Ronan Collobert, Samy Bengio, Johnny Mariethoz)
+Copyright (c) 2015      Google Inc.
+Copyright (c) 2015      Yangqing Jia
+Copyright (c) 2013-2016 The Caffe contributors
+All rights reserved.
+
+Various files include modifications (c) NVIDIA CORPORATION & AFFILIATES.  All rights reserved.
+
+GOVERNING TERMS: The software and materials are governed by the NVIDIA Software License Agreement
+(found at https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-software-license-agreement/)
+and the Product-Specific Terms for NVIDIA AI Products
+(found at https://www.nvidia.com/en-us/agreements/enterprise-software/product-specific-terms-for-ai-products/).
+
+NOTE: CUDA Forward Compatibility mode ENABLED.
+  Using CUDA 13.4 driver version 615.65.02 with kernel driver version 580.173.02.
+  See https://docs.nvidia.com/deploy/cuda-compatibility/ for details.
+
+[orig] round 10: a086e55b436d
+[orig] round 20: ff74fb726b13
+[orig] round 30: c4fa9a87415b
+[orig] round 40: ae6f00905a02
+[orig] round 50: 3fa3e5fa2b32
+[U0_A] round 10: a57e6a49b3a8
+[U0_A] round 20: 8b65d97c1a6f
+[U0_A] round 30: a8292a3091ed
+[U0_A] round 40: b520d181cd9c
+[U0_A] round 50: 877ce70744d7
+[U1_A] round 10: 8761ecb4c4d3
+[U1_A] round 20: c2a050d6ffd2
+[U1_A] round 30: 8638060171fe
+[U1_A] round 40: c97d41053cd6
+[U1_A] round 50: a9f12368965d
+A {"U1_equals_U0": false, "norm_scope_includes_subject": true}
+[U0_B] round 10: 0ebb9a12f6ea
+[U0_B] round 20: d9eb9a023a4e
+[U0_B] round 30: d7224245ba6d
+[U0_B] round 40: e4cc59827153
+[U0_B] round 50: 3eac9d0fa9e4
+[U1_B] round 10: 0ebb9a12f6ea
+[U1_B] round 20: d9eb9a023a4e
+[U1_B] round 30: d7224245ba6d
+[U1_B] round 40: e4cc59827153
+[U1_B] round 50: 3eac9d0fa9e4
+B {"U1_equals_U0": true, "norm_scope_includes_subject": false}
+{"orig": {"final_hash": "3fa3e5fa2b329146bfd6d7b27eef535a2739a056f041357134b6ffaf4c6d9872", "norm": {"mean": -0.0008258910562928652, "std": 0.23209589612421433, "scope_root": "bd2817d56c47bfb9a77847601b9c65331f26087756262199c8477d10fbe0d83e", "n": 17070}, "prog": "02bbc185703132f1722b7cc98eb755796e352576a849dc6d747021308bd6fc79", "test_macro_auc": 0.9315577243885892, "rejected": 0}, "tamper_T2_hidden": {"commit_accepted": "accepted", "tampered": true, "result": "불일치", "reason": "출력 불일치", "binding": "4972ab9146874f38ed4ff86e5c088589b9b2cf646b3534835f20a5b8c8962dd9"}}

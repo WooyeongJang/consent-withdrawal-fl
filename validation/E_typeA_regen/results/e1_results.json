@@ -1,0 +1,6736 @@
+{
+ "restarts": 0,
+ "seeds": {
+  "1": {
+   "contract": "0x874F2Fa575d87e8C6bFb889E5715e2f2818DC9Ad",
+   "assignment": {
+    "T1": [
+     "0",
+     14,
+     9827
+    ],
+    "T2a": [
+     "1",
+     32,
+     6651
+    ],
+    "T2b": [
+     "1",
+     8,
+     661
+    ],
+    "T3": [
+     "2",
+     20,
+     21555
+    ],
+    "T10": [
+     "0",
+     38,
+     14983
+    ]
+   },
+   "assignment_matches_chain": true,
+   "start_model_matches": true,
+   "h_out_matches": 50,
+   "first_mismatch_round": null,
+   "rejected": [
+    [
+     "1",
+     32
+    ],
+    [
+     "2",
+     20
+    ]
+   ],
+   "rejected_matches_chain": true,
+   "train_seconds": 86.6,
+   "norm": {
+    "mean": -0.0008255738933323695,
+    "std": 0.23210063658945243,
+    "scope_root": "64a50aaff5c4862fddf60240f2efa7da04346115c94c048ef0c028d5adb553f8",
+    "n": 17073
+   },
+   "units": {
+    "0:2": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:5": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "2:5": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:6": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "2:6": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:11": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "1:13": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:16": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:19": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:19": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "1:20": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:21": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "2:22": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.43
+    },
+    "2:23": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.43
+    },
+    "0:25": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "1:26": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:26": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:27": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "2:29": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.43
+    },
+    "1:30": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:32": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "0:33": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "2:33": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.43
+    },
+    "2:34": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.43
+    },
+    "2:36": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.43
+    },
+    "1:37": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:38": {
+     "result": "불일치",
+     "reason": "입력 재구성 실패",
+     "injected": "T10",
+     "seconds": 0.01
+    },
+    "2:38": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:41": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.43
+    },
+    "0:43": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "1:44": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:45": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "1:45": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:46": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.43
+    },
+    "0:47": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "2:47": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.43
+    },
+    "2:48": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.43
+    },
+    "0:50": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.75
+    }
+   },
+   "n_sampled": 38,
+   "honest_pass": 37,
+   "honest_n": 37,
+   "injected_mismatch": 1,
+   "injected_n": 1,
+   "injected_detail": {
+    "T10": [
+     "불일치",
+     "입력 재구성 실패"
+    ]
+   },
+   "done": true
+  },
+  "2": {
+   "contract": "0xF831be9774cb76ECb3e4Ac140463b01B5b2D7b2C",
+   "assignment": {
+    "T1": [
+     "1",
+     44,
+     7855
+    ],
+    "T2a": [
+     "2",
+     8,
+     17345
+    ],
+    "T2b": [
+     "1",
+     38,
+     2362
+    ],
+    "T3": [
+     "0",
+     32,
+     15683
+    ],
+    "T10": [
+     "0",
+     14,
+     19325
+    ]
+   },
+   "assignment_matches_chain": true,
+   "start_model_matches": true,
+   "h_out_matches": 50,
+   "first_mismatch_round": null,
+   "rejected": [
+    [
+     "0",
+     32
+    ],
+    [
+     "2",
+     8
+    ]
+   ],
+   "rejected_matches_chain": true,
+   "train_seconds": 86.4,
+   "norm": {
+    "mean": -0.0008255738933323695,
+    "std": 0.23210063658945243,
+    "scope_root": "64a50aaff5c4862fddf60240f2efa7da04346115c94c048ef0c028d5adb553f8",
+    "n": 17073
+   },
+   "units": {
+    "0:1": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "0:3": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:4": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "1:4": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:5": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:6": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:6": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:7": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:7": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:8": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "1:8": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "1:9": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "1:11": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:12": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:12": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:14": {
+     "result": "불일치",
+     "reason": "입력 재구성 실패",
+     "injected": "T10",
+     "seconds": 0.01
+    },
+    "2:14": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:15": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.43
+    },
+    "0:18": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "1:18": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:19": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:21": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:22": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.43
+    },
+    "0:24": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:24": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:24": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:25": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:25": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:26": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "1:26": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:26": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:27": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:28": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "0:30": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:30": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:31": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:32": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:34": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "0:35": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "0:36": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "2:36": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:37": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "2:37": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.43
+    },
+    "0:38": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "1:38": {
+     "result": "불일치",
+     "reason": "출력 불일치",
+     "injected": "T2b",
+     "seconds": 0.51
+    },
+    "1:39": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:42": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:42": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:43": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:44": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:44": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:45": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:46": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:46": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:47": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:47": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "1:48": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:49": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:49": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    }
+   },
+   "n_sampled": 59,
+   "honest_pass": 57,
+   "honest_n": 57,
+   "injected_mismatch": 2,
+   "injected_n": 2,
+   "injected_detail": {
+    "T10": [
+     "불일치",
+     "입력 재구성 실패"
+    ],
+    "T2b": [
+     "불일치",
+     "출력 불일치"
+    ]
+   },
+   "done": true
+  },
+  "3": {
+   "contract": "0xB00DF621b8368c56e73F89A50dED288499d9425c",
+   "assignment": {
+    "T1": [
+     "1",
+     14,
+     6420
+    ],
+    "T2a": [
+     "0",
+     32,
+     12727
+    ],
+    "T2b": [
+     "2",
+     38,
+     15032
+    ],
+    "T3": [
+     "0",
+     44,
+     12317
+    ],
+    "T10": [
+     "1",
+     26,
+     2794
+    ]
+   },
+   "assignment_matches_chain": true,
+   "start_model_matches": true,
+   "h_out_matches": 50,
+   "first_mismatch_round": null,
+   "rejected": [
+    [
+     "0",
+     32
+    ],
+    [
+     "0",
+     44
+    ]
+   ],
+   "rejected_matches_chain": true,
+   "train_seconds": 86.8,
+   "norm": {
+    "mean": -0.0008255738933323695,
+    "std": 0.23210063658945243,
+    "scope_root": "64a50aaff5c4862fddf60240f2efa7da04346115c94c048ef0c028d5adb553f8",
+    "n": 17073
+   },
+   "units": {
+    "1:1": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:1": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:2": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:4": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:9": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:12": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:13": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:14": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:15": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.78
+    },
+    "1:18": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:19": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:19": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:20": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:21": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "1:22": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:22": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:23": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:27": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:27": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:29": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:32": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:32": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.45
+    },
+    "0:33": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:33": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:35": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.45
+    },
+    "2:37": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.45
+    },
+    "1:38": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "1:39": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "1:40": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:41": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:41": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:43": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:45": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:46": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:46": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:49": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    }
+   },
+   "n_sampled": 36,
+   "honest_pass": 36,
+   "honest_n": 36,
+   "injected_mismatch": 0,
+   "injected_n": 0,
+   "injected_detail": {},
+   "done": true
+  },
+  "4": {
+   "contract": "0xae30E2dECDb2A548425B4850714fa38DC78adD08",
+   "assignment": {
+    "T1": [
+     "1",
+     14,
+     7436
+    ],
+    "T2a": [
+     "0",
+     20,
+     13323
+    ],
+    "T2b": [
+     "0",
+     8,
+     21755
+    ],
+    "T3": [
+     "2",
+     26,
+     3260
+    ],
+    "T10": [
+     "1",
+     44,
+     3178
+    ]
+   },
+   "assignment_matches_chain": true,
+   "start_model_matches": true,
+   "h_out_matches": 50,
+   "first_mismatch_round": null,
+   "rejected": [
+    [
+     "0",
+     20
+    ],
+    [
+     "2",
+     26
+    ]
+   ],
+   "rejected_matches_chain": true,
+   "train_seconds": 87.0,
+   "norm": {
+    "mean": -0.0008255738933323695,
+    "std": 0.23210063658945243,
+    "scope_root": "64a50aaff5c4862fddf60240f2efa7da04346115c94c048ef0c028d5adb553f8",
+    "n": 17073
+   },
+   "units": {
+    "2:1": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:4": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:4": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:4": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:6": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:6": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:7": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:7": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:9": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:10": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "2:10": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:11": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:11": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:12": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:13": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "1:13": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:13": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:16": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:16": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:17": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:17": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:19": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:22": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:25": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:27": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:27": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:28": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:28": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:28": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:29": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "2:31": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:34": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:35": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:35": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:36": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "2:37": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:38": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:39": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:40": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:40": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:42": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:42": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "1:43": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "1:44": {
+     "result": "불일치",
+     "reason": "입력 재구성 실패",
+     "injected": "T10",
+     "seconds": 0.01
+    },
+    "1:45": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:45": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:46": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:47": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:48": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:49": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:50": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    }
+   },
+   "n_sampled": 51,
+   "honest_pass": 50,
+   "honest_n": 50,
+   "injected_mismatch": 1,
+   "injected_n": 1,
+   "injected_detail": {
+    "T10": [
+     "불일치",
+     "입력 재구성 실패"
+    ]
+   },
+   "done": true
+  },
+  "5": {
+   "contract": "0x053C8B1ABFe2c6a20DeC444CdfAD4A3E5b18cfd1",
+   "assignment": {
+    "T1": [
+     "1",
+     32,
+     6418
+    ],
+    "T2a": [
+     "0",
+     20,
+     12541
+    ],
+    "T2b": [
+     "0",
+     38,
+     14812
+    ],
+    "T3": [
+     "2",
+     8,
+     14836
+    ],
+    "T10": [
+     "1",
+     14,
+     1624
+    ]
+   },
+   "assignment_matches_chain": true,
+   "start_model_matches": true,
+   "h_out_matches": 50,
+   "first_mismatch_round": null,
+   "rejected": [
+    [
+     "0",
+     20
+    ],
+    [
+     "2",
+     8
+    ]
+   ],
+   "rejected_matches_chain": true,
+   "train_seconds": 86.5,
+   "norm": {
+    "mean": -0.0008255738933323695,
+    "std": 0.23210063658945243,
+    "scope_root": "64a50aaff5c4862fddf60240f2efa7da04346115c94c048ef0c028d5adb553f8",
+    "n": 17073
+   },
+   "units": {
+    "0:1": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:2": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:3": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:3": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:4": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "1:7": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:7": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:8": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:9": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:10": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:11": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:11": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:12": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:12": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:13": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:13": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:14": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:15": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:17": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:17": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:17": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.45
+    },
+    "2:18": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:19": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:20": {
+     "result": "불일치",
+     "reason": "입력 재구성 실패",
+     "injected": "T2a",
+     "seconds": 0.01
+    },
+    "1:20": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:20": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:22": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:22": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:23": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:24": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:25": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:27": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:27": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:29": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:30": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:32": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:33": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:35": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:35": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:35": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:36": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:38": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:39": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:41": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:47": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:48": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:48": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "1:49": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:49": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.45
+    },
+    "2:50": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    }
+   },
+   "n_sampled": 50,
+   "honest_pass": 49,
+   "honest_n": 49,
+   "injected_mismatch": 1,
+   "injected_n": 1,
+   "injected_detail": {
+    "T2a": [
+     "불일치",
+     "입력 재구성 실패"
+    ]
+   },
+   "done": true
+  },
+  "6": {
+   "contract": "0x18F4AA04486460e6A3D1d866600e5369c810eD39",
+   "assignment": {
+    "T1": [
+     "0",
+     44,
+     13945
+    ],
+    "T2a": [
+     "1",
+     32,
+     576
+    ],
+    "T2b": [
+     "0",
+     8,
+     12948
+    ],
+    "T3": [
+     "1",
+     26,
+     6663
+    ],
+    "T10": [
+     "2",
+     14,
+     19837
+    ]
+   },
+   "assignment_matches_chain": true,
+   "start_model_matches": true,
+   "h_out_matches": 50,
+   "first_mismatch_round": null,
+   "rejected": [
+    [
+     "1",
+     26
+    ],
+    [
+     "1",
+     32
+    ]
+   ],
+   "rejected_matches_chain": true,
+   "train_seconds": 86.8,
+   "norm": {
+    "mean": -0.0008255738933323695,
+    "std": 0.23210063658945243,
+    "scope_root": "64a50aaff5c4862fddf60240f2efa7da04346115c94c048ef0c028d5adb553f8",
+    "n": 17073
+   },
+   "units": {
+    "2:1": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:2": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:2": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.45
+    },
+    "1:4": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:5": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.43
+    },
+    "2:7": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:9": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:10": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:10": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "1:11": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:11": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:12": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:14": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:15": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:16": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:16": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:16": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:19": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:21": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:22": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:22": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:24": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:24": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:25": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:26": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:26": {
+     "result": "불일치",
+     "reason": "입력 재구성 실패",
+     "injected": "T3",
+     "seconds": 0.01
+    },
+    "0:27": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:28": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.45
+    },
+    "2:30": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:31": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:32": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:32": {
+     "result": "불일치",
+     "reason": "입력 재구성 실패",
+     "injected": "T2a",
+     "seconds": 0.01
+    },
+    "1:33": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "1:34": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:34": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.45
+    },
+    "2:35": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:37": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:37": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "1:38": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:38": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.45
+    },
+    "0:40": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:40": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:42": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:42": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:44": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:44": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:46": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "1:46": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "1:47": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:48": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "1:49": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:49": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    }
+   },
+   "n_sampled": 52,
+   "honest_pass": 50,
+   "honest_n": 50,
+   "injected_mismatch": 2,
+   "injected_n": 2,
+   "injected_detail": {
+    "T3": [
+     "불일치",
+     "입력 재구성 실패"
+    ],
+    "T2a": [
+     "불일치",
+     "입력 재구성 실패"
+    ]
+   },
+   "done": true
+  },
+  "7": {
+   "contract": "0x2E08F8669410EA4e21Fb2f6AfceCC13eE755d07D",
+   "assignment": {
+    "T1": [
+     "1",
+     20,
+     780
+    ],
+    "T2a": [
+     "0",
+     14,
+     9650
+    ],
+    "T2b": [
+     "1",
+     26,
+     5940
+    ],
+    "T3": [
+     "0",
+     8,
+     15448
+    ],
+    "T10": [
+     "2",
+     32,
+     3711
+    ]
+   },
+   "assignment_matches_chain": true,
+   "start_model_matches": true,
+   "h_out_matches": 50,
+   "first_mismatch_round": null,
+   "rejected": [
+    [
+     "0",
+     8
+    ],
+    [
+     "0",
+     14
+    ]
+   ],
+   "rejected_matches_chain": true,
+   "train_seconds": 86.6,
+   "norm": {
+    "mean": -0.0008255738933323695,
+    "std": 0.23210063658945243,
+    "scope_root": "64a50aaff5c4862fddf60240f2efa7da04346115c94c048ef0c028d5adb553f8",
+    "n": 17073
+   },
+   "units": {
+    "0:2": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "2:2": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:3": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.78
+    },
+    "2:5": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.45
+    },
+    "1:7": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:10": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.43
+    },
+    "1:11": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:12": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:16": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:16": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:17": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:20": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:21": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:21": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:21": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:22": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:22": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:24": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:24": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:26": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:27": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:28": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:29": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:31": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:32": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:32": {
+     "result": "불일치",
+     "reason": "입력 재구성 실패",
+     "injected": "T10",
+     "seconds": 0.01
+    },
+    "1:33": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:35": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.43
+    },
+    "1:38": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:39": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:39": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:41": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:41": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:42": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "2:42": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:43": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:46": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:46": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:48": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "2:48": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:49": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    }
+   },
+   "n_sampled": 41,
+   "honest_pass": 40,
+   "honest_n": 40,
+   "injected_mismatch": 1,
+   "injected_n": 1,
+   "injected_detail": {
+    "T10": [
+     "불일치",
+     "입력 재구성 실패"
+    ]
+   },
+   "done": true
+  },
+  "8": {
+   "contract": "0x6bE2896FEB4b9D37a111D06a31a96e5d94264baB",
+   "assignment": {
+    "T1": [
+     "0",
+     14,
+     15159
+    ],
+    "T2a": [
+     "1",
+     20,
+     690
+    ],
+    "T2b": [
+     "0",
+     26,
+     16189
+    ],
+    "T3": [
+     "2",
+     44,
+     13550
+    ],
+    "T10": [
+     "1",
+     8,
+     6214
+    ]
+   },
+   "assignment_matches_chain": true,
+   "start_model_matches": true,
+   "h_out_matches": 50,
+   "first_mismatch_round": null,
+   "rejected": [
+    [
+     "1",
+     20
+    ],
+    [
+     "2",
+     44
+    ]
+   ],
+   "rejected_matches_chain": true,
+   "train_seconds": 86.4,
+   "norm": {
+    "mean": -0.0008255738933323695,
+    "std": 0.23210063658945243,
+    "scope_root": "64a50aaff5c4862fddf60240f2efa7da04346115c94c048ef0c028d5adb553f8",
+    "n": 17073
+   },
+   "units": {
+    "2:1": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.43
+    },
+    "0:2": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:4": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:4": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:5": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:5": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.45
+    },
+    "1:7": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:7": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:8": {
+     "result": "불일치",
+     "reason": "입력 재구성 실패",
+     "injected": "T10",
+     "seconds": 0.01
+    },
+    "0:10": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "1:10": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "1:12": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:13": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:14": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "1:14": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:15": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:17": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:17": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:17": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:18": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.78
+    },
+    "2:18": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:19": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:20": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:20": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:21": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "1:23": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "1:24": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:24": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:26": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:27": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "1:28": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "1:29": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:29": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.43
+    },
+    "1:30": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:30": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.43
+    },
+    "1:31": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:32": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "2:33": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.43
+    },
+    "0:34": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "1:34": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "1:35": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:37": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:41": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:41": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:41": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.45
+    },
+    "0:43": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:44": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:45": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:46": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:46": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:47": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "1:48": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:48": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:50": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    }
+   },
+   "n_sampled": 54,
+   "honest_pass": 53,
+   "honest_n": 53,
+   "injected_mismatch": 1,
+   "injected_n": 1,
+   "injected_detail": {
+    "T10": [
+     "불일치",
+     "입력 재구성 실패"
+    ]
+   },
+   "done": true
+  },
+  "9": {
+   "contract": "0x3573cFc20a3Fad8D7A6b7570ad00A4B19805f3ED",
+   "assignment": {
+    "T1": [
+     "1",
+     26,
+     4650
+    ],
+    "T2a": [
+     "0",
+     32,
+     17932
+    ],
+    "T2b": [
+     "1",
+     20,
+     816
+    ],
+    "T3": [
+     "2",
+     38,
+     18336
+    ],
+    "T10": [
+     "0",
+     8,
+     14786
+    ]
+   },
+   "assignment_matches_chain": true,
+   "start_model_matches": true,
+   "h_out_matches": 50,
+   "first_mismatch_round": null,
+   "rejected": [
+    [
+     "0",
+     32
+    ],
+    [
+     "2",
+     38
+    ]
+   ],
+   "rejected_matches_chain": true,
+   "train_seconds": 86.2,
+   "norm": {
+    "mean": -0.0008255738933323695,
+    "std": 0.23210063658945243,
+    "scope_root": "64a50aaff5c4862fddf60240f2efa7da04346115c94c048ef0c028d5adb553f8",
+    "n": 17073
+   },
+   "units": {
+    "1:4": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:5": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:6": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "2:6": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:10": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.43
+    },
+    "0:12": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "2:12": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.43
+    },
+    "2:13": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.43
+    },
+    "0:15": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:15": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.5
+    },
+    "0:16": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "1:17": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "1:18": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:19": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.43
+    },
+    "0:20": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "0:22": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "2:22": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:23": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "1:25": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:25": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:26": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:26": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:26": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:29": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:29": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:31": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:31": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:32": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:33": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:34": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:34": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:36": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:36": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:40": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:42": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:43": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:43": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:44": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.43
+    },
+    "1:46": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:46": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:48": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "1:48": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:49": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    }
+   },
+   "n_sampled": 43,
+   "honest_pass": 43,
+   "honest_n": 43,
+   "injected_mismatch": 0,
+   "injected_n": 0,
+   "injected_detail": {},
+   "done": true
+  },
+  "10": {
+   "contract": "0xC85a5fb4EE7de3Ff9f2B40d6406Da40539710C18",
+   "assignment": {
+    "T1": [
+     "0",
+     32,
+     19646
+    ],
+    "T2a": [
+     "1",
+     8,
+     2383
+    ],
+    "T2b": [
+     "0",
+     26,
+     8647
+    ],
+    "T3": [
+     "2",
+     44,
+     14128
+    ],
+    "T10": [
+     "1",
+     20,
+     6678
+    ]
+   },
+   "assignment_matches_chain": true,
+   "start_model_matches": true,
+   "h_out_matches": 50,
+   "first_mismatch_round": null,
+   "rejected": [
+    [
+     "1",
+     8
+    ],
+    [
+     "2",
+     44
+    ]
+   ],
+   "rejected_matches_chain": true,
+   "train_seconds": 86.7,
+   "norm": {
+    "mean": -0.0008255738933323695,
+    "std": 0.23210063658945243,
+    "scope_root": "64a50aaff5c4862fddf60240f2efa7da04346115c94c048ef0c028d5adb553f8",
+    "n": 17073
+   },
+   "units": {
+    "0:1": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:3": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:3": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.43
+    },
+    "1:5": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "1:6": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:7": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:9": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:9": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:11": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.45
+    },
+    "0:13": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:13": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:16": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:17": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:19": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:19": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "1:20": {
+     "result": "불일치",
+     "reason": "입력 재구성 실패",
+     "injected": "T10",
+     "seconds": 0.01
+    },
+    "0:22": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:23": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:25": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:26": {
+     "result": "불일치",
+     "reason": "출력 불일치",
+     "injected": "T2b",
+     "seconds": 0.77
+    },
+    "1:29": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:29": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:30": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "2:30": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:31": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "1:33": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:34": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:34": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:37": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:38": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "1:38": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:38": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:39": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "1:41": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:42": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:42": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "1:43": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:43": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:45": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "1:45": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "1:46": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "1:48": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    }
+   },
+   "n_sampled": 42,
+   "honest_pass": 40,
+   "honest_n": 40,
+   "injected_mismatch": 2,
+   "injected_n": 2,
+   "injected_detail": {
+    "T10": [
+     "불일치",
+     "입력 재구성 실패"
+    ],
+    "T2b": [
+     "불일치",
+     "출력 불일치"
+    ]
+   },
+   "done": true
+  },
+  "11": {
+   "contract": "0x4714bE6B06a452C6c49367DA4A294B443AcA86Fe",
+   "assignment": {
+    "T1": [
+     "1",
+     26,
+     1528
+    ],
+    "T2a": [
+     "1",
+     32,
+     6127
+    ],
+    "T2b": [
+     "0",
+     44,
+     13603
+    ],
+    "T3": [
+     "0",
+     38,
+     10651
+    ],
+    "T10": [
+     "2",
+     20,
+     4673
+    ]
+   },
+   "assignment_matches_chain": true,
+   "start_model_matches": true,
+   "h_out_matches": 50,
+   "first_mismatch_round": null,
+   "rejected": [
+    [
+     "0",
+     38
+    ],
+    [
+     "1",
+     32
+    ]
+   ],
+   "rejected_matches_chain": true,
+   "train_seconds": 86.9,
+   "norm": {
+    "mean": -0.0008255738933323695,
+    "std": 0.23210063658945243,
+    "scope_root": "64a50aaff5c4862fddf60240f2efa7da04346115c94c048ef0c028d5adb553f8",
+    "n": 17073
+   },
+   "units": {
+    "0:1": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:1": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:2": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:3": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:4": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "1:6": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:8": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "2:9": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:10": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:12": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:13": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:13": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:15": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:16": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:19": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:20": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:20": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:20": {
+     "result": "불일치",
+     "reason": "입력 재구성 실패",
+     "injected": "T10",
+     "seconds": 0.01
+    },
+    "1:22": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:24": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:25": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:25": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:26": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "1:27": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:27": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:28": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:29": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:29": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:30": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:31": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:32": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.45
+    },
+    "0:33": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:33": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:34": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:35": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "1:35": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "1:38": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:38": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.45
+    },
+    "0:39": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:39": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:42": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:42": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:43": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:45": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:46": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:47": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "0:49": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:50": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    }
+   },
+   "n_sampled": 48,
+   "honest_pass": 47,
+   "honest_n": 47,
+   "injected_mismatch": 1,
+   "injected_n": 1,
+   "injected_detail": {
+    "T10": [
+     "불일치",
+     "입력 재구성 실패"
+    ]
+   },
+   "done": true
+  },
+  "12": {
+   "contract": "0x183BbB068D5FA34cf15c9125302C404833920249",
+   "assignment": {
+    "T1": [
+     "0",
+     26,
+     19426
+    ],
+    "T2a": [
+     "0",
+     20,
+     16203
+    ],
+    "T2b": [
+     "1",
+     32,
+     3253
+    ],
+    "T3": [
+     "2",
+     38,
+     15166
+    ],
+    "T10": [
+     "1",
+     8,
+     323
+    ]
+   },
+   "assignment_matches_chain": true,
+   "start_model_matches": true,
+   "h_out_matches": 50,
+   "first_mismatch_round": null,
+   "rejected": [
+    [
+     "0",
+     20
+    ],
+    [
+     "2",
+     38
+    ]
+   ],
+   "rejected_matches_chain": true,
+   "train_seconds": 86.8,
+   "norm": {
+    "mean": -0.0008255738933323695,
+    "std": 0.23210063658945243,
+    "scope_root": "64a50aaff5c4862fddf60240f2efa7da04346115c94c048ef0c028d5adb553f8",
+    "n": 17073
+   },
+   "units": {
+    "0:1": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:2": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:3": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:4": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:5": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:8": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "1:9": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:10": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:10": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "1:12": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:13": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:15": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:15": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:16": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "0:17": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:19": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:22": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "1:23": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:24": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:24": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:25": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:25": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:26": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:28": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:28": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:29": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "1:31": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:31": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:41": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.43
+    },
+    "1:42": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:42": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:43": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:44": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:44": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:47": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:49": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:50": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:50": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    }
+   },
+   "n_sampled": 38,
+   "honest_pass": 38,
+   "honest_n": 38,
+   "injected_mismatch": 0,
+   "injected_n": 0,
+   "injected_detail": {},
+   "done": true
+  },
+  "13": {
+   "contract": "0x9964554EAb9516c599A9E82162a7d03Ec9A11b39",
+   "assignment": {
+    "T1": [
+     "1",
+     20,
+     1214
+    ],
+    "T2a": [
+     "1",
+     44,
+     7204
+    ],
+    "T2b": [
+     "2",
+     14,
+     20674
+    ],
+    "T3": [
+     "0",
+     32,
+     11919
+    ],
+    "T10": [
+     "0",
+     38,
+     21402
+    ]
+   },
+   "assignment_matches_chain": true,
+   "start_model_matches": true,
+   "h_out_matches": 50,
+   "first_mismatch_round": null,
+   "rejected": [
+    [
+     "0",
+     32
+    ],
+    [
+     "1",
+     44
+    ]
+   ],
+   "rejected_matches_chain": true,
+   "train_seconds": 87.1,
+   "norm": {
+    "mean": -0.0008255738933323695,
+    "std": 0.23210063658945243,
+    "scope_root": "64a50aaff5c4862fddf60240f2efa7da04346115c94c048ef0c028d5adb553f8",
+    "n": 17073
+   },
+   "units": {
+    "0:1": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:1": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:2": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:3": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:4": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:4": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:6": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:7": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:7": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:7": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:10": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:12": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:12": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:15": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:16": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:17": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:19": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:20": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:21": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:25": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:27": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:28": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.45
+    },
+    "2:29": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.45
+    },
+    "0:30": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:30": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.45
+    },
+    "0:32": {
+     "result": "불일치",
+     "reason": "입력 재구성 실패",
+     "injected": "T3",
+     "seconds": 0.01
+    },
+    "2:33": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:34": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:35": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:36": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:38": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:39": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:41": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:41": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.45
+    },
+    "1:44": {
+     "result": "불일치",
+     "reason": "입력 재구성 실패",
+     "injected": "T2a",
+     "seconds": 0.01
+    },
+    "2:44": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:48": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    }
+   },
+   "n_sampled": 37,
+   "honest_pass": 35,
+   "honest_n": 35,
+   "injected_mismatch": 2,
+   "injected_n": 2,
+   "injected_detail": {
+    "T3": [
+     "불일치",
+     "입력 재구성 실패"
+    ],
+    "T2a": [
+     "불일치",
+     "입력 재구성 실패"
+    ]
+   },
+   "done": true
+  },
+  "14": {
+   "contract": "0x005B7D1E538E61C386aca4E4e66Fd3FB682d09d0",
+   "assignment": {
+    "T1": [
+     "2",
+     8,
+     10225
+    ],
+    "T2a": [
+     "1",
+     32,
+     6387
+    ],
+    "T2b": [
+     "0",
+     38,
+     20218
+    ],
+    "T3": [
+     "0",
+     14,
+     15098
+    ],
+    "T10": [
+     "1",
+     26,
+     5444
+    ]
+   },
+   "assignment_matches_chain": true,
+   "start_model_matches": true,
+   "h_out_matches": 50,
+   "first_mismatch_round": null,
+   "rejected": [
+    [
+     "0",
+     14
+    ],
+    [
+     "1",
+     32
+    ]
+   ],
+   "rejected_matches_chain": true,
+   "train_seconds": 87.0,
+   "norm": {
+    "mean": -0.0008255738933323695,
+    "std": 0.23210063658945243,
+    "scope_root": "64a50aaff5c4862fddf60240f2efa7da04346115c94c048ef0c028d5adb553f8",
+    "n": 17073
+   },
+   "units": {
+    "0:1": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:2": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "1:3": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:3": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:4": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:4": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "1:5": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:5": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.45
+    },
+    "2:6": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:7": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:8": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:9": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:9": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "1:10": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "1:11": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:12": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:12": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:13": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:13": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:14": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:15": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:17": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:17": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:18": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:19": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:19": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:21": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:21": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "1:22": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:23": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:25": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "1:26": {
+     "result": "불일치",
+     "reason": "입력 재구성 실패",
+     "injected": "T10",
+     "seconds": 0.01
+    },
+    "0:27": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:29": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:33": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "1:34": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:36": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:36": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "1:37": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:38": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:40": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:40": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:41": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:42": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:42": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:43": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:44": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:44": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:46": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:47": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:47": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    }
+   },
+   "n_sampled": 51,
+   "honest_pass": 50,
+   "honest_n": 50,
+   "injected_mismatch": 1,
+   "injected_n": 1,
+   "injected_detail": {
+    "T10": [
+     "불일치",
+     "입력 재구성 실패"
+    ]
+   },
+   "done": true
+  },
+  "15": {
+   "contract": "0x0DCd758174248Ac6D221b78C9302167eb9e65F2b",
+   "assignment": {
+    "T1": [
+     "1",
+     14,
+     3417
+    ],
+    "T2a": [
+     "0",
+     8,
+     10221
+    ],
+    "T2b": [
+     "0",
+     32,
+     14236
+    ],
+    "T3": [
+     "2",
+     38,
+     13201
+    ],
+    "T10": [
+     "1",
+     26,
+     4930
+    ]
+   },
+   "assignment_matches_chain": true,
+   "start_model_matches": true,
+   "h_out_matches": 50,
+   "first_mismatch_round": null,
+   "rejected": [
+    [
+     "0",
+     8
+    ],
+    [
+     "2",
+     38
+    ]
+   ],
+   "rejected_matches_chain": true,
+   "train_seconds": 87.3,
+   "norm": {
+    "mean": -0.0008255738933323695,
+    "std": 0.23210063658945243,
+    "scope_root": "64a50aaff5c4862fddf60240f2efa7da04346115c94c048ef0c028d5adb553f8",
+    "n": 17073
+   },
+   "units": {
+    "0:1": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:1": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:3": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:4": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:6": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:9": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:11": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:11": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:13": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:15": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.45
+    },
+    "2:16": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:22": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:23": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.78
+    },
+    "0:25": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:25": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:25": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:26": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:27": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:28": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:29": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:30": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:30": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:32": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.45
+    },
+    "0:36": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:40": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:41": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:41": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:43": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:45": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.45
+    },
+    "1:46": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:47": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:47": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:50": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    }
+   },
+   "n_sampled": 33,
+   "honest_pass": 33,
+   "honest_n": 33,
+   "injected_mismatch": 0,
+   "injected_n": 0,
+   "injected_detail": {},
+   "done": true
+  },
+  "16": {
+   "contract": "0x439eB7509beE20E7A81c2976A4b1e001fb10321c",
+   "assignment": {
+    "T1": [
+     "1",
+     20,
+     3394
+    ],
+    "T2a": [
+     "0",
+     26,
+     19275
+    ],
+    "T2b": [
+     "0",
+     38,
+     12112
+    ],
+    "T3": [
+     "1",
+     44,
+     429
+    ],
+    "T10": [
+     "2",
+     14,
+     10069
+    ]
+   },
+   "assignment_matches_chain": true,
+   "start_model_matches": true,
+   "h_out_matches": 50,
+   "first_mismatch_round": null,
+   "rejected": [
+    [
+     "0",
+     26
+    ],
+    [
+     "1",
+     44
+    ]
+   ],
+   "rejected_matches_chain": true,
+   "train_seconds": 87.1,
+   "norm": {
+    "mean": -0.0008255738933323695,
+    "std": 0.23210063658945243,
+    "scope_root": "64a50aaff5c4862fddf60240f2efa7da04346115c94c048ef0c028d5adb553f8",
+    "n": 17073
+   },
+   "units": {
+    "0:1": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:3": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:3": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:3": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:4": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:5": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:7": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:9": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:9": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:11": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:12": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:13": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:16": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:18": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:19": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "1:22": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:22": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:23": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:27": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:27": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:28": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:28": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:29": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:29": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:30": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:31": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:32": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:33": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:33": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:34": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:35": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:38": {
+     "result": "불일치",
+     "reason": "출력 불일치",
+     "injected": "T2b",
+     "seconds": 0.77
+    },
+    "0:39": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:39": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:40": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.78
+    },
+    "1:40": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "1:41": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:42": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:45": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:46": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:47": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    }
+   },
+   "n_sampled": 41,
+   "honest_pass": 40,
+   "honest_n": 40,
+   "injected_mismatch": 1,
+   "injected_n": 1,
+   "injected_detail": {
+    "T2b": [
+     "불일치",
+     "출력 불일치"
+    ]
+   },
+   "done": true
+  },
+  "17": {
+   "contract": "0xC4326a8DC2f8BAdfaCE13d8A7CF3671eaf8142D1",
+   "assignment": {
+    "T1": [
+     "1",
+     32,
+     5326
+    ],
+    "T2a": [
+     "2",
+     26,
+     20071
+    ],
+    "T2b": [
+     "0",
+     20,
+     21427
+    ],
+    "T3": [
+     "0",
+     44,
+     15461
+    ],
+    "T10": [
+     "1",
+     14,
+     3584
+    ]
+   },
+   "assignment_matches_chain": true,
+   "start_model_matches": true,
+   "h_out_matches": 50,
+   "first_mismatch_round": null,
+   "rejected": [
+    [
+     "0",
+     44
+    ],
+    [
+     "2",
+     26
+    ]
+   ],
+   "rejected_matches_chain": true,
+   "train_seconds": 87.0,
+   "norm": {
+    "mean": -0.0008255738933323695,
+    "std": 0.23210063658945243,
+    "scope_root": "64a50aaff5c4862fddf60240f2efa7da04346115c94c048ef0c028d5adb553f8",
+    "n": 17073
+   },
+   "units": {
+    "0:1": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:2": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:2": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:3": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:4": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:4": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "1:5": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:6": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:7": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:8": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:9": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "1:9": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:9": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:10": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:10": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:10": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:11": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:12": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:14": {
+     "result": "불일치",
+     "reason": "입력 재구성 실패",
+     "injected": "T10",
+     "seconds": 0.01
+    },
+    "2:14": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:15": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "1:15": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:15": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.43
+    },
+    "2:16": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:17": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:18": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:19": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:20": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "1:21": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:21": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:23": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:23": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:24": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:26": {
+     "result": "불일치",
+     "reason": "입력 재구성 실패",
+     "injected": "T2a",
+     "seconds": 0.01
+    },
+    "0:29": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:30": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:31": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:32": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:34": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:36": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:36": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:36": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:38": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:40": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:42": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:44": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:45": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:45": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:45": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:46": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:49": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.45
+    },
+    "0:50": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    }
+   },
+   "n_sampled": 52,
+   "honest_pass": 50,
+   "honest_n": 50,
+   "injected_mismatch": 2,
+   "injected_n": 2,
+   "injected_detail": {
+    "T10": [
+     "불일치",
+     "입력 재구성 실패"
+    ],
+    "T2a": [
+     "불일치",
+     "입력 재구성 실패"
+    ]
+   },
+   "done": true
+  },
+  "18": {
+   "contract": "0x3C7197fcFDAF3a98b5D955C05db6B3e18b607878",
+   "assignment": {
+    "T1": [
+     "1",
+     14,
+     6549
+    ],
+    "T2a": [
+     "0",
+     8,
+     13431
+    ],
+    "T2b": [
+     "2",
+     26,
+     13075
+    ],
+    "T3": [
+     "1",
+     20,
+     3738
+    ],
+    "T10": [
+     "0",
+     38,
+     11606
+    ]
+   },
+   "assignment_matches_chain": true,
+   "start_model_matches": true,
+   "h_out_matches": 50,
+   "first_mismatch_round": null,
+   "rejected": [
+    [
+     "0",
+     8
+    ],
+    [
+     "1",
+     20
+    ]
+   ],
+   "rejected_matches_chain": true,
+   "train_seconds": 87.4,
+   "norm": {
+    "mean": -0.0008255738933323695,
+    "std": 0.23210063658945243,
+    "scope_root": "64a50aaff5c4862fddf60240f2efa7da04346115c94c048ef0c028d5adb553f8",
+    "n": 17073
+   },
+   "units": {
+    "1:2": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:2": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.45
+    },
+    "0:3": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.78
+    },
+    "1:5": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:6": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:6": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:8": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:10": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:11": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:11": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:11": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.45
+    },
+    "0:12": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:12": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "1:13": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "1:15": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:16": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:17": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:17": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:19": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:20": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.78
+    },
+    "1:20": {
+     "result": "불일치",
+     "reason": "입력 재구성 실패",
+     "injected": "T3",
+     "seconds": 0.01
+    },
+    "2:21": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:22": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:23": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:24": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:25": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:27": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:31": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:33": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:33": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "1:34": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:34": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:36": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:38": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:39": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:39": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:39": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.45
+    },
+    "2:43": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.45
+    },
+    "0:44": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:47": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "1:48": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "1:49": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:50": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    }
+   },
+   "n_sampled": 43,
+   "honest_pass": 42,
+   "honest_n": 42,
+   "injected_mismatch": 1,
+   "injected_n": 1,
+   "injected_detail": {
+    "T3": [
+     "불일치",
+     "입력 재구성 실패"
+    ]
+   },
+   "done": true
+  },
+  "19": {
+   "contract": "0xB47145FE30a498702b8e6f973A3Cc6c4cbB5b387",
+   "assignment": {
+    "T1": [
+     "1",
+     38,
+     3689
+    ],
+    "T2a": [
+     "0",
+     8,
+     10084
+    ],
+    "T2b": [
+     "1",
+     32,
+     3681
+    ],
+    "T3": [
+     "2",
+     44,
+     12206
+    ],
+    "T10": [
+     "0",
+     20,
+     14066
+    ]
+   },
+   "assignment_matches_chain": true,
+   "start_model_matches": true,
+   "h_out_matches": 50,
+   "first_mismatch_round": null,
+   "rejected": [
+    [
+     "0",
+     8
+    ],
+    [
+     "2",
+     44
+    ]
+   ],
+   "rejected_matches_chain": true,
+   "train_seconds": 87.5,
+   "norm": {
+    "mean": -0.0008255738933323695,
+    "std": 0.23210063658945243,
+    "scope_root": "64a50aaff5c4862fddf60240f2efa7da04346115c94c048ef0c028d5adb553f8",
+    "n": 17073
+   },
+   "units": {
+    "0:2": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:3": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:7": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:9": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:10": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:12": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:12": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:17": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:17": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:18": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.76
+    },
+    "2:18": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:21": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:23": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.45
+    },
+    "1:24": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:24": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.45
+    },
+    "2:25": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:26": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "1:29": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:30": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.45
+    },
+    "1:31": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:33": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:34": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:36": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:36": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:36": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:38": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:38": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:38": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.45
+    },
+    "2:39": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:42": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:42": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:43": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:43": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:43": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.45
+    },
+    "1:44": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:45": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:46": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:46": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:48": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    }
+   },
+   "n_sampled": 39,
+   "honest_pass": 39,
+   "honest_n": 39,
+   "injected_mismatch": 0,
+   "injected_n": 0,
+   "injected_detail": {},
+   "done": true
+  },
+  "20": {
+   "contract": "0xb95733f7ea147094e8DbE7db3052Ef6197795b79",
+   "assignment": {
+    "T1": [
+     "0",
+     38,
+     15339
+    ],
+    "T2a": [
+     "2",
+     44,
+     12115
+    ],
+    "T2b": [
+     "0",
+     14,
+     9390
+    ],
+    "T3": [
+     "1",
+     20,
+     1637
+    ],
+    "T10": [
+     "1",
+     26,
+     1928
+    ]
+   },
+   "assignment_matches_chain": true,
+   "start_model_matches": true,
+   "h_out_matches": 50,
+   "first_mismatch_round": null,
+   "rejected": [
+    [
+     "1",
+     20
+    ],
+    [
+     "2",
+     44
+    ]
+   ],
+   "rejected_matches_chain": true,
+   "train_seconds": 87.4,
+   "norm": {
+    "mean": -0.0008255738933323695,
+    "std": 0.23210063658945243,
+    "scope_root": "64a50aaff5c4862fddf60240f2efa7da04346115c94c048ef0c028d5adb553f8",
+    "n": 17073
+   },
+   "units": {
+    "0:1": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:4": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:5": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:6": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:7": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:7": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:9": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:9": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:10": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.78
+    },
+    "1:10": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "0:11": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:12": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "1:13": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:13": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:14": {
+     "result": "불일치",
+     "reason": "출력 불일치",
+     "injected": "T2b",
+     "seconds": 0.77
+    },
+    "0:15": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.78
+    },
+    "1:15": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "1:16": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:17": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:17": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:18": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:19": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:20": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:20": {
+     "result": "불일치",
+     "reason": "입력 재구성 실패",
+     "injected": "T3",
+     "seconds": 0.01
+    },
+    "0:24": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.78
+    },
+    "1:24": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:24": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.45
+    },
+    "0:25": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:25": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:27": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:29": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "0:32": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.78
+    },
+    "1:32": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:33": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:34": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:35": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:37": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:40": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "1:41": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "1:42": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:42": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "0:43": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:44": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.52
+    },
+    "2:44": {
+     "result": "불일치",
+     "reason": "입력 재구성 실패",
+     "injected": "T2a",
+     "seconds": 0.01
+    },
+    "0:45": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "2:45": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "1:46": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "0:47": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.77
+    },
+    "1:47": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.51
+    },
+    "2:48": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.44
+    },
+    "2:50": {
+     "result": "통과",
+     "reason": "",
+     "injected": null,
+     "seconds": 0.45
+    }
+   },
+   "n_sampled": 51,
+   "honest_pass": 48,
+   "honest_n": 48,
+   "injected_mismatch": 3,
+   "injected_n": 3,
+   "injected_detail": {
+    "T2b": [
+     "불일치",
+     "출력 불일치"
+    ],
+    "T3": [
+     "불일치",
+     "입력 재구성 실패"
+    ],
+    "T2a": [
+     "불일치",
+     "입력 재구성 실패"
+    ]
+   },
+   "done": true
+  }
+ },
+ "summary": {
+  "seeds_done": 20,
+  "assignment_matches": 20,
+  "start_model_matches": 20,
+  "h_out_matches": 1000,
+  "h_out_total": 1000,
+  "rejected_matches": 20,
+  "sampled": 899,
+  "honest_pass": 877,
+  "honest_n": 877,
+  "injected_mismatch": 22,
+  "injected_n": 22,
+  "train_seconds": 1737.5
+ }
+}

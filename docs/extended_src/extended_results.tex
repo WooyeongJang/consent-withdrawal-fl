@@ -1,0 +1,41 @@
+% Extended Results for the JBHI manuscript (main.tex): distributed with the code repository, not submitted to the journal.
+% Compile order: extended_results, supplement, main, extended_results, supplement, main (cross-references via xr-hyper).
+\documentclass[journal]{IEEEtran}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{pifont}
+\usepackage{adjustbox}
+\usepackage{tikz}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{url}
+\usepackage{xr-hyper}
+\usepackage[hidelinks]{hyperref}
+\externaldocument[M-]{main}
+\externaldocument[S-]{supplement}
+
+\input{macros}
+
+\renewcommand{\thesection}{R\arabic{section}}
+\renewcommand{\thetable}{R\arabic{table}}
+\renewcommand{\thefigure}{R\arabic{figure}}
+\renewcommand{\thealgorithm}{R\arabic{algorithm}}
+
+\begin{document}
+
+\title{Extended Results:\\ Testing the Promises of Blockchain-Based Consent Withdrawal in Multi-Hospital Federated Learning: An Empirical Study With Electrocardiogram Data}
+\author{Wooyeong~Jang, Hyunwoo~Park, and Kyung~Ah~Kim}
+\maketitle
+
+\input{sections/extended_body}
+\bibliographystyle{IEEEtran}
+\bibliography{refs/references}
+
+\end{document}

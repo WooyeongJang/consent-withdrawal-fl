@@ -1,0 +1,86 @@
+== E2-base s1 18:40:09
+/w/fl/exp_lira.py:49: RuntimeWarning: Mean of empty slice.
+  mu_in = np.array([phis[inmask[:, j], j].mean() for j in range(phis.shape[1])])
+/usr/local/lib/python3.12/dist-packages/numpy/_core/_methods.py:147: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/w/fl/exp_lira.py:50: RuntimeWarning: Mean of empty slice.
+  mu_out = np.array([phis[~inmask[:, j], j].mean() for j in range(phis.shape[1])])
+[E2-base s1] P1       test 0.9300  LiRA 0.5684  gapX 0.0306/Z 0.0289  L3 불통과  (0s)
+[E2-base s1] P2       test 0.5439  LiRA 0.5041  gapX 0.4032/Z 0.4057  L3 -  (0s)
+[E2-base s1] U0       test 0.9314  LiRA 0.4894  gapX 0.0289/Z 0.0294  L3 통과  (82s)
+[E2-base s1] U4       test 0.9302  LiRA 0.5688  gapX 0.0315/Z 0.0296  L3 불통과  (24s)
+[E2-base s1] U4-pa    test 0.9302  LiRA 0.5699  gapX 0.0314/Z 0.0295  L3 불통과  (24s)
+[E2-base s1] U4-up    test 0.9302  LiRA 0.5702  gapX 0.0313/Z 0.0295  L3 불통과  (24s)
+[E2-base s1] U4-off   test 0.9302  LiRA 0.5701  gapX 0.0313/Z 0.0294  L3 불통과  (24s)
+[E2-base s1] U4s      test 0.9301  LiRA 0.5567  gapX 0.0314/Z 0.0301  L3 불통과  (49s)
+[E2-base s1] U4s-off  test 0.9300  LiRA 0.5490  gapX 0.0314/Z 0.0304  L3 불통과  (49s)
+[E2-base-osdcheck s1] done
+== E2-base s2 18:45:15
+/w/fl/exp_lira.py:49: RuntimeWarning: Mean of empty slice.
+  mu_in = np.array([phis[inmask[:, j], j].mean() for j in range(phis.shape[1])])
+/usr/local/lib/python3.12/dist-packages/numpy/_core/_methods.py:147: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/w/fl/exp_lira.py:50: RuntimeWarning: Mean of empty slice.
+  mu_out = np.array([phis[~inmask[:, j], j].mean() for j in range(phis.shape[1])])
+[E2-base s2] P1       test 0.9318  LiRA 0.5528  gapX 0.0296/Z 0.0293  L3 불통과  (0s)
+[E2-base s2] P2       test 0.5439  LiRA 0.5041  gapX 0.4032/Z 0.4057  L3 -  (0s)
+[E2-base s2] U0       test 0.9313  LiRA 0.5084  gapX 0.0287/Z 0.0288  L3 통과  (81s)
+[E2-base s2] U4       test 0.9317  LiRA 0.5610  gapX 0.0296/Z 0.0294  L3 불통과  (24s)
+[E2-base s2] U4-pa    test 0.9316  LiRA 0.5614  gapX 0.0296/Z 0.0294  L3 불통과  (24s)
+[E2-base s2] U4-up    test 0.9316  LiRA 0.5622  gapX 0.0296/Z 0.0294  L3 불통과  (24s)
+[E2-base s2] U4-off   test 0.9316  LiRA 0.5617  gapX 0.0296/Z 0.0294  L3 불통과  (26s)
+[E2-base s2] U4s      test 0.9318  LiRA 0.5573  gapX 0.0304/Z 0.0302  L3 불통과  (53s)
+[E2-base s2] U4s-off  test 0.9316  LiRA 0.5509  gapX 0.0310/Z 0.0308  L3 불통과  (53s)
+[E2-base-osdcheck s2] done
+== E2-base s3 18:50:32
+/w/fl/exp_lira.py:49: RuntimeWarning: Mean of empty slice.
+  mu_in = np.array([phis[inmask[:, j], j].mean() for j in range(phis.shape[1])])
+/usr/local/lib/python3.12/dist-packages/numpy/_core/_methods.py:147: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/w/fl/exp_lira.py:50: RuntimeWarning: Mean of empty slice.
+  mu_out = np.array([phis[~inmask[:, j], j].mean() for j in range(phis.shape[1])])
+[E2-base s3] P1       test 0.9305  LiRA 0.5672  gapX 0.0301/Z 0.0290  L3 불통과  (0s)
+[E2-base s3] P2       test 0.5439  LiRA 0.5041  gapX 0.4032/Z 0.4057  L3 -  (0s)
+[E2-base s3] U0       test 0.9308  LiRA 0.5055  gapX 0.0298/Z 0.0296  L3 통과  (81s)
+[E2-base s3] U4       test 0.9308  LiRA 0.5682  gapX 0.0305/Z 0.0289  L3 불통과  (26s)
+[E2-base s3] U4-pa    test 0.9308  LiRA 0.5692  gapX 0.0304/Z 0.0288  L3 불통과  (24s)
+[E2-base s3] U4-up    test 0.9308  LiRA 0.5699  gapX 0.0304/Z 0.0288  L3 불통과  (24s)
+[E2-base s3] U4-off   test 0.9308  LiRA 0.5697  gapX 0.0304/Z 0.0288  L3 불통과  (24s)
+[E2-base s3] U4s      test 0.9306  LiRA 0.5604  gapX 0.0316/Z 0.0304  L3 불통과  (53s)
+[E2-base s3] U4s-off  test 0.9306  LiRA 0.5549  gapX 0.0315/Z 0.0307  L3 불통과  (51s)
+[E2-base-osdcheck s3] done
+== E2-base s4 18:55:53
+/w/fl/exp_lira.py:49: RuntimeWarning: Mean of empty slice.
+  mu_in = np.array([phis[inmask[:, j], j].mean() for j in range(phis.shape[1])])
+/usr/local/lib/python3.12/dist-packages/numpy/_core/_methods.py:147: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/w/fl/exp_lira.py:50: RuntimeWarning: Mean of empty slice.
+  mu_out = np.array([phis[~inmask[:, j], j].mean() for j in range(phis.shape[1])])
+[E2-base s4] P1       test 0.9310  LiRA 0.5668  gapX 0.0296/Z 0.0285  L3 불통과  (0s)
+[E2-base s4] P2       test 0.5439  LiRA 0.5041  gapX 0.4032/Z 0.4057  L3 -  (0s)
+[E2-base s4] U0       test 0.9305  LiRA 0.5157  gapX 0.0279/Z 0.0284  L3 통과  (81s)
+[E2-base s4] U4       test 0.9310  LiRA 0.5670  gapX 0.0304/Z 0.0291  L3 불통과  (26s)
+[E2-base s4] U4-pa    test 0.9310  LiRA 0.5677  gapX 0.0304/Z 0.0290  L3 불통과  (28s)
+[E2-base s4] U4-up    test 0.9310  LiRA 0.5682  gapX 0.0303/Z 0.0291  L3 불통과  (26s)
+[E2-base s4] U4-off   test 0.9310  LiRA 0.5679  gapX 0.0303/Z 0.0290  L3 불통과  (28s)
+[E2-base s4] U4s      test 0.9311  LiRA 0.5566  gapX 0.0305/Z 0.0296  L3 불통과  (54s)
+[E2-base s4] U4s-off  test 0.9309  LiRA 0.5518  gapX 0.0310/Z 0.0303  L3 불통과  (53s)
+[E2-base-osdcheck s4] done
+== E2-base s5 19:01:29
+/w/fl/exp_lira.py:49: RuntimeWarning: Mean of empty slice.
+  mu_in = np.array([phis[inmask[:, j], j].mean() for j in range(phis.shape[1])])
+/usr/local/lib/python3.12/dist-packages/numpy/_core/_methods.py:147: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+/w/fl/exp_lira.py:50: RuntimeWarning: Mean of empty slice.
+  mu_out = np.array([phis[~inmask[:, j], j].mean() for j in range(phis.shape[1])])
+[E2-base s5] P1       test 0.9311  LiRA 0.5740  gapX 0.0303/Z 0.0291  L3 불통과  (0s)
+[E2-base s5] P2       test 0.5439  LiRA 0.5041  gapX 0.4032/Z 0.4057  L3 -  (0s)
+[E2-base s5] U0       test 0.9299  LiRA 0.4983  gapX 0.0289/Z 0.0288  L3 통과  (81s)
+[E2-base s5] U4       test 0.9312  LiRA 0.5784  gapX 0.0309/Z 0.0297  L3 불통과  (26s)
+[E2-base s5] U4-pa    test 0.9311  LiRA 0.5794  gapX 0.0308/Z 0.0295  L3 불통과  (26s)
+[E2-base s5] U4-up    test 0.9312  LiRA 0.5788  gapX 0.0309/Z 0.0296  L3 불통과  (24s)
+[E2-base s5] U4-off   test 0.9312  LiRA 0.5790  gapX 0.0308/Z 0.0295  L3 불통과  (26s)
+[E2-base s5] U4s      test 0.9313  LiRA 0.5678  gapX 0.0316/Z 0.0306  L3 불통과  (48s)
+[E2-base s5] U4s-off  test 0.9311  LiRA 0.5605  gapX 0.0317/Z 0.0310  L3 불통과  (50s)
+[E2-base-osdcheck s5] done
+== all done 19:06:47

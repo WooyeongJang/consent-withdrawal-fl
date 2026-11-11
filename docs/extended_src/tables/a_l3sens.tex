@@ -1,0 +1,23 @@
+\begin{table}[h]
+\centering
+\caption{\Lthree{} sensitivity: runs passed under each margin and CI quantile ($t$: $n_{\mathrm{ref}}-1$ degrees of freedom), with the positive control re-applied under the same rule. U0 is tested against the other references. Late: late-withdrawal scenarios. LiRA TPR at 1\% FPR (late, mean): P1 0.024, U0 0.012, U1 0.012, U2 0.009, U3 0.010, U4 0.024, U4s 0.027. Under the $t$ rule, base-scenario P1 still exceeded in 9/10 runs, U2 still showed over-removal in every institution-concentrated and institution-exit run, and after the positive control at most two passes per approximate method remained in the 80 early- and mid-withdrawal runs (none for U2, U4, U4s). The prediction-interval variant, which adds the reference models' variance to the interval, is not the main analysis because that variance is estimated from five reference models (four degrees of freedom); it lowers U0's passes from 145 to 123 and changes no conclusion.}
+\label{tab:a-l3sens}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\adjustbox{max width=\columnwidth}{%
+\begin{tabular}{@{}l l c c c c c c @{}}
+\toprule
+Rule & Runs & U0 & U1 & U2 & U3 & U4 & U4s \\
+\midrule
+$\delta_{\mathrm{L3}}=0.05$, $z$ (main) & all & 145/190 & 77/190 & 66/190 & 68/190 & 3/190 & 11/190 \\
+$\delta_{\mathrm{L3}}=0.025$, $z$ & all & 40/190 & 23/190 & 5/190 & 23/190 & 0/190 & 7/190 \\
+$\delta_{\mathrm{L3}}=0.05$, $t$ & all & 122/190 & 61/190 & 51/190 & 54/190 & 2/190 & 8/190 \\
+$\delta_{\mathrm{L3}}=0.025$, $t$ & all & 14/190 & 6/190 & 1/190 & 5/190 & 0/190 & 4/190 \\
+\midrule
+$\delta_{\mathrm{L3}}=0.05$, $z$ (main) & late & 81/100 & 74/100 & 63/100 & 65/100 & 3/100 & 9/100 \\
+$\delta_{\mathrm{L3}}=0.025$, $z$ & late & 17/100 & 17/100 & 3/100 & 18/100 & 0/100 & 3/100 \\
+$\delta_{\mathrm{L3}}=0.05$, $t$ & late & 67/100 & 59/100 & 51/100 & 52/100 & 2/100 & 8/100 \\
+$\delta_{\mathrm{L3}}=0.025$, $t$ & late & 6/100 & 6/100 & 0/100 & 2/100 & 0/100 & 1/100 \\
+\bottomrule
+\end{tabular}}
+\end{table}

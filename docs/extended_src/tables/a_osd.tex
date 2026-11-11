@@ -1,0 +1,20 @@
+\begin{table}[h]
+\centering
+\caption{FedOSD variants, base scenario (5\%, late; 5 seeds). Post-projection: conditional (ours) or always (official code); unlearning loss over all labels (ours) or positive labels only (official multi-label form). U4: 5 steps at 0.005; U4s: 20 steps at 0.025. $\Delta$: difference from U0 (AUROC $\times10^{-3}$, LiRA $\times10^{-2}$); \Lthree{}: pass / exceeds / inconclusive / over-removal.}
+\label{tab:a-osd}
+\footnotesize
+\setlength{\tabcolsep}{2.5pt}
+\adjustbox{max width=\columnwidth}{%
+\begin{tabular}{@{}l l l r r r c@{}}
+\toprule
+Variant & Post-proj. & Loss & $\Delta$AUROC & LiRA & $\Delta$LiRA & \Lthree{} \\
+\midrule
+U4 & conditional & all labels & +0.2 & 0.569 & +6.5 & 0/5/0/0 \\
+U4-pa & always & all labels & +0.2 & 0.570 & +6.6 & 0/5/0/0 \\
+U4-up & conditional & positive labels & +0.2 & 0.570 & +6.6 & 0/5/0/0 \\
+U4-off & always & positive labels & +0.2 & 0.570 & +6.6 & 0/5/0/0 \\
+U4s & conditional & all labels & +0.2 & 0.560 & +5.6 & 0/5/0/0 \\
+U4s-off & always & positive labels & +0.1 & 0.553 & +5.0 & 0/5/0/0 \\
+\bottomrule
+\end{tabular}}
+\end{table}

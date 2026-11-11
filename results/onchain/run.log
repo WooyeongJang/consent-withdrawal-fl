@@ -1,0 +1,90 @@
+
+=============
+== PyTorch ==
+=============
+
+NVIDIA Release 26.08 (build 406036885)
+PyTorch Version 2.14.0a0+4fdf77b
+Container image Copyright (c) 2026, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+Copyright (c) 2014-2024 Facebook Inc.
+Copyright (c) 2011-2014 Idiap Research Institute (Ronan Collobert)
+Copyright (c) 2012-2014 Deepmind Technologies    (Koray Kavukcuoglu)
+Copyright (c) 2011-2012 NEC Laboratories America (Koray Kavukcuoglu)
+Copyright (c) 2011-2013 NYU                      (Clement Farabet)
+Copyright (c) 2006-2010 NEC Laboratories America (Ronan Collobert, Leon Bottou, Iain Melvin, Jason Weston)
+Copyright (c) 2006      Idiap Research Institute (Samy Bengio)
+Copyright (c) 2001-2004 Idiap Research Institute (Ronan Collobert, Samy Bengio, Johnny Mariethoz)
+Copyright (c) 2015      Google Inc.
+Copyright (c) 2015      Yangqing Jia
+Copyright (c) 2013-2016 The Caffe contributors
+All rights reserved.
+
+Various files include modifications (c) NVIDIA CORPORATION & AFFILIATES.  All rights reserved.
+
+GOVERNING TERMS: The software and materials are governed by the NVIDIA Software License Agreement
+(found at https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-software-license-agreement/)
+and the Product-Specific Terms for NVIDIA AI Products
+(found at https://www.nvidia.com/en-us/agreements/enterprise-software/product-specific-terms-for-ai-products/).
+
+NOTE: CUDA Forward Compatibility mode ENABLED.
+  Using CUDA 13.4 driver version 615.65.02 with kernel driver version 580.173.02.
+  See https://docs.nvidia.com/deploy/cuda-compatibility/ for details.
+
+[orig] round 1: af769e304dfe
+[orig] round 2: db645e25b690
+[orig] round 3: 45f8497a6389
+[orig] round 4: 621ceee9aea6
+[orig] round 5: f5ed7b2df593
+[orig] round 6: 728b0427c906
+{
+ "contract": "0xA03f789603ADB5e00b6be36BE26BeF5532b8E27f",
+ "deployable_after_withdrawal": {
+  "final_round_model": false,
+  "round1_model": false
+ },
+ "l1_regular_samples": [
+  {
+   "k": "1",
+   "r": 1,
+   "result": "통과"
+  },
+  {
+   "k": "1",
+   "r": 2,
+   "result": "통과"
+  },
+  {
+   "k": "1",
+   "r": 3,
+   "result": "통과"
+  },
+  {
+   "k": "2",
+   "r": 4,
+   "result": "통과"
+  },
+  {
+   "k": "1",
+   "r": 5,
+   "result": "통과"
+  },
+  {
+   "k": "2",
+   "r": 6,
+   "result": "통과"
+  }
+ ],
+ "l1_job": true,
+ "l2_job": "통과",
+ "deployable_job_before_L3": false,
+ "device_check_L4": {
+  "deployed": "0xae83d14daf2b7f325ac70d26f32dd23f3e8fd5d3a74ba510a33fe7fe741e9a52",
+  "local_model_hash": "0xae83d14daf2b7f325ac70d26f32dd23f3e8fd5d3a74ba510a33fe7fe741e9a52",
+  "match": true,
+  "revoked_final_model_rejected": true
+ },
+ "pendingLevel2_after_deploy": 0,
+ "tx_total": 91,
+ "fee_total_kaia": 0.164443015,
+ "wall_seconds": 124.22358274459839
+}

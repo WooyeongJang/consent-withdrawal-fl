@@ -1,0 +1,21 @@
+during {} sel {'updates': 3000, 'viol_acc': 2960, 'viol_sel': 0, 'rej_correct': 0, 'rej_wrong': 0, 'recompute_steps': 0} latency 96.4
+during {} acc {'updates': 3000, 'viol_acc': 0, 'viol_sel': 0, 'rej_correct': 2869, 'rej_wrong': 0, 'recompute_steps': 138452} latency 79.7
+during {} strict {'updates': 3000, 'viol_acc': 0, 'viol_sel': 0, 'rej_correct': 4100, 'rej_wrong': 2395, 'recompute_steps': 305661} latency 104.1
+aftersend {} sel {'updates': 3000, 'viol_acc': 2960, 'viol_sel': 0, 'rej_correct': 0, 'rej_wrong': 0, 'recompute_steps': 0} latency 72.5
+aftersend {} acc {'updates': 3000, 'viol_acc': 0, 'viol_sel': 0, 'rej_correct': 1674, 'rej_wrong': 0, 'recompute_steps': 77086} latency 41.2
+aftersend {} strict {'updates': 3000, 'viol_acc': 0, 'viol_sel': 0, 'rej_correct': 1698, 'rej_wrong': 746, 'recompute_steps': 110289} latency 44.7
+aggdelay {'agg_delay': 0.0} sel {'updates': 3000, 'viol_acc': 2357, 'viol_sel': 0, 'rej_correct': 0, 'rej_wrong': 0, 'recompute_steps': 0} latency 78.3
+aggdelay {'agg_delay': 0.0} acc {'updates': 3000, 'viol_acc': 0, 'viol_sel': 0, 'rej_correct': 2485, 'rej_wrong': 0, 'recompute_steps': 121083} latency 77.4
+aggdelay {'agg_delay': 0.0} strict {'updates': 3000, 'viol_acc': 0, 'viol_sel': 0, 'rej_correct': 5456, 'rej_wrong': 3932, 'recompute_steps': 460951} latency 203.4
+aggdelay {'agg_delay': 30.0} sel {'updates': 3000, 'viol_acc': 3844, 'viol_sel': 0, 'rej_correct': 0, 'rej_wrong': 0, 'recompute_steps': 0} latency 108.3
+aggdelay {'agg_delay': 30.0} acc {'updates': 3000, 'viol_acc': 0, 'viol_sel': 0, 'rej_correct': 3171, 'rej_wrong': 0, 'recompute_steps': 152973} latency 77.4
+aggdelay {'agg_delay': 30.0} strict {'updates': 3000, 'viol_acc': 0, 'viol_sel': 0, 'rej_correct': 6021, 'rej_wrong': 3778, 'recompute_steps': 479236} latency 203.2
+aggdelay {'agg_delay': 120.0} sel {'updates': 3000, 'viol_acc': 8277, 'viol_sel': 0, 'rej_correct': 0, 'rej_wrong': 0, 'recompute_steps': 0} latency 198.3
+aggdelay {'agg_delay': 120.0} acc {'updates': 3000, 'viol_acc': 0, 'viol_sel': 0, 'rej_correct': 3929, 'rej_wrong': 0, 'recompute_steps': 186986} latency 78.1
+aggdelay {'agg_delay': 120.0} strict {'updates': 3000, 'viol_acc': 0, 'viol_sel': 0, 'rej_correct': 6614, 'rej_wrong': 3420, 'recompute_steps': 492205} latency 202.9
+version {'sync_q': 0.3} sel {'updates': 3000, 'viol_acc': 3612, 'viol_sel': 1255, 'rej_correct': 0, 'rej_wrong': 0, 'recompute_steps': 0} latency 103.7
+version {'sync_q': 0.3} acc {'updates': 3000, 'viol_acc': 0, 'viol_sel': 0, 'rej_correct': 2865, 'rej_wrong': 0, 'recompute_steps': 138638} latency 77.6
+version {'sync_q': 0.3} strict {'updates': 3000, 'viol_acc': 0, 'viol_sel': 0, 'rej_correct': 5819, 'rej_wrong': 3833, 'recompute_steps': 474518} latency 202.9
+offline {'offline_m': 3} sel {'updates': 2940, 'viol_acc': 2371, 'viol_sel': 0, 'rej_correct': 0, 'rej_wrong': 0, 'recompute_steps': 0} latency 81.0
+offline {'offline_m': 3} acc {'updates': 2940, 'viol_acc': 0, 'viol_sel': 0, 'rej_correct': 2441, 'rej_wrong': 0, 'recompute_steps': 118787} latency 76.5
+offline {'offline_m': 3} strict {'updates': 2940, 'viol_acc': 0, 'viol_sel': 0, 'rej_correct': 5365, 'rej_wrong': 3841, 'recompute_steps': 451803} latency 201.8

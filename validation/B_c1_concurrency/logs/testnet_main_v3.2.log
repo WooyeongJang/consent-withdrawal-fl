@@ -1,0 +1,20 @@
+# testnet_harness start 2026-11-09T06:19:37+0000 version v3.2 n 150 label main seed 20261109 rpc https://public-en-kairos.node.kaia.io web3 6.3.0 script_sha256 03922b3e8fad3e399234542df8078dd37792af47070585c2831aac5f58d8f149 common_sha256 622f229685d781fe86ecf2fc0675a4a2146600a82ba2233732e79ea0203cb50f
+# roles ['aggregator', 'auditor', 'dc0', 'dc1', 'dc2', 'dc3', 'dc4', 'dc5', 'dc6', 'dc7', 'dc8', 'dc9', 'platform'] payer 0x02F6771C74ab530301d77641955dF630290cA5c4 balance 48.2813 KAIA client Klaytn/v2.2.2a/linux-amd64/go1.25.3 gasPrice 27500000000
+# deployed {"address": "0x8c7711ffECe146b486792a897b08754eFA6624E3", "tx": "0xdd227265b968159a4a9e71f2bb545ee4a237d8af1e2cf0c2d855454df1126dfb", "block": 232560770, "gas_used": 3298949, "code_matches_local_compile": true, "code_bytes": 14073}
+  10/150 trials, excluded 0, stale acc 0, reverted 5, fee 0.235 KAIA
+  20/150 trials, excluded 0, stale acc 0, reverted 8, fee 0.374 KAIA
+  30/150 trials, excluded 0, stale acc 0, reverted 11, fee 0.512 KAIA
+  40/150 trials, excluded 0, stale acc 0, reverted 13, fee 0.650 KAIA
+  50/150 trials, excluded 0, stale acc 0, reverted 15, fee 0.787 KAIA
+  60/150 trials, excluded 0, stale acc 0, reverted 19, fee 0.928 KAIA
+  70/150 trials, excluded 0, stale acc 0, reverted 21, fee 1.066 KAIA
+  80/150 trials, excluded 0, stale acc 0, reverted 22, fee 1.203 KAIA
+  90/150 trials, excluded 0, stale acc 0, reverted 24, fee 1.340 KAIA
+  100/150 trials, excluded 0, stale acc 0, reverted 26, fee 1.478 KAIA
+  110/150 trials, excluded 0, stale acc 0, reverted 29, fee 1.618 KAIA
+  120/150 trials, excluded 0, stale acc 0, reverted 33, fee 1.761 KAIA
+  130/150 trials, excluded 0, stale acc 0, reverted 37, fee 1.904 KAIA
+  140/150 trials, excluded 0, stale acc 0, reverted 39, fee 2.042 KAIA
+  150/150 trials, excluded 0, stale acc 0, reverted 43, fee 2.185 KAIA
+# done 150 trials, events 1201, fee 2.1852 KAIA (balance diff 2.1852)
+exit 0 2026-11-09T15:32:08+09:00

@@ -1,0 +1,64 @@
+# a2_analysis start 2026-11-09T14:54:59+0900 script_sha256 825832753340f044fff6698f069c7f157f7aabc0cefcc929f4b465720f75e5c4
+[E2-F65] σ_rec 0.0163 σ_rec,d 0.0160 corr 0.228 se_rule 0.0185 s_ref5 0.0169 jkSE(auc) 0.0054 jkSE(d) 0.0029
+[E2-base] σ_rec 0.0139 σ_rec,d 0.0140 corr 0.181 se_rule 0.0147 s_ref5 0.0100 jkSE(auc) 0.0069 jkSE(d) 0.0024
+[E2-diagMI] σ_rec 0.0156 σ_rec,d 0.0150 corr 0.261 se_rule 0.0197 s_ref5 0.0239 jkSE(auc) 0.0057 jkSE(d) 0.0022
+[E2-early] σ_rec 0.0142 σ_rec,d 0.0145 corr 0.155 se_rule 0.0166 s_ref5 0.0172 jkSE(auc) 0.0061 jkSE(d) 0.0025
+[E2-exit2] σ_rec 0.0098 σ_rec,d 0.0098 corr 0.213 se_rule 0.0118 s_ref5 0.0128 jkSE(auc) 0.0056 jkSE(d) 0.0017
+[E2-inst2] σ_rec 0.0139 σ_rec,d 0.0138 corr 0.214 se_rule 0.0145 s_ref5 0.0082 jkSE(auc) 0.0062 jkSE(d) 0.0024
+[E2-latejoin] σ_rec 0.0138 σ_rec,d 0.0140 corr 0.179 se_rule 0.0141 s_ref5 0.0060 jkSE(auc) 0.0065 jkSE(d) 0.0026
+[E2-mid] σ_rec 0.0138 σ_rec,d 0.0142 corr 0.151 se_rule 0.0157 s_ref5 0.0145 jkSE(auc) 0.0059 jkSE(d) 0.0026
+[E2-rate01] σ_rec 0.0310 σ_rec,d 0.0324 corr 0.128 se_rule 0.0370 s_ref5 0.0408 jkSE(auc) 0.0125 jkSE(d) 0.0067
+[E2-rate01-early] σ_rec 0.0308 σ_rec,d 0.0318 corr 0.145 se_rule 0.0350 s_ref5 0.0335 jkSE(auc) 0.0114 jkSE(d) 0.0074
+[E2-rate01-mid] σ_rec 0.0317 σ_rec,d 0.0325 corr 0.158 se_rule 0.0347 s_ref5 0.0293 jkSE(auc) 0.0136 jkSE(d) 0.0064
+[E2-rate10] σ_rec 0.0099 σ_rec,d 0.0096 corr 0.255 se_rule 0.0116 s_ref5 0.0119 jkSE(auc) 0.0039 jkSE(d) 0.0014
+[E2-rate10-early] σ_rec 0.0098 σ_rec,d 0.0096 corr 0.226 se_rule 0.0114 s_ref5 0.0121 jkSE(auc) 0.0033 jkSE(d) 0.0018
+[E2-rate10-mid] σ_rec 0.0098 σ_rec,d 0.0103 corr 0.112 se_rule 0.0116 s_ref5 0.0127 jkSE(auc) 0.0034 jkSE(d) 0.0018
+[E2-rate20] σ_rec 0.0079 σ_rec,d 0.0073 corr 0.316 se_rule 0.0081 s_ref5 0.0040 jkSE(auc) 0.0030 jkSE(d) 0.0011
+[E2-rate20-early] σ_rec 0.0079 σ_rec,d 0.0081 corr 0.176 se_rule 0.0092 s_ref5 0.0093 jkSE(auc) 0.0030 jkSE(d) 0.0013
+[E2-rate20-mid] σ_rec 0.0080 σ_rec,d 0.0079 corr 0.202 se_rule 0.0085 s_ref5 0.0061 jkSE(auc) 0.0044 jkSE(d) 0.0016
+[E2-reconsent] σ_rec 0.0194 σ_rec,d 0.0197 corr 0.180 se_rule 0.0203 s_ref5 0.0121 jkSE(auc) 0.0070 jkSE(d) 0.0040
+[E2-seq3] σ_rec 0.0144 σ_rec,d 0.0148 corr 0.153 se_rule 0.0147 s_ref5 0.0073 jkSE(auc) 0.0052 jkSE(d) 0.0021
+{
+ "n_auc": 95,
+ "max_abs_diff_auc_container_vs_stored": 0.0005858222748766351,
+ "n_ci": 95,
+ "max_abs_diff_ci_container_vs_stored": 0.0008574878894496152,
+ "max_abs_diff_auc_reimplemented_vs_stored": 0.0005858222748766351,
+ "criterion": 1e-09,
+ "n_auc_within_criterion_current_code": 90,
+ "pass_current_code": false,
+ "max_abs_diff_auc_runtime_code_vs_stored": 0.0,
+ "pass_runtime_code": true,
+ "records_IN_or_OUT_in_all_shadows": {
+  "E2-rate10-early": {
+   "all_IN_pool_index": [
+    810
+   ],
+   "all_OUT_pool_index": [],
+   "in_X": [
+    true
+   ],
+   "auc_runtime_code": [
+    0.5127717516636733,
+    0.4930503304629648,
+    0.5052390134229713,
+    0.5025670167602996,
+    0.5253555720922805
+   ],
+   "auc_current_code": [
+    0.5122010740304503,
+    0.4924645081880882,
+    0.5046827920385996,
+    0.5023522382059382,
+    0.5248568315069125
+   ],
+   "stored": [
+    0.5127717516636733,
+    0.4930503304629648,
+    0.5052390134229713,
+    0.5025670167602996,
+    0.5253555720922805
+   ]
+  }
+ }
+}

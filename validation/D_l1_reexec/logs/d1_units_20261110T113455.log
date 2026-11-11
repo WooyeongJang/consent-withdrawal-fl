@@ -1,0 +1,7 @@
+# D1 units; start 2026-11-10T11:34:55+0900; git HEAD 2629d2f; script sha256 383c21e21fdaec89
+seed 1 0x9DA2FAF3BADb71ddb7cebdAB5B220968008984a2: units 150, AuditSampled rounds 50, sampled 36 (json 36), events.jsonl match 36/36
+seed 2 0xEad35e48dDD2855511Cbc440eD3E59Ca316ef64E: units 150, AuditSampled rounds 50, sampled 41 (json 41), events.jsonl match 41/41
+seed 3 0xB2EB7208261F6253AE5F5B90eA828f8B9D141144: units 150, AuditSampled rounds 50, sampled 43 (json 43), events.jsonl match 43/43
+seed 4 0xBF24f942a26BfF38dC15F4d6F88a4da230e50272: units 150, AuditSampled rounds 50, sampled 44 (json 44), events.jsonl match 44/44
+seed 5 0x8BEb95D2707d5BC60FF87240C00F90e0187F41f1: units 150, AuditSampled rounds 50, sampled 42 (json 42), events.jsonl match 42/42
+total sampled 206 (json 206); 0.2s

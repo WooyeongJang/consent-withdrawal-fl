@@ -1,0 +1,21 @@
+\begin{table}[h]
+\centering
+\caption{\Lone{} sampling cost (E4, $R=10$): mean re-execution time per unit, training time per round, and expected re-execution time per round, $pK\times$ unit time, for sampling rate $p$. Detection probability for $m$ falsified units is $1-(1-p)^m$; the last row gives it for $m=3$ (for $m=1$ it equals $p$).}
+\label{tab:a-l1cost}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\adjustbox{max width=\columnwidth}{%
+\begin{tabular}{@{}r r r r r r r@{}}
+\toprule
+& Unit & Train/round & \multicolumn{4}{c}{Re-execution per round (s) at $p$} \\
+\cmidrule(l){4-7}
+$K$ & (s) & (s) & 0.1 & 0.3 & 0.5 & 1.0 \\
+\midrule
+3 & 0.57 & 1.75 & 0.17 & 0.52 & 0.86 & 1.72 \\
+5 & 0.35 & 1.79 & 0.18 & 0.53 & 0.88 & 1.76 \\
+10 & 0.19 & 1.91 & 0.19 & 0.57 & 0.95 & 1.89 \\
+\midrule
+\multicolumn{3}{@{}l}{detection, $m=3$} & 0.27 & 0.66 & 0.88 & 1.00 \\
+\bottomrule
+\end{tabular}}
+\end{table}

@@ -1,0 +1,52 @@
+
+=============
+== PyTorch ==
+=============
+
+NVIDIA Release 26.08 (build 406036885)
+PyTorch Version 2.14.0a0+4fdf77b
+Container image Copyright (c) 2026, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+Copyright (c) 2014-2024 Facebook Inc.
+Copyright (c) 2011-2014 Idiap Research Institute (Ronan Collobert)
+Copyright (c) 2012-2014 Deepmind Technologies    (Koray Kavukcuoglu)
+Copyright (c) 2011-2012 NEC Laboratories America (Koray Kavukcuoglu)
+Copyright (c) 2011-2013 NYU                      (Clement Farabet)
+Copyright (c) 2006-2010 NEC Laboratories America (Ronan Collobert, Leon Bottou, Iain Melvin, Jason Weston)
+Copyright (c) 2006      Idiap Research Institute (Samy Bengio)
+Copyright (c) 2001-2004 Idiap Research Institute (Ronan Collobert, Samy Bengio, Johnny Mariethoz)
+Copyright (c) 2015      Google Inc.
+Copyright (c) 2015      Yangqing Jia
+Copyright (c) 2013-2016 The Caffe contributors
+All rights reserved.
+
+Various files include modifications (c) NVIDIA CORPORATION & AFFILIATES.  All rights reserved.
+
+GOVERNING TERMS: The software and materials are governed by the NVIDIA Software License Agreement
+(found at https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-software-license-agreement/)
+and the Product-Specific Terms for NVIDIA AI Products
+(found at https://www.nvidia.com/en-us/agreements/enterprise-software/product-specific-terms-for-ai-products/).
+
+NOTE: CUDA Forward Compatibility mode ENABLED.
+  Using CUDA 13.4 driver version 615.65.02 with kernel driver version 580.173.02.
+  See https://docs.nvidia.com/deploy/cuda-compatibility/ for details.
+
+[orig] round 10: 09ecf4185596
+[orig] round 20: 6883191b88a1
+[orig] round 30: 859d7c79d0a3
+[orig] round 40: 318428c9b305
+[orig] round 50: 496d28d536c3
+P1: test AUC 0.9310, MIA AUC 0.5130 [0.4856, 0.5416]
+U0_s1: test AUC 0.9312, MIA AUC 0.5119 [0.4854, 0.5402]
+U0_s2: test AUC 0.9305, MIA AUC 0.5121 [0.486, 0.5406]
+U0_s3: test AUC 0.9296, MIA AUC 0.5097 [0.4827, 0.5378]
+U0_s4: test AUC 0.9309, MIA AUC 0.5122 [0.4852, 0.5403]
+U0_s5: test AUC 0.9268, MIA AUC 0.5102 [0.4825, 0.5378]
+U1: test AUC 0.9314, MIA AUC 0.5064 [0.4797, 0.534]
+U2: test AUC 0.9214, MIA AUC 0.5033 [0.4769, 0.532]
+U4_provisional: test AUC 0.9309, MIA AUC 0.5135 [0.4866, 0.5412]
+theta 0.5136
+P1              test 0.9310  MIA 0.5130  L1 None  L2 None  L3 판정 불가
+U0_s1           test 0.9312  MIA 0.5119  L1 True  L2 통과  L3 판정 불가
+U1              test 0.9314  MIA 0.5064  L1 None  L2 통과  L3 판정 불가
+U2              test 0.9214  MIA 0.5033  L1 True  L2 통과  L3 판정 불가
+U4_provisional  test 0.9309  MIA 0.5135  L1 True  L2 통과  L3 판정 불가

@@ -1,0 +1,24 @@
+\begin{table}[h]
+\centering
+\caption{\Lthree{} under intervals that approach or hold the nominal level (post hoc, added after Table~\ref{tab:a-l3power}; margin 0.05 throughout; the run-level rule is unchanged). Boundary: largest simulated probability over the scenarios that a method whose true difference equals the margin passes (nominal 0.05), when its training variability equals that of retraining ($\sigma_T=\sigma_{\mathrm{ref}}$) or is 1.5 times larger. Run level: passes over the 190 runs with the positive control applied under the same interval, and runs in which the control detected (P1 \emph{exceeds}). Scenario level: for each of the 19 scenarios, the mean of the ten seeds' paired LiRA AUC differences from retraining with a 90\% $t$ interval, classified by the same rule; passes credited only where P1 is \emph{exceeds} (without the control: U1 19, U2 16, U3 18, U4 10, U4s 12 of 19).}
+\label{tab:a-l3nominal}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\adjustbox{max width=\columnwidth}{%
+\begin{tabular}{@{}l c c c c c c c c c@{}}
+\toprule
+ & \multicolumn{2}{c}{Boundary} & \multicolumn{6}{c}{Passes} & P1 \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-9}
+Interval & $\sigma_{\mathrm{ref}}$ & $1.5\,\sigma_{\mathrm{ref}}$ & U0 & U1 & U2 & U3 & U4 & U4s & exceeds \\
+\midrule
+\multicolumn{10}{@{}l}{\emph{Run level (of 190)}} \\
+main: $s^2/n_{\mathrm{ref}}$, $z$ & 0.114 & 0.200 & 145 & 77 & 66 & 68 & 3 & 11 & 94 \\
+$s^2/n_{\mathrm{ref}}$, $t$ & 0.061 & 0.135 & 122 & 61 & 51 & 54 & 2 & 8 & 88 \\
+prediction: $s^2(1+1/n_{\mathrm{ref}})$, $z$ & 0.043 & 0.104 & 123 & 60 & 50 & 57 & 2 & 8 & 88 \\
+prediction, $t$ & 0.017 & 0.053 & 83 & 43 & 37 & 36 & 0 & 1 & 77 \\
+\midrule
+\multicolumn{10}{@{}l}{\emph{Scenario level (of 19)}} \\
+paired differences, $t$ (9 d.f.) & nominal & nominal & -- & 9 & 7 & 9 & 0 & 2 & 9 \\
+\bottomrule
+\end{tabular}}
+\end{table}

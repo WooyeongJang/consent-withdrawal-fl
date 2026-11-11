@@ -1,0 +1,99 @@
+{
+ "k": "1",
+ "units": 50,
+ "L2_pass": 50,
+ "L1_sampled": 15,
+ "L1_pass": 15,
+ "L1": [
+  {
+   "r": 1,
+   "start_ok": true,
+   "update_ok": true,
+   "binding_ok": true
+  },
+  {
+   "r": 4,
+   "start_ok": true,
+   "update_ok": true,
+   "binding_ok": true
+  },
+  {
+   "r": 7,
+   "start_ok": true,
+   "update_ok": true,
+   "binding_ok": true
+  },
+  {
+   "r": 13,
+   "start_ok": true,
+   "update_ok": true,
+   "binding_ok": true
+  },
+  {
+   "r": 14,
+   "start_ok": true,
+   "update_ok": true,
+   "binding_ok": true
+  },
+  {
+   "r": 19,
+   "start_ok": true,
+   "update_ok": true,
+   "binding_ok": true
+  },
+  {
+   "r": 21,
+   "start_ok": true,
+   "update_ok": true,
+   "binding_ok": true
+  },
+  {
+   "r": 22,
+   "start_ok": true,
+   "update_ok": true,
+   "binding_ok": true
+  },
+  {
+   "r": 24,
+   "start_ok": true,
+   "update_ok": true,
+   "binding_ok": true
+  },
+  {
+   "r": 25,
+   "start_ok": true,
+   "update_ok": true,
+   "binding_ok": true
+  },
+  {
+   "r": 37,
+   "start_ok": true,
+   "update_ok": true,
+   "binding_ok": true
+  },
+  {
+   "r": 38,
+   "start_ok": true,
+   "update_ok": true,
+   "binding_ok": true
+  },
+  {
+   "r": 40,
+   "start_ok": true,
+   "update_ok": true,
+   "binding_ok": true
+  },
+  {
+   "r": 46,
+   "start_ok": true,
+   "update_ok": true,
+   "binding_ok": true
+  },
+  {
+   "r": 50,
+   "start_ok": true,
+   "update_ok": true,
+   "binding_ok": true
+  }
+ ]
+}

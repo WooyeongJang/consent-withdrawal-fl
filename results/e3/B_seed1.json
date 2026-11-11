@@ -1,0 +1,2340 @@
+{
+ "type": "B",
+ "seed": 1,
+ "contract": "0x200966C9E7b2Fc56A81D3C693077C456DAa55a25",
+ "b3_contract": "0x08e9a118aa634E0739D5b6911b3e88381e3DdA8C",
+ "cohort": 740,
+ "orig_identical_to_offline_late": true,
+ "I2": {
+  "final_deployable": false,
+  "round1_deployable": false
+ },
+ "training_L1": {
+  "sampled": 42,
+  "fail": 0
+ },
+ "instances": [
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "a2e26cdc0f00ec4b3da570d01bec4c57280c75c32188ceaefce3b2f316d284ab",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_9)",
+   "disguised_round": 9
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "74471be1ad729a77829d3ca84017927b06a1b8a69d3a1bedc9afaadbf158d949",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_37)",
+   "disguised_round": 37
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "931ff759ec9ba2aa00bfb38e61fe8d3c94915b32ef4f339e1c43f2009923cbc5",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_49)",
+   "disguised_round": 49
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "ab4879facb70ef9a29174dbf4a65cdb3bc1d0d168bc34ea154924151cc6d7d9d",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_5)",
+   "disguised_round": 5
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "1033201f874959bf7417f5ae123c340f99f24fae6b898883e37b197c30075a85",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_17)",
+   "disguised_round": 17
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "9733ca0b80940a21a957cb726fb739eb924f5164b71e0dc8621aaa6d41bb9d2f",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_8)",
+   "disguised_round": 8
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "c03ec78eb6b247a07b60444f7fc0965acda3b949b0b836322e004bc4f5a2c0a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_32)",
+   "disguised_round": 32
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "931ff759ec9ba2aa00bfb38e61fe8d3c94915b32ef4f339e1c43f2009923cbc5",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_49)",
+   "disguised_round": 49
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "9e6396a9ebb916a30466e6e743e5ded452efd5cee7f8fcb263172dc5a82b61b7",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_29)",
+   "disguised_round": 29
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "6843fbff624aba4727448d31ec23a684a5fa37b54171b55502cf3a9bfee963a9",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_31)",
+   "disguised_round": 31
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "2cb48ba73d8a446533bd8948ead2a759890be436b3200642b9c0dba62d5ae001",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_42)",
+   "disguised_round": 42
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "af6d27876febeed477e81a84d9827d57e54caee99fe3cb01ecaf771a1ce8ce8d",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_25)",
+   "disguised_round": 25
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "a5d56c08b65e356dfe471efa1d6258fefc26aa22ed5e525967b0b68635ab41cb",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_14)",
+   "disguised_round": 14
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "b89de8012bb030e53450dc18e724edf7febf4dbf13a17cceb02c73841b84027a",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_7)",
+   "disguised_round": 7
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "c03ec78eb6b247a07b60444f7fc0965acda3b949b0b836322e004bc4f5a2c0a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_32)",
+   "disguised_round": 32
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "e7971db2b1ad0b31a241862bd0b283a2a435a02af26e7029df4c0fdace6c3e92",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_2)",
+   "disguised_round": 2
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "af6d27876febeed477e81a84d9827d57e54caee99fe3cb01ecaf771a1ce8ce8d",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_25)",
+   "disguised_round": 25
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "acb311410c7d07c0e78b1ea32023e59b4085cdc7f1ad3d8d06b672632880b6d1",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_28)",
+   "disguised_round": 28
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "e8356b335a1b93cd4824c71c9a582990eb34516be201c51852ee9962966370d8",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_39)",
+   "disguised_round": 39
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "931ff759ec9ba2aa00bfb38e61fe8d3c94915b32ef4f339e1c43f2009923cbc5",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_49)",
+   "disguised_round": 49
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu2,lr0.005)",
+   "h_out": "c596d916072a6dcac173dd33c8d5e5d7b4cb7e5907d0752496f67ae162f05199",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5744096219067957,
+    "diff": 0.07830331959210246,
+    "ci90": [
+     0.05459382879644641,
+     0.1020128103877585
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 2,
+   "lr": 0.005
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu10,lr0.025)",
+   "h_out": "fcb6d7a0546ef835df47a5d414aa5f8d6bea8af25a56b27d62b308fb93b0c6ff",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5677678683582464,
+    "diff": 0.07166156604355323,
+    "ci90": [
+     0.04853233639463249,
+     0.09479079569247396
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 10,
+   "lr": 0.025
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu5,lr0.025)",
+   "h_out": "aaa46ba1acd9c5fd2789c15fd960c676f216a12fc23a726fd11d25695a48d17f",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5694365143711959,
+    "diff": 0.0733302120565027,
+    "ci90": [
+     0.04973458259445304,
+     0.09692584151855235
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 5,
+   "lr": 0.025
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu5,lr0.005)",
+   "h_out": "b09b7d0fedb7ee5d562ecda4d7b4ff16360db8814c9b195ba1ab57f09520e0c9",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.57882889312672,
+    "diff": 0.08272259081202682,
+    "ci90": [
+     0.058941803130503526,
+     0.10650337849355011
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 5,
+   "lr": 0.005
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu20,lr0.025)",
+   "h_out": "31db2d363417a143766580fb4b0f16c7aedf1414854612685da14d9dbdebd688",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.56579232851058,
+    "diff": 0.06968602619588682,
+    "ci90": [
+     0.04621728397691967,
+     0.09315476841485397
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 20,
+   "lr": 0.025
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu2,lr0.005)",
+   "h_out": "c596d916072a6dcac173dd33c8d5e5d7b4cb7e5907d0752496f67ae162f05199",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5744096219067957,
+    "diff": 0.07830331959210246,
+    "ci90": [
+     0.05459382879644641,
+     0.1020128103877585
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 2,
+   "lr": 0.005
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu5,lr0.025)",
+   "h_out": "aaa46ba1acd9c5fd2789c15fd960c676f216a12fc23a726fd11d25695a48d17f",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5694365143711959,
+    "diff": 0.0733302120565027,
+    "ci90": [
+     0.04973458259445304,
+     0.09692584151855235
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 5,
+   "lr": 0.025
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu2,lr0.005)",
+   "h_out": "c596d916072a6dcac173dd33c8d5e5d7b4cb7e5907d0752496f67ae162f05199",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5744096219067957,
+    "diff": 0.07830331959210246,
+    "ci90": [
+     0.05459382879644641,
+     0.1020128103877585
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 2,
+   "lr": 0.005
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu2,lr0.005)",
+   "h_out": "c596d916072a6dcac173dd33c8d5e5d7b4cb7e5907d0752496f67ae162f05199",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5744096219067957,
+    "diff": 0.07830331959210246,
+    "ci90": [
+     0.05459382879644641,
+     0.1020128103877585
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 2,
+   "lr": 0.005
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu2,lr0.005)",
+   "h_out": "c596d916072a6dcac173dd33c8d5e5d7b4cb7e5907d0752496f67ae162f05199",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5744096219067957,
+    "diff": 0.07830331959210246,
+    "ci90": [
+     0.05459382879644641,
+     0.1020128103877585
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 2,
+   "lr": 0.005
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu20,lr0.025)",
+   "h_out": "31db2d363417a143766580fb4b0f16c7aedf1414854612685da14d9dbdebd688",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.56579232851058,
+    "diff": 0.06968602619588682,
+    "ci90": [
+     0.04621728397691967,
+     0.09315476841485397
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 20,
+   "lr": 0.025
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu2,lr0.005)",
+   "h_out": "c596d916072a6dcac173dd33c8d5e5d7b4cb7e5907d0752496f67ae162f05199",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5744096219067957,
+    "diff": 0.07830331959210246,
+    "ci90": [
+     0.05459382879644641,
+     0.1020128103877585
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 2,
+   "lr": 0.005
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu10,lr0.025)",
+   "h_out": "fcb6d7a0546ef835df47a5d414aa5f8d6bea8af25a56b27d62b308fb93b0c6ff",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5677678683582464,
+    "diff": 0.07166156604355323,
+    "ci90": [
+     0.04853233639463249,
+     0.09479079569247396
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 10,
+   "lr": 0.025
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu5,lr0.005)",
+   "h_out": "b09b7d0fedb7ee5d562ecda4d7b4ff16360db8814c9b195ba1ab57f09520e0c9",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.57882889312672,
+    "diff": 0.08272259081202682,
+    "ci90": [
+     0.058941803130503526,
+     0.10650337849355011
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 5,
+   "lr": 0.005
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu10,lr0.025)",
+   "h_out": "fcb6d7a0546ef835df47a5d414aa5f8d6bea8af25a56b27d62b308fb93b0c6ff",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5677678683582464,
+    "diff": 0.07166156604355323,
+    "ci90": [
+     0.04853233639463249,
+     0.09479079569247396
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 10,
+   "lr": 0.025
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu2,lr0.005)",
+   "h_out": "c596d916072a6dcac173dd33c8d5e5d7b4cb7e5907d0752496f67ae162f05199",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5744096219067957,
+    "diff": 0.07830331959210246,
+    "ci90": [
+     0.05459382879644641,
+     0.1020128103877585
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 2,
+   "lr": 0.005
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu20,lr0.025)",
+   "h_out": "31db2d363417a143766580fb4b0f16c7aedf1414854612685da14d9dbdebd688",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.56579232851058,
+    "diff": 0.06968602619588682,
+    "ci90": [
+     0.04621728397691967,
+     0.09315476841485397
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 20,
+   "lr": 0.025
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu5,lr0.005)",
+   "h_out": "b09b7d0fedb7ee5d562ecda4d7b4ff16360db8814c9b195ba1ab57f09520e0c9",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.57882889312672,
+    "diff": 0.08272259081202682,
+    "ci90": [
+     0.058941803130503526,
+     0.10650337849355011
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 5,
+   "lr": 0.005
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu10,lr0.025)",
+   "h_out": "fcb6d7a0546ef835df47a5d414aa5f8d6bea8af25a56b27d62b308fb93b0c6ff",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5677678683582464,
+    "diff": 0.07166156604355323,
+    "ci90": [
+     0.04853233639463249,
+     0.09479079569247396
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 10,
+   "lr": 0.025
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu10,lr0.025)",
+   "h_out": "fcb6d7a0546ef835df47a5d414aa5f8d6bea8af25a56b27d62b308fb93b0c6ff",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5677678683582464,
+    "diff": 0.07166156604355323,
+    "ci90": [
+     0.04853233639463249,
+     0.09479079569247396
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 10,
+   "lr": 0.025
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "ae74487bd791a02b87e008f02f195bee9c9bd31bf3e035716ee1ff58f7d4d1ae",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "include 139 withdrawn"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "98e35eb3c96554b43420ce44ae387e3600ce0621bcfc3381c0eebd262d86c60c",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "exclude 41 valid"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "108d32dd2935bf6143f2dc2ed258906edd19ec2e182b202bba042a7e00c52b44",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "include 143 withdrawn"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "c34e2cbf03e6852e41c3ca74143efcab9d248093eb0ac148c956f8c08ce00d91",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "exclude 186 valid"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "628c6eb17a65cbee85442ac710ecf904a493bc439a3d4ea51fd16162bad09281",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "include 68 withdrawn"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "65660e276e2e2447823ce409874787d20a2b32ea4ce787baee6064e097dee4f6",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "exclude 172 valid"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "1b1a5de79fe87963e328a74ed055bf0f421b5bd8b491dbd8bde60cd881f310df",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "include 166 withdrawn"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "d544f9b5436130eaf3f799e34446e73764a6f37f32671714128f2d4bc17971ae",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "exclude 193 valid"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "39d53c9fc90a2e2dac664029f44a1a7c2dbef15ddf2703e3f79aa5f44e40175e",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "include 184 withdrawn"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "6fe9ff0e2d77312a21b8239933d0634c96294072a02b18d17b37ca21de8ceccd",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "exclude 76 valid"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "6e6cdf674745003f61ab61272ad2d0af76ebe2d03b2dd921997dbdb12d130f2c",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "include 150 withdrawn"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "8077548040565aecea8af716d1b314b34a964bd288828da01fc9f6a1c5f6eb82",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "exclude 162 valid"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "1284f0805c815e6a59471e86a24d1aa05ccb47b7a9d911f807c2b30c3dc6ed83",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "include 113 withdrawn"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "cadcbd1c5576b896400e9dddaf0267281b196580ad0eaf5541e847aeea61f89c",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "exclude 53 valid"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "65e82955822bbb75ecbef5061a032a63d8c5cabd491892c1622004bf47ee4232",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "include 99 withdrawn"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "79b29689d95dea43357c0404934fa5360ab01fab92b55ad91fcc30352df8598d",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "exclude 61 valid"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "a3ca3117f65cedcc8a7a9c82a3251a2b40866608f6ca43992be6b5852a89e922",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "include 115 withdrawn"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "1cbade42f33aa1348ba11e0af061dda24c0106e13a4b81206d4a347ceffbac80",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "exclude 168 valid"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "a5986d407e201062ea8c07daa9260c59785456c36d96870972c0045787acd9de",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "include 149 withdrawn"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "a8e1bf9802efcc726c0695ba759d51808bc084a675d3eca9da9d65cef126647f",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "exclude 70 valid"
+  },
+  {
+   "attack": "honest",
+   "method": "U0",
+   "h_out": "576070208963f16cacafbebe3d5f9c78c07577671c8fdbd39a544a5bae66e35e",
+   "L1": true,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": true,
+   "detected": {
+    "B4": null
+   },
+   "B4_evidence": "정직한 U0"
+  },
+  {
+   "attack": "T8",
+   "delivered": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "931ff759ec9ba2aa00bfb38e61fe8d3c94915b32ef4f339e1c43f2009923cbc5",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "d06eee3c67801435c694ec76f76065549d02434dff1a1c6cb5fc94b9d63c9060",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "b82aa994babbfd6f5a06a2a0cfb3fde4282d5a781a2f9573140ee381ba580f35",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "fcc40c81d85a7fbf439b7fd0d7b2eb0bcb10a77b3491564a2d7c1e8028ce6cde",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "fcc40c81d85a7fbf439b7fd0d7b2eb0bcb10a77b3491564a2d7c1e8028ce6cde",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "fa0ae83ca31dc689100dc4a8dbb0aaf4bb720f0b65087b38ec50cc72d5be302a",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "931ff759ec9ba2aa00bfb38e61fe8d3c94915b32ef4f339e1c43f2009923cbc5",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "7da10a087bc13b1cf76b1616ccffccc81e332041f42acc32884fa62cecad64dc",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "2c3a2e6c142e7383acc1758f421e2fe9cd2bc76a08842b53d7e4365c8992cad9",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "af6d27876febeed477e81a84d9827d57e54caee99fe3cb01ecaf771a1ce8ce8d",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "d15f59c595ab16ce5c2c257f7caae27661d576a64cf7d1f71293c2da6a6a64d0",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "af6d27876febeed477e81a84d9827d57e54caee99fe3cb01ecaf771a1ce8ce8d",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "e0a32f730cd6f6ff7c59d29b46fb115cf362372c0c75a237bba1f1084d1ff270",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "acb311410c7d07c0e78b1ea32023e59b4085cdc7f1ad3d8d06b672632880b6d1",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "943a3e376325ad977e4047ae326c2d950f8707c555cefd8cf6fd343e7133368d",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "c03ec78eb6b247a07b60444f7fc0965acda3b949b0b836322e004bc4f5a2c0a6",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "77a2d1fae9af0076f8678384dc740a7b6b3b7a6449719f1623df80df475c130c",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "a96f2a34804cdd05e50a48ed616990a2175c225ae242153bf9296b64eb0273ca",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "e8356b335a1b93cd4824c71c9a582990eb34516be201c51852ee9962966370d8",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T9",
+   "variant": "a",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "원장 상태 전이 불가(수락 기록 누락 시 집계 거부)"
+  },
+  {
+   "attack": "T9",
+   "variant": "b",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": true
+   },
+   "B4_evidence": "기관이 제시한 커밋과 원장 기록 교차 대조 불일치(B5는 증인 사본 대조)"
+  },
+  {
+   "attack": "T9",
+   "variant": "c",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": true,
+    "B3": true,
+    "B5": true
+   },
+   "B4_evidence": "원장 기록은 변경 불가(사후 수정 시도 자체가 불가능)"
+  },
+  {
+   "attack": "T9",
+   "variant": "a",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "원장 상태 전이 불가(수락 기록 누락 시 집계 거부)"
+  },
+  {
+   "attack": "T9",
+   "variant": "b",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": true
+   },
+   "B4_evidence": "기관이 제시한 커밋과 원장 기록 교차 대조 불일치(B5는 증인 사본 대조)"
+  },
+  {
+   "attack": "T9",
+   "variant": "c",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": true,
+    "B3": true,
+    "B5": true
+   },
+   "B4_evidence": "원장 기록은 변경 불가(사후 수정 시도 자체가 불가능)"
+  },
+  {
+   "attack": "T9",
+   "variant": "a",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "원장 상태 전이 불가(수락 기록 누락 시 집계 거부)"
+  },
+  {
+   "attack": "T9",
+   "variant": "b",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": true
+   },
+   "B4_evidence": "기관이 제시한 커밋과 원장 기록 교차 대조 불일치(B5는 증인 사본 대조)"
+  },
+  {
+   "attack": "T9",
+   "variant": "c",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": true,
+    "B3": true,
+    "B5": true
+   },
+   "B4_evidence": "원장 기록은 변경 불가(사후 수정 시도 자체가 불가능)"
+  },
+  {
+   "attack": "T9",
+   "variant": "a",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "원장 상태 전이 불가(수락 기록 누락 시 집계 거부)"
+  },
+  {
+   "attack": "T9",
+   "variant": "b",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": true
+   },
+   "B4_evidence": "기관이 제시한 커밋과 원장 기록 교차 대조 불일치(B5는 증인 사본 대조)"
+  },
+  {
+   "attack": "T9",
+   "variant": "c",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": true,
+    "B3": true,
+    "B5": true
+   },
+   "B4_evidence": "원장 기록은 변경 불가(사후 수정 시도 자체가 불가능)"
+  },
+  {
+   "attack": "T9",
+   "variant": "a",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "원장 상태 전이 불가(수락 기록 누락 시 집계 거부)"
+  },
+  {
+   "attack": "T9",
+   "variant": "b",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": true
+   },
+   "B4_evidence": "기관이 제시한 커밋과 원장 기록 교차 대조 불일치(B5는 증인 사본 대조)"
+  },
+  {
+   "attack": "T9",
+   "variant": "c",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": true,
+    "B3": true,
+    "B5": true
+   },
+   "B4_evidence": "원장 기록은 변경 불가(사후 수정 시도 자체가 불가능)"
+  },
+  {
+   "attack": "T9",
+   "variant": "a",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "원장 상태 전이 불가(수락 기록 누락 시 집계 거부)"
+  },
+  {
+   "attack": "T9",
+   "variant": "b",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": true
+   },
+   "B4_evidence": "기관이 제시한 커밋과 원장 기록 교차 대조 불일치(B5는 증인 사본 대조)"
+  },
+  {
+   "attack": "T9",
+   "variant": "c",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": true,
+    "B3": true,
+    "B5": true
+   },
+   "B4_evidence": "원장 기록은 변경 불가(사후 수정 시도 자체가 불가능)"
+  },
+  {
+   "attack": "T9",
+   "variant": "a",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "원장 상태 전이 불가(수락 기록 누락 시 집계 거부)"
+  },
+  {
+   "attack": "T9",
+   "variant": "b",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": true
+   },
+   "B4_evidence": "기관이 제시한 커밋과 원장 기록 교차 대조 불일치(B5는 증인 사본 대조)"
+  }
+ ],
+ "false_positives": {
+  "honest_job_deployable": true,
+  "honest_device_accepts": true,
+  "training_L1_fail": 0
+ },
+ "tx_total": 4121,
+ "fee_kaia": 7.1784888175,
+ "wall_s": 6725.846129894257
+}

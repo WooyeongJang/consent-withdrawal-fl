@@ -1,0 +1,24 @@
+{
+ "created": "2026-11-09T15:00:20+0900",
+ "solc_sha256": "7a986c8f85945fec780d2cbb352cdd85959b7222dd33830a7563c2af4bc1fca0",
+ "solc_version": "Version: 0.8.38+commit.1835d247.Linux.g++",
+ "flags": "--evm-version prague --optimize",
+ "contracts": {
+  "v3.1": {
+   "source": "contracts/ConsentLedger.sol",
+   "source_sha256": "52a9e070c01caaa4872555c5cd931637dd8a372f632c4eefffefe2cff0fe0b19",
+   "bin_sha256": "79b399fb3b494ddb414f90cb5fcc4a97977a1f2fc9881ce8f18cbf1f52c8d783",
+   "runtime_sha256": "d7d181a578421efc6e1eaf0c669288d3e551f755bda33329c0a03c46d941eb63",
+   "runtime_bytes": 10882,
+   "same_bin_as_experiment_artifact": true,
+   "experiment_artifact_bin_sha256": "79b399fb3b494ddb414f90cb5fcc4a97977a1f2fc9881ce8f18cbf1f52c8d783"
+  },
+  "v3.2": {
+   "source": "contracts/ConsentLedger_v3_2.sol",
+   "source_sha256": "286cb8bf1dc1e51e2c801eb5c11b921aa3354936789ceba24f27a4e72a9dc228",
+   "bin_sha256": "bc062dd93cb573385b9b7291a6c67779db9b32164354fce3e5cf10927f8dd70a",
+   "runtime_sha256": "727a8c89fd2d50903a861b45fedc1dacfa52ca4f5e57adc8c56e72ab85f7039f",
+   "runtime_bytes": 14073
+  }
+ }
+}

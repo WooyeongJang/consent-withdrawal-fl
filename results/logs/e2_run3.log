@@ -1,0 +1,295 @@
+== E2-diagMI s1 01:09:51
+[E2-diagMI] shadow 1/16
+[E2-diagMI] shadow 2/16
+[E2-diagMI] shadow 3/16
+[E2-diagMI] shadow 4/16
+[E2-diagMI] shadow 5/16
+[E2-diagMI] shadow 6/16
+[E2-diagMI] shadow 7/16
+[E2-diagMI] shadow 8/16
+[E2-diagMI] shadow 9/16
+[E2-diagMI] shadow 10/16
+[E2-diagMI] shadow 11/16
+[E2-diagMI] shadow 12/16
+[E2-diagMI] shadow 13/16
+[E2-diagMI] shadow 14/16
+[E2-diagMI] shadow 15/16
+[E2-diagMI] shadow 16/16
+[E2-diagMI s1] P1       test 0.9301  LiRA 0.5929  gapX 0.0391/Z 0.0378  L3 불통과  (0s)
+[E2-diagMI s1] P2       test 0.5439  LiRA 0.4738  gapX 0.3740/Z 0.3707  L3 -  (0s)
+[E2-diagMI s1] U0       test 0.9299  LiRA 0.4976  gapX 0.0359/Z 0.0371  L3 통과  (81s)
+[E2-diagMI s1] U1       test 0.9306  LiRA 0.4965  gapX 0.0339/Z 0.0358  L3 통과  (80s)
+[E2-diagMI s1] U2       test 0.9199  LiRA 0.5216  gapX 0.0628/Z 0.0650  L3 불통과  (21s)
+[E2-diagMI s1] U3-orig  test 0.9224  LiRA 0.5435  gapX 0.0545/Z 0.0548  L3 불통과  (0s)
+[E2-diagMI s1] U3       test 0.9228  LiRA 0.5103  gapX 0.0577/Z 0.0587  L3 통과  (93s)
+[E2-diagMI s1] U4       test 0.9302  LiRA 0.5897  gapX 0.0394/Z 0.0377  L3 불통과  (24s)
+[E2-diagMI s1] U4s      test 0.9298  LiRA 0.5665  gapX 0.0402/Z 0.0397  L3 불통과  (48s)
+[E2-diagMI s1] done
+== E2-diagMI s2 01:39:25
+[E2-diagMI s2] P1       test 0.9318  LiRA 0.5568  gapX 0.0402/Z 0.0383  L3 불통과  (0s)
+[E2-diagMI s2] P2       test 0.5439  LiRA 0.4738  gapX 0.3740/Z 0.3707  L3 -  (0s)
+[E2-diagMI s2] U0       test 0.9309  LiRA 0.5320  gapX 0.0348/Z 0.0372  L3 불통과  (81s)
+[E2-diagMI s2] U1       test 0.9308  LiRA 0.5009  gapX 0.0341/Z 0.0358  L3 통과  (80s)
+[E2-diagMI s2] U2       test 0.9200  LiRA 0.5089  gapX 0.0620/Z 0.0633  L3 통과  (22s)
+[E2-diagMI s2] U3-orig  test 0.9232  LiRA 0.5386  gapX 0.0550/Z 0.0565  L3 불통과  (0s)
+[E2-diagMI s2] U3       test 0.9218  LiRA 0.5227  gapX 0.0568/Z 0.0579  L3 불통과  (94s)
+[E2-diagMI s2] U4       test 0.9318  LiRA 0.5554  gapX 0.0403/Z 0.0385  L3 불통과  (24s)
+[E2-diagMI s2] U4s      test 0.9317  LiRA 0.5441  gapX 0.0402/Z 0.0388  L3 불통과  (49s)
+[E2-diagMI s2] done
+== E2-diagMI s3 01:47:33
+[E2-diagMI s3] P1       test 0.9309  LiRA 0.6150  gapX 0.0398/Z 0.0385  L3 불통과  (0s)
+[E2-diagMI s3] P2       test 0.5439  LiRA 0.4738  gapX 0.3740/Z 0.3707  L3 -  (0s)
+[E2-diagMI s3] U0       test 0.9316  LiRA 0.4674  gapX 0.0347/Z 0.0366  L3 불통과  (81s)
+[E2-diagMI s3] U1       test 0.9302  LiRA 0.5087  gapX 0.0350/Z 0.0362  L3 통과  (80s)
+[E2-diagMI s3] U2       test 0.9211  LiRA 0.5116  gapX 0.0618/Z 0.0630  L3 통과  (22s)
+[E2-diagMI s3] U3-orig  test 0.9233  LiRA 0.5548  gapX 0.0539/Z 0.0552  L3 불통과  (0s)
+[E2-diagMI s3] U3       test 0.9224  LiRA 0.5126  gapX 0.0579/Z 0.0592  L3 통과  (94s)
+[E2-diagMI s3] U4       test 0.9310  LiRA 0.6121  gapX 0.0395/Z 0.0383  L3 불통과  (24s)
+[E2-diagMI s3] U4s      test 0.9310  LiRA 0.5931  gapX 0.0391/Z 0.0390  L3 불통과  (48s)
+[E2-diagMI s3] done
+== E2-diagMI s4 01:55:40
+[E2-diagMI s4] P1       test 0.9309  LiRA 0.6027  gapX 0.0387/Z 0.0375  L3 불통과  (0s)
+[E2-diagMI s4] P2       test 0.5439  LiRA 0.4738  gapX 0.3740/Z 0.3707  L3 -  (0s)
+[E2-diagMI s4] U0       test 0.9315  LiRA 0.4836  gapX 0.0356/Z 0.0372  L3 통과  (81s)
+[E2-diagMI s4] U1       test 0.9306  LiRA 0.4770  gapX 0.0333/Z 0.0349  L3 통과  (81s)
+[E2-diagMI s4] U2       test 0.9185  LiRA 0.4999  gapX 0.0641/Z 0.0661  L3 통과  (22s)
+[E2-diagMI s4] U3-orig  test 0.9224  LiRA 0.5500  gapX 0.0551/Z 0.0550  L3 불통과  (0s)
+[E2-diagMI s4] U3       test 0.9211  LiRA 0.5138  gapX 0.0583/Z 0.0594  L3 불통과  (95s)
+[E2-diagMI s4] U4       test 0.9311  LiRA 0.6077  gapX 0.0388/Z 0.0377  L3 불통과  (24s)
+[E2-diagMI s4] U4s      test 0.9308  LiRA 0.5857  gapX 0.0396/Z 0.0395  L3 불통과  (49s)
+[E2-diagMI s4] done
+== E2-diagMI s5 02:03:49
+[E2-diagMI s5] P1       test 0.9311  LiRA 0.5666  gapX 0.0411/Z 0.0386  L3 불통과  (0s)
+[E2-diagMI s5] P2       test 0.5439  LiRA 0.4738  gapX 0.3740/Z 0.3707  L3 -  (0s)
+[E2-diagMI s5] U0       test 0.9314  LiRA 0.4914  gapX 0.0353/Z 0.0372  L3 통과  (81s)
+[E2-diagMI s5] U1       test 0.9311  LiRA 0.5157  gapX 0.0342/Z 0.0361  L3 불통과  (81s)
+[E2-diagMI s5] U2       test 0.9203  LiRA 0.5135  gapX 0.0629/Z 0.0648  L3 통과  (22s)
+[E2-diagMI s5] U3-orig  test 0.9224  LiRA 0.5476  gapX 0.0552/Z 0.0552  L3 불통과  (0s)
+[E2-diagMI s5] U3       test 0.9228  LiRA 0.5172  gapX 0.0568/Z 0.0583  L3 불통과  (94s)
+[E2-diagMI s5] U4       test 0.9311  LiRA 0.5646  gapX 0.0408/Z 0.0384  L3 불통과  (24s)
+[E2-diagMI s5] U4s      test 0.9309  LiRA 0.5526  gapX 0.0407/Z 0.0394  L3 불통과  (49s)
+[E2-diagMI s5] done
+== E2-F65 s1 02:11:58
+[E2-F65] shadow 1/16
+[E2-F65] shadow 2/16
+[E2-F65] shadow 3/16
+[E2-F65] shadow 4/16
+[E2-F65] shadow 5/16
+[E2-F65] shadow 6/16
+[E2-F65] shadow 7/16
+[E2-F65] shadow 8/16
+[E2-F65] shadow 9/16
+[E2-F65] shadow 10/16
+[E2-F65] shadow 11/16
+[E2-F65] shadow 12/16
+[E2-F65] shadow 13/16
+[E2-F65] shadow 14/16
+[E2-F65] shadow 15/16
+[E2-F65] shadow 16/16
+[E2-F65 s1] P1       test 0.9299  LiRA 0.5536  gapX 0.0324/Z 0.0350  L3 불통과  (0s)
+[E2-F65 s1] P2       test 0.5439  LiRA 0.4603  gapX 0.3919/Z 0.3813  L3 -  (0s)
+[E2-F65 s1] U0       test 0.9307  LiRA 0.4933  gapX 0.0323/Z 0.0356  L3 통과  (82s)
+[E2-F65 s1] U1       test 0.9294  LiRA 0.4990  gapX 0.0311/Z 0.0358  L3 통과  (81s)
+[E2-F65 s1] U2       test 0.9198  LiRA 0.4780  gapX 0.0582/Z 0.0630  L3 통과  (22s)
+[E2-F65 s1] U3-orig  test 0.9222  LiRA 0.5016  gapX 0.0496/Z 0.0554  L3 통과  (0s)
+[E2-F65 s1] U3       test 0.9226  LiRA 0.4903  gapX 0.0499/Z 0.0553  L3 통과  (95s)
+[E2-F65 s1] U4       test 0.9300  LiRA 0.5524  gapX 0.0324/Z 0.0347  L3 불통과  (24s)
+[E2-F65 s1] U4s      test 0.9302  LiRA 0.5389  gapX 0.0333/Z 0.0357  L3 불통과  (48s)
+[E2-F65 s1] done
+== E2-F65 s2 02:41:38
+[E2-F65 s2] P1       test 0.9318  LiRA 0.5596  gapX 0.0336/Z 0.0352  L3 불통과  (0s)
+[E2-F65 s2] P2       test 0.5439  LiRA 0.4603  gapX 0.3919/Z 0.3813  L3 -  (0s)
+[E2-F65 s2] U0       test 0.9305  LiRA 0.4865  gapX 0.0321/Z 0.0359  L3 통과  (81s)
+[E2-F65 s2] U1       test 0.9308  LiRA 0.4648  gapX 0.0305/Z 0.0332  L3 불통과  (81s)
+[E2-F65 s2] U2       test 0.9214  LiRA 0.4882  gapX 0.0547/Z 0.0590  L3 통과  (22s)
+[E2-F65 s2] U3-orig  test 0.9234  LiRA 0.5037  gapX 0.0492/Z 0.0558  L3 통과  (0s)
+[E2-F65 s2] U3       test 0.9223  LiRA 0.4840  gapX 0.0501/Z 0.0552  L3 통과  (95s)
+[E2-F65 s2] U4       test 0.9319  LiRA 0.5550  gapX 0.0340/Z 0.0361  L3 불통과  (24s)
+[E2-F65 s2] U4s      test 0.9319  LiRA 0.5511  gapX 0.0348/Z 0.0364  L3 불통과  (48s)
+[E2-F65 s2] done
+== E2-F65 s3 02:49:46
+[E2-F65 s3] P1       test 0.9311  LiRA 0.5446  gapX 0.0325/Z 0.0349  L3 불통과  (0s)
+[E2-F65 s3] P2       test 0.5439  LiRA 0.4603  gapX 0.3919/Z 0.3813  L3 -  (0s)
+[E2-F65 s3] U0       test 0.9305  LiRA 0.5209  gapX 0.0319/Z 0.0355  L3 불통과  (81s)
+[E2-F65 s3] U1       test 0.9305  LiRA 0.5097  gapX 0.0316/Z 0.0343  L3 통과  (81s)
+[E2-F65 s3] U2       test 0.9201  LiRA 0.4949  gapX 0.0565/Z 0.0620  L3 통과  (22s)
+[E2-F65 s3] U3-orig  test 0.9234  LiRA 0.4981  gapX 0.0494/Z 0.0552  L3 통과  (0s)
+[E2-F65 s3] U3       test 0.9227  LiRA 0.4874  gapX 0.0519/Z 0.0572  L3 통과  (95s)
+[E2-F65 s3] U4       test 0.9311  LiRA 0.5497  gapX 0.0329/Z 0.0354  L3 불통과  (24s)
+[E2-F65 s3] U4s      test 0.9312  LiRA 0.5383  gapX 0.0337/Z 0.0361  L3 불통과  (48s)
+[E2-F65 s3] done
+== E2-F65 s4 02:57:54
+[E2-F65 s4] P1       test 0.9306  LiRA 0.5621  gapX 0.0326/Z 0.0338  L3 불통과  (0s)
+[E2-F65 s4] P2       test 0.5439  LiRA 0.4603  gapX 0.3919/Z 0.3813  L3 -  (0s)
+[E2-F65 s4] U0       test 0.9309  LiRA 0.4763  gapX 0.0320/Z 0.0348  L3 통과  (81s)
+[E2-F65 s4] U1       test 0.9314  LiRA 0.5051  gapX 0.0305/Z 0.0346  L3 통과  (81s)
+[E2-F65 s4] U2       test 0.9202  LiRA 0.4934  gapX 0.0571/Z 0.0645  L3 통과  (22s)
+[E2-F65 s4] U3-orig  test 0.9224  LiRA 0.5013  gapX 0.0490/Z 0.0553  L3 통과  (0s)
+[E2-F65 s4] U3       test 0.9232  LiRA 0.4853  gapX 0.0509/Z 0.0564  L3 통과  (94s)
+[E2-F65 s4] U4       test 0.9306  LiRA 0.5616  gapX 0.0328/Z 0.0341  L3 불통과  (24s)
+[E2-F65 s4] U4s      test 0.9307  LiRA 0.5533  gapX 0.0337/Z 0.0350  L3 불통과  (49s)
+[E2-F65 s4] done
+== E2-F65 s5 03:06:01
+[E2-F65 s5] P1       test 0.9310  LiRA 0.5760  gapX 0.0332/Z 0.0347  L3 불통과  (0s)
+[E2-F65 s5] P2       test 0.5439  LiRA 0.4603  gapX 0.3919/Z 0.3813  L3 -  (0s)
+[E2-F65 s5] U0       test 0.9313  LiRA 0.4863  gapX 0.0322/Z 0.0362  L3 통과  (81s)
+[E2-F65 s5] U1       test 0.9309  LiRA 0.4764  gapX 0.0303/Z 0.0330  L3 통과  (81s)
+[E2-F65 s5] U2       test 0.9204  LiRA 0.4749  gapX 0.0554/Z 0.0606  L3 통과  (22s)
+[E2-F65 s5] U3-orig  test 0.9223  LiRA 0.5051  gapX 0.0495/Z 0.0553  L3 통과  (0s)
+[E2-F65 s5] U3       test 0.9223  LiRA 0.4859  gapX 0.0509/Z 0.0561  L3 통과  (95s)
+[E2-F65 s5] U4       test 0.9310  LiRA 0.5770  gapX 0.0333/Z 0.0347  L3 불통과  (24s)
+[E2-F65 s5] U4s      test 0.9309  LiRA 0.5570  gapX 0.0347/Z 0.0357  L3 불통과  (48s)
+[E2-F65 s5] done
+== E2-inst2 s1 03:14:08
+[E2-inst2] shadow 1/16
+[E2-inst2] shadow 2/16
+[E2-inst2] shadow 3/16
+[E2-inst2] shadow 4/16
+[E2-inst2] shadow 5/16
+[E2-inst2] shadow 6/16
+[E2-inst2] shadow 7/16
+[E2-inst2] shadow 8/16
+[E2-inst2] shadow 9/16
+[E2-inst2] shadow 10/16
+[E2-inst2] shadow 11/16
+[E2-inst2] shadow 12/16
+[E2-inst2] shadow 13/16
+[E2-inst2] shadow 14/16
+[E2-inst2] shadow 15/16
+[E2-inst2] shadow 16/16
+[E2-inst2 s1] P1       test 0.9300  LiRA 0.5913  gapX 0.0291/Z 0.0307  L3 불통과  (0s)
+[E2-inst2 s1] P2       test 0.5439  LiRA 0.4742  gapX 0.4032/Z 0.3985  L3 -  (0s)
+[E2-inst2 s1] U0       test 0.9301  LiRA 0.5271  gapX 0.0302/Z 0.0316  L3 통과  (82s)
+[E2-inst2 s1] U1       test 0.9304  LiRA 0.5225  gapX 0.0296/Z 0.0313  L3 통과  (82s)
+[E2-inst2 s1] U2       test 0.9209  LiRA 0.4770  gapX 0.0553/Z 0.0557  L3 불통과  (22s)
+[E2-inst2 s1] U3-orig  test 0.9221  LiRA 0.5144  gapX 0.0498/Z 0.0514  L3 통과  (0s)
+[E2-inst2 s1] U3       test 0.9208  LiRA 0.4920  gapX 0.0513/Z 0.0514  L3 불통과  (94s)
+[E2-inst2 s1] U4       test 0.9299  LiRA 0.5875  gapX 0.0299/Z 0.0315  L3 불통과  (24s)
+[E2-inst2 s1] U4s      test 0.9300  LiRA 0.5864  gapX 0.0304/Z 0.0326  L3 불통과  (49s)
+[E2-inst2 s1] U5       test 0.9288  LiRA 0.5255  gapX 0.0340/Z 0.0356  L3 통과  (64s)
+[E2-inst2 s1] done
+== E2-inst2 s2 03:45:07
+[E2-inst2 s2] P1       test 0.9315  LiRA 0.5812  gapX 0.0310/Z 0.0312  L3 불통과  (0s)
+[E2-inst2 s2] P2       test 0.5439  LiRA 0.4742  gapX 0.4032/Z 0.3985  L3 -  (0s)
+[E2-inst2 s2] U0       test 0.9294  LiRA 0.5265  gapX 0.0311/Z 0.0324  L3 통과  (82s)
+[E2-inst2 s2] U1       test 0.9303  LiRA 0.5373  gapX 0.0294/Z 0.0311  L3 통과  (81s)
+[E2-inst2 s2] U2       test 0.9197  LiRA 0.4694  gapX 0.0559/Z 0.0567  L3 불통과  (22s)
+[E2-inst2 s2] U3-orig  test 0.9235  LiRA 0.5061  gapX 0.0502/Z 0.0518  L3 통과  (0s)
+[E2-inst2 s2] U3       test 0.9219  LiRA 0.4866  gapX 0.0515/Z 0.0513  L3 불통과  (94s)
+[E2-inst2 s2] U4       test 0.9317  LiRA 0.5766  gapX 0.0308/Z 0.0307  L3 불통과  (24s)
+[E2-inst2 s2] U4s      test 0.9317  LiRA 0.5664  gapX 0.0313/Z 0.0318  L3 불통과  (48s)
+[E2-inst2 s2] U5       test 0.9275  LiRA 0.5310  gapX 0.0342/Z 0.0361  L3 통과  (64s)
+[E2-inst2 s2] done
+== E2-inst2 s3 03:54:22
+[E2-inst2 s3] P1       test 0.9307  LiRA 0.5377  gapX 0.0301/Z 0.0308  L3 통과  (0s)
+[E2-inst2 s3] P2       test 0.5439  LiRA 0.4742  gapX 0.4032/Z 0.3985  L3 -  (0s)
+[E2-inst2 s3] U0       test 0.9307  LiRA 0.5100  gapX 0.0304/Z 0.0320  L3 통과  (82s)
+[E2-inst2 s3] U1       test 0.9297  LiRA 0.4710  gapX 0.0304/Z 0.0310  L3 불통과  (81s)
+[E2-inst2 s3] U2       test 0.9202  LiRA 0.4696  gapX 0.0551/Z 0.0553  L3 불통과  (22s)
+[E2-inst2 s3] U3-orig  test 0.9229  LiRA 0.5070  gapX 0.0490/Z 0.0506  L3 통과  (0s)
+[E2-inst2 s3] U3       test 0.9211  LiRA 0.4942  gapX 0.0503/Z 0.0519  L3 통과  (94s)
+[E2-inst2 s3] U4       test 0.9308  LiRA 0.5540  gapX 0.0300/Z 0.0308  L3 불통과  (24s)
+[E2-inst2 s3] U4s      test 0.9309  LiRA 0.5422  gapX 0.0310/Z 0.0319  L3 통과  (48s)
+[E2-inst2 s3] U5       test 0.9275  LiRA 0.5172  gapX 0.0341/Z 0.0357  L3 통과  (64s)
+[E2-inst2 s3] done
+== E2-inst2 s4 04:03:35
+[E2-inst2 s4] P1       test 0.9311  LiRA 0.5845  gapX 0.0299/Z 0.0311  L3 불통과  (0s)
+[E2-inst2 s4] P2       test 0.5439  LiRA 0.4742  gapX 0.4032/Z 0.3985  L3 -  (0s)
+[E2-inst2 s4] U0       test 0.9291  LiRA 0.5199  gapX 0.0304/Z 0.0318  L3 통과  (82s)
+[E2-inst2 s4] U1       test 0.9287  LiRA 0.5065  gapX 0.0296/Z 0.0310  L3 통과  (81s)
+[E2-inst2 s4] U2       test 0.9208  LiRA 0.4746  gapX 0.0561/Z 0.0560  L3 불통과  (22s)
+[E2-inst2 s4] U3-orig  test 0.9226  LiRA 0.5095  gapX 0.0493/Z 0.0513  L3 통과  (0s)
+[E2-inst2 s4] U3       test 0.9218  LiRA 0.5006  gapX 0.0498/Z 0.0515  L3 통과  (95s)
+[E2-inst2 s4] U4       test 0.9312  LiRA 0.5717  gapX 0.0303/Z 0.0311  L3 불통과  (24s)
+[E2-inst2 s4] U4s      test 0.9312  LiRA 0.5723  gapX 0.0305/Z 0.0319  L3 불통과  (49s)
+[E2-inst2 s4] U5       test 0.9268  LiRA 0.5018  gapX 0.0346/Z 0.0359  L3 통과  (64s)
+[E2-inst2 s4] done
+== E2-inst2 s5 04:12:49
+[E2-inst2 s5] P1       test 0.9310  LiRA 0.5867  gapX 0.0305/Z 0.0310  L3 불통과  (0s)
+[E2-inst2 s5] P2       test 0.5439  LiRA 0.4742  gapX 0.4032/Z 0.3985  L3 -  (0s)
+[E2-inst2 s5] U0       test 0.9305  LiRA 0.5108  gapX 0.0297/Z 0.0306  L3 통과  (82s)
+[E2-inst2 s5] U1       test 0.9296  LiRA 0.4993  gapX 0.0290/Z 0.0300  L3 통과  (81s)
+[E2-inst2 s5] U2       test 0.9198  LiRA 0.4785  gapX 0.0588/Z 0.0585  L3 불통과  (22s)
+[E2-inst2 s5] U3-orig  test 0.9223  LiRA 0.5117  gapX 0.0500/Z 0.0520  L3 통과  (0s)
+[E2-inst2 s5] U3       test 0.9215  LiRA 0.4855  gapX 0.0507/Z 0.0515  L3 불통과  (94s)
+[E2-inst2 s5] U4       test 0.9310  LiRA 0.5823  gapX 0.0306/Z 0.0312  L3 불통과  (24s)
+[E2-inst2 s5] U4s      test 0.9309  LiRA 0.5798  gapX 0.0312/Z 0.0315  L3 불통과  (49s)
+[E2-inst2 s5] U5       test 0.9285  LiRA 0.5078  gapX 0.0346/Z 0.0370  L3 통과  (64s)
+[E2-inst2 s5] done
+== E2-exit2 s1 04:22:03
+[E2-exit2] shadow 1/16
+[E2-exit2] shadow 2/16
+[E2-exit2] shadow 3/16
+[E2-exit2] shadow 4/16
+[E2-exit2] shadow 5/16
+[E2-exit2] shadow 6/16
+[E2-exit2] shadow 7/16
+[E2-exit2] shadow 8/16
+[E2-exit2] shadow 9/16
+[E2-exit2] shadow 10/16
+[E2-exit2] shadow 11/16
+[E2-exit2] shadow 12/16
+[E2-exit2] shadow 13/16
+[E2-exit2] shadow 14/16
+[E2-exit2] shadow 15/16
+[E2-exit2] shadow 16/16
+[E2-exit2 s1] P1       test 0.9295  LiRA 0.5780  gapX 0.0337/Z 0.0356  L3 불통과  (0s)
+[E2-exit2 s1] P2       test 0.5439  LiRA 0.4684  gapX 0.4084/Z 0.4024  L3 -  (0s)
+[E2-exit2 s1] U0       test 0.9288  LiRA 0.5327  gapX 0.0325/Z 0.0346  L3 통과  (64s)
+[E2-exit2 s1] U1       test 0.9280  LiRA 0.5390  gapX 0.0335/Z 0.0357  L3 통과  (63s)
+[E2-exit2 s1] U2       test 0.9205  LiRA 0.4750  gapX 0.0568/Z 0.0571  L3 불통과  (17s)
+[E2-exit2 s1] U3-orig  test 0.9219  LiRA 0.5031  gapX 0.0541/Z 0.0566  L3 통과  (0s)
+[E2-exit2 s1] U3       test 0.9201  LiRA 0.4852  gapX 0.0541/Z 0.0549  L3 불통과  (75s)
+[E2-exit2 s1] U4       test 0.9294  LiRA 0.5791  gapX 0.0347/Z 0.0368  L3 불통과  (21s)
+[E2-exit2 s1] U4s      test 0.9293  LiRA 0.5420  gapX 0.0388/Z 0.0413  L3 통과  (45s)
+[E2-exit2 s1] U5       test 0.9288  LiRA 0.5327  gapX 0.0260/Z 0.0277  L3 통과  (64s)
+[E2-exit2 s1] done
+== E2-exit2 s2 04:50:38
+[E2-exit2 s2] P1       test 0.9309  LiRA 0.5750  gapX 0.0350/Z 0.0371  L3 불통과  (0s)
+[E2-exit2 s2] P2       test 0.5439  LiRA 0.4684  gapX 0.4084/Z 0.4024  L3 -  (0s)
+[E2-exit2 s2] U0       test 0.9275  LiRA 0.5380  gapX 0.0339/Z 0.0362  L3 통과  (64s)
+[E2-exit2 s2] U1       test 0.9271  LiRA 0.5342  gapX 0.0339/Z 0.0365  L3 통과  (63s)
+[E2-exit2 s2] U2       test 0.9191  LiRA 0.4660  gapX 0.0581/Z 0.0590  L3 불통과  (17s)
+[E2-exit2 s2] U3-orig  test 0.9232  LiRA 0.5052  gapX 0.0538/Z 0.0567  L3 통과  (0s)
+[E2-exit2 s2] U3       test 0.9204  LiRA 0.4978  gapX 0.0543/Z 0.0559  L3 통과  (74s)
+[E2-exit2 s2] U4       test 0.9313  LiRA 0.5575  gapX 0.0348/Z 0.0363  L3 불통과  (20s)
+[E2-exit2 s2] U4s      test 0.9308  LiRA 0.5375  gapX 0.0385/Z 0.0407  L3 통과  (45s)
+[E2-exit2 s2] U5       test 0.9275  LiRA 0.5380  gapX 0.0271/Z 0.0289  L3 통과  (63s)
+[E2-exit2 s2] done
+== E2-exit2 s3 04:59:36
+[E2-exit2 s3] P1       test 0.9302  LiRA 0.5387  gapX 0.0346/Z 0.0355  L3 통과  (0s)
+[E2-exit2 s3] P2       test 0.5439  LiRA 0.4684  gapX 0.4084/Z 0.4024  L3 -  (0s)
+[E2-exit2 s3] U0       test 0.9275  LiRA 0.5162  gapX 0.0326/Z 0.0347  L3 통과  (64s)
+[E2-exit2 s3] U1       test 0.9283  LiRA 0.4939  gapX 0.0332/Z 0.0348  L3 통과  (63s)
+[E2-exit2 s3] U2       test 0.9204  LiRA 0.4741  gapX 0.0585/Z 0.0589  L3 불통과  (17s)
+[E2-exit2 s3] U3-orig  test 0.9226  LiRA 0.5031  gapX 0.0532/Z 0.0557  L3 통과  (0s)
+[E2-exit2 s3] U3       test 0.9192  LiRA 0.4886  gapX 0.0535/Z 0.0548  L3 불통과  (75s)
+[E2-exit2 s3] U4       test 0.9303  LiRA 0.5478  gapX 0.0345/Z 0.0358  L3 통과  (21s)
+[E2-exit2 s3] U4s      test 0.9300  LiRA 0.5258  gapX 0.0384/Z 0.0400  L3 통과  (45s)
+[E2-exit2 s3] U5       test 0.9275  LiRA 0.5162  gapX 0.0261/Z 0.0278  L3 통과  (64s)
+[E2-exit2 s3] done
+== E2-exit2 s4 05:08:36
+[E2-exit2 s4] P1       test 0.9307  LiRA 0.5699  gapX 0.0341/Z 0.0358  L3 불통과  (0s)
+[E2-exit2 s4] P2       test 0.5439  LiRA 0.4684  gapX 0.4084/Z 0.4024  L3 -  (0s)
+[E2-exit2 s4] U0       test 0.9268  LiRA 0.5061  gapX 0.0326/Z 0.0350  L3 통과  (64s)
+[E2-exit2 s4] U1       test 0.9270  LiRA 0.5047  gapX 0.0335/Z 0.0352  L3 통과  (64s)
+[E2-exit2 s4] U2       test 0.9198  LiRA 0.4651  gapX 0.0576/Z 0.0577  L3 불통과  (17s)
+[E2-exit2 s4] U3-orig  test 0.9225  LiRA 0.5035  gapX 0.0538/Z 0.0563  L3 통과  (0s)
+[E2-exit2 s4] U3       test 0.9196  LiRA 0.4958  gapX 0.0545/Z 0.0568  L3 통과  (73s)
+[E2-exit2 s4] U4       test 0.9308  LiRA 0.5432  gapX 0.0357/Z 0.0373  L3 통과  (20s)
+[E2-exit2 s4] U4s      test 0.9303  LiRA 0.5377  gapX 0.0376/Z 0.0397  L3 통과  (45s)
+[E2-exit2 s4] U5       test 0.9268  LiRA 0.5061  gapX 0.0261/Z 0.0280  L3 통과  (64s)
+[E2-exit2 s4] done
+== E2-exit2 s5 05:17:36
+[E2-exit2 s5] P1       test 0.9304  LiRA 0.5794  gapX 0.0348/Z 0.0360  L3 불통과  (0s)
+[E2-exit2 s5] P2       test 0.5439  LiRA 0.4684  gapX 0.4084/Z 0.4024  L3 -  (0s)
+[E2-exit2 s5] U0       test 0.9285  LiRA 0.5255  gapX 0.0333/Z 0.0358  L3 통과  (64s)
+[E2-exit2 s5] U1       test 0.9275  LiRA 0.5199  gapX 0.0332/Z 0.0349  L3 통과  (63s)
+[E2-exit2 s5] U2       test 0.9189  LiRA 0.4678  gapX 0.0595/Z 0.0597  L3 불통과  (17s)
+[E2-exit2 s5] U3-orig  test 0.9221  LiRA 0.5010  gapX 0.0540/Z 0.0571  L3 통과  (0s)
+[E2-exit2 s5] U3       test 0.9195  LiRA 0.4899  gapX 0.0549/Z 0.0565  L3 불통과  (73s)
+[E2-exit2 s5] U4       test 0.9304  LiRA 0.5800  gapX 0.0345/Z 0.0357  L3 불통과  (20s)
+[E2-exit2 s5] U4s      test 0.9300  LiRA 0.5501  gapX 0.0382/Z 0.0399  L3 통과  (45s)
+[E2-exit2 s5] U5       test 0.9285  LiRA 0.5255  gapX 0.0267/Z 0.0286  L3 통과  (64s)
+[E2-exit2 s5] done
+== all done 05:26:33

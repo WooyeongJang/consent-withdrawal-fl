@@ -1,0 +1,1057 @@
+{
+ "contract": "0x0b58f558306106e22506cBDbcD4e2335cBBf9360",
+ "chain_id": 1001,
+ "roles": {
+  "aggregator": "0x0b09EDA86Dea0fbc1c2d07a7ccBe536D16d78DD9",
+  "dc9": "0x3B0FA88F020FbEA5CDB8CCDE4A4B9E86789A595F",
+  "dc0": "0x72d768d117fEBDc46D167d78B07C67ca439358aB",
+  "platform": "0x02F6771C74ab530301d77641955dF630290cA5c4",
+  "dc3": "0xdc324c45b5738E12ba3C66A1bB4957B092e0802C",
+  "dc6": "0x448b775Df1cc8714DebE2dCdc6a5C8019e116E13",
+  "dc2": "0xDf63093e2271159Bd5BA4B4f4Ea88a8dc283Aa24",
+  "dc8": "0xC6e0B5f379881bc23566449de35C80CB576Efeaa",
+  "dc1": "0x060448dc928c521d252B19184eA8fa2fA29b03c9",
+  "dc7": "0x8A1Cf40793DD8F939935e8B01106C44fF6C42A88",
+  "auditor": "0x5341B86F097495f390140cbbEe03e1Bc37bC15d9",
+  "dc5": "0x627887E1B5d4f581D5c5185cc5a260F13Ffe1Ec7",
+  "dc4": "0x05D79516d651e13F4D3BD36BA6cB12B00E39d115"
+ },
+ "subjects": {
+  "A": {
+   "patient_id": 325,
+   "level": 3,
+   "subject_commit": "2726ad5afbd7c3caad8bfb37b43473241c232d8598ea21abc9b7d2186b1ec10c"
+  },
+  "B": {
+   "patient_id": 350,
+   "level": 1,
+   "subject_commit": "642a31e53e866df3ac5ba9b36e52f4e9a635fceb300c1f329e8f2821b97c94be"
+  }
+ },
+ "deployable_after_withdrawal": {
+  "final_round_model": false,
+  "round1_model": false
+ },
+ "rounds": 6,
+ "withdraw_round": 4,
+ "reqIds": {
+  "A": 0,
+  "B": 1
+ },
+ "final_model_before_job": "728b0427c90640a60b253f180acb9a55de3c971917fcfebd27adfa345f729b30",
+ "job_output": "ae83d14daf2b7f325ac70d26f32dd23f3e8fd5d3a74ba510a33fe7fe741e9a52",
+ "l1_regular_samples": [
+  {
+   "k": "1",
+   "r": 1,
+   "result": "통과"
+  },
+  {
+   "k": "2",
+   "r": 2,
+   "result": "통과"
+  },
+  {
+   "k": "0",
+   "r": 3,
+   "result": "통과"
+  },
+  {
+   "k": "1",
+   "r": 4,
+   "result": "통과"
+  },
+  {
+   "k": "0",
+   "r": 5,
+   "result": "통과"
+  },
+  {
+   "k": "2",
+   "r": 6,
+   "result": "통과"
+  }
+ ],
+ "l1_job": true,
+ "l2_job": "통과",
+ "deployable_job_before_L3": true,
+ "device_check_L4": {
+  "deployed": "0xae83d14daf2b7f325ac70d26f32dd23f3e8fd5d3a74ba510a33fe7fe741e9a52",
+  "local_model_hash": "0xae83d14daf2b7f325ac70d26f32dd23f3e8fd5d3a74ba510a33fe7fe741e9a52",
+  "match": true,
+  "revoked_final_model_rejected": true
+ },
+ "pendingLevel2_after_deploy": 0,
+ "wall_seconds": 116.0093252658844,
+ "tx_stats": {
+  "deploy:ConsentLedger": {
+   "n": 1,
+   "failed": 0,
+   "gas_mean": 2608906.0,
+   "latency_mean_s": 0.5893309116363525,
+   "fee_kaia": 0.0
+  },
+  "registerPolicy": {
+   "n": 2,
+   "failed": 0,
+   "gas_mean": 59806.0,
+   "latency_mean_s": 0.7384886741638184,
+   "fee_kaia": 0.00328933
+  },
+  "commitTrainingConfig": {
+   "n": 1,
+   "failed": 0,
+   "gas_mean": 59679.0,
+   "latency_mean_s": 0.4918177127838135,
+   "fee_kaia": 0.0016411725
+  },
+  "openRound": {
+   "n": 6,
+   "failed": 0,
+   "gas_mean": 60769.0,
+   "latency_mean_s": 0.8054133256276449,
+   "fee_kaia": 0.010026885
+  },
+  "commitInput": {
+   "n": 18,
+   "failed": 0,
+   "gas_mean": 66819.0,
+   "latency_mean_s": 0.43434956338670516,
+   "fee_kaia": 0.033075405
+  },
+  "commitUpdate": {
+   "n": 18,
+   "failed": 0,
+   "gas_mean": 62334.0,
+   "latency_mean_s": 0.453228579627143,
+   "fee_kaia": 0.03085533
+  },
+  "decide": {
+   "n": 18,
+   "failed": 0,
+   "gas_mean": 69883.0,
+   "latency_mean_s": 0.8469362656275431,
+   "fee_kaia": 0.034592085
+  },
+  "aggregate": {
+   "n": 6,
+   "failed": 0,
+   "gas_mean": 67081.0,
+   "latency_mean_s": 0.8344642321268717,
+   "fee_kaia": 0.011068365
+  },
+  "sampleAudit": {
+   "n": 6,
+   "failed": 0,
+   "gas_mean": 37979.0,
+   "latency_mean_s": 0.9262651602427164,
+   "fee_kaia": 0.006266535
+  },
+  "requestWithdrawal": {
+   "n": 2,
+   "failed": 0,
+   "gas_mean": 125304.0,
+   "latency_mean_s": 0.9086204767227173,
+   "fee_kaia": 0.00689172
+  },
+  "declareFirstUse": {
+   "n": 2,
+   "failed": 0,
+   "gas_mean": 52828.5,
+   "latency_mean_s": 0.9183375835418701,
+   "fee_kaia": 0.0029055675
+  },
+  "revoke": {
+   "n": 1,
+   "failed": 0,
+   "gas_mean": 63022.0,
+   "latency_mean_s": 0.8716874122619629,
+   "fee_kaia": 0.001733105
+  },
+  "approveMethod": {
+   "n": 1,
+   "failed": 0,
+   "gas_mean": 58984.0,
+   "latency_mean_s": 0.8440778255462646,
+   "fee_kaia": 0.00162206
+  },
+  "createJob": {
+   "n": 1,
+   "failed": 0,
+   "gas_mean": 177833.0,
+   "latency_mean_s": 0.9515106678009033,
+   "fee_kaia": 0.0048904075
+  },
+  "completeJob": {
+   "n": 1,
+   "failed": 0,
+   "gas_mean": 109675.0,
+   "latency_mean_s": 0.830042839050293,
+   "fee_kaia": 0.0030160625
+  },
+  "recordVerification": {
+   "n": 9,
+   "failed": 0,
+   "gas_mean": 59403.666666666664,
+   "latency_mean_s": 0.7268991470336914,
+   "fee_kaia": 0.0147024075
+  },
+  "deploy": {
+   "n": 1,
+   "failed": 0,
+   "gas_mean": 94400.0,
+   "latency_mean_s": 0.9706461429595947,
+   "fee_kaia": 0.002596
+  }
+ },
+ "tx_total": 94,
+ "fee_total_kaia": 0.1691724375,
+ "transactions": [
+  {
+   "fn": "deploy:ConsentLedger",
+   "role": "platform",
+   "hash": "0x1412504f8ffd5d3e1a3ed60d025991f8a8b0750a6ac166ae2eed952dd83d18e5",
+   "block": null,
+   "status": 1,
+   "gas_used": 2608906,
+   "latency_s": 0.5893309116363525
+  },
+  {
+   "fn": "registerPolicy",
+   "role": "platform",
+   "hash": "0x007d2a2d871bdb424fae37cb1f98f40098abd97eb0ef0946e71c7bce549d1187",
+   "block": 231445249,
+   "status": 1,
+   "gas_used": 59806,
+   "latency_s": 0.5459539890289307
+  },
+  {
+   "fn": "registerPolicy",
+   "role": "platform",
+   "hash": "0xff06da6eb94a089cd97fc11f42b46caea579d6b4aaab6a7d66ab4cc5517e4133",
+   "block": 231445250,
+   "status": 1,
+   "gas_used": 59806,
+   "latency_s": 0.931023359298706
+  },
+  {
+   "fn": "commitTrainingConfig",
+   "role": "platform",
+   "hash": "0x84566f1021dcbe598706389821548bee3c7c86ba0ebcd2a88fca702c0dcc7e04",
+   "block": 231445252,
+   "status": 1,
+   "gas_used": 59679,
+   "latency_s": 0.4918177127838135
+  },
+  {
+   "fn": "openRound",
+   "role": "platform",
+   "hash": "0xb54116179c80e30568236b98a64ff6b9f7e808da22386eda08f85feebe3266a6",
+   "block": 231445253,
+   "status": 1,
+   "gas_used": 60769,
+   "latency_s": 0.9343481063842773
+  },
+  {
+   "fn": "commitInput",
+   "role": "dc0",
+   "hash": "0x03f44cf8314700ff3e4a3ae12560387fc55e0e3432874ef6d135783381b42fdd",
+   "block": 231445258,
+   "status": 1,
+   "gas_used": 66811,
+   "latency_s": 0.5892629623413086
+  },
+  {
+   "fn": "commitUpdate",
+   "role": "dc0",
+   "hash": "0x5981e0f32043b696ae469d7e678ecb0d0f5c59e15e625a3aecd65945a7701550",
+   "block": 231445258,
+   "status": 1,
+   "gas_used": 62326,
+   "latency_s": 0.5630099773406982
+  },
+  {
+   "fn": "commitInput",
+   "role": "dc1",
+   "hash": "0x99a1912a0e1714acc8b67724bd387fed4408ac3d80e6ee2f5babeefbd44d1adc",
+   "block": 231445258,
+   "status": 1,
+   "gas_used": 66823,
+   "latency_s": 0.35082221031188965
+  },
+  {
+   "fn": "commitUpdate",
+   "role": "dc1",
+   "hash": "0x99e7491c33c1ba6ab3d6a8de868c13d59da3685960f68ca7b64042fb01fb09ac",
+   "block": 231445258,
+   "status": 1,
+   "gas_used": 62338,
+   "latency_s": 0.34093785285949707
+  },
+  {
+   "fn": "commitInput",
+   "role": "dc2",
+   "hash": "0x594ab5d0971ff3e3fa13ac41764a50126768cb779513b48b8642ff467ecea286",
+   "block": 231445258,
+   "status": 1,
+   "gas_used": 66823,
+   "latency_s": 0.40107131004333496
+  },
+  {
+   "fn": "commitUpdate",
+   "role": "dc2",
+   "hash": "0xdb8bf9cc5f19884abffd5f91a1f9b95678b5dffc8e11ec7bf21c019630bfd2c8",
+   "block": 231445258,
+   "status": 1,
+   "gas_used": 62338,
+   "latency_s": 0.3827207088470459
+  },
+  {
+   "fn": "decide",
+   "role": "aggregator",
+   "hash": "0x7b08b780acf55c1df7acdc0e08ffbe7ebc73d6d83620cd1146ce61e29aedcb13",
+   "block": 231445259,
+   "status": 1,
+   "gas_used": 69875,
+   "latency_s": 0.7894082069396973
+  },
+  {
+   "fn": "decide",
+   "role": "aggregator",
+   "hash": "0xeffc8248e6385b739398ddd32fe44e64a48be28bd7567f7b8e16e27e3a845835",
+   "block": 231445259,
+   "status": 1,
+   "gas_used": 69887,
+   "latency_s": 0.7820229530334473
+  },
+  {
+   "fn": "decide",
+   "role": "aggregator",
+   "hash": "0xa26fc31466e6aa792825dfeec75c1da79c824b5dcd988424d6c44aee1f5ecef1",
+   "block": 231445259,
+   "status": 1,
+   "gas_used": 69887,
+   "latency_s": 0.7669212818145752
+  },
+  {
+   "fn": "aggregate",
+   "role": "aggregator",
+   "hash": "0x76230e6c3e72812504847a12eda3290f4ab858d6d1ab96ca38bfdc77fac6349d",
+   "block": 231445259,
+   "status": 1,
+   "gas_used": 67081,
+   "latency_s": 0.7587487697601318
+  },
+  {
+   "fn": "sampleAudit",
+   "role": "auditor",
+   "hash": "0x3d867da35d5d9e57c430b3962b1786ac2d990be193b8b4916f6270e8ecb57c54",
+   "block": 231445260,
+   "status": 1,
+   "gas_used": 37979,
+   "latency_s": 0.9601178169250488
+  },
+  {
+   "fn": "openRound",
+   "role": "platform",
+   "hash": "0x1f7a3912910203b0628228264873bb6a48da359a690f8eb1d8415ba5ab4be093",
+   "block": 231445260,
+   "status": 1,
+   "gas_used": 60769,
+   "latency_s": 0.8325912952423096
+  },
+  {
+   "fn": "commitInput",
+   "role": "dc0",
+   "hash": "0xc751b9fce43e64a581c4b691241b04262f9222ec9c52ad182bfd6678c78a891e",
+   "block": 231445264,
+   "status": 1,
+   "gas_used": 66811,
+   "latency_s": 0.2978506088256836
+  },
+  {
+   "fn": "commitUpdate",
+   "role": "dc0",
+   "hash": "0xc6f69abbafc038e0e2828e8f3bfc0252f23a842ad3302cdee39fd2219446f859",
+   "block": 231445264,
+   "status": 1,
+   "gas_used": 62326,
+   "latency_s": 0.27640223503112793
+  },
+  {
+   "fn": "commitInput",
+   "role": "dc1",
+   "hash": "0x89020eb436e83659ab2db9dec6662f7fd1a1983b30284ffb07a22c68a4a84871",
+   "block": 231445264,
+   "status": 1,
+   "gas_used": 66823,
+   "latency_s": 0.2879481315612793
+  },
+  {
+   "fn": "commitUpdate",
+   "role": "dc1",
+   "hash": "0x3a2437acca849964bca92dfbec1e5e00fa4181e03d545b340fbfa474a1bb9fb2",
+   "block": 231445264,
+   "status": 1,
+   "gas_used": 62338,
+   "latency_s": 0.2747824192047119
+  },
+  {
+   "fn": "commitInput",
+   "role": "dc2",
+   "hash": "0xa95d89ff077e7977733e1a4d5cc3ba296eebc8ae62c6677960dac52250b4e7fc",
+   "block": 231445264,
+   "status": 1,
+   "gas_used": 66823,
+   "latency_s": 0.3018007278442383
+  },
+  {
+   "fn": "commitUpdate",
+   "role": "dc2",
+   "hash": "0xf0d92ec493cb60945c8796d2f49990538c6d5157d9bd78c542d1f1330c3b63e4",
+   "block": 231445264,
+   "status": 1,
+   "gas_used": 62338,
+   "latency_s": 0.2773134708404541
+  },
+  {
+   "fn": "decide",
+   "role": "aggregator",
+   "hash": "0x7874a35df3b0c071acf163647646ac8d8de38c6c49594f3186c72cc8dcfc5fe0",
+   "block": 231445265,
+   "status": 1,
+   "gas_used": 69875,
+   "latency_s": 0.856121301651001
+  },
+  {
+   "fn": "decide",
+   "role": "aggregator",
+   "hash": "0xbb68b00aa98e4b55e37d7537f6d43c047207cef4cb9af2d73f50b957f22de250",
+   "block": 231445265,
+   "status": 1,
+   "gas_used": 69887,
+   "latency_s": 0.8325595855712891
+  },
+  {
+   "fn": "decide",
+   "role": "aggregator",
+   "hash": "0x6b559dab8b13f623d0f66eeb0dfec21921791ddfd0d3035d3d6b0ca7a32ee249",
+   "block": 231445265,
+   "status": 1,
+   "gas_used": 69887,
+   "latency_s": 0.8192777633666992
+  },
+  {
+   "fn": "aggregate",
+   "role": "aggregator",
+   "hash": "0x7a35fb989a7e355f4d58f9e35a2006e0bc908ad9a1e39cf5eddc36a9e528b6f3",
+   "block": 231445265,
+   "status": 1,
+   "gas_used": 67081,
+   "latency_s": 0.8124270439147949
+  },
+  {
+   "fn": "sampleAudit",
+   "role": "auditor",
+   "hash": "0xa949948b322578faa5fd15b924d3ab38cf946b6952f34f8c263df3a041c95a7c",
+   "block": 231445266,
+   "status": 1,
+   "gas_used": 37979,
+   "latency_s": 0.9540684223175049
+  },
+  {
+   "fn": "openRound",
+   "role": "platform",
+   "hash": "0x4e4b1ea2758d1b33f7c1d736baf7f93b8e01e0b47423d2a244629adf709b0fed",
+   "block": 231445266,
+   "status": 1,
+   "gas_used": 60769,
+   "latency_s": 0.9640383720397949
+  },
+  {
+   "fn": "commitInput",
+   "role": "dc0",
+   "hash": "0xd665d2b6b0ba30a8e0506d59ded6a536501d7017171701a6b7a05e97d5cce987",
+   "block": 231445270,
+   "status": 1,
+   "gas_used": 66811,
+   "latency_s": 0.45759010314941406
+  },
+  {
+   "fn": "commitUpdate",
+   "role": "dc0",
+   "hash": "0x27c45e5eec48580edd923d7f53994880481b2d49c291e26dd85ead7efcf7e8f2",
+   "block": 231445270,
+   "status": 1,
+   "gas_used": 62326,
+   "latency_s": 0.4421961307525635
+  },
+  {
+   "fn": "commitInput",
+   "role": "dc1",
+   "hash": "0xa227edc7bc165d7b1c384cbde216a64fac8934f9f84442fb6261d14537b6389f",
+   "block": 231445270,
+   "status": 1,
+   "gas_used": 66823,
+   "latency_s": 0.45268774032592773
+  },
+  {
+   "fn": "commitUpdate",
+   "role": "dc1",
+   "hash": "0x7b05b8f7659e7ffc5f53c9e99315ed5b5ba0b11a649ef23752e36e32330ebd01",
+   "block": 231445270,
+   "status": 1,
+   "gas_used": 62338,
+   "latency_s": 0.4398932456970215
+  },
+  {
+   "fn": "commitInput",
+   "role": "dc2",
+   "hash": "0xfea4ee44a44ba68c1bb4468ebdddb3c0143ab6ebdc51708a69ca7edc472f47a7",
+   "block": 231445270,
+   "status": 1,
+   "gas_used": 66823,
+   "latency_s": 0.5608210563659668
+  },
+  {
+   "fn": "commitUpdate",
+   "role": "dc2",
+   "hash": "0xae06dc435af68ae064ff4586cd65751f649f2bd2212ee6bb5f620cfe0aea6525",
+   "block": 231445270,
+   "status": 1,
+   "gas_used": 62338,
+   "latency_s": 0.5452558994293213
+  },
+  {
+   "fn": "decide",
+   "role": "aggregator",
+   "hash": "0x3d8f5df8b0e6554a5c445dce349cf61fd36d3b018af18100f7114790ee1ff852",
+   "block": 231445271,
+   "status": 1,
+   "gas_used": 69875,
+   "latency_s": 0.6990196704864502
+  },
+  {
+   "fn": "decide",
+   "role": "aggregator",
+   "hash": "0xeccebd12ccbee41d1dc52ed167df67bd36b71620faa364e74387e42959739385",
+   "block": 231445271,
+   "status": 1,
+   "gas_used": 69887,
+   "latency_s": 0.6832525730133057
+  },
+  {
+   "fn": "decide",
+   "role": "aggregator",
+   "hash": "0xe2ba01738589e168291da6f0a21e9cd2369c91aa918d79c922efc48fcd03897e",
+   "block": 231445271,
+   "status": 1,
+   "gas_used": 69887,
+   "latency_s": 0.6962265968322754
+  },
+  {
+   "fn": "aggregate",
+   "role": "aggregator",
+   "hash": "0x8a1ee971fbbbe31569811a3c13d63940ae25e3ade7cf32d4f2f7d96e42bb8c66",
+   "block": 231445271,
+   "status": 1,
+   "gas_used": 67081,
+   "latency_s": 0.690077543258667
+  },
+  {
+   "fn": "sampleAudit",
+   "role": "auditor",
+   "hash": "0x91cdd5b885a612387009f0496c73f6e6601341ce849531a98f9891d32aace99c",
+   "block": 231445272,
+   "status": 1,
+   "gas_used": 37979,
+   "latency_s": 0.945016622543335
+  },
+  {
+   "fn": "requestWithdrawal",
+   "role": "subject",
+   "hash": "0xc66e1f883632e5b38875a3a11baabea6e0f39848962415cd73b6d0f2d9bf8741",
+   "block": 231445273,
+   "status": 1,
+   "gas_used": 153496,
+   "latency_s": 0.9287245273590088
+  },
+  {
+   "fn": "requestWithdrawal",
+   "role": "subject",
+   "hash": "0x8fe93f8b02f34cd1ac599b983bb0d65ef648cc6009744315d59164a6610af0fd",
+   "block": 231445274,
+   "status": 1,
+   "gas_used": 97112,
+   "latency_s": 0.8885164260864258
+  },
+  {
+   "fn": "declareFirstUse",
+   "role": "dc1",
+   "hash": "0x220ddf958710169e56fd6b7c12dd28bda3e2dfe850ad6f59187ea76843471729",
+   "block": 231445275,
+   "status": 1,
+   "gas_used": 55402,
+   "latency_s": 0.8218936920166016
+  },
+  {
+   "fn": "declareFirstUse",
+   "role": "dc1",
+   "hash": "0x4e666dd26994c2b6370d1a4b814a77a9aa354afb36c18d4208649d2e5bec71df",
+   "block": 231445276,
+   "status": 1,
+   "gas_used": 50255,
+   "latency_s": 1.0147814750671387
+  },
+  {
+   "fn": "openRound",
+   "role": "platform",
+   "hash": "0xb85a8ee1f944bf16fe9cb2ca58cd01b7b7c92d81d2fe2862cbde4afa5cc93cfe",
+   "block": 231445277,
+   "status": 1,
+   "gas_used": 60769,
+   "latency_s": 0.38631439208984375
+  },
+  {
+   "fn": "commitInput",
+   "role": "dc0",
+   "hash": "0xb8b80a0e4bec91cb7579617d2b18da80ac08cce78a135069802e26a167f439d8",
+   "block": 231445281,
+   "status": 1,
+   "gas_used": 66811,
+   "latency_s": 0.37862539291381836
+  },
+  {
+   "fn": "commitUpdate",
+   "role": "dc0",
+   "hash": "0xd3ddd778c4b34c1d3072b19aea7632ac69b48d2fed8a8317934a6c96a40f8386",
+   "block": 231445281,
+   "status": 1,
+   "gas_used": 62326,
+   "latency_s": 0.37559986114501953
+  },
+  {
+   "fn": "commitInput",
+   "role": "dc1",
+   "hash": "0xb218ccb6e58ebbaeb051ed1210a239538a7e7e22915af1df137a9869a74ff2bf",
+   "block": 231445281,
+   "status": 1,
+   "gas_used": 66823,
+   "latency_s": 0.4099416732788086
+  },
+  {
+   "fn": "commitUpdate",
+   "role": "dc1",
+   "hash": "0xa396013f5e0c2fa1d1fd3cac4acce0646b4fa16e9e371f75622eafa7501ab51f",
+   "block": 231445281,
+   "status": 1,
+   "gas_used": 62338,
+   "latency_s": 0.3927590847015381
+  },
+  {
+   "fn": "commitInput",
+   "role": "dc2",
+   "hash": "0x1f6e30b430a8c3f8807168babc1ebbac514a781c396b044cef065883f5a062f1",
+   "block": 231445281,
+   "status": 1,
+   "gas_used": 66823,
+   "latency_s": 0.3724229335784912
+  },
+  {
+   "fn": "commitUpdate",
+   "role": "dc2",
+   "hash": "0xf871d1e96f80262fb7d5bc208b96fd519e06a715a11d2cdd76b31c71f2a34ad3",
+   "block": 231445281,
+   "status": 1,
+   "gas_used": 62338,
+   "latency_s": 0.3677511215209961
+  },
+  {
+   "fn": "decide",
+   "role": "aggregator",
+   "hash": "0x4a4b9ddd71384852a091a15c6e739d1d7c2bd614cc206fe6279996a032bbda61",
+   "block": 231445282,
+   "status": 1,
+   "gas_used": 69875,
+   "latency_s": 1.0078186988830566
+  },
+  {
+   "fn": "decide",
+   "role": "aggregator",
+   "hash": "0x04e6dd1c85a74d25f0fa940f74509570cfa5c33e10241dbe32c755bcf9369631",
+   "block": 231445282,
+   "status": 1,
+   "gas_used": 69887,
+   "latency_s": 1.0113604068756104
+  },
+  {
+   "fn": "decide",
+   "role": "aggregator",
+   "hash": "0xcd6d8d38fbb395870856ba9ea91ed44e5978e5decc582c895ad32a2eb8c116f3",
+   "block": 231445282,
+   "status": 1,
+   "gas_used": 69887,
+   "latency_s": 0.9983065128326416
+  },
+  {
+   "fn": "aggregate",
+   "role": "aggregator",
+   "hash": "0x310e9ba2a32524e7f8c2421f24b5d1f5a12eec5472a3e56c736f4c6101bb913c",
+   "block": 231445282,
+   "status": 1,
+   "gas_used": 67081,
+   "latency_s": 0.9870123863220215
+  },
+  {
+   "fn": "sampleAudit",
+   "role": "auditor",
+   "hash": "0xa181565f459a9f9c73cc34e1a8e6ac20290e7d249f8d8b324e2aae7b06087ce9",
+   "block": 231445283,
+   "status": 1,
+   "gas_used": 37979,
+   "latency_s": 0.8244051933288574
+  },
+  {
+   "fn": "openRound",
+   "role": "platform",
+   "hash": "0xdff8ffc78ad9ab081e98e568a5cab72981edb2a34c7c722f16618eb5af0f18e6",
+   "block": 231445283,
+   "status": 1,
+   "gas_used": 60769,
+   "latency_s": 0.8203907012939453
+  },
+  {
+   "fn": "commitInput",
+   "role": "dc0",
+   "hash": "0xb74e42f4d3884f422ab6e0b61f32f24f7dc24a59866536977cb68ccb1046612c",
+   "block": 231445287,
+   "status": 1,
+   "gas_used": 66811,
+   "latency_s": 0.7459297180175781
+  },
+  {
+   "fn": "commitUpdate",
+   "role": "dc0",
+   "hash": "0xdf3d1afc486d3f0f28f4ced0031d33d487e6d5f5283de212c48d4763f9cf0fd3",
+   "block": 231445288,
+   "status": 1,
+   "gas_used": 62326,
+   "latency_s": 1.3091120719909668
+  },
+  {
+   "fn": "commitInput",
+   "role": "dc1",
+   "hash": "0x8a30eb594da30d8ef30652b66918baddcc574d3f40dff46a5c1b389581c09ece",
+   "block": 231445287,
+   "status": 1,
+   "gas_used": 66823,
+   "latency_s": 0.6225230693817139
+  },
+  {
+   "fn": "commitUpdate",
+   "role": "dc1",
+   "hash": "0xc8f27d35426d9cbd359dd037e6fc60e236ccb2467eb015077a816dfcb2c3cf81",
+   "block": 231445287,
+   "status": 1,
+   "gas_used": 62338,
+   "latency_s": 0.6260294914245605
+  },
+  {
+   "fn": "commitInput",
+   "role": "dc2",
+   "hash": "0x4f5997955c286c156e7779829c78c0ec06c99fb98902d18b8eb2c85a0ed70d6f",
+   "block": 231445287,
+   "status": 1,
+   "gas_used": 66823,
+   "latency_s": 0.6329188346862793
+  },
+  {
+   "fn": "commitUpdate",
+   "role": "dc2",
+   "hash": "0xdf7c224634396d9912f8c6028216f257989f67dd0cb692a600b9245ab3fb63e6",
+   "block": 231445287,
+   "status": 1,
+   "gas_used": 62338,
+   "latency_s": 0.6337783336639404
+  },
+  {
+   "fn": "decide",
+   "role": "aggregator",
+   "hash": "0x3696341a4076508507d665a19cc8b2af2e6b5aef766d5442b86da0f429a2698c",
+   "block": 231445289,
+   "status": 1,
+   "gas_used": 69875,
+   "latency_s": 0.8782997131347656
+  },
+  {
+   "fn": "decide",
+   "role": "aggregator",
+   "hash": "0xe3311df2b8f8884a6ac8ca8e30839c4f9f298629207701ee1667391c13abf852",
+   "block": 231445289,
+   "status": 1,
+   "gas_used": 69887,
+   "latency_s": 0.874570369720459
+  },
+  {
+   "fn": "decide",
+   "role": "aggregator",
+   "hash": "0x85c3807696fd6d476d5fbc20a7c86f77a2d75e58ea35f29e2c924dcdb7433cc5",
+   "block": 231445289,
+   "status": 1,
+   "gas_used": 69887,
+   "latency_s": 0.8765621185302734
+  },
+  {
+   "fn": "aggregate",
+   "role": "aggregator",
+   "hash": "0xef61b110dfc740cacbb048c42fe8d92fb639f430ad59307be99e2a69d4013cfd",
+   "block": 231445289,
+   "status": 1,
+   "gas_used": 67081,
+   "latency_s": 0.8807563781738281
+  },
+  {
+   "fn": "sampleAudit",
+   "role": "auditor",
+   "hash": "0xe6780ad701fe008942d36c81739e7ca8b2527cedd245fc056dcc84895cf1c766",
+   "block": 231445290,
+   "status": 1,
+   "gas_used": 37979,
+   "latency_s": 0.8956420421600342
+  },
+  {
+   "fn": "openRound",
+   "role": "platform",
+   "hash": "0x3ac18ec51107fa8743e13ba61e33f904e94ee8536b888010c3035c8029ac84ec",
+   "block": 231445290,
+   "status": 1,
+   "gas_used": 60769,
+   "latency_s": 0.8947970867156982
+  },
+  {
+   "fn": "commitInput",
+   "role": "dc0",
+   "hash": "0x8d0e5a0e1da823df62e078f5c331fe74a9acad970eb129f271e837899e3b4f2b",
+   "block": 231445294,
+   "status": 1,
+   "gas_used": 66811,
+   "latency_s": 0.4096541404724121
+  },
+  {
+   "fn": "commitUpdate",
+   "role": "dc0",
+   "hash": "0xe26502c01bb589825fbccc6ef3eb3f49222966c5b8107ad3342b2b61813b4167",
+   "block": 231445294,
+   "status": 1,
+   "gas_used": 62326,
+   "latency_s": 0.3889491558074951
+  },
+  {
+   "fn": "commitInput",
+   "role": "dc1",
+   "hash": "0x39a94e533c46544efb41216d559ed2b095539e5358de50f6ff093d4568d3bac8",
+   "block": 231445294,
+   "status": 1,
+   "gas_used": 66823,
+   "latency_s": 0.2779097557067871
+  },
+  {
+   "fn": "commitUpdate",
+   "role": "dc1",
+   "hash": "0x9d64b00c010c42055d85257de3b924c7271d064543dec4981d36053274040cc6",
+   "block": 231445294,
+   "status": 1,
+   "gas_used": 62338,
+   "latency_s": 0.2646806240081787
+  },
+  {
+   "fn": "commitInput",
+   "role": "dc2",
+   "hash": "0xa2714cbccfbf14773626e6cfbee8a765793f6e5ff4f0e2881a6a18fb13df56af",
+   "block": 231445294,
+   "status": 1,
+   "gas_used": 66823,
+   "latency_s": 0.2685117721557617
+  },
+  {
+   "fn": "commitUpdate",
+   "role": "dc2",
+   "hash": "0xea173ae6debcb6c0d124a19777911184d06e4cfa53b39f5dbe39831b78a31d61",
+   "block": 231445294,
+   "status": 1,
+   "gas_used": 62338,
+   "latency_s": 0.2569427490234375
+  },
+  {
+   "fn": "decide",
+   "role": "aggregator",
+   "hash": "0x605c0eae4afc165d618d9882981c949debb7d213080e32286cc482f1effff853",
+   "block": 231445295,
+   "status": 1,
+   "gas_used": 69875,
+   "latency_s": 0.8978970050811768
+  },
+  {
+   "fn": "decide",
+   "role": "aggregator",
+   "hash": "0x9774355216c242df43c3b1a135c282df36337b97ed969c6e095b0d0d6f808540",
+   "block": 231445295,
+   "status": 1,
+   "gas_used": 69887,
+   "latency_s": 0.8906795978546143
+  },
+  {
+   "fn": "decide",
+   "role": "aggregator",
+   "hash": "0x1d9d77c75859ed5e6c86ecbe27866bc941f05506433d6d0f5b15e82af154cac6",
+   "block": 231445295,
+   "status": 1,
+   "gas_used": 69887,
+   "latency_s": 0.8845484256744385
+  },
+  {
+   "fn": "aggregate",
+   "role": "aggregator",
+   "hash": "0x57648fd9b6a1d06ddfab359599e44f79741f5c464abd478141edb4cbb384dce0",
+   "block": 231445295,
+   "status": 1,
+   "gas_used": 67081,
+   "latency_s": 0.8777632713317871
+  },
+  {
+   "fn": "sampleAudit",
+   "role": "auditor",
+   "hash": "0x4dc7cbdac1c9e05bba2a0c220a6a0be14b1bca529e95b163b4251970202b457c",
+   "block": 231445296,
+   "status": 1,
+   "gas_used": 37979,
+   "latency_s": 0.9783408641815186
+  },
+  {
+   "fn": "revoke",
+   "role": "platform",
+   "hash": "0x9f40d5d58a4321dcc5bea4cf81a45f8750ddae4c4eaf72a1471b4279fd3c8644",
+   "block": 231445297,
+   "status": 1,
+   "gas_used": 63022,
+   "latency_s": 0.8716874122619629
+  },
+  {
+   "fn": "approveMethod",
+   "role": "platform",
+   "hash": "0x7e18da0f289c74ef948daeb007ef89f23cae9a85fd17fb1887d7a1b902b2273b",
+   "block": 231445298,
+   "status": 1,
+   "gas_used": 58984,
+   "latency_s": 0.8440778255462646
+  },
+  {
+   "fn": "createJob",
+   "role": "aggregator",
+   "hash": "0x7a5e4bd9ce62aa8f6614eda7cbca17275e7fb6a79f046f95667e5a1b2211ad76",
+   "block": 231445299,
+   "status": 1,
+   "gas_used": 177833,
+   "latency_s": 0.9515106678009033
+  },
+  {
+   "fn": "completeJob",
+   "role": "aggregator",
+   "hash": "0x21d72b06ada6905365c75f87f16bb9c6ac6c81fa26cfa0b85a20e513c7768bca",
+   "block": 231445323,
+   "status": 1,
+   "gas_used": 109675,
+   "latency_s": 0.830042839050293
+  },
+  {
+   "fn": "recordVerification",
+   "role": "auditor",
+   "hash": "0x48270daf8b1aee0aa865f26753bf2957244f6a23b4e2ecc0e012666d209f7375",
+   "block": 231445325,
+   "status": 1,
+   "gas_used": 59389,
+   "latency_s": 0.5969588756561279
+  },
+  {
+   "fn": "recordVerification",
+   "role": "auditor",
+   "hash": "0xfb902a4eaef11735da91aab040199f92398c331c6fca31be56f306c0ad4cafbc",
+   "block": 231445327,
+   "status": 1,
+   "gas_used": 59401,
+   "latency_s": 0.9614903926849365
+  },
+  {
+   "fn": "recordVerification",
+   "role": "auditor",
+   "hash": "0xbb064e87e89f8691b9a94513d675c3357f64e6c08a386560e4f6602bbde10dd8",
+   "block": 231445329,
+   "status": 1,
+   "gas_used": 59401,
+   "latency_s": 0.4813570976257324
+  },
+  {
+   "fn": "recordVerification",
+   "role": "auditor",
+   "hash": "0xac527112f27bd3ceea96ccf14cab02de98c963c6e5e89c0969ad7d792304d9e7",
+   "block": 231445331,
+   "status": 1,
+   "gas_used": 59401,
+   "latency_s": 0.7739925384521484
+  },
+  {
+   "fn": "recordVerification",
+   "role": "auditor",
+   "hash": "0x9e2c3195da20b5bdda4598ca5e3e66dbd713bf7207fecd0470087cdbfd422bc6",
+   "block": 231445333,
+   "status": 1,
+   "gas_used": 59401,
+   "latency_s": 0.36534905433654785
+  },
+  {
+   "fn": "recordVerification",
+   "role": "auditor",
+   "hash": "0x4412af83a57874bc7d0c30fe712e0cf861d4e84c2b262955155bde51a590b511",
+   "block": 231445335,
+   "status": 1,
+   "gas_used": 59401,
+   "latency_s": 0.821622371673584
+  },
+  {
+   "fn": "recordVerification",
+   "role": "auditor",
+   "hash": "0x7b9417bfbff2f8a566898aadc5dbe82854ea0990eb931167f69c52d1ac272b6e",
+   "block": 231445359,
+   "status": 1,
+   "gas_used": 59413,
+   "latency_s": 0.7106904983520508
+  },
+  {
+   "fn": "recordVerification",
+   "role": "auditor",
+   "hash": "0x5966f5f94af91fa80abc31a01ce2596224a3271c263edaeea2f00983a9b12d29",
+   "block": 231445360,
+   "status": 1,
+   "gas_used": 59413,
+   "latency_s": 1.2382822036743164
+  },
+  {
+   "fn": "recordVerification",
+   "role": "auditor",
+   "hash": "0x89d1b9175e3f8156b4ab5ff5bb6e7dcab0fe1fd49e3341a5090481dc47f18455",
+   "block": 231445361,
+   "status": 1,
+   "gas_used": 59413,
+   "latency_s": 0.5923492908477783
+  },
+  {
+   "fn": "deploy",
+   "role": "platform",
+   "hash": "0x25c8be7e7ba5500438db3e6224e4fb034e4663a3d2e556447d5903d1a3b34f72",
+   "block": 231445362,
+   "status": 1,
+   "gas_used": 94400,
+   "latency_s": 0.9706461429595947
+  }
+ ]
+}

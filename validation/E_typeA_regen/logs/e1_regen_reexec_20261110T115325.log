@@ -1,0 +1,95 @@
+
+=============
+== PyTorch ==
+=============
+
+NVIDIA Release 26.08 (build 406036885)
+PyTorch Version 2.14.0a0+4fdf77b
+Container image Copyright (c) 2026, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+Copyright (c) 2014-2024 Facebook Inc.
+Copyright (c) 2011-2014 Idiap Research Institute (Ronan Collobert)
+Copyright (c) 2012-2014 Deepmind Technologies    (Koray Kavukcuoglu)
+Copyright (c) 2011-2012 NEC Laboratories America (Koray Kavukcuoglu)
+Copyright (c) 2011-2013 NYU                      (Clement Farabet)
+Copyright (c) 2006-2010 NEC Laboratories America (Ronan Collobert, Leon Bottou, Iain Melvin, Jason Weston)
+Copyright (c) 2006      Idiap Research Institute (Samy Bengio)
+Copyright (c) 2001-2004 Idiap Research Institute (Ronan Collobert, Samy Bengio, Johnny Mariethoz)
+Copyright (c) 2015      Google Inc.
+Copyright (c) 2015      Yangqing Jia
+Copyright (c) 2013-2016 The Caffe contributors
+All rights reserved.
+
+Various files include modifications (c) NVIDIA CORPORATION & AFFILIATES.  All rights reserved.
+
+GOVERNING TERMS: The software and materials are governed by the NVIDIA Software License Agreement
+(found at https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-software-license-agreement/)
+and the Product-Specific Terms for NVIDIA AI Products
+(found at https://www.nvidia.com/en-us/agreements/enterprise-software/product-specific-terms-for-ai-products/).
+
+NOTE: CUDA Forward Compatibility mode ENABLED.
+  Using CUDA 13.4 driver version 615.65.02 with kernel driver version 580.173.02.
+  See https://docs.nvidia.com/deploy/cuda-compatibility/ for details.
+
+# E1 regen+reexec; start 2026-11-10T02:53:26+0000; git HEAD 4e23cc6; image nvcr.io/nvidia/pytorch@sha256:3becd068f49bd2ad38f90db5f9a4803019a76933a24e63d821376c44e7a9200a; script sha256 5bf6c1a197d6e8dd; fl code hash f15b306537d07002; torch 2.14.0a0+4fdf77b940.nv26.08
+seed  1: assignment {'T1': ('0', 14, 9827), 'T2a': ('1', 32, 6651), 'T2b': ('1', 8, 661), 'T3': ('2', 20, 21555), 'T10': ('0', 38, 14983)} matches chain True
+seed  1: start True, hOut 50/50, rejected match True (2), train 87s
+seed  1: sampled 38, honest pass 37/37, injected mismatch 1/1 {'T10': ('불일치', '입력 재구성 실패')}
+seed  2: assignment {'T1': ('1', 44, 7855), 'T2a': ('2', 8, 17345), 'T2b': ('1', 38, 2362), 'T3': ('0', 32, 15683), 'T10': ('0', 14, 19325)} matches chain True
+seed  2: start True, hOut 50/50, rejected match True (2), train 86s
+seed  2: sampled 59, honest pass 57/57, injected mismatch 2/2 {'T10': ('불일치', '입력 재구성 실패'), 'T2b': ('불일치', '출력 불일치')}
+seed  3: assignment {'T1': ('1', 14, 6420), 'T2a': ('0', 32, 12727), 'T2b': ('2', 38, 15032), 'T3': ('0', 44, 12317), 'T10': ('1', 26, 2794)} matches chain True
+seed  3: start True, hOut 50/50, rejected match True (2), train 87s
+seed  3: sampled 36, honest pass 36/36, injected mismatch 0/0 {}
+seed  4: assignment {'T1': ('1', 14, 7436), 'T2a': ('0', 20, 13323), 'T2b': ('0', 8, 21755), 'T3': ('2', 26, 3260), 'T10': ('1', 44, 3178)} matches chain True
+seed  4: start True, hOut 50/50, rejected match True (2), train 87s
+seed  4: sampled 51, honest pass 50/50, injected mismatch 1/1 {'T10': ('불일치', '입력 재구성 실패')}
+seed  5: assignment {'T1': ('1', 32, 6418), 'T2a': ('0', 20, 12541), 'T2b': ('0', 38, 14812), 'T3': ('2', 8, 14836), 'T10': ('1', 14, 1624)} matches chain True
+seed  5: start True, hOut 50/50, rejected match True (2), train 87s
+seed  5: sampled 50, honest pass 49/49, injected mismatch 1/1 {'T2a': ('불일치', '입력 재구성 실패')}
+seed  6: assignment {'T1': ('0', 44, 13945), 'T2a': ('1', 32, 576), 'T2b': ('0', 8, 12948), 'T3': ('1', 26, 6663), 'T10': ('2', 14, 19837)} matches chain True
+seed  6: start True, hOut 50/50, rejected match True (2), train 87s
+seed  6: sampled 52, honest pass 50/50, injected mismatch 2/2 {'T3': ('불일치', '입력 재구성 실패'), 'T2a': ('불일치', '입력 재구성 실패')}
+seed  7: assignment {'T1': ('1', 20, 780), 'T2a': ('0', 14, 9650), 'T2b': ('1', 26, 5940), 'T3': ('0', 8, 15448), 'T10': ('2', 32, 3711)} matches chain True
+seed  7: start True, hOut 50/50, rejected match True (2), train 87s
+seed  7: sampled 41, honest pass 40/40, injected mismatch 1/1 {'T10': ('불일치', '입력 재구성 실패')}
+seed  8: assignment {'T1': ('0', 14, 15159), 'T2a': ('1', 20, 690), 'T2b': ('0', 26, 16189), 'T3': ('2', 44, 13550), 'T10': ('1', 8, 6214)} matches chain True
+seed  8: start True, hOut 50/50, rejected match True (2), train 86s
+seed  8: sampled 54, honest pass 53/53, injected mismatch 1/1 {'T10': ('불일치', '입력 재구성 실패')}
+seed  9: assignment {'T1': ('1', 26, 4650), 'T2a': ('0', 32, 17932), 'T2b': ('1', 20, 816), 'T3': ('2', 38, 18336), 'T10': ('0', 8, 14786)} matches chain True
+seed  9: start True, hOut 50/50, rejected match True (2), train 86s
+seed  9: sampled 43, honest pass 43/43, injected mismatch 0/0 {}
+seed 10: assignment {'T1': ('0', 32, 19646), 'T2a': ('1', 8, 2383), 'T2b': ('0', 26, 8647), 'T3': ('2', 44, 14128), 'T10': ('1', 20, 6678)} matches chain True
+seed 10: start True, hOut 50/50, rejected match True (2), train 87s
+seed 10: sampled 42, honest pass 40/40, injected mismatch 2/2 {'T10': ('불일치', '입력 재구성 실패'), 'T2b': ('불일치', '출력 불일치')}
+seed 11: assignment {'T1': ('1', 26, 1528), 'T2a': ('1', 32, 6127), 'T2b': ('0', 44, 13603), 'T3': ('0', 38, 10651), 'T10': ('2', 20, 4673)} matches chain True
+seed 11: start True, hOut 50/50, rejected match True (2), train 87s
+seed 11: sampled 48, honest pass 47/47, injected mismatch 1/1 {'T10': ('불일치', '입력 재구성 실패')}
+seed 12: assignment {'T1': ('0', 26, 19426), 'T2a': ('0', 20, 16203), 'T2b': ('1', 32, 3253), 'T3': ('2', 38, 15166), 'T10': ('1', 8, 323)} matches chain True
+seed 12: start True, hOut 50/50, rejected match True (2), train 87s
+seed 12: sampled 38, honest pass 38/38, injected mismatch 0/0 {}
+seed 13: assignment {'T1': ('1', 20, 1214), 'T2a': ('1', 44, 7204), 'T2b': ('2', 14, 20674), 'T3': ('0', 32, 11919), 'T10': ('0', 38, 21402)} matches chain True
+seed 13: start True, hOut 50/50, rejected match True (2), train 87s
+seed 13: sampled 37, honest pass 35/35, injected mismatch 2/2 {'T3': ('불일치', '입력 재구성 실패'), 'T2a': ('불일치', '입력 재구성 실패')}
+seed 14: assignment {'T1': ('2', 8, 10225), 'T2a': ('1', 32, 6387), 'T2b': ('0', 38, 20218), 'T3': ('0', 14, 15098), 'T10': ('1', 26, 5444)} matches chain True
+seed 14: start True, hOut 50/50, rejected match True (2), train 87s
+seed 14: sampled 51, honest pass 50/50, injected mismatch 1/1 {'T10': ('불일치', '입력 재구성 실패')}
+seed 15: assignment {'T1': ('1', 14, 3417), 'T2a': ('0', 8, 10221), 'T2b': ('0', 32, 14236), 'T3': ('2', 38, 13201), 'T10': ('1', 26, 4930)} matches chain True
+seed 15: start True, hOut 50/50, rejected match True (2), train 87s
+seed 15: sampled 33, honest pass 33/33, injected mismatch 0/0 {}
+seed 16: assignment {'T1': ('1', 20, 3394), 'T2a': ('0', 26, 19275), 'T2b': ('0', 38, 12112), 'T3': ('1', 44, 429), 'T10': ('2', 14, 10069)} matches chain True
+seed 16: start True, hOut 50/50, rejected match True (2), train 87s
+seed 16: sampled 41, honest pass 40/40, injected mismatch 1/1 {'T2b': ('불일치', '출력 불일치')}
+seed 17: assignment {'T1': ('1', 32, 5326), 'T2a': ('2', 26, 20071), 'T2b': ('0', 20, 21427), 'T3': ('0', 44, 15461), 'T10': ('1', 14, 3584)} matches chain True
+seed 17: start True, hOut 50/50, rejected match True (2), train 87s
+seed 17: sampled 52, honest pass 50/50, injected mismatch 2/2 {'T10': ('불일치', '입력 재구성 실패'), 'T2a': ('불일치', '입력 재구성 실패')}
+seed 18: assignment {'T1': ('1', 14, 6549), 'T2a': ('0', 8, 13431), 'T2b': ('2', 26, 13075), 'T3': ('1', 20, 3738), 'T10': ('0', 38, 11606)} matches chain True
+seed 18: start True, hOut 50/50, rejected match True (2), train 87s
+seed 18: sampled 43, honest pass 42/42, injected mismatch 1/1 {'T3': ('불일치', '입력 재구성 실패')}
+seed 19: assignment {'T1': ('1', 38, 3689), 'T2a': ('0', 8, 10084), 'T2b': ('1', 32, 3681), 'T3': ('2', 44, 12206), 'T10': ('0', 20, 14066)} matches chain True
+seed 19: start True, hOut 50/50, rejected match True (2), train 88s
+seed 19: sampled 39, honest pass 39/39, injected mismatch 0/0 {}
+seed 20: assignment {'T1': ('0', 38, 15339), 'T2a': ('2', 44, 12115), 'T2b': ('0', 14, 9390), 'T3': ('1', 20, 1637), 'T10': ('1', 26, 1928)} matches chain True
+seed 20: start True, hOut 50/50, rejected match True (2), train 87s
+seed 20: sampled 51, honest pass 48/48, injected mismatch 3/3 {'T2b': ('불일치', '출력 불일치'), 'T3': ('불일치', '입력 재구성 실패'), 'T2a': ('불일치', '입력 재구성 실패')}
+summary {'seeds_done': 20, 'assignment_matches': 20, 'start_model_matches': 20, 'h_out_matches': 1000, 'h_out_total': 1000, 'rejected_matches': 20, 'sampled': 899, 'honest_pass': 877, 'honest_n': 877, 'injected_mismatch': 22, 'injected_n': 22, 'train_seconds': 1737.5}
+exit 0

@@ -1,0 +1,35 @@
+% Fig. 2: consent states (left) and the remediation stages a withdrawal activates (right).
+\begin{tikzpicture}[font=\footnotesize, >=latex,
+  st/.style={draw, rounded corners=6pt, align=center, inner sep=3pt, minimum width=2.3cm, minimum height=6.5mm},
+  stage/.style={draw, rounded corners=2pt, align=left, inner sep=3pt, text width=4.05cm, fill=black!4},
+  sub/.style={draw, rounded corners=5pt, font=\scriptsize, inner sep=2pt, minimum height=4.5mm},
+  lab/.style={font=\scriptsize, align=left, inner sep=1pt}]
+  % consent states
+  \node[st] (none) at (0,0) {no consent};
+  \node[st] (cons) at (0,-1.35) {consent $P_s^v$};
+  \node[st] (req)  at (0,-2.7) {withdrawal\\[-2pt]requested};
+  \node[st, very thick] (eff) at (0,-4.05) {withdrawal\\[-2pt]effective};
+  \draw[->] (none) -- node[lab, right] {grant} (cons);
+  \draw[->] (cons) -- node[lab, right] {$W$ on ledger\\at $\treq$} (req);
+  \draw[->] (req) -- node[lab, right] {$\teff=\treq+\delta$} (eff);
+  \draw[->] ([xshift=-3mm]cons.north east) arc[start angle=180, end angle=-90, radius=2.2mm] node[lab, right=2pt, pos=0.3] {change, $v{+}1$};
+  \draw[->, densely dashed] (eff.west) -- ++(-0.35,0) |- node[lab, pos=0.25, left] {re-consent:\\new $v$;\\stages\\not undone} ([yshift=-1.5mm]cons.west);
+  % stages
+  \node[stage, anchor=north west] (s1) at (2.55,-1.0)
+    {\textbf{S1} participation blocking\\[-1pt]\scriptsize level $\ge1$; non-membership at acceptance};
+  \node[stage, anchor=north west] (s2) at (2.55,-2.15)
+    {\textbf{S2} lineage and deployment\\[-1pt]\scriptsize level $\ge2$; revoke models from $\rzero(s)$};
+  \node[stage, anchor=north west] (s3) at (2.55,-3.3)
+    {\textbf{S3} influence removal\\[-1pt]\scriptsize level $3$; verified job: \Lone{}, \Ltwo{}\\[-2pt]\scriptsize (+\,\Lthree{} if approximate)};
+  \coordinate (fork) at (2.15,-4.05);
+  \draw[thick] (eff.east) -- (fork);
+  \foreach \s in {s1,s2,s3} \draw[->, thick] (fork) |- (\s.west);
+  % substates
+  \node[sub] (pd) at (3.15,-4.85) {pending};
+  \node[sub] (rn) at (4.45,-4.85) {running};
+  \node[sub] (ok) at (5.95,-4.6) {complete};
+  \node[sub] (fl) at (5.95,-5.15) {failed};
+  \node[sub, dashed] (na) at (4.45,-5.35) {n/a};
+  \draw[->] (pd) -- (rn); \draw[->] (rn.east) -- (ok.west); \draw[->] (rn.east) -- (fl.west);
+  \node[lab, anchor=north west] at (2.55,-5.75) {substates of each stage; a stage is completed only\\by its own verification result};
+\end{tikzpicture}

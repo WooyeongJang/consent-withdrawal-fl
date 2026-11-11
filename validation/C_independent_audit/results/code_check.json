@@ -1,0 +1,26 @@
+{
+ "ConsentLedger": {
+  "deployed_len": 10882,
+  "compiled_len": 10882,
+  "identical": false,
+  "identical_without_metadata": true,
+  "metadata_len": [
+   53,
+   53
+  ],
+  "n_contracts_same_code": 25,
+  "artifact_creation_bin_endswith_same_runtime_tail": true
+ },
+ "CompletionRecord": {
+  "deployed_len": 758,
+  "compiled_len": 758,
+  "identical": false,
+  "identical_without_metadata": true,
+  "metadata_len": [
+   53,
+   53
+  ],
+  "n_contracts_same_code": 25,
+  "artifact_creation_bin_endswith_same_runtime_tail": true
+ }
+}

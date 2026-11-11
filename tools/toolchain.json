@@ -1,0 +1,54 @@
+{
+  "_comment": "3장 v1.6 8.2절 버전 고정. 2026-10-25 Kairos 연결 시험에서 동작을 확인한 조합(reports/2026-10-25_Kairos_연구계정.md).",
+  "solc": {
+    "version": "0.8.38+commit.1835d247",
+    "build": "linux-arm64 (binaries.soliditylang.org)",
+    "file": "solc-linux-arm64-v0.8.38+commit.1835d247",
+    "sha256": "7a986c8f85945fec780d2cbb352cdd85959b7222dd33830a7563c2af4bc1fca0",
+    "evm_version": "prague",
+    "fetch": "tools/get_solc.sh"
+  },
+  "ledger": {
+    "network": "Kaia Kairos",
+    "chain_id": 1001,
+    "rpc": "https://public-en-kairos.node.kaia.io",
+    "client_observed": "Klaytn/v2.2.2a"
+  },
+  "python_ledger_libs": {
+    "web3py-ext": "2.1.0",
+    "web3": "6.3.0",
+    "setuptools": "<81"
+  },
+  "training_image": {
+    "_comment": "2026-10-25 사용자 결정: 기준 실행 환경(3장 8.2). 데이터센터·감사자·집계 주체 컨테이너가 같은 이미지를 쓴다.",
+    "image": "nvcr.io/nvidia/pytorch:26.08-py3",
+    "repo_digest": "nvcr.io/nvidia/pytorch@sha256:3becd068f49bd2ad38f90db5f9a4803019a76933a24e63d821376c44e7a9200a",
+    "image_id": "sha256:0abf0782ad35f4d9ef6497c8442fd9c59a91ba64c0044a645283d95533b3887f",
+    "arch": "arm64",
+    "python": "3.12.3",
+    "torch": "2.14.0a0+4fdf77b940.nv26.08",
+    "cuda": "13.4",
+    "cudnn": "9.25.0"
+  },
+  "experiment_defaults": {
+    "_comment": "2026-10-25 사용자 결정(reports/2026-10-25_E0_설정근거.md 4절 제안 승인)",
+    "institutions_main": 3,
+    "model": "resnet1d_wang",
+    "sampling_rate_hz": 100,
+    "exclude_unlabeled_records": true,
+    "local_epochs": 1,
+    "rounds": 50,
+    "batch_size": 128,
+    "optimizer": "AdamW(wd=1e-2)",
+    "max_lr": 0.01,
+    "window_s": 2.5,
+    "model_selection": "last_round",
+    "lr_schedule": "per-institution one-cycle across all rounds (position = (round, step))",
+    "e0_same_seed_repeats": 10,
+    "pilot_seeds": 5,
+    "reexecution_device": "gpu_det (deterministic + amax)",
+    "a6_scope": "same image digest, same GPU model (GB10), deterministic settings, same threads",
+    "normalization": "fixed at training start; scope committed (3장 8.1). 2026-10-25 결정 (a): 유지하고, 통계 범위에 든 정보주체의 철회는 U1을 근사로 보고 L3로 확인",
+    "_comment_e0": "2026-10-25 사용자 승인(reports/2026-10-25_E0_결과.md 5절)"
+  }
+}

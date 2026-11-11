@@ -1,0 +1,23 @@
+\begin{table}[h]
+\centering
+\caption{E1 simulation, mean per run over 20 seeds (148 withdrawals, 50 rounds). Viol.: violations; wrong: wrong rejections; steps: optimizer steps recomputed after rejections. sel, acc, strict: selection-time check, acceptance-time check, and strict consent-version comparison (main text, Section~\ref{M-sec:setup}); sel never rejects.}
+\label{tab:a-e1}
+\footnotesize
+\setlength{\tabcolsep}{2.5pt}
+\adjustbox{max width=\columnwidth}{%
+\begin{tabular}{@{}l r r r r r r r@{}}
+\toprule
+& sel & \multicolumn{3}{c}{acc} & \multicolumn{3}{c}{strict} \\
+\cmidrule(lr){2-2}\cmidrule(lr){3-5}\cmidrule(l){6-8}
+Condition & viol. & viol. & wrong & steps & viol. & wrong & steps \\
+\midrule
+during training & 148.0 & 0 & 0.0 & 6,923 & 0 & 119.8 & 15,283 \\
+after sending & 148.0 & 0 & 0.0 & 3,854 & 0 & 37.3 & 5,514 \\
+aggregation delay $0$ & 117.9 & 0 & 0.0 & 6,054 & 0 & 196.6 & 23,048 \\
+aggregation delay $0.5L$ & 192.2 & 0 & 0.0 & 7,649 & 0 & 188.9 & 23,962 \\
+aggregation delay $2L$ & 413.9 & 0 & 0.0 & 9,349 & 0 & 171.0 & 24,610 \\
+stale policy replica & 180.6 & 0 & 0.0 & 6,932 & 0 & 191.7 & 23,726 \\
+offline and reconnecting & 118.6 & 0 & 0.0 & 5,939 & 0 & 192.1 & 22,590 \\
+\bottomrule
+\end{tabular}}
+\end{table}

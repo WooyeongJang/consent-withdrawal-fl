@@ -1,0 +1,133 @@
+{
+ "subjects": {
+  "A": {
+   "patient_id": 325,
+   "enroll": 1,
+   "withdraw": 20
+  },
+  "B": {
+   "patient_id": 350,
+   "enroll": 10,
+   "withdraw": 30
+  }
+ },
+ "rounds": 50,
+ "base_seed": 1,
+ "orig": {
+  "final_hash": "3fa3e5fa2b329146bfd6d7b27eef535a2739a056f041357134b6ffaf4c6d9872",
+  "norm": {
+   "mean": -0.0008258910562928652,
+   "std": 0.23209589612421433,
+   "scope_root": "bd2817d56c47bfb9a77847601b9c65331f26087756262199c8477d10fbe0d83e",
+   "n": 17070
+  },
+  "prog": "02bbc185703132f1722b7cc98eb755796e352576a849dc6d747021308bd6fc79",
+  "test_macro_auc": 0.9315577243885892,
+  "rejected": 0
+ },
+ "A": {
+  "r0": 1,
+  "norm_scope_includes_subject": true,
+  "U0": {
+   "final_hash": "877ce70744d79c2b665d8d4369dffa098adfcd17288c823c3532ef88f588beb0",
+   "test_macro_auc": 0.931596744477174
+  },
+  "U1": {
+   "final_hash": "a9f12368965d404fa36889b1a902c478185b74f3da68ea412f30204703b8e491",
+   "test_macro_auc": 0.930935456749961,
+   "replayed_rounds": 50
+  },
+  "U1_equals_U0": false,
+  "prefix_equal_to_orig": true,
+  "L2_U0": {
+   "result": "통과",
+   "units_checked": 150,
+   "root_mismatch": [],
+   "withdrawn_included": []
+  },
+  "L2_U1": {
+   "result": "통과",
+   "units_checked": 150,
+   "root_mismatch": [],
+   "withdrawn_included": []
+  }
+ },
+ "B": {
+  "r0": 10,
+  "norm_scope_includes_subject": false,
+  "U0": {
+   "final_hash": "3eac9d0fa9e40368ea30e13684938b2133997f1faa417cec8676527b7d8c43a8",
+   "test_macro_auc": 0.9304507957806735
+  },
+  "U1": {
+   "final_hash": "3eac9d0fa9e40368ea30e13684938b2133997f1faa417cec8676527b7d8c43a8",
+   "test_macro_auc": 0.9304507957806735,
+   "replayed_rounds": 41
+  },
+  "U1_equals_U0": true,
+  "prefix_equal_to_orig": true,
+  "L2_U0": {
+   "result": "통과",
+   "units_checked": 150,
+   "root_mismatch": [],
+   "withdrawn_included": []
+  },
+  "L2_U1": {
+   "result": "통과",
+   "units_checked": 123,
+   "root_mismatch": [],
+   "withdrawn_included": []
+  }
+ },
+ "L1_sample": [
+  {
+   "k": "1",
+   "r": 12,
+   "result": "통과",
+   "reason": "",
+   "binding": "6312691dc57cce5df04b92bb28722e3b9f240b07dd1130de462b1d01f91db24a"
+  },
+  {
+   "k": "1",
+   "r": 49,
+   "result": "통과",
+   "reason": "",
+   "binding": "0dd3fcebf51af2b6244bcf7c08a94c50e6e6e617ab7fb1d3d95429b09b721dc8"
+  },
+  {
+   "k": "1",
+   "r": 6,
+   "result": "통과",
+   "reason": "",
+   "binding": "7f4af2742916ac20c3130299350947d0e58970d65db835883124280aac7b9df9"
+  },
+  {
+   "k": "2",
+   "r": 22,
+   "result": "통과",
+   "reason": "",
+   "binding": "348ff40438506c050fa09ad3627aa19dc5ed2038692357449ecdbd3095272e83"
+  },
+  {
+   "k": "0",
+   "r": 11,
+   "result": "통과",
+   "reason": "",
+   "binding": "b45bcf539eac27dbe2e36f537ac1b00d0a7645800a97e4cb6e6da469cc89170e"
+  },
+  {
+   "k": "0",
+   "r": 43,
+   "result": "통과",
+   "reason": "",
+   "binding": "9f5fa5446417d34fa1fa6e9b423e3015590720e91fe0abf78474409f920521e9"
+  }
+ ],
+ "tamper_T2_hidden": {
+  "commit_accepted": "accepted",
+  "tampered": true,
+  "result": "불일치",
+  "reason": "출력 불일치",
+  "binding": "4972ab9146874f38ed4ff86e5c088589b9b2cf646b3534835f20a5b8c8962dd9"
+ }
+}

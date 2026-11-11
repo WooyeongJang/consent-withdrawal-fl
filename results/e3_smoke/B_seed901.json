@@ -1,0 +1,152 @@
+{
+ "type": "B",
+ "seed": 901,
+ "contract": "0xd97322a992ca23881ed33028cf407BD3c00a60ee",
+ "b3_contract": "0x00310f0a644723DA819C22316dE5100eD8c8a080",
+ "cohort": 74,
+ "orig_identical_to_offline_late": false,
+ "I2": {
+  "final_deployable": false,
+  "round1_deployable": false
+ },
+ "training_L1": {
+  "sampled": 7,
+  "fail": 0
+ },
+ "instances": [
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "300ce246c8691db12950eb13098a790ee4cff199255c238359f4b2b06af73dcc",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "c35d160da6c8851ece10dba6c2aebe2ca9f550aa89ee67c20e76b9beba91cf67",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_7)",
+   "disguised_round": 7
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu5,lr0.025)",
+   "h_out": "4fd100df889304bf9fe3cb09b7154ae328e7cc6f3d388a888d7d722cf52810f5",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": null,
+    "diff": null,
+    "ci90": null
+   },
+   "lineage_duplicate": false,
+   "deployable": true,
+   "detected": {
+    "B4": false,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 5,
+   "lr": 0.025
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "f43fc099db3ff50638f268652e6b790eaa38b551e93650cf411af6642a984ffb",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "include 5 withdrawn"
+  },
+  {
+   "attack": "honest",
+   "method": "U0",
+   "h_out": "498c2eaf6d943d8caba6e2e1b1e04118b5722410fa82236f251d0692929d2db1",
+   "L1": true,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": null
+   },
+   "B4_evidence": "정직한 U0"
+  },
+  {
+   "attack": "T8",
+   "delivered": "300ce246c8691db12950eb13098a790ee4cff199255c238359f4b2b06af73dcc",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T9",
+   "variant": "a",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "원장 상태 전이 불가(수락 기록 누락 시 집계 거부)"
+  }
+ ],
+ "false_positives": {
+  "honest_job_deployable": false,
+  "honest_device_accepts": false,
+  "training_L1_fail": 0
+ },
+ "tx_total": 460,
+ "fee_kaia": 0.8022276075,
+ "wall_s": 350.7402551174164
+}

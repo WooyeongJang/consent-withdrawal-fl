@@ -1,0 +1,173 @@
+{
+ "E2": {
+  "U0_L3": {
+   "runs": 190,
+   "classes": {
+    "pass": 145,
+    "exceeds": 6,
+    "over-removal": 9,
+    "insufficient precision": 30
+   },
+   "classes_at_1pct": {
+    "insufficient precision": 26,
+    "exceeds": 3,
+    "over-removal": 1
+   },
+   "outside_1.645se": 26,
+   "prediction_interval_passes": 123
+  },
+  "holm_across_scenarios": {
+   "comparisons": 304,
+   "late_P1_lira_max_p": 0.008413756976996667,
+   "late_scenarios": [
+    "E2-F65",
+    "E2-base",
+    "E2-diagMI",
+    "E2-exit2",
+    "E2-inst2",
+    "E2-latejoin",
+    "E2-rate01",
+    "E2-rate10",
+    "E2-rate20",
+    "E2-seq3"
+   ],
+   "rate20_mid_P1_lira_p": 0.36565384862166556,
+   "U2_test_p": {
+    "E2-F65": 0.322265625,
+    "E2-rate20-mid": 0.322265625
+   }
+  },
+  "late_P1_lira_dz": [
+   2.326655691168163,
+   7.52127231747296
+  ],
+  "positive_control_grid": {
+   "runs": 80,
+   "passes_before": {
+    "U1": 60,
+    "U2": 53,
+    "U3": 59,
+    "U4": 57,
+    "U4s": 58
+   },
+   "passes_after": {
+    "U1": 3,
+    "U2": 3,
+    "U3": 3,
+    "U4s": 2
+   },
+   "remaining": [
+    {
+     "scenario": "E2-mid",
+     "seed": 6,
+     "method": "U1",
+     "P1_ci90_lo": 0.007306208526173828
+    },
+    {
+     "scenario": "E2-mid",
+     "seed": 6,
+     "method": "U2",
+     "P1_ci90_lo": 0.007306208526173828
+    },
+    {
+     "scenario": "E2-mid",
+     "seed": 6,
+     "method": "U3",
+     "P1_ci90_lo": 0.007306208526173828
+    },
+    {
+     "scenario": "E2-mid",
+     "seed": 6,
+     "method": "U4s",
+     "P1_ci90_lo": 0.007306208526173828
+    },
+    {
+     "scenario": "E2-mid",
+     "seed": 7,
+     "method": "U1",
+     "P1_ci90_lo": 0.014044949812607975
+    },
+    {
+     "scenario": "E2-mid",
+     "seed": 7,
+     "method": "U2",
+     "P1_ci90_lo": 0.014044949812607975
+    },
+    {
+     "scenario": "E2-mid",
+     "seed": 7,
+     "method": "U3",
+     "P1_ci90_lo": 0.014044949812607975
+    },
+    {
+     "scenario": "E2-rate10-mid",
+     "seed": 9,
+     "method": "U1",
+     "P1_ci90_lo": 0.014555013015942923
+    },
+    {
+     "scenario": "E2-rate10-mid",
+     "seed": 9,
+     "method": "U2",
+     "P1_ci90_lo": 0.014555013015942923
+    },
+    {
+     "scenario": "E2-rate10-mid",
+     "seed": 9,
+     "method": "U3",
+     "P1_ci90_lo": 0.014555013015942923
+    },
+    {
+     "scenario": "E2-rate10-mid",
+     "seed": 9,
+     "method": "U4s",
+     "P1_ci90_lo": 0.014555013015942923
+    }
+   ],
+   "P1_passes_early_mid": {
+    "E2-early": 10,
+    "E2-mid": 8,
+    "E2-rate01-early": 0,
+    "E2-rate01-mid": 0,
+    "E2-rate10-early": 10,
+    "E2-rate10-mid": 9,
+    "E2-rate20-early": 10,
+    "E2-rate20-mid": 10
+   }
+  },
+  "U5": {
+   "E2-exit2": {
+    "L3": {
+     "pass": 10,
+     "residual": 0,
+     "inconclusive": 0,
+     "overremoval": 0,
+     "lowpower": 0
+    },
+    "test_diff_vs_U0": 0.0
+   },
+   "E2-inst2": {
+    "L3": {
+     "pass": 10,
+     "residual": 0,
+     "inconclusive": 0,
+     "overremoval": 0,
+     "lowpower": 0
+    },
+    "test_diff_vs_U0": -0.0020793276379411085
+   }
+  },
+  "U2_lira_diff_vs_U0": {
+   "E2-inst2": -0.03684636678200694,
+   "E2-exit2": -0.04264792866214597
+  }
+ },
+ "E3": {
+  "T1_onchain_count_excludes_dropped_request": "20/20",
+  "typeA_sampled_units": 899,
+  "typeA_sampled_attacked_units": 22,
+  "typeA_honest_reexecutions": 877,
+  "typeB_regular_round_reexecutions": 206,
+  "typeB_failures": 0
+ }
+}

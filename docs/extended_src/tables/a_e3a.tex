@@ -1,0 +1,24 @@
+\begin{table}[h]
+\centering
+\caption{E3, component ablation (E3-A in the released code; recomputed from the E3 evidence without further runs): cases T1--T10 whose B4 detection rate falls when evidence components are removed (all other rates stay at their B4 values: 1, and 0.20 for T2b; T11 variants also depend on \Lone{} and the ledger). Reg.: patient registration; Accept: acceptance non-membership; Self: patient self-check; Ledger: contract transitions, cross-check, and immutability.}
+\label{tab:e3a}
+\footnotesize
+\adjustbox{max width=\columnwidth}{%
+\begin{tabular}{@{}l l@{}}
+\toprule
+Removed & Detection rate after removal \\
+\midrule
+Reg. & T1: 0 \\
+Accept & -- \\
+\Lone{} & T2b: 0 \\
+\Ltwo{} & T6: 0 \\
+\Lthree{} & T5: 0 \\
+\Lfour{} & T8: 0 \\
+Self & T10: 0.45 \\
+Lineage & -- \\
+Ledger & T9: 0 \\
+Accept + Self & T2a: 0.25; T3: 0.20; T10: 0.45 \\
+\Lone{} + Lineage & T2b: 0; T4: 0; T7: 0 \\
+\bottomrule
+\end{tabular}}
+\end{table}

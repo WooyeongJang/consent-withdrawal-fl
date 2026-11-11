@@ -1,0 +1,207 @@
+{
+ "n_runs": 190,
+ "mismatch": [],
+ "counts": {
+  "raw_tost": {
+   "P1": {
+    "pass": 74,
+    "exceeds": 94,
+    "inconclusive": 22
+   },
+   "U0": {
+    "pass": 145,
+    "exceeds": 6,
+    "inconclusive": 39
+   },
+   "U1": {
+    "pass": 146,
+    "exceeds": 2,
+    "inconclusive": 42
+   },
+   "U2": {
+    "pass": 121,
+    "exceeds": 0,
+    "inconclusive": 69
+   },
+   "U3": {
+    "pass": 132,
+    "exceeds": 1,
+    "inconclusive": 57
+   },
+   "U4": {
+    "pass": 72,
+    "exceeds": 95,
+    "inconclusive": 23
+   },
+   "U4s": {
+    "pass": 83,
+    "exceeds": 83,
+    "inconclusive": 24
+   }
+  },
+  "as_written": {
+   "P1": {
+    "pass": 74,
+    "exceeds": 94,
+    "inconclusive": 22
+   },
+   "U0": {
+    "pass": 145,
+    "exceeds": 6,
+    "inconclusive": 39
+   },
+   "U1": {
+    "pass": 77,
+    "exceeds": 2,
+    "inconclusive": 111
+   },
+   "U2": {
+    "pass": 66,
+    "exceeds": 0,
+    "inconclusive": 124
+   },
+   "U3": {
+    "pass": 68,
+    "exceeds": 1,
+    "inconclusive": 121
+   },
+   "U4": {
+    "pass": 3,
+    "exceeds": 95,
+    "inconclusive": 92
+   },
+   "U4s": {
+    "pass": 11,
+    "exceeds": 83,
+    "inconclusive": 96
+   }
+  },
+  "runtime_rule": {
+   "P1": {
+    "pass": 74,
+    "exceeds": 94,
+    "inconclusive": 22
+   },
+   "U0": {
+    "pass": 146,
+    "exceeds": 1,
+    "inconclusive": 43
+   },
+   "U1": {
+    "pass": 89,
+    "exceeds": 2,
+    "inconclusive": 99
+   },
+   "U2": {
+    "pass": 75,
+    "exceeds": 0,
+    "inconclusive": 115
+   },
+   "U3": {
+    "pass": 79,
+    "exceeds": 1,
+    "inconclusive": 110
+   },
+   "U4": {
+    "pass": 12,
+    "exceeds": 95,
+    "inconclusive": 83
+   },
+   "U4s": {
+    "pass": 23,
+    "exceeds": 83,
+    "inconclusive": 84
+   }
+  },
+  "stored_in_logs": {
+   "P1": {
+    "pass": 74,
+    "exceeds": 94,
+    "inconclusive": 22
+   },
+   "U0": {
+    "pass": 146,
+    "exceeds": 1,
+    "inconclusive": 43
+   },
+   "U1": {
+    "pass": 89,
+    "exceeds": 2,
+    "inconclusive": 99
+   },
+   "U2": {
+    "pass": 75,
+    "exceeds": 0,
+    "inconclusive": 115
+   },
+   "U3": {
+    "pass": 79,
+    "exceeds": 1,
+    "inconclusive": 110
+   },
+   "U4": {
+    "pass": 12,
+    "exceeds": 95,
+    "inconclusive": 83
+   },
+   "U4s": {
+    "pass": 23,
+    "exceeds": 83,
+    "inconclusive": 84
+   }
+  }
+ },
+ "n_compared_with_stored": 1330,
+ "table_S10_row1_paper": {
+  "U0": 145,
+  "U1": 77,
+  "U2": 66,
+  "U3": 68,
+  "U4": 3,
+  "U4s": 11
+ },
+ "table_S10_row1_recomputed_raw": {
+  "U0": 145,
+  "U1": 146,
+  "U2": 121,
+  "U3": 132,
+  "U4": 72,
+  "U4s": 83
+ },
+ "table_S10_row1_recomputed_as_written": {
+  "U0": 145,
+  "U1": 77,
+  "U2": 66,
+  "U3": 68,
+  "U4": 3,
+  "U4s": 11
+ },
+ "u0_self_reference": {
+  "seeds_1_5_auc_equals_a_reference": 95,
+  "stored_self_ref_field_present": 0
+ },
+ "kinds": {
+  "P1": {
+   "null": 190
+  },
+  "U0": {
+   "exact": 190
+  },
+  "U1": {
+   "approx": 180,
+   "exact": 10
+  },
+  "U2": {
+   "approx": 190
+  },
+  "U3": {
+   "approx": 190
+  },
+  "U4": {
+   "approx": 190
+  },
+  "U4s": {
+   "approx": 190
+  }
+ }
+}

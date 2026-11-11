@@ -1,0 +1,234 @@
+{
+ "header": {
+  "datetime": "2026-11-09T15:04:00+0900",
+  "git_head": "4649db5ed6fc4f7ba750ba8a431081abbcda7a87",
+  "script": "<repo>/validation/C_independent_audit/code/c4_verify_l3.py",
+  "script_sha256": "8cf167910f846a97dd9ae168c9a23ca0d8b84b5052bd6be01ef7f1b471c30bd8",
+  "lib_sha256": "35fddce7de2614b7266fbff68584a142409151e083c0c11acd0033b6d8ad3df7",
+  "python": "3.12.3",
+  "platform": "Linux-6.17.0-1031-nvidia-aarch64-with-glibc2.39",
+  "rpc": "https://public-en-kairos.node.kaia.io"
+ },
+ "n_main_logs": 190,
+ "L3": {
+  "fields": 1350,
+  "ci90_and_diff_reproduced": 1244,
+  "class_equals_log_under_runtime_rule": 1345,
+  "class_equals_log_under_written_rule": 1292,
+  "self_ref_consistent": 1244,
+  "power_ok_field_equals_runtime_rule": 1160,
+  "power_ok_fields": 1160,
+  "passes_190_written": {
+   "U0": 145,
+   "U1": 77,
+   "U2": 66,
+   "U3": 68,
+   "U4": 3,
+   "U4s": 11
+  },
+  "kinds": {
+   "U0:exact": 190,
+   "U1:approx": 180,
+   "U2:approx": 190,
+   "U3-orig:None": 190,
+   "U3:approx": 190,
+   "U4:approx": 190,
+   "U4s:approx": 190,
+   "U5:exact": 20,
+   "U1:exact": 10
+  }
+ },
+ "rules_80": {
+  "n_runs": 80,
+  "no_control": {
+   "U1": 60,
+   "U2": 53,
+   "U3": 59,
+   "U4": 57,
+   "U4s": 58
+  },
+  "runtime": {
+   "U1": 11,
+   "U2": 11,
+   "U3": 11,
+   "U4": 8,
+   "U4s": 10
+  },
+  "written": {
+   "U1": 3,
+   "U2": 3,
+   "U3": 3,
+   "U4": 0,
+   "U4s": 2
+  }
+ },
+ "scenarios_that_differ": {
+  "E2-exit2": {
+   "runtime": {
+    "U1": 9,
+    "U2": 0,
+    "U3": 4,
+    "U4": 3,
+    "U4s": 9
+   },
+   "written": {
+    "U1": 6,
+    "U2": 0,
+    "U3": 2,
+    "U4": 2,
+    "U4s": 6
+   },
+   "P1_pass_with_l_gt_0_runs": 3
+  },
+  "E2-rate10-mid": {
+   "runtime": {
+    "U1": 4,
+    "U2": 4,
+    "U3": 4,
+    "U4": 3,
+    "U4s": 4
+   },
+   "written": {
+    "U1": 1,
+    "U2": 1,
+    "U3": 1,
+    "U4": 0,
+    "U4s": 1
+   },
+   "P1_pass_with_l_gt_0_runs": 3
+  },
+  "E2-rate20-mid": {
+   "runtime": {
+    "U1": 5,
+    "U2": 5,
+    "U3": 5,
+    "U4": 5,
+    "U4s": 5
+   },
+   "written": {
+    "U1": 0,
+    "U2": 0,
+    "U3": 0,
+    "U4": 0,
+    "U4s": 0
+   },
+   "P1_pass_with_l_gt_0_runs": 5
+  },
+  "E2-seq3": {
+   "runtime": {
+    "U1": 7,
+    "U2": 7,
+    "U3": 7,
+    "U4": 1,
+    "U4s": 3
+   },
+   "written": {
+    "U1": 6,
+    "U2": 6,
+    "U3": 6,
+    "U4": 1,
+    "U4s": 2
+   },
+   "P1_pass_with_l_gt_0_runs": 1
+  }
+ },
+ "P1_pass_with_l_gt_0_by_scenario": {
+  "E2-exit2": 3,
+  "E2-rate10-mid": 3,
+  "E2-rate20-mid": 5,
+  "E2-seq3": 1
+ },
+ "deploy_fields": {
+  "recorded_deployable_on_L3_pass": 269,
+  "changed_under_written_rule": 53,
+  "changed_by_method": {
+   "U1": 12,
+   "U3": 11,
+   "U4s": 12,
+   "U4": 9,
+   "U2": 9
+  },
+  "changed_by_scenario": {
+   "E2-exit2": 9,
+   "E2-rate10-mid": 15,
+   "E2-rate20-mid": 25,
+   "E2-seq3": 4
+  },
+  "changed_to": {
+   "inconclusive": 53
+  },
+  "base_scenario_changed": 0,
+  "log_deploy_consistent_with_runtime_rule": 940,
+  "approx_fields": 940,
+  "written_pass_but_not_recorded_deployable": 0
+ },
+ "aux": {
+  "e2_perwave": {
+   "logs": 5,
+   "recorded_deployable_on_L3_pass": 16,
+   "changed": 4,
+   "changed_by_method": {
+    "U1-seq": 1,
+    "U2-seq": 1,
+    "U3-seq": 1,
+    "U4s-seq": 1
+   },
+   "class_equals_log_under_runtime_rule": 30,
+   "fields": 30
+  },
+  "e2_k5": {
+   "logs": 5,
+   "recorded_deployable_on_L3_pass": 15,
+   "changed": 0,
+   "changed_by_method": {},
+   "class_equals_log_under_runtime_rule": 35,
+   "fields": 35
+  },
+  "e2_leadI": {
+   "logs": 10,
+   "recorded_deployable_on_L3_pass": 14,
+   "changed": 0,
+   "changed_by_method": {},
+   "class_equals_log_under_runtime_rule": 70,
+   "fields": 70
+  },
+  "e2_c2021": {
+   "logs": 10,
+   "recorded_deployable_on_L3_pass": 16,
+   "changed": 0,
+   "changed_by_method": {},
+   "class_equals_log_under_runtime_rule": 70,
+   "fields": 70
+  }
+ },
+ "examples": {
+  "rate20-mid_s1_P1_ci": [
+   0.006,
+   0.033,
+   "pass"
+  ],
+  "base_s1_P1_ci": [
+   0.043,
+   0.087,
+   "exceeds"
+  ]
+ },
+ "base_scenario_rules_identical": true,
+ "U0_rules_identical": true,
+ "max_passes_80": {
+  "runtime": 11,
+  "written": 3
+ },
+ "code_provenance": {
+  "power_ok_return_at_final-rerun-v1": [
+   "return bool(p1_l3) and p1_l3[\"ci90\"][0] > 0"
+  ],
+  "power_ok_return_at_HEAD": [
+   "return bool(p1_l3) and p1_l3[\"class\"] == \"기준 초과\""
+  ],
+  "tag_final-rerun-v1": "8ee460e89127742ccf200930ee3fed5540b7adf0 2026-10-28T00:06:40+09:00",
+  "commit_that_changed_rule": "87888c5be247a952ceab59e7533316c854388ff2 2026-11-01T10:34:21+09:00 JBHI: 코드 검토 결과 반영 — 원고 A·B등급 수정, 코드 C등급 수정, 설계 이탈 기록",
+  "results_final_e2_commit": "37a6d97855dc16e4ae8379005df7b01f6b03993a 2026-10-30T18:01:44+09:00",
+  "results_final_e2_last_change": "37a6d97855dc16e4ae8379005df7b01f6b03993a 2026-10-30T18:01:44+09:00"
+ }
+}

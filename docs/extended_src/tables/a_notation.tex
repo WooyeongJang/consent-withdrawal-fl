@@ -1,0 +1,33 @@
+\begin{table}[h]
+\centering
+\caption{Notation.}
+\label{tab:notation}
+\footnotesize
+\adjustbox{max width=\columnwidth}{%
+\begin{tabular}{@{}l p{0.72\columnwidth}@{}}
+\toprule
+Symbol & Meaning \\
+\midrule
+$S_1,S_2,S_3$ & remediation stages: participation blocking, lineage and deployment management, influence removal \\
+$\ell$ & remediation level in the consent policy; level $\ell$ requires $S_1,\dots,S_\ell$ \\
+$P_s^v$ & consent policy of subject $s$ at version $v$: $(\tilde{s},\mathit{purpose},\mathit{scope},\mathit{valid\_from},$ $\mathit{valid\_to},\mathit{secondary},\ell,v)$ \\
+$\mathit{valid}(x,t,\pi)$ & $=1$ iff, with $P_s^v$ the latest version registered by $t$: $P_s^v$ valid at $t$, $\pi\in P_s^v.\mathit{purpose}$, $x\in P_s^v.\mathit{scope}$, and $\neg\mathit{withdrawn}(s,t)$ \\
+$C_{k,r}$, $U_{k,r}$ & input commitment $\mathrm{Sign}_k(k,r,\mathit{root}_S,|S|,\sigma,\pi)$ and update commitment $\mathrm{Sign}_k(k,r,\Hash(\Delta_{k,r}),h_{r-1},\Hash(C_{k,r}))$ of data center $k$ in round $r$ \\
+\Lone{}--\Lfour{} & verification dimensions: execution, input, residual influence, deployment \\
+$\treq,\teff,\delta$ & withdrawal request time, effective time, and delay $\teff-\treq$ \\
+$\tau(k,r)$ & ledger time of the acceptance decision for data center $k$, round $r$ \\
+$\rzero(s)$ & first accepted round whose input contained a record of subject $s$ \\
+$J$ & remediation job: $(\mathit{jid},\tilde{s},\mathit{method},h_{\mathit{start}},$ $\{C^J_{k,r}\},\{U^J_{k,r}\},$ $h_{\mathit{out}},\prog,\mathit{seed\_rule})$ \\
+$B(k,r)$, $\prog$ & binding value of a computation unit; program and environment identifier \\
+$p$, $p_J$ & re-execution sampling rate for training units and job units \\
+$b$, $\mathit{seed\_rule}$, $\mathit{seed}_{k,r}$ & base seed, committed derivation rule, and training seed of data center $k$ in round $r$ \\
+$\eta_r$ & audit sampling seed of round $r$, drawn from the ledger after aggregation \\
+$\delta_{\mathrm{L3}}$ & equivalence margin of the residual-influence test \\
+A1--A12 & trust assumptions (Supplementary Table~\ref{S-tab:assumptions}) \\
+E0--E4 & experiments as named in this document and the repository: E0 reproducibility and E3 withdrawal execution (main text, Section~\ref{M-sec:c3}), E1 consent-check timing (Section~\ref{M-sec:c1}), E2 unlearning and influence verification (Section~\ref{M-sec:c2}), E4 operational cost (Section~\ref{M-sec:discussion}) \\
+T1--T11 & injected faults (T1--T9) and concealment cases (T10, T11) (main text, Table~\ref{M-tab:e3} and Section~\ref{M-sec:res-t11}) \\
+B0--B6 & audit structures compared in E3: B0 plain cross-silo FL, B1 central consent database at selection time, B2 B1 with a signed hash-chained log, B3 B1 with a blockchain completion record (B0--B3: recording-only designs), B4 the full auditor (reference implementation), B5 the witness-co-signed log, B6 the re-execution-only auditor \\
+P1, P2, U0--U5 & remediation methods compared in E2 (main text, Section~\ref{M-sec:data}): P1 blocking-only model, P2 rollback-only model, U0 retraining, U1 checkpoint replay, U2 FedEraser, U3 SISA, U4 FedOSD (U4s: larger step), U5 dropping the withdrawers' data center \\
+\bottomrule
+\end{tabular}}
+\end{table}

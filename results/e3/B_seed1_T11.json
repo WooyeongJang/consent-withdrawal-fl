@@ -1,0 +1,790 @@
+{
+ "type": "B",
+ "seed": 1,
+ "contract": "0x369599aB81C284DA46CB07ce24b0C812a60a501D",
+ "b3_contract": "0xe14E3eBC392693E294Bd8b7719CF310776678f10",
+ "cohort": 740,
+ "orig_identical_to_offline_late": true,
+ "I2": {
+  "final_deployable": false,
+  "round1_deployable": false
+ },
+ "training_L1": {
+  "sampled": 53,
+  "fail": 0
+ },
+ "instances": [
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "c16ec0843ad549799aa18f503eede7e925216f00977c6e07b26af88895b6aeea",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": 0.516553710703315,
+    "diff": 0.0204474083886218,
+    "ci90": [
+     -0.005985539244194805,
+     0.046880356021438405
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "a",
+   "steps": 2350,
+   "rel_dist_to_U0": 0.7477055270944066,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": true
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "a8b4ec2ba11c14c28c359c6032e3e24b823fab21ce98d0139a6f5a6ae6480ebe",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": 0.4959768359388382,
+    "diff": -0.00012946637585503629,
+    "ci90": [
+     -0.023793385617964166,
+     0.023534452866254094
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "b",
+   "n_inject": 5,
+   "rel_dist_to_U0": 0.007446303510367521,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": false,
+    "tolerance_step_1.77177e-06": true,
+    "tolerance_step_1e-05": true,
+    "tolerance_step_0.0001": true,
+    "tolerance_step_0.001": true,
+    "tolerance_step_0.01": false
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "e3826d2c950a026ed4b791a21896a33044ed9161c5452b2af3fffd74540ead8a",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": 0.5192315378378687,
+    "diff": 0.02312523552317547,
+    "ci90": [
+     -0.0027421967320161826,
+     0.048992667778367124
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "a",
+   "steps": 2200,
+   "rel_dist_to_U0": 0.756596518105543,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": true
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "bc2843bba63424ef74ecd0d1a29eb5e0469ceaefc94e6b2482bf1fae5baf671e",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": 0.49623305660549727,
+    "diff": 0.0001267542908040542,
+    "ci90": [
+     -0.02346523247581178,
+     0.02371874105741989
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "b",
+   "n_inject": 100,
+   "rel_dist_to_U0": 0.006674363522561885,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": false,
+    "tolerance_step_1.77177e-06": true,
+    "tolerance_step_1e-05": true,
+    "tolerance_step_0.0001": true,
+    "tolerance_step_0.001": true,
+    "tolerance_step_0.01": false
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "4b6dbe2baa44feb344094a7df82f348813380d22ea3c778114bbd46afc7f89c2",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": 0.5196454876614405,
+    "diff": 0.02353918534674726,
+    "ci90": [
+     -0.0012863986282791416,
+     0.048364769321773665
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "a",
+   "steps": 1700,
+   "rel_dist_to_U0": 0.7375542394552207,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": true
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "15405bdfdd55ad70da3c4f46df5ddc7d428b4fc79978cd1783ef723806d7a34f",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": 0.496033218759635,
+    "diff": -7.308355505819542e-05,
+    "ci90": [
+     -0.02456171438284414,
+     0.02441554727272775
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "b",
+   "n_inject": 740,
+   "rel_dist_to_U0": 0.00865643176803732,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": false,
+    "tolerance_step_1.77177e-06": true,
+    "tolerance_step_1e-05": true,
+    "tolerance_step_0.0001": true,
+    "tolerance_step_0.001": true,
+    "tolerance_step_0.01": false
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "1ccb8007d6b4184faf73d6ba67e7bf656255320dcda501a5b350c7482ddfdba6",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": 0.519881010836921,
+    "diff": 0.02377470852222774,
+    "ci90": [
+     -0.00194823579765643,
+     0.04949765284211191
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "a",
+   "steps": 1900,
+   "rel_dist_to_U0": 0.7534145073362087,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": true
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "15405bdfdd55ad70da3c4f46df5ddc7d428b4fc79978cd1783ef723806d7a34f",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": 0.496033218759635,
+    "diff": -7.308355505819542e-05,
+    "ci90": [
+     -0.02456171438284414,
+     0.02441554727272775
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "b",
+   "n_inject": 740,
+   "rel_dist_to_U0": 0.00865643176803732,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": false,
+    "tolerance_step_1.77177e-06": true,
+    "tolerance_step_1e-05": true,
+    "tolerance_step_0.0001": true,
+    "tolerance_step_0.001": true,
+    "tolerance_step_0.01": false
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "cd30483a3f576b8c932d69163cff6a3155e351224ea0948e73dd6ce0a6d653c5",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": 0.5140671569355152,
+    "diff": 0.017960854620821975,
+    "ci90": [
+     -0.007050270526938664,
+     0.042971979768582615
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "a",
+   "steps": 1500,
+   "rel_dist_to_U0": 0.7431768893948133,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": true
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "3daecf335214e392970f96de32568cb186a8cb0fabc737e4187d3180dbd941b3",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": 0.49820716903997897,
+    "diff": 0.002100866725285755,
+    "ci90": [
+     -0.02168812929296645,
+     0.02588986274353796
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "b",
+   "n_inject": 1,
+   "rel_dist_to_U0": 0.00627827904444835,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": false,
+    "tolerance_step_1.77177e-06": true,
+    "tolerance_step_1e-05": true,
+    "tolerance_step_0.0001": true,
+    "tolerance_step_0.001": true,
+    "tolerance_step_0.01": false
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "a018a671106cef0132c50070c7cc00753745e22167d13d33f2f1bb80a645e39f",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": 0.512000262644026,
+    "diff": 0.015893960329332768,
+    "ci90": [
+     -0.010318516063656788,
+     0.042106436722322324
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "a",
+   "steps": 2450,
+   "rel_dist_to_U0": 0.7472629554932604,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": true
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "82fa49bf42c75eebd0f2b5672bb200a9aa5b43b2986e76c2e4461d75cc9697a5",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": 0.49642290255906635,
+    "diff": 0.00031660024437313306,
+    "ci90": [
+     -0.02343127335039657,
+     0.024064473839142834
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "b",
+   "n_inject": 1,
+   "rel_dist_to_U0": 0.006618323893455658,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": false,
+    "tolerance_step_1.77177e-06": true,
+    "tolerance_step_1e-05": true,
+    "tolerance_step_0.0001": true,
+    "tolerance_step_0.001": true,
+    "tolerance_step_0.01": false
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "70053cd0d48f96a033508afc9c279e0e386d1af01625747cb903cb53721f9d23",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": 0.516844902993,
+    "diff": 0.020738600678306796,
+    "ci90": [
+     -0.004457574705743237,
+     0.045934776062356825
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "a",
+   "steps": 1950,
+   "rel_dist_to_U0": 0.7386287825683381,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": true
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "ff8e354a1ff2f1f3394d32d3399ffe2cdfb01e7831eea3fdbcb1a95113691292",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": 0.49908360073540325,
+    "diff": 0.0029772984207100395,
+    "ci90": [
+     -0.020582188705502123,
+     0.026536785546922202
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "b",
+   "n_inject": 5,
+   "rel_dist_to_U0": 0.00844377371428086,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": false,
+    "tolerance_step_1.77177e-06": true,
+    "tolerance_step_1e-05": true,
+    "tolerance_step_0.0001": true,
+    "tolerance_step_0.001": true,
+    "tolerance_step_0.01": false
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "81a172faa8798b51773135e324905e59c78ee1d795f2e041addf64d15f0ea80c",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": 0.5165137431341426,
+    "diff": 0.02040744081944934,
+    "ci90": [
+     -0.005494196347441249,
+     0.04630907798633993
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "a",
+   "steps": 2250,
+   "rel_dist_to_U0": 0.7638064273535872,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": true
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "1c79191133e32832b98ff03ff9b39b0057434fc58615e3dbfe8fa1eae4ceaacb",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": 0.49709521416907426,
+    "diff": 0.0009889118543810471,
+    "ci90": [
+     -0.022828640237969232,
+     0.024806463946731326
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "b",
+   "n_inject": 5,
+   "rel_dist_to_U0": 0.007215827554575932,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": false,
+    "tolerance_step_1.77177e-06": true,
+    "tolerance_step_1e-05": true,
+    "tolerance_step_0.0001": true,
+    "tolerance_step_0.001": true,
+    "tolerance_step_0.01": false
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "6b0aa8d16594ff01b50d222e92b8f65643455aef29d375f27b801cf4022a7c2b",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": 0.5171974740496283,
+    "diff": 0.021091171734935132,
+    "ci90": [
+     -0.004813295912331789,
+     0.046995639382202054
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "a",
+   "steps": 2100,
+   "rel_dist_to_U0": 0.7427488927078063,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": true
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "1f0add70da6000f2b7cb97dd5297e77d18d6da074dccb55c10c863ab65bf1362",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": 0.4956235511756175,
+    "diff": -0.0004827511390756989,
+    "ci90": [
+     -0.024904818816122255,
+     0.023939316537970858
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "b",
+   "n_inject": 5,
+   "rel_dist_to_U0": 0.005399589363315446,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": false,
+    "tolerance_step_1.77177e-06": true,
+    "tolerance_step_1e-05": true,
+    "tolerance_step_0.0001": true,
+    "tolerance_step_0.001": true,
+    "tolerance_step_0.01": false
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "863e79f88223f943e1e50a5a482543104c0c506aa62de4acd0324418916a93c3",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": 0.5203306459901109,
+    "diff": 0.024224343675417703,
+    "ci90": [
+     -0.0012949369962558036,
+     0.04974362434709121
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "a",
+   "steps": 1950,
+   "rel_dist_to_U0": 0.7449531540690341,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": true
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "9d3506ac7aae25143a3fa0947238eda345cf611d64828cbc62789559d6c34cca",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": 0.4940219935823503,
+    "diff": -0.0020843087323428877,
+    "ci90": [
+     -0.026483251974242956,
+     0.02231463450955718
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "b",
+   "n_inject": 5,
+   "rel_dist_to_U0": 0.004972562743062603,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": false,
+    "tolerance_step_1.77177e-06": true,
+    "tolerance_step_1e-05": true,
+    "tolerance_step_0.0001": true,
+    "tolerance_step_0.001": true,
+    "tolerance_step_0.01": false
+   }
+  },
+  {
+   "attack": "honest",
+   "method": "U0",
+   "h_out": "576070208963f16cacafbebe3d5f9c78c07577671c8fdbd39a544a5bae66e35e",
+   "L1": true,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": true,
+   "detected": {
+    "B4": null
+   },
+   "B4_evidence": "정직한 U0"
+  }
+ ],
+ "false_positives": {
+  "honest_job_deployable": true,
+  "honest_device_accepts": true,
+  "training_L1_fail": 0
+ },
+ "tx_total": 3691,
+ "fee_kaia": 6.41793273,
+ "wall_s": 4334.415706396103
+}

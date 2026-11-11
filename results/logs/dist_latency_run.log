@@ -1,0 +1,91 @@
+#### K3 delay0 rate0
+== aggregator 12:56:03
+[dist] round 10: ce6ce91ca6b0
+[dist] done final ce6ce91ca6b0 wall 19.1s
+== done 12:56:27
+#### K3 delay0 rate100
+== aggregator 12:56:27
+[dist] round 10: ce6ce91ca6b0
+[dist] done final ce6ce91ca6b0 wall 22.4s
+== done 12:56:54
+#### K3 delay0 rate10
+== aggregator 12:56:55
+[dist] round 10: ce6ce91ca6b0
+[dist] done final ce6ce91ca6b0 wall 50.6s
+== done 12:57:49
+#### K3 delay50 rate0
+== aggregator 12:57:50
+[dist] round 10: ce6ce91ca6b0
+[dist] done final ce6ce91ca6b0 wall 20.5s
+== done 12:58:15
+#### K3 delay50 rate100
+== aggregator 12:58:15
+[dist] round 10: ce6ce91ca6b0
+[dist] done final ce6ce91ca6b0 wall 23.6s
+== done 12:58:43
+#### K3 delay50 rate10
+== aggregator 12:58:44
+[dist] round 10: ce6ce91ca6b0
+[dist] done final ce6ce91ca6b0 wall 51.6s
+== done 12:59:40
+#### K3 delay200 rate0
+== aggregator 12:59:40
+[dist] round 10: ce6ce91ca6b0
+[dist] done final ce6ce91ca6b0 wall 24.0s
+== done 13:00:09
+#### K3 delay200 rate100
+== aggregator 13:00:09
+[dist] round 10: ce6ce91ca6b0
+[dist] done final ce6ce91ca6b0 wall 27.0s
+== done 13:00:41
+#### K3 delay200 rate10
+== aggregator 13:00:41
+[dist] round 10: ce6ce91ca6b0
+[dist] done final ce6ce91ca6b0 wall 55.4s
+== done 13:01:41
+#### K10 delay0 rate0
+== aggregator 13:01:46
+[dist] round 10: f9bd61c520af
+[dist] done final f9bd61c520af wall 22.0s
+== done 13:02:16
+#### K10 delay0 rate100
+== aggregator 13:02:18
+[dist] round 10: f9bd61c520af
+[dist] done final f9bd61c520af wall 24.6s
+== done 13:02:50
+#### K10 delay0 rate10
+== aggregator 13:02:52
+[dist] round 10: f9bd61c520af
+[dist] done final f9bd61c520af wall 52.8s
+== done 13:03:52
+#### K10 delay50 rate0
+== aggregator 13:03:54
+[dist] round 10: f9bd61c520af
+[dist] done final f9bd61c520af wall 22.6s
+== done 13:04:24
+#### K10 delay50 rate100
+== aggregator 13:04:26
+[dist] round 10: f9bd61c520af
+[dist] done final f9bd61c520af wall 25.8s
+== done 13:04:59
+#### K10 delay50 rate10
+== aggregator 13:05:01
+[dist] round 10: f9bd61c520af
+[dist] done final f9bd61c520af wall 53.9s
+== done 13:06:03
+#### K10 delay200 rate0
+== aggregator 13:06:05
+[dist] round 10: f9bd61c520af
+[dist] done final f9bd61c520af wall 26.5s
+== done 13:06:39
+#### K10 delay200 rate100
+== aggregator 13:06:41
+[dist] round 10: f9bd61c520af
+[dist] done final f9bd61c520af wall 29.5s
+== done 13:07:18
+#### K10 delay200 rate10
+== aggregator 13:07:20
+[dist] round 10: f9bd61c520af
+[dist] done final f9bd61c520af wall 57.6s
+== done 13:08:25
+#### all done

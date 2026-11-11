@@ -1,0 +1,141 @@
+== [final] KAIA 잔액 52.46443250866614 2026-10-30 11:46:45
+== [final] E4 미시·원장(단독) 2026-10-30 11:46:45
+== micro 11:46:45
+{'n': 100, 'build_s': 0.00010987743735313416, 'prove_s': 3.3348333090543747e-06, 'verify_s': 8.272575214505196e-06, 'proof_bytes_json': 1216.38, 'ok': True}
+{'n': 1000, 'build_s': 0.0010537654161453247, 'prove_s': 1.7629703506827354e-06, 'verify_s': 1.1302712373435497e-05, 'proof_bytes_json': 1626.015, 'ok': True}
+{'n': 10000, 'build_s': 0.011094030924141407, 'prove_s': 3.0157435685396195e-06, 'verify_s': 1.5746899880468845e-05, 'proof_bytes_json': 2168.77, 'ok': True}
+{'n': 100000, 'build_s': 0.12245380412787199, 'prove_s': 1.8487549386918544e-05, 'verify_s': 1.9577289931476118e-05, 'proof_bytes_json': 2573.8, 'ok': True}
+== K3 11:46:48
+[E4-K3] round 1: de4b29b1d4cf
+[E4-K3] round 2: b88811951b14
+[E4-K3] round 3: 53017d627b2e
+[E4-K3] round 4: 5c660545b344
+[E4-K3] round 5: 857e196b2d79
+[E4-K3] round 6: a823d8841009
+[E4-K3] round 7: c4b880bace75
+[E4-K3] round 8: bdbed5a6b12b
+[E4-K3] round 9: 414fb7d09f91
+[E4-K3] round 10: 2ea1b753fdd3
+{"K": 3, "tx_total": 262, "fee_kaia": 0.4624139025, "time": {"run_with_ledger_s": 72.87173295021057, "train_only_s": 17.48276996612549, "register_s": 3.0956642627716064, "requests_s": 19.469574689865112, "declare_s": 1.0840082168579102, "per_round_ledger_s": 3.483538007736206, "per_round_train_s": 1.7482769966125489}, "l1_unit_mean_s": 0.5738801479339599, "l1_all_ok": true}
+== K5 11:48:44
+[E4-K5] round 1: 800067982f96
+[E4-K5] round 2: c39f89560d37
+[E4-K5] round 3: af38101d6b25
+[E4-K5] round 4: 7b8864f5a58c
+[E4-K5] round 5: a700ea311ff4
+[E4-K5] round 6: 890a0fa702f9
+[E4-K5] round 7: dd2cfdbd8325
+[E4-K5] round 8: 673aa5616b81
+[E4-K5] round 9: 3a6abb9ba244
+[E4-K5] round 10: defcd9875030
+{"K": 5, "tx_total": 322, "fee_kaia": 0.5744958725, "time": {"run_with_ledger_s": 77.88794732093811, "train_only_s": 17.894983053207397, "register_s": 4.087219476699829, "requests_s": 20.022939443588257, "declare_s": 1.6289935111999512, "per_round_ledger_s": 3.8341031312942504, "per_round_train_s": 1.7894983053207398}, "l1_unit_mean_s": 0.35141058921813967, "l1_all_ok": true}
+== K10 11:50:47
+[E4-K10] round 1: bb3f5e143998
+[E4-K10] round 2: 57389f58c36a
+[E4-K10] round 3: 6f995cf4608f
+[E4-K10] round 4: 799d9e6cbe08
+[E4-K10] round 5: 448c44c47c20
+[E4-K10] round 6: 0275338aef53
+[E4-K10] round 7: 7ef64b850cd4
+[E4-K10] round 8: 3a34064737be
+[E4-K10] round 9: f699c2048139
+[E4-K10] round 10: de603007fc3e
+{"K": 10, "tx_total": 472, "fee_kaia": 0.8546999725, "time": {"run_with_ledger_s": 148.003520488739, "train_only_s": 19.105095624923706, "register_s": 3.9293925762176514, "requests_s": 31.035764932632446, "declare_s": 2.0406477451324463, "per_round_ledger_s": 9.582201218605041, "per_round_train_s": 1.9105095624923707}, "l1_unit_mean_s": 0.18928524255752563, "l1_all_ok": true}
+== done 11:54:01
+== [final] E4 주체별 컨테이너: 단일 프로세스와의 비트 단위 동일성 2026-10-30 11:54:01
+== aggregator 11:54:02
+[dist] round 10: 09ecf4185596
+[dist] round 20: 6883191b88a1
+[dist] round 30: fa0ae83ca31d
+[dist] round 40: 2c3a2e6c142e
+[dist] round 50: 5b72df1fa6dd
+[dist] done final 5b72df1fa6dd wall 92.1s
+== auditors 11:55:38
+[auditor dc0] L2 50/50  L1 15/15
+[auditor dc1] L2 50/50  L1 15/15
+[auditor dc2] L2 50/50  L1 15/15
+== reference 11:56:15
+[ref] round 10: 09ecf4185596
+[ref] round 20: 6883191b88a1
+[ref] round 30: fa0ae83ca31d
+[ref] round 40: 2c3a2e6c142e
+[ref] round 50: 5b72df1fa6dd
+{"units": 150, "round_diffs": [], "final_equal": true, "norm_single": [-0.0008255738933323695, 0.23210063658945243], "norm_dist": [-0.0008255738933323695, 0.23210063658945274], "norm_rel_diff": [0.0, 1.3154265160933756e-15], "norm_bit_equal": [true, false]} unit_diffs 0
+== done 11:57:45
+주체별 컨테이너 = 단일 프로세스(최종·라운드·단위 해시): True
+== [final] E4 지연·대역폭 민감도(예비 실행과 같은 격자: R=10, 지연 0·50·200ms × 대역폭 무제한·100·10Mbps) 2026-10-30 11:57:45
+== aggregator 11:57:46
+[dist] round 10: ce6ce91ca6b0
+[dist] done final ce6ce91ca6b0 wall 19.6s
+== done 11:58:10
+== aggregator 11:58:10
+[dist] round 10: ce6ce91ca6b0
+[dist] done final ce6ce91ca6b0 wall 22.9s
+== done 11:58:37
+== aggregator 11:58:38
+[dist] round 10: ce6ce91ca6b0
+[dist] done final ce6ce91ca6b0 wall 51.2s
+== done 11:59:33
+== aggregator 11:59:34
+[dist] round 10: ce6ce91ca6b0
+[dist] done final ce6ce91ca6b0 wall 20.9s
+== done 11:59:59
+== aggregator 12:00:00
+[dist] round 10: ce6ce91ca6b0
+[dist] done final ce6ce91ca6b0 wall 23.9s
+== done 12:00:28
+== aggregator 12:00:29
+[dist] round 10: ce6ce91ca6b0
+[dist] done final ce6ce91ca6b0 wall 52.4s
+== done 12:01:25
+== aggregator 12:01:26
+[dist] round 10: ce6ce91ca6b0
+[dist] done final ce6ce91ca6b0 wall 24.6s
+== done 12:01:55
+== aggregator 12:01:55
+[dist] round 10: ce6ce91ca6b0
+[dist] done final ce6ce91ca6b0 wall 27.6s
+== done 12:02:27
+== aggregator 12:02:28
+[dist] round 10: ce6ce91ca6b0
+[dist] done final ce6ce91ca6b0 wall 56.0s
+== done 12:03:28
+== aggregator 12:03:30
+[dist] round 10: f9bd61c520af
+[dist] done final f9bd61c520af wall 22.4s
+== done 12:04:00
+== aggregator 12:04:02
+[dist] round 10: f9bd61c520af
+[dist] done final f9bd61c520af wall 24.8s
+== done 12:04:35
+== aggregator 12:04:37
+[dist] round 10: f9bd61c520af
+[dist] done final f9bd61c520af wall 53.0s
+== done 12:05:37
+== aggregator 12:05:39
+[dist] round 10: f9bd61c520af
+[dist] done final f9bd61c520af wall 22.7s
+== done 12:06:09
+== aggregator 12:06:11
+[dist] round 10: f9bd61c520af
+[dist] done final f9bd61c520af wall 25.8s
+== done 12:06:45
+== aggregator 12:06:47
+[dist] round 10: f9bd61c520af
+[dist] done final f9bd61c520af wall 54.1s
+== done 12:07:48
+== aggregator 12:07:50
+[dist] round 10: f9bd61c520af
+[dist] done final f9bd61c520af wall 26.4s
+== done 12:08:24
+== aggregator 12:08:26
+[dist] round 10: f9bd61c520af
+[dist] done final f9bd61c520af wall 29.5s
+== done 12:09:03
+== aggregator 12:09:05
+[dist] round 10: f9bd61c520af
+[dist] done final f9bd61c520af wall 57.8s
+== done 12:10:10
+== [final] E4 완료 2026-10-30 12:10:10
+== [final] 집계 2026-10-30 12:10:10
+== [final] 집계 완료 — 재현성 기록은 결과 확인 후 scripts/repro_manifest.py로 다시 만든다 2026-10-30 12:10:17

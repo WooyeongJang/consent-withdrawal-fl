@@ -1,0 +1,203 @@
+== [final] E1 시뮬레이션 2026-10-28 00:34:02
+== [final] KAIA 잔액 106.198763715 2026-10-28 00:57:13
+== [final] E1 Kairos 확인 2026-10-28 00:57:13
+[E1-chain] during {}: 갱신 18 수락 6 위반 0 거절(올바름/잘못됨) 12/0 경합 0 포함 지연 {'mean': 0.9638425442907546, 'min': 0.3775012493133545, 'max': 1.6828320026397705, 'p95': 1.2068360328674317} 거래 164 수수료 0.351 (168s)
+[E1-chain] aftersend {}: 갱신 18 수락 6 위반 0 거절(올바름/잘못됨) 12/0 경합 0 포함 지연 {'mean': 0.9892823199431101, 'min': 0.25981903076171875, 'max': 1.5579495429992676, 'p95': 1.3818149447441102} 거래 116 수수료 0.223 (118s)
+[E1-chain] aggdelay {'D': 0.0}: 갱신 18 수락 8 위반 0 거절(올바름/잘못됨) 10/0 경합 0 포함 지연 {'mean': 1.069456954797109, 'min': 0.38691139221191406, 'max': 2.2397944927215576, 'p95': 1.8963505268096907} 거래 116 수수료 0.224 (117s)
+[E1-chain] aggdelay {'D': 10.0}: 갱신 18 수락 8 위반 0 거절(올바름/잘못됨) 10/0 경합 0 포함 지연 {'mean': 1.0422425071398418, 'min': 0.25996994972229004, 'max': 2.8688719272613525, 'p95': 1.5283868312835691} 거래 116 수수료 0.224 (176s)
+[E1-chain] aggdelay {'D': 40.0}: 갱신 18 수락 8 위반 0 거절(올바름/잘못됨) 10/0 경합 0 포함 지연 {'mean': 0.9661263326803843, 'min': 0.29229187965393066, 'max': 1.6053407192230225, 'p95': 1.354664123058319} 거래 116 수수료 0.224 (354s)
+[E1-chain] version {'sync_q': 0.3}: 갱신 18 수락 12 위반 0 거절(올바름/잘못됨) 6/0 경합 0 포함 지연 {'mean': 0.9830740789572397, 'min': 0.721266508102417, 'max': 1.321582555770874, 'p95': 1.0988558053970336} 거래 116 수수료 0.225 (116s)
+[E1-chain] offline {'m': 2}: 갱신 16 수락 15 위반 0 거절(올바름/잘못됨) 1/0 경합 0 포함 지연 {'mean': 1.0236874918142955, 'min': 0.49736547470092773, 'max': 2.103203296661377, 'p95': 1.4324850082397458} 거래 110 수수료 0.215 (105s)
+== [final] E1 완료 2026-10-28 01:16:33
+== [final] E3 유형 A(시드 1–20) 2026-10-28 01:16:33
+== [final] KAIA 잔액 104.010121655 2026-10-28 01:16:34
+== seed 1 01:16:34
+T1   k=0 r=14  B4=탐지  정보주체가 보관한 서명 요청이 원장에 없음 → 누락 사실 드러남(지연 길이는 증명 불가, 7.1)
+T2a  k=1 r=32  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T2b  k=1 r= 8  B4=미탐지  표본 밖(재실행 안 됨)
+T3   k=2 r=20  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T10  k=0 r=38  B4=탐지  정보주체 자기 비소속 검증 실패 라운드 [38]; L1 불일치(입력 재구성 실패)
+오탐: {'rejected_honest': [], 'l1_fail_honest': [], 'subject_check_fail_honest': {}} | L1 표본 41 | 거래 655 | 수수료 1.1374 KAIA
+== seed 2 01:23:07
+T1   k=1 r=44  B4=탐지  정보주체가 보관한 서명 요청이 원장에 없음 → 누락 사실 드러남(지연 길이는 증명 불가, 7.1)
+T2a  k=2 r= 8  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T2b  k=1 r=38  B4=탐지  L1 표본 재실행 출력 불일치
+T3   k=0 r=32  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T10  k=0 r=14  B4=탐지  정보주체 자기 비소속 검증 실패 라운드 [14]; L1 불일치(입력 재구성 실패)
+오탐: {'rejected_honest': [], 'l1_fail_honest': [], 'subject_check_fail_honest': {}} | L1 표본 61 | 거래 676 | 수수료 1.1717 KAIA
+== seed 3 01:29:40
+T1   k=1 r=14  B4=탐지  정보주체가 보관한 서명 요청이 원장에 없음 → 누락 사실 드러남(지연 길이는 증명 불가, 7.1)
+T2a  k=0 r=32  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T2b  k=2 r=38  B4=미탐지  표본 밖(재실행 안 됨)
+T3   k=0 r=44  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T10  k=1 r=26  B4=탐지  정보주체 자기 비소속 검증 실패 라운드 [26]
+오탐: {'rejected_honest': [], 'l1_fail_honest': [], 'subject_check_fail_honest': {}} | L1 표본 40 | 거래 653 | 수수료 1.1341 KAIA
+== seed 4 01:36:05
+T1   k=1 r=14  B4=탐지  정보주체가 보관한 서명 요청이 원장에 없음 → 누락 사실 드러남(지연 길이는 증명 불가, 7.1)
+T2a  k=0 r=20  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T2b  k=0 r= 8  B4=미탐지  표본 밖(재실행 안 됨)
+T3   k=2 r=26  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T10  k=1 r=44  B4=탐지  정보주체 자기 비소속 검증 실패 라운드 [44]; L1 불일치(입력 재구성 실패)
+오탐: {'rejected_honest': [], 'l1_fail_honest': [], 'subject_check_fail_honest': {}} | L1 표본 54 | 거래 668 | 수수료 1.1586 KAIA
+== seed 5 01:42:27
+T1   k=1 r=32  B4=탐지  정보주체가 보관한 서명 요청이 원장에 없음 → 누락 사실 드러남(지연 길이는 증명 불가, 7.1)
+T2a  k=0 r=20  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T2b  k=0 r=38  B4=미탐지  표본 밖(재실행 안 됨)
+T3   k=2 r= 8  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T10  k=1 r=14  B4=탐지  정보주체 자기 비소속 검증 실패 라운드 [14]
+오탐: {'rejected_honest': [], 'l1_fail_honest': [], 'subject_check_fail_honest': {}} | L1 표본 53 | 거래 667 | 수수료 1.157 KAIA
+== seed 6 01:49:19
+T1   k=0 r=44  B4=탐지  정보주체가 보관한 서명 요청이 원장에 없음 → 누락 사실 드러남(지연 길이는 증명 불가, 7.1)
+T2a  k=1 r=32  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T2b  k=0 r= 8  B4=미탐지  표본 밖(재실행 안 됨)
+T3   k=1 r=26  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T10  k=2 r=14  B4=탐지  정보주체 자기 비소속 검증 실패 라운드 [14]
+오탐: {'rejected_honest': [], 'l1_fail_honest': [], 'subject_check_fail_honest': {}} | L1 표본 54 | 거래 669 | 수수료 1.1603 KAIA
+== seed 7 01:56:01
+T1   k=1 r=20  B4=탐지  정보주체가 보관한 서명 요청이 원장에 없음 → 누락 사실 드러남(지연 길이는 증명 불가, 7.1)
+T2a  k=0 r=14  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T2b  k=1 r=26  B4=미탐지  표본 밖(재실행 안 됨)
+T3   k=0 r= 8  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T10  k=2 r=32  B4=탐지  정보주체 자기 비소속 검증 실패 라운드 [32]; L1 불일치(입력 재구성 실패)
+오탐: {'rejected_honest': [], 'l1_fail_honest': [], 'subject_check_fail_honest': {}} | L1 표본 44 | 거래 658 | 수수료 1.1423 KAIA
+== seed 8 02:02:31
+T1   k=0 r=14  B4=탐지  정보주체가 보관한 서명 요청이 원장에 없음 → 누락 사실 드러남(지연 길이는 증명 불가, 7.1)
+T2a  k=1 r=20  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T2b  k=0 r=26  B4=미탐지  표본 밖(재실행 안 됨)
+T3   k=2 r=44  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T10  k=1 r= 8  B4=탐지  정보주체 자기 비소속 검증 실패 라운드 [8]; L1 불일치(입력 재구성 실패)
+오탐: {'rejected_honest': [], 'l1_fail_honest': [], 'subject_check_fail_honest': {}} | L1 표본 57 | 거래 671 | 수수료 1.1635 KAIA
+== seed 9 02:09:05
+T1   k=1 r=26  B4=탐지  정보주체가 보관한 서명 요청이 원장에 없음 → 누락 사실 드러남(지연 길이는 증명 불가, 7.1)
+T2a  k=0 r=32  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T2b  k=1 r=20  B4=미탐지  표본 밖(재실행 안 됨)
+T3   k=2 r=38  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T10  k=0 r= 8  B4=탐지  정보주체 자기 비소속 검증 실패 라운드 [8]
+오탐: {'rejected_honest': [], 'l1_fail_honest': [], 'subject_check_fail_honest': {}} | L1 표본 47 | 거래 660 | 수수료 1.1456 KAIA
+== seed 10 02:15:44
+T1   k=0 r=32  B4=탐지  정보주체가 보관한 서명 요청이 원장에 없음 → 누락 사실 드러남(지연 길이는 증명 불가, 7.1)
+T2a  k=1 r= 8  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T2b  k=0 r=26  B4=탐지  L1 표본 재실행 출력 불일치
+T3   k=2 r=44  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T10  k=1 r=20  B4=탐지  정보주체 자기 비소속 검증 실패 라운드 [20]; L1 불일치(입력 재구성 실패)
+오탐: {'rejected_honest': [], 'l1_fail_honest': [], 'subject_check_fail_honest': {}} | L1 표본 44 | 거래 659 | 수수료 1.144 KAIA
+== seed 11 02:22:04
+T1   k=1 r=26  B4=탐지  정보주체가 보관한 서명 요청이 원장에 없음 → 누락 사실 드러남(지연 길이는 증명 불가, 7.1)
+T2a  k=1 r=32  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T2b  k=0 r=44  B4=미탐지  표본 밖(재실행 안 됨)
+T3   k=0 r=38  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T10  k=2 r=20  B4=탐지  정보주체 자기 비소속 검증 실패 라운드 [20]; L1 불일치(입력 재구성 실패)
+오탐: {'rejected_honest': [], 'l1_fail_honest': [], 'subject_check_fail_honest': {}} | L1 표본 51 | 거래 665 | 수수료 1.1538 KAIA
+== seed 12 02:28:58
+T1   k=0 r=26  B4=탐지  정보주체가 보관한 서명 요청이 원장에 없음 → 누락 사실 드러남(지연 길이는 증명 불가, 7.1)
+T2a  k=0 r=20  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T2b  k=1 r=32  B4=미탐지  표본 밖(재실행 안 됨)
+T3   k=2 r=38  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T10  k=1 r= 8  B4=탐지  정보주체 자기 비소속 검증 실패 라운드 [8]
+오탐: {'rejected_honest': [], 'l1_fail_honest': [], 'subject_check_fail_honest': {}} | L1 표본 42 | 거래 655 | 수수료 1.1374 KAIA
+== seed 13 02:35:09
+T1   k=1 r=20  B4=탐지  정보주체가 보관한 서명 요청이 원장에 없음 → 누락 사실 드러남(지연 길이는 증명 불가, 7.1)
+T2a  k=1 r=44  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T2b  k=2 r=14  B4=미탐지  표본 밖(재실행 안 됨)
+T3   k=0 r=32  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T10  k=0 r=38  B4=탐지  정보주체 자기 비소속 검증 실패 라운드 [38]
+오탐: {'rejected_honest': [], 'l1_fail_honest': [], 'subject_check_fail_honest': {}} | L1 표본 39 | 거래 654 | 수수료 1.1358 KAIA
+== seed 14 02:41:42
+T1   k=2 r= 8  B4=탐지  정보주체가 보관한 서명 요청이 원장에 없음 → 누락 사실 드러남(지연 길이는 증명 불가, 7.1)
+T2a  k=1 r=32  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T2b  k=0 r=38  B4=미탐지  표본 밖(재실행 안 됨)
+T3   k=0 r=14  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T10  k=1 r=26  B4=탐지  정보주체 자기 비소속 검증 실패 라운드 [26]; L1 불일치(입력 재구성 실패)
+오탐: {'rejected_honest': [], 'l1_fail_honest': [], 'subject_check_fail_honest': {}} | L1 표본 54 | 거래 668 | 수수료 1.1586 KAIA
+== seed 15 02:48:02
+T1   k=1 r=14  B4=탐지  정보주체가 보관한 서명 요청이 원장에 없음 → 누락 사실 드러남(지연 길이는 증명 불가, 7.1)
+T2a  k=0 r= 8  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T2b  k=0 r=32  B4=미탐지  표본 밖(재실행 안 됨)
+T3   k=2 r=38  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T10  k=1 r=26  B4=탐지  정보주체 자기 비소속 검증 실패 라운드 [26]
+오탐: {'rejected_honest': [], 'l1_fail_honest': [], 'subject_check_fail_honest': {}} | L1 표본 37 | 거래 650 | 수수료 1.1293 KAIA
+== seed 16 02:54:23
+T1   k=1 r=20  B4=탐지  정보주체가 보관한 서명 요청이 원장에 없음 → 누락 사실 드러남(지연 길이는 증명 불가, 7.1)
+T2a  k=0 r=26  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T2b  k=0 r=38  B4=탐지  L1 표본 재실행 출력 불일치
+T3   k=1 r=44  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T10  k=2 r=14  B4=탐지  정보주체 자기 비소속 검증 실패 라운드 [14]
+오탐: {'rejected_honest': [], 'l1_fail_honest': [], 'subject_check_fail_honest': {}} | L1 표본 44 | 거래 658 | 수수료 1.1423 KAIA
+== seed 17 03:00:45
+T1   k=1 r=32  B4=탐지  정보주체가 보관한 서명 요청이 원장에 없음 → 누락 사실 드러남(지연 길이는 증명 불가, 7.1)
+T2a  k=2 r=26  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T2b  k=0 r=20  B4=미탐지  표본 밖(재실행 안 됨)
+T3   k=0 r=44  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T10  k=1 r=14  B4=탐지  정보주체 자기 비소속 검증 실패 라운드 [14]; L1 불일치(입력 재구성 실패)
+오탐: {'rejected_honest': [], 'l1_fail_honest': [], 'subject_check_fail_honest': {}} | L1 표본 54 | 거래 669 | 수수료 1.1603 KAIA
+== seed 18 03:07:50
+T1   k=1 r=14  B4=탐지  정보주체가 보관한 서명 요청이 원장에 없음 → 누락 사실 드러남(지연 길이는 증명 불가, 7.1)
+T2a  k=0 r= 8  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T2b  k=2 r=26  B4=미탐지  표본 밖(재실행 안 됨)
+T3   k=1 r=20  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T10  k=0 r=38  B4=탐지  정보주체 자기 비소속 검증 실패 라운드 [38]
+오탐: {'rejected_honest': [], 'l1_fail_honest': [], 'subject_check_fail_honest': {}} | L1 표본 46 | 거래 660 | 수수료 1.1456 KAIA
+== seed 19 03:15:05
+T1   k=1 r=38  B4=탐지  정보주체가 보관한 서명 요청이 원장에 없음 → 누락 사실 드러남(지연 길이는 증명 불가, 7.1)
+T2a  k=0 r= 8  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T2b  k=1 r=32  B4=미탐지  표본 밖(재실행 안 됨)
+T3   k=2 r=44  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T10  k=0 r=20  B4=탐지  정보주체 자기 비소속 검증 실패 라운드 [20]
+오탐: {'rejected_honest': [], 'l1_fail_honest': [], 'subject_check_fail_honest': {}} | L1 표본 43 | 거래 656 | 수수료 1.139 KAIA
+== seed 20 03:22:19
+T1   k=0 r=38  B4=탐지  정보주체가 보관한 서명 요청이 원장에 없음 → 누락 사실 드러남(지연 길이는 증명 불가, 7.1)
+T2a  k=2 r=44  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T2b  k=0 r=14  B4=탐지  L1 표본 재실행 출력 불일치
+T3   k=1 r=20  B4=탐지  집계 수락 검사(알고리즘 2) 거절: rejected
+T10  k=1 r=26  B4=탐지  정보주체 자기 비소속 검증 실패 라운드 [26]
+오탐: {'rejected_honest': [], 'l1_fail_honest': [], 'subject_check_fail_honest': {}} | L1 표본 52 | 거래 668 | 수수료 1.1586 KAIA
+== done 03:29:45
+E3-A 결과 20 개, 관문 실패 []
+== [final] E3 유형 B 스모크 2026-10-28 03:29:45
+[E3B-s902] round 10: e5e3979d93d9
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+Traceback (most recent call last):
+    main()
+    o = F.fedosd(data, store, pol_wo, X, start, args.seed, device, max_pool, R, run["norm"], tu, 10, lr)
+        ^
+UnboundLocalError: cannot access local variable 'F' where it is not associated with a value
+== [final] 중단: B 스모크 실패 2026-10-28 03:37:57

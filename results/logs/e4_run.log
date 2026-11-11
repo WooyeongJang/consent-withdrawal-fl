@@ -1,0 +1,42 @@
+== micro 07:46:12
+{'n': 100, 'build_s': 0.0001267092302441597, 'prove_s': 9.497613646090031e-06, 'verify_s': 8.311416022479535e-06, 'proof_bytes_json': 1216.38, 'ok': True}
+{'n': 1000, 'build_s': 0.0012931805104017258, 'prove_s': 2.765054814517498e-06, 'verify_s': 1.151200383901596e-05, 'proof_bytes_json': 1626.015, 'ok': True}
+{'n': 10000, 'build_s': 0.013391591608524323, 'prove_s': 6.825923919677734e-06, 'verify_s': 1.6188807785511015e-05, 'proof_bytes_json': 2168.77, 'ok': True}
+{'n': 100000, 'build_s': 0.2258638935163617, 'prove_s': 9.041413199156523e-05, 'verify_s': 2.4738870561122894e-05, 'proof_bytes_json': 2573.8, 'ok': True}
+== K3 07:46:20
+[E4-K3] round 1: de4b29b1d4cf
+[E4-K3] round 2: b88811951b14
+[E4-K3] round 3: 53017d627b2e
+[E4-K3] round 4: 5c660545b344
+[E4-K3] round 5: 857e196b2d79
+[E4-K3] round 6: a823d8841009
+[E4-K3] round 7: c4b880bace75
+[E4-K3] round 8: bdbed5a6b12b
+[E4-K3] round 9: 414fb7d09f91
+[E4-K3] round 10: 2ea1b753fdd3
+{"K": 3, "tx_total": 261, "fee_kaia": 0.459930405, "time": {"run_with_ledger_s": 92.64635157585144, "train_only_s": 38.45812797546387, "register_s": 4.063814401626587, "requests_s": 19.343141794204712, "declare_s": 1.750427007675171, "per_round_ledger_s": 3.309465479850769, "per_round_train_s": 3.8458127975463867}, "l1_unit_mean_s": 1.252659559249878, "l1_all_ok": true}
+== K5 07:49:21
+[E4-K5] round 1: 800067982f96
+[E4-K5] round 2: c39f89560d37
+[E4-K5] round 3: af38101d6b25
+[E4-K5] round 4: 7b8864f5a58c
+[E4-K5] round 5: a700ea311ff4
+[E4-K5] round 6: 890a0fa702f9
+[E4-K5] round 7: dd2cfdbd8325
+[E4-K5] round 8: 673aa5616b81
+[E4-K5] round 9: 3a6abb9ba244
+[E4-K5] round 10: defcd9875030
+{"K": 5, "tx_total": 321, "fee_kaia": 0.572024475, "time": {"run_with_ledger_s": 99.64336919784546, "train_only_s": 39.12416219711304, "register_s": 2.880054235458374, "requests_s": 20.110384941101074, "declare_s": 1.0205321311950684, "per_round_ledger_s": 3.9388289928436278, "per_round_train_s": 3.9124162197113037}, "l1_unit_mean_s": 0.801027512550354, "l1_all_ok": true}
+== K10 07:52:31
+[E4-K10] round 1: bb3f5e143998
+[E4-K10] round 2: 57389f58c36a
+[E4-K10] round 3: 6f995cf4608f
+[E4-K10] round 4: 799d9e6cbe08
+[E4-K10] round 5: 448c44c47c20
+[E4-K10] round 6: 0275338aef53
+[E4-K10] round 7: 7ef64b850cd4
+[E4-K10] round 8: 3a34064737be
+[E4-K10] round 9: f699c2048139
+[E4-K10] round 10: de603007fc3e
+{"K": 10, "tx_total": 471, "fee_kaia": 0.852258825, "time": {"run_with_ledger_s": 104.4524495601654, "train_only_s": 45.169843673706055, "register_s": 4.333053827285767, "requests_s": 19.925195693969727, "declare_s": 1.2268331050872803, "per_round_ledger_s": 3.813057708740234, "per_round_train_s": 4.516984367370606}, "l1_unit_mean_s": 0.49683312892913817, "l1_all_ok": true}
+== done 07:56:03

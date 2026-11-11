@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the paper below and this repository."
+type: software
+title: "consent-withdrawal-fl: reference implementation, fault-injection suite, and consent scenarios for testing consent-withdrawal enforcement in blockchain-based multi-hospital federated learning"
+authors:
+  - family-names: Jang
+    given-names: Wooyeong
+    affiliation: "Department of Biomedical Engineering, School of Medicine, Chungbuk National University"
+    email: wooyeong@chungbuk.ac.kr
+  - family-names: Park
+    given-names: Hyunwoo
+    affiliation: "Healthcare AI Team, National Cancer Center, Goyang, Republic of Korea"
+    email: hwpark@ncc.re.kr
+  - family-names: Kim
+    given-names: Kyung Ah
+    affiliation: "Department of Biomedical Engineering, School of Medicine, Chungbuk National University"
+    email: kimka@chungbuk.ac.kr
+repository-code: "https://github.com/WooyeongJang/consent-withdrawal-fl"
+license: MIT
+# Data-derived files (tables, configurations, consent scenarios, results, Supplementary Document) are CC BY 4.0; see LICENSE-data.
+version: "1.0"
+date-released: "2026-11-11"
+keywords:
+  - federated learning
+  - machine unlearning
+  - consent withdrawal
+  - blockchain
+  - electrocardiogram
+  - auditing
+preferred-citation:
+  type: article
+  title: "Testing the Promises of Blockchain-Based Consent Withdrawal in Multi-Hospital Federated Learning: An Empirical Study With Electrocardiogram Data"
+  authors:
+    - family-names: Jang
+      given-names: Wooyeong
+    - family-names: Park
+      given-names: Hyunwoo
+    - family-names: Kim
+      given-names: Kyung Ah
+  journal: "IEEE Journal of Biomedical and Health Informatics"
+  year: 2026
+  notes: "Submitted. The arXiv identifier is added here on posting and the DOI on acceptance."
+  # identifiers:
+  #   - type: other
+  #     value: "arXiv:XXXX.XXXXX"
+  #     description: "arXiv preprint"

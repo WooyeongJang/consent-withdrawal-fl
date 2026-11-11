@@ -1,0 +1,498 @@
+{"datetime": "2026-11-09T15:02:01+0900", "git_head": "4649db5ed6fc4f7ba750ba8a431081abbcda7a87", "script": "<repo>/validation/C_independent_audit/code/c3_verify_typeB.py", "script_sha256": "1e153557e8934e469242852d6fc2f162add960b9e9756b87006d9ee42765929f", "lib_sha256": "35fddce7de2614b7266fbff68584a142409151e083c0c11acd0033b6d8ad3df7", "python": "3.12.3", "platform": "Linux-6.17.0-1031-nvidia-aarch64-with-glibc2.39", "rpc": "https://public-en-kairos.node.kaia.io"}
+{
+ "per_type": {
+  "T4": {
+   "n_jobs": 100,
+   "distinct_hOut": 5,
+   "hOut_equals_json": 100,
+   "chain_L1_pass": 0,
+   "chain_L2_pass": 100,
+   "chain_L3_recorded": 0,
+   "chain_L3_pass": 0,
+   "not_deployable_replay": 100,
+   "L1_indep_available": 100,
+   "L1_indep_equals_chain": 100,
+   "L1_indep_fail": 100,
+   "L2_indep_available": 100,
+   "L2_indep_equals_chain": 100,
+   "L3_exceeds_from_stats": 0,
+   "L3_pass_from_stats": 0,
+   "L3_diff_recomputed_ok": 0,
+   "json_fields_equal_chain": 100,
+   "artifact_identified": 100,
+   "lineage_duplicate": 100
+  },
+  "T5": {
+   "n_jobs": 100,
+   "distinct_hOut": 25,
+   "hOut_equals_json": 100,
+   "chain_L1_pass": 100,
+   "chain_L2_pass": 100,
+   "chain_L3_recorded": 100,
+   "chain_L3_pass": 0,
+   "not_deployable_replay": 100,
+   "L1_indep_available": 0,
+   "L1_indep_equals_chain": 0,
+   "L1_indep_fail": 0,
+   "L2_indep_available": 0,
+   "L2_indep_equals_chain": 0,
+   "L3_exceeds_from_stats": 100,
+   "L3_pass_from_stats": 0,
+   "L3_diff_recomputed_ok": 100,
+   "json_fields_equal_chain": 100,
+   "artifact_identified": 0,
+   "lineage_duplicate": 0
+  },
+  "T6": {
+   "n_jobs": 100,
+   "distinct_hOut": 100,
+   "hOut_equals_json": 100,
+   "chain_L1_pass": 100,
+   "chain_L2_pass": 0,
+   "chain_L3_recorded": 0,
+   "chain_L3_pass": 0,
+   "not_deployable_replay": 100,
+   "L1_indep_available": 5,
+   "L1_indep_equals_chain": 5,
+   "L1_indep_fail": 0,
+   "L2_indep_available": 5,
+   "L2_indep_equals_chain": 5,
+   "L3_exceeds_from_stats": 0,
+   "L3_pass_from_stats": 0,
+   "L3_diff_recomputed_ok": 0,
+   "json_fields_equal_chain": 100,
+   "artifact_identified": 5,
+   "lineage_duplicate": 0
+  },
+  "T7": {
+   "n_jobs": 100,
+   "distinct_hOut": 84,
+   "hOut_equals_json": 100,
+   "chain_L1_pass": 0,
+   "chain_L2_pass": 100,
+   "chain_L3_recorded": 0,
+   "chain_L3_pass": 0,
+   "not_deployable_replay": 100,
+   "L1_indep_available": 100,
+   "L1_indep_equals_chain": 100,
+   "L1_indep_fail": 100,
+   "L2_indep_available": 100,
+   "L2_indep_equals_chain": 100,
+   "L3_exceeds_from_stats": 0,
+   "L3_pass_from_stats": 0,
+   "L3_diff_recomputed_ok": 0,
+   "json_fields_equal_chain": 100,
+   "artifact_identified": 100,
+   "lineage_duplicate": 100
+  },
+  "T11a": {
+   "n_jobs": 20,
+   "distinct_hOut": 20,
+   "hOut_equals_json": 20,
+   "chain_L1_pass": 0,
+   "chain_L2_pass": 20,
+   "chain_L3_recorded": 20,
+   "chain_L3_pass": 20,
+   "not_deployable_replay": 20,
+   "L1_indep_available": 20,
+   "L1_indep_equals_chain": 20,
+   "L1_indep_fail": 20,
+   "L2_indep_available": 20,
+   "L2_indep_equals_chain": 20,
+   "L3_exceeds_from_stats": 0,
+   "L3_pass_from_stats": 20,
+   "L3_diff_recomputed_ok": 20,
+   "json_fields_equal_chain": 20,
+   "artifact_identified": 0,
+   "lineage_duplicate": 0
+  },
+  "T11b": {
+   "n_jobs": 20,
+   "distinct_hOut": 20,
+   "hOut_equals_json": 20,
+   "chain_L1_pass": 0,
+   "chain_L2_pass": 20,
+   "chain_L3_recorded": 20,
+   "chain_L3_pass": 20,
+   "not_deployable_replay": 20,
+   "L1_indep_available": 20,
+   "L1_indep_equals_chain": 20,
+   "L1_indep_fail": 20,
+   "L2_indep_available": 20,
+   "L2_indep_equals_chain": 20,
+   "L3_exceeds_from_stats": 0,
+   "L3_pass_from_stats": 20,
+   "L3_diff_recomputed_ok": 20,
+   "json_fields_equal_chain": 20,
+   "artifact_identified": 5,
+   "lineage_duplicate": 0
+  },
+  "T11c": {
+   "n_jobs": 20,
+   "distinct_hOut": 20,
+   "hOut_equals_json": 20,
+   "chain_L1_pass": 0,
+   "chain_L2_pass": 20,
+   "chain_L3_recorded": 20,
+   "chain_L3_pass": 0,
+   "not_deployable_replay": 20,
+   "L1_indep_available": 20,
+   "L1_indep_equals_chain": 20,
+   "L1_indep_fail": 20,
+   "L2_indep_available": 20,
+   "L2_indep_equals_chain": 20,
+   "L3_exceeds_from_stats": 20,
+   "L3_pass_from_stats": 0,
+   "L3_diff_recomputed_ok": 20,
+   "json_fields_equal_chain": 20,
+   "artifact_identified": 20,
+   "lineage_duplicate": 0
+  },
+  "T11d": {
+   "n_jobs": 20,
+   "distinct_hOut": 5,
+   "hOut_equals_json": 20,
+   "chain_L1_pass": 0,
+   "chain_L2_pass": 20,
+   "chain_L3_recorded": 20,
+   "chain_L3_pass": 16,
+   "not_deployable_replay": 20,
+   "L1_indep_available": 20,
+   "L1_indep_equals_chain": 20,
+   "L1_indep_fail": 20,
+   "L2_indep_available": 20,
+   "L2_indep_equals_chain": 20,
+   "L3_exceeds_from_stats": 4,
+   "L3_pass_from_stats": 16,
+   "L3_diff_recomputed_ok": 20,
+   "json_fields_equal_chain": 20,
+   "artifact_identified": 20,
+   "lineage_duplicate": 0
+  },
+  "T11e": {
+   "n_jobs": 20,
+   "distinct_hOut": 11,
+   "hOut_equals_json": 20,
+   "chain_L1_pass": 0,
+   "chain_L2_pass": 20,
+   "chain_L3_recorded": 20,
+   "chain_L3_pass": 20,
+   "not_deployable_replay": 20,
+   "L1_indep_available": 20,
+   "L1_indep_equals_chain": 20,
+   "L1_indep_fail": 20,
+   "L2_indep_available": 20,
+   "L2_indep_equals_chain": 20,
+   "L3_exceeds_from_stats": 0,
+   "L3_pass_from_stats": 20,
+   "L3_diff_recomputed_ok": 20,
+   "json_fields_equal_chain": 20,
+   "artifact_identified": 20,
+   "lineage_duplicate": 0
+  },
+  "T11f": {
+   "n_jobs": 10,
+   "distinct_hOut": 5,
+   "hOut_equals_json": 10,
+   "chain_L1_pass": 0,
+   "chain_L2_pass": 10,
+   "chain_L3_recorded": 10,
+   "chain_L3_pass": 0,
+   "not_deployable_replay": 10,
+   "L1_indep_available": 10,
+   "L1_indep_equals_chain": 10,
+   "L1_indep_fail": 10,
+   "L2_indep_available": 10,
+   "L2_indep_equals_chain": 10,
+   "L3_exceeds_from_stats": 10,
+   "L3_pass_from_stats": 0,
+   "L3_diff_recomputed_ok": 10,
+   "json_fields_equal_chain": 10,
+   "artifact_identified": 10,
+   "lineage_duplicate": 0
+  },
+  "honest": {
+   "n_jobs": 5,
+   "distinct_hOut": 5,
+   "hOut_equals_json": 5,
+   "chain_L1_pass": 5,
+   "chain_L2_pass": 5,
+   "chain_L3_recorded": 0,
+   "chain_L3_pass": 0,
+   "not_deployable_replay": 0,
+   "L1_indep_available": 5,
+   "L1_indep_equals_chain": 5,
+   "L1_indep_fail": 0,
+   "L2_indep_available": 5,
+   "L2_indep_equals_chain": 5,
+   "L3_exceeds_from_stats": 0,
+   "L3_pass_from_stats": 0,
+   "L3_diff_recomputed_ok": 0,
+   "json_fields_equal_chain": 5,
+   "artifact_identified": 5,
+   "lineage_duplicate": 0
+  }
+ },
+ "t11_table": {
+  "a": {
+   "n": 20,
+   "L3_only": 0,
+   "final_eps": 16,
+   "eps_r_le_1e-3": 0,
+   "eps_r_1e-2": 0,
+   "submitted_batch_eps0": 0,
+   "submitted_batch_any": 0,
+   "d_from_ckpt": 0,
+   "max_relerr_ckpt_vs_json": null,
+   "L3_only_equals_json": 20,
+   "final_eps_equals_json": 20
+  },
+  "b": {
+   "n": 20,
+   "L3_only": 0,
+   "final_eps": 0,
+   "eps_r_le_1e-3": 20,
+   "eps_r_1e-2": 7,
+   "submitted_batch_eps0": 0,
+   "submitted_batch_any": 0,
+   "d_from_ckpt": 5,
+   "max_relerr_ckpt_vs_json": 1.6685007648656555e-13,
+   "L3_only_equals_json": 20,
+   "final_eps_equals_json": 20
+  },
+  "c": {
+   "n": 20,
+   "L3_only": 20,
+   "final_eps": 16,
+   "eps_r_le_1e-3": 20,
+   "eps_r_1e-2": 20,
+   "submitted_batch_eps0": 20,
+   "submitted_batch_any": 20,
+   "d_from_ckpt": 20,
+   "max_relerr_ckpt_vs_json": 1.9072588226815855e-14,
+   "L3_only_equals_json": 20,
+   "final_eps_equals_json": 20
+  },
+  "d": {
+   "n": 20,
+   "L3_only": 4,
+   "final_eps": 4,
+   "eps_r_le_1e-3": 20,
+   "eps_r_1e-2": 20,
+   "submitted_batch_eps0": 0,
+   "submitted_batch_any": 0,
+   "d_from_ckpt": 20,
+   "max_relerr_ckpt_vs_json": 2.208901109205687e-14,
+   "L3_only_equals_json": 20,
+   "final_eps_equals_json": 20
+  },
+  "e": {
+   "n": 20,
+   "L3_only": 0,
+   "final_eps": 6,
+   "eps_r_le_1e-3": 0,
+   "eps_r_1e-2": 0,
+   "submitted_batch_eps0": 0,
+   "submitted_batch_any": 0,
+   "d_from_ckpt": 20,
+   "max_relerr_ckpt_vs_json": 1.3237612499869622e-14,
+   "L3_only_equals_json": 20,
+   "final_eps_equals_json": 20
+  },
+  "f": {
+   "n": 20,
+   "L3_only": 20,
+   "final_eps": 16,
+   "eps_r_le_1e-3": 0,
+   "eps_r_1e-2": 0,
+   "submitted_batch_eps0": 0,
+   "submitted_batch_any": 0,
+   "d_from_ckpt": 20,
+   "max_relerr_ckpt_vs_json": 1.582643946739494e-14,
+   "L3_only_equals_json": 20,
+   "final_eps_equals_json": 20
+  }
+ },
+ "t11_B4": {
+  "a": 20,
+  "b": 20,
+  "c": 20,
+  "d": 20,
+  "e": 20,
+  "f": 20
+ },
+ "eps_end": 0.6529203707737139,
+ "eps_step": 1.7717716714489636e-06,
+ "jobs_total": 515,
+ "jobs_completed_total": 515,
+ "b3_completion_records": 515,
+ "b3_events": [
+  {
+   "WithdrawalRecorded": 740,
+   "ModelRecorded": 1,
+   "CompletionRecorded": 103
+  },
+  {
+   "WithdrawalRecorded": 740,
+   "ModelRecorded": 1,
+   "CompletionRecorded": 103
+  },
+  {
+   "WithdrawalRecorded": 740,
+   "ModelRecorded": 1,
+   "CompletionRecorded": 103
+  },
+  {
+   "WithdrawalRecorded": 740,
+   "ModelRecorded": 1,
+   "CompletionRecorded": 103
+  },
+  {
+   "WithdrawalRecorded": 740,
+   "ModelRecorded": 1,
+   "CompletionRecorded": 103
+  }
+ ],
+ "injected_jobs_deployable_replay": 0,
+ "honest_jobs_deployable_replay": 5,
+ "T8": {
+  "n": 100,
+  "distinct": 80,
+  "not_equal_deployed": 100,
+  "not_deployable_latest": 42,
+  "in_lineage": 100
+ },
+ "T9a": {
+  "n": 35,
+  "no_aggregate_event": 35,
+  "inputs3_accepted2": 35,
+  "aggregate_call_reverts_now": 35,
+  "revert_reason_decisions": 35
+ },
+ "T9_json_variants": {
+  "a": 35,
+  "b": 35,
+  "c": 30
+ },
+ "T9b_forged_not_on_chain": 35,
+ "lineage_hash_match": 250,
+ "round_roots_match": 750,
+ "round_units": 750,
+ "sampled_p0.3": [
+  36,
+  41,
+  43,
+  44,
+  42
+ ],
+ "sampled_p0.3_total": 206,
+ "json_training_L1_sampled": [
+  36,
+  41,
+  43,
+  44,
+  42
+ ],
+ "U0_equals_U0_audit": 5,
+ "U0_all_rounds_equal_audit": 5,
+ "L2_U0_input_roots_match": 5,
+ "T6_last": {
+  "L1_reexec_equal": 5,
+  "roots_mismatch_units": [
+   150,
+   150,
+   150,
+   150,
+   150
+  ]
+ },
+ "T11d_roots_mismatch_units": [
+  0,
+  0,
+  0,
+  0,
+  0
+ ],
+ "prog_consistent_runs": 5,
+ "config_commit_code_commits": [
+  "f9d11546d7f5e85a2db404949690e460b94c03aa"
+ ],
+ "deployed_is_honest_U0": 5,
+ "revoked_final": 5,
+ "deployed_latest_equals_U0": 5,
+ "honest_deployable_latest": 5,
+ "cohort": [
+  740,
+  740,
+  740,
+  740,
+  740
+ ],
+ "cohort_identified": 5,
+ "withdrawal_rounds": [
+  {
+   "45": 740
+  },
+  {
+   "45": 740
+  },
+  {
+   "45": 740
+  },
+  {
+   "45": 740
+  },
+  {
+   "45": 740
+  }
+ ],
+ "rel_dist_P1_U0": [
+  0.7031934350400807,
+  0.7621943476925254,
+  0.6107565653817614,
+  0.6836172343665404,
+  0.6810737098660734
+ ],
+ "P1_seed1_equals_offline_late": true,
+ "T11f1": [
+  {
+   "n": 2,
+   "fake_prog_pair_in_MethodApproved": false,
+   "methodKind_latest": 0,
+   "json_refused": 2,
+   "h_out_equals_T11f_ckpt": 2
+  },
+  {
+   "n": 2,
+   "fake_prog_pair_in_MethodApproved": false,
+   "methodKind_latest": 0,
+   "json_refused": 2,
+   "h_out_equals_T11f_ckpt": 2
+  },
+  {
+   "n": 2,
+   "fake_prog_pair_in_MethodApproved": false,
+   "methodKind_latest": 0,
+   "json_refused": 2,
+   "h_out_equals_T11f_ckpt": 2
+  },
+  {
+   "n": 2,
+   "fake_prog_pair_in_MethodApproved": false,
+   "methodKind_latest": 0,
+   "json_refused": 2,
+   "h_out_equals_T11f_ckpt": 2
+  },
+  {
+   "n": 2,
+   "fake_prog_pair_in_MethodApproved": false,
+   "methodKind_latest": 0,
+   "json_refused": 2,
+   "h_out_equals_T11f_ckpt": 2
+  }
+ ],
+ "u0_refs_mean_sd": [
+  0.4961063023146932,
+  0.011008376662336465
+ ]
+}

@@ -1,0 +1,19 @@
+# local_harness start 2026-11-09T15:04:26+0900 git 4649db5ed6fc4f7ba750ba8a431081abbcda7a87 seed 20261109 n/cell 50 web3 8.0.0 py-evm 0.12.1b1 script_sha256 eae287171b06dfc3a7d220d114953b1720fd04d36de9cac405bbef7d35d5a8ed common_sha256 622f229685d781fe86ecf2fc0675a4a2146600a82ba2233732e79ea0203cb50f
+<repo>/validation/B_c1_concurrency/code/local_harness.py:52: ResourceWarning: unclosed file <_io.TextIOWrapper name='<repo>/validation/B_c1_concurrency/code/../results/artifacts/v3.1.json' mode='r' encoding='UTF-8'>
+  art = json.load(open(os.path.join(ART, f"{version}.json")))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+  100/1200 trials (16s)
+  200/1200 trials (33s)
+  300/1200 trials (52s)
+  400/1200 trials (69s)
+  500/1200 trials (86s)
+  600/1200 trials (106s)
+<repo>/validation/B_c1_concurrency/code/local_harness.py:52: ResourceWarning: unclosed file <_io.TextIOWrapper name='<repo>/validation/B_c1_concurrency/code/../results/artifacts/v3.2.json' mode='r' encoding='UTF-8'>
+  art = json.load(open(os.path.join(ART, f"{version}.json")))
+ResourceWarning: Enable tracemalloc to get the object allocation traceback
+  700/1200 trials (127s)
+  800/1200 trials (150s)
+  900/1200 trials (178s)
+  1000/1200 trials (199s)
+  1100/1200 trials (223s)
+  1200/1200 trials (251s)

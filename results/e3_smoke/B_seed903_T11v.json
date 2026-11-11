@@ -1,0 +1,883 @@
+{
+ "type": "B",
+ "seed": 903,
+ "contract": "0x5c6F977b9496e33681dCC0Db0e0a48b7964486B6",
+ "b3_contract": "0x3bb9860a6f1C423dddba72DDcdB8f3A445AA7d7b",
+ "cohort": 74,
+ "orig_identical_to_offline_late": null,
+ "I2": {
+  "final_deployable": false,
+  "round1_deployable": false
+ },
+ "training_L1": {
+  "sampled": 9,
+  "fail": 0
+ },
+ "instances": [
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "a794f032034a5e209260e3efbe8dc89a29b4df526a7fd2700bc4d9ccb178238f",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": null,
+    "diff": null,
+    "ci90": null
+   },
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "a",
+   "steps": 0,
+   "rel_dist_to_U0": 0.7243856307852032,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": true
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "660d4072c1c62e8f88a37d1f9641b083c719910db1fae90fe2db2d05b90bd41f",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": null,
+    "diff": null,
+    "ci90": null
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "b",
+   "n_inject": 1,
+   "rel_dist_to_U0": 0.0073119799215682615,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": false,
+    "tolerance_step_1.77177e-06": true,
+    "tolerance_step_1e-05": true,
+    "tolerance_step_0.0001": true,
+    "tolerance_step_0.001": true,
+    "tolerance_step_0.01": false
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "149270a659575375f59c990fe2f4419b878fc30f36e4367d7971703dec229918",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": null,
+    "diff": null,
+    "ci90": null
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "c",
+   "gamma": 0.001,
+   "round_dev": {
+    "2": 0.435944848218254,
+    "3": 0.4211313958893973,
+    "5": 0.22081596311528148,
+    "8": 0.015447565531104848,
+    "10": 0.0010629184904053816
+   },
+   "rel_dist_to_U0": 0.7244388910407767,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": true,
+    "tolerance_step_1.77177e-06": true,
+    "tolerance_step_1e-05": true,
+    "tolerance_step_0.0001": true,
+    "tolerance_step_0.001": true,
+    "tolerance_step_0.01": true
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "1437b1a174d455cef371777c849d9ec5cf66dad593960f4508b2244b809cecca",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": null,
+    "diff": null,
+    "ci90": null
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "d",
+   "round_dev": {
+    "1": 0.3811948982109245,
+    "4": 0.331286815529538,
+    "5": 0.2472030639725147,
+    "7": 0.12019837850863718,
+    "9": 0.04331201584292795
+   },
+   "same_label_neighbors": 77,
+   "rel_dist_to_U0": 0.7715237001707221,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": true,
+    "tolerance_step_1.77177e-06": true,
+    "tolerance_step_1e-05": true,
+    "tolerance_step_0.0001": true,
+    "tolerance_step_0.001": true,
+    "tolerance_step_0.01": true
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "b4f0163de254f9b3a5483e4737e7cf5b48aa8f196bdba85da106b8bc74fe6962",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": null,
+    "diff": null,
+    "ci90": null
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "e",
+   "chosen_seed": 903007,
+   "dist_to_P1": 0.7603456328419808,
+   "u0_dist_to_P1": 0.758984051123869,
+   "candidate_dist_to_P1": [
+    0.7710927288463489,
+    0.8254518793254841,
+    0.8745714085407447,
+    0.7626266056490401,
+    0.7135106421129968,
+    0.7296015814455853,
+    0.7603456328419808,
+    0.9114622766106693
+   ],
+   "rel_dist_to_U0": 0.7583871413432973,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": true,
+    "L1_without_config_commit": false
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "5e6e1ec495a702ff163cf00200bf8b5c644821df6c0e430bb79afcc3a2576922",
+   "L1": true,
+   "L2": true,
+   "L3": null,
+   "ledger_refused": true,
+   "deployable": false,
+   "lineage_duplicate": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "원장: 승인되지 않은 (방법, prog)로 처리 작업 생성 거부",
+   "variant": "f",
+   "sub": "f1",
+   "rel_dist_to_U0": 0.7196953456975795,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": true,
+    "name_only_approval": false
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "a794f032034a5e209260e3efbe8dc89a29b4df526a7fd2700bc4d9ccb178238f",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": null,
+    "diff": null,
+    "ci90": null
+   },
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "a",
+   "steps": 0,
+   "rel_dist_to_U0": 0.7243856307852032,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": true
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "bc11a70c9114a95da24f3b38da271bd1e478236e8a18f648a82c10a90f6a7538",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": null,
+    "diff": null,
+    "ci90": null
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "b",
+   "n_inject": 1,
+   "rel_dist_to_U0": 0.005431260912107042,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": false,
+    "tolerance_step_1.77177e-06": true,
+    "tolerance_step_1e-05": true,
+    "tolerance_step_0.0001": true,
+    "tolerance_step_0.001": true,
+    "tolerance_step_0.01": false
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "7bddc282d15cd610420811fba3af22e4901ed6581ff68438837db5cf7806088a",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": null,
+    "diff": null,
+    "ci90": null
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "c",
+   "gamma": 0.001,
+   "round_dev": {
+    "1": 0.4170925337819349,
+    "3": 0.38935495458125424,
+    "5": 0.23223222371817442,
+    "6": 0.21235750857739705,
+    "8": 0.01968265715068039
+   },
+   "rel_dist_to_U0": 0.7244011886324833,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": true,
+    "tolerance_step_1.77177e-06": true,
+    "tolerance_step_1e-05": true,
+    "tolerance_step_0.0001": true,
+    "tolerance_step_0.001": true,
+    "tolerance_step_0.01": true
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "1437b1a174d455cef371777c849d9ec5cf66dad593960f4508b2244b809cecca",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": null,
+    "diff": null,
+    "ci90": null
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "d",
+   "round_dev": {
+    "2": 0.48836814327331995,
+    "4": 0.331286815529538,
+    "5": 0.2472030639725147,
+    "7": 0.12019837850863718,
+    "9": 0.04331201584292795
+   },
+   "same_label_neighbors": 77,
+   "rel_dist_to_U0": 0.7715237001707221,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": true,
+    "tolerance_step_1.77177e-06": true,
+    "tolerance_step_1e-05": true,
+    "tolerance_step_0.0001": true,
+    "tolerance_step_0.001": true,
+    "tolerance_step_0.01": true
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "1e130b3cd3b44a61a0294fc541357e189e51ebde930e440b1ca0eeaf98f6457a",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": null,
+    "diff": null,
+    "ci90": null
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "e",
+   "chosen_seed": 903006,
+   "dist_to_P1": 0.7296015814455853,
+   "u0_dist_to_P1": 0.758984051123869,
+   "candidate_dist_to_P1": [
+    0.7710927288463489,
+    0.8254518793254841,
+    0.8745714085407447,
+    0.7626266056490401,
+    0.7135106421129968,
+    0.7296015814455853,
+    0.7603456328419808,
+    0.9114622766106693
+   ],
+   "rel_dist_to_U0": 0.6957709231700245,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": true,
+    "L1_without_config_commit": false
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "5e6e1ec495a702ff163cf00200bf8b5c644821df6c0e430bb79afcc3a2576922",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": null,
+    "diff": null,
+    "ci90": null
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "f",
+   "sub": "f2",
+   "rel_dist_to_U0": 0.7196953456975795,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": true,
+    "name_only_approval": true
+   }
+  },
+  {
+   "attack": "honest",
+   "method": "U0",
+   "h_out": "e9cdb694bc5e1a36c0a408d176b5ee0a40eb0f9653a9cc6f24f03e17cc588afe",
+   "L1": true,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": true,
+   "detected": {
+    "B4": null
+   },
+   "B4_evidence": "정직한 U0"
+  }
+ ],
+ "false_positives": {
+  "honest_job_deployable": true,
+  "honest_device_accepts": true,
+  "training_L1_fail": 0
+ },
+ "tx_total": 495,
+ "fee_kaia": 0.88354332,
+ "key_txs": [
+  {
+   "fn": "deploy:ConsentLedger",
+   "hash": "0x1e93fcbfa555bc5cdbd41cf9f0c69c026bbabaf902ebfc1765fbd0682825592c",
+   "block": null
+  },
+  {
+   "fn": "deploy:CompletionRecord",
+   "hash": "0x435d668aa5f336883895d059d868afbc736b3e32bc345e9eae25925ed397f581",
+   "block": null
+  },
+  {
+   "fn": "commitTrainingConfig",
+   "hash": "0xa6931281c7b7b10f8f7abd7123e1542190da1daf803f62c48a60eda2dddd0ccc",
+   "block": 231448797
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x33f23f22d426cd7a6ce4b2f4c317e8d79431327ef688ad5cb4bafad3af8294ce",
+   "block": 231448803
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x4f3f87c7c522f4f9372bddfbe5882fcce079fa9888f6efb1a53a1c0c0ae5315a",
+   "block": 231448808
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x1ba4fc5c59fc991a8edc76e99e11311e46b158f922a29b7559bb1a658373db3d",
+   "block": 231448813
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xbf1a655bc9cc9f64284406a328e2168e251f9c7e7a68b59f6c8c2480350a5205",
+   "block": 231448818
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xdf8564eb686a10c4b7402c0d7e0bf22aa19b70b5958e51c58e96e33a6a884ce3",
+   "block": 231448823
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x8411201efa7033d022d83108f3921739d6a106e435f957d25c1476ec21585386",
+   "block": 231448830
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x21107b16ede398267ef95e8585bdf854dec6efef42076fc1343eb60fd85ae30a",
+   "block": 231448835
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x481f52ef4d87ab913743236ebffc710a5b80aeca92d121e48fc257ac1e6321fc",
+   "block": 231448993
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x3a80d2e091d1517038cea49789787154cdf6ca676acabd3936883b446ee58fa0",
+   "block": 231448998
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x9658b1af73c807ca3ce39f99b3c243bc2f954d7fa6ede0b63646dd4b728e9f83",
+   "block": 231449002
+  },
+  {
+   "fn": "revoke",
+   "hash": "0xbc3098bdcfc442243fa83df3ba09943f7529c47a1444fd4276463670bfa58dd1",
+   "block": 231449004
+  },
+  {
+   "fn": "approveMethod",
+   "hash": "0x238f775a6d9e9ffa0c4fb2ca6969ff007093bb860bd84d508957c7537ffb74e2",
+   "block": 231449044
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x8bb4f80bd6d5405de3751c901fd65b6088a68e95bb732ee0af0b77caea84c621",
+   "block": 231449045
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x793d3206d33f2c8aa6923aeef4163308066d2507f6192f9afe6fce187c4d67f3",
+   "block": 231449046
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x91bde97a743daa037866d861d5c5d9aa95f76e963c0bee5cf099ad9524efde4d",
+   "block": 231449048
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xbb88815f00b1b046f967002af1bdd18e6cc414b5985f4eb126498076463f8ba6",
+   "block": 231449048
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xc766281659426cca6494684ed31caefa01f02fb0cb073f95c5617ae57bf2273b",
+   "block": 231449048
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xcc4a1c3ada2b7a95373b7c4e6285e8c77a71f44147c292ff7061fe7bcb9f2258",
+   "block": 231449051
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x0243b2f6d573bc07bb5f7aa260c1cb0504688f5eed23b7d3596a2cd012fe264c",
+   "block": 231449052
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xd06828c8f93e6c45bbe14bd5fd663e9cece6ede9a1fe8b09dc659b31d17aa142",
+   "block": 231449054
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xd8513e57efb80902f3710250d43290191b952a88de4af87c47060e6865ef8fa3",
+   "block": 231449054
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xd41579000ebb0b149962e077b1ff871468947cdc522fc5faffbdd21db571e5fe",
+   "block": 231449054
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xfa5c1338df213d4b3fce9b58042c98b3e908918fb8d523c3fe632c0e184698b1",
+   "block": 231449064
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x851cbf62b00053e7ea595131c4c579c67d8271100e7347591cf6099f248469fe",
+   "block": 231449065
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x021c2d9276db7b4a82ee2abc1dc7b9c777a36c9b28169cbdc0496fb3d9d9a561",
+   "block": 231449070
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x12fcce933c1988a5cec53eba92cc655be21f3a10fc7a55757d04a8b9732aeae0",
+   "block": 231449070
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x1bf13c2f1b65328ea14decf0a3274df07a6336ddbfefb82c9525e4d7c3e13c13",
+   "block": 231449070
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x130e93b8a67d5e6453f6c76207cd6fc08c77722294479ad197920c0cb5181f49",
+   "block": 231449097
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x4d83fc64573dce5b83ced38e34d725a1eb11bf232f2a62400ab5a03b4cd0389b",
+   "block": 231449098
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x448971dc8024b3fa3e85834659b51ef4080413f5ec53ff193ee5de831f5db389",
+   "block": 231449100
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x589d5a95194bde02ee147e5f4c766339e4bfb96aca16a11efb8d9258d0805214",
+   "block": 231449100
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xcdec79fc34e7df0061fed7e6126ed970679fc27eaded8f5094b9f15f70179b9a",
+   "block": 231449100
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x52888db051a9cd2ff3c97790cfa787696fdab6412de09366262f1b5de633b72a",
+   "block": 231449240
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x17eb0eae62fbe066add0c533a311dc24ecae8ffc2db88b73627c4be0da53f1e4",
+   "block": 231449241
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x48ba940d431a09baa911a0e389fa6aff75879b727c62ef4591f6250a5fcc5e3e",
+   "block": 231449243
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xa0720aabb75263cdc3f3f882e43ff15ec3dea51c8fbc83f36791cbd762697593",
+   "block": 231449243
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x3dfeea9bb0dc30023da7e213ef2a87000304d36f4ccb280456c3a2ea5bae82aa",
+   "block": 231449243
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x7a840d9e880754dbcd12f7dc18a0e9df906cb872deb572b8551ceab42458352c",
+   "block": 231449247
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x5b936c07d4391c787d27602ee07eea4d77c9048f7ff10bde762240a71ed7e714",
+   "block": 231449248
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x8e737a919118bc81885828cf41805e01698e2a3b513d5d7d2bb2fc28be93ba61",
+   "block": 231449250
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x6966d984058e164ad6b9c102fe47b0fe227dbf124e76140c6b93a2eacbba9596",
+   "block": 231449250
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x496e84c7b346b5932e0e95cec96d6a0a593a355c55c7b472c92dabdc4ea2c703",
+   "block": 231449250
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x3078dfb9ed1b1d9478a819ad847c91db2e3a8cfe66b978833d7bbe44355cb1da",
+   "block": 231449252
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xfc5871145d571701dd89007a8c6c531df9f9af424a212b6141fef51266fda14e",
+   "block": 231449253
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xf5a2de2cc7f6c094066d89fb1707604dfadd17645542e6a7bf378c96cf835bcf",
+   "block": 231449255
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xdd5d1adb8d31b4e9471ff87e7208d8b04dae127914f4d556f773b2f267ddb057",
+   "block": 231449255
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xc3d6f5e9e4ee5980086dfc4e39f361571ba09485aeacaf21de2e34fd59a8529b",
+   "block": 231449255
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xe91180ee93dfb3f417389da43161b0f17d593b2dd178bb9f7669c215a731d80c",
+   "block": 231449265
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x6e8d5d38d1e49434b6407ecdd3bda08c4d04b184dc725c14a858ba8e23190b1f",
+   "block": 231449266
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x2531b8f59aaf000200d98f4f8e0b0003897f006f2b89d1e9e6c1ed4fa2f4d241",
+   "block": 231449268
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xea6f3d78cd996503917a9455f8139b7bbd5ff46f995a13ff21a2fe2f7d21480a",
+   "block": 231449268
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x91aff0bb413286f45f75c405d194be3679db4996d4551442547c6769d8d1af16",
+   "block": 231449268
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xbf950c14688b49b33b52a9b864130c717d3fe130c0c9b2ca87278d9e7d8b9084",
+   "block": 231449295
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x08d0ba02627f03d481c91d158a7308d0126aa083bd4d2cd96411a3c9eb40a76e",
+   "block": 231449296
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x722b0c988443d03ef1f56ffc30007bde7869c03d04f42b3cdbc878fe30b9cf3e",
+   "block": 231449298
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x13fc33f782989b11580a8b3a745be7e44e0407a6d0a74bec90f83cc29b0fb1e5",
+   "block": 231449298
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x28387a02b1afeb13f8babe544e0bf109ce733171688bcc9831638214e36ff989",
+   "block": 231449298
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x0d64f120cbfea6632cfefa4af4e3f9f9fd42eca0b25cbb65dae6e65acfcc9b9a",
+   "block": 231449299
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x10cbb0e9b46de45a2a89520e9f0c4fc09c63d4698f9a0ef6f19186a516459f24",
+   "block": 231449300
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xef4e163818a2dffaa885b09980938ecfcb2b96678e0f38350d0c7acca6a30b1a",
+   "block": 231449302
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x67eae1ce2196be07d86c7a59ae48cf89207f1b59feaa055d362a56b7f5dff4ef",
+   "block": 231449302
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xe4506c2424d685908d54860115e4ad5001e278509e943383d07fb57c3fd91846",
+   "block": 231449302
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xfddb3a54d4df3fb0d5900815f17386a73de57c2ba6052e79eba4298b5f40d32f",
+   "block": 231449305
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x1836daf8a69077ba66ab62b1a12b3d7b807b0f0af9442bf620a7235878c6b579",
+   "block": 231449308
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xae672adac4981af8fb25e623c393962e9b737ef9396f96f2c435f055ff8fe7e4",
+   "block": 231449310
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xbb699352f6783e574037e407bb16263d31c055819e0a1f6d3260e8992718cf93",
+   "block": 231449310
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xed1d581d0bf8d004f5dcefe8e96686b648abda4840d76818d59d6128f4c384f5",
+   "block": 231449310
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x428f9bd58472360a387cd6801a78ce3a7ce77c3cffe4ae3d67f98fe49be924e6",
+   "block": 231449311
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xf556bf2c6c9926cb9780a33a6bcc011085cf08ec6643c56d52a4de0bd0e7ad6a",
+   "block": 231449312
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xc203b87778ce69edc2e14f84af75921e2ef6f0d6f17c13110fcaf1d8e8859395",
+   "block": 231449314
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xd933429842594f53ef35684d6af198539721d35a4b490160dcd72b350575fd4c",
+   "block": 231449314
+  },
+  {
+   "fn": "deploy",
+   "hash": "0x227a5545db9e017543caaf681a8cc9ed20418f73d19907c3e6eb21ade7f43d7a",
+   "block": 231449315
+  }
+ ],
+ "wall_s": 524.627977848053
+}

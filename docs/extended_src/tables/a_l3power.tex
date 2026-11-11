@@ -1,0 +1,35 @@
+\begin{table*}[t]
+\centering
+\caption{\Lthree{} operating characteristics under the main rule (margin 0.05, $z$ quantile, five references; post hoc). $s_{\mathrm{ref}}$: standard deviation of the scenario's ten retrained models' LiRA AUC; $se_{\mathrm{boot}}$: mean stored bootstrap standard error. Simulated pass probabilities (100{,}000 draws per cell) at a true difference $\Delta$ from retraining for a fixed audited model (F; M1 in Fig.~\ref{fig:a-l3power}), a method with the training variability of retraining (M, primary; M2), and the same plus record sampling (R; M3). Residual: smallest blocking-only residual that the positive control detects with probability 0.8. P1 observed: mean difference from the reference mean, the detection probability the model predicts at that difference, and the runs classified \emph{exceeds}. U0: observed passes of retraining. Last column: P1's paired difference from retraining over the ten seeds with its 90\% $t$ interval (Table~\ref{tab:a-l3nominal}).}
+\label{tab:a-l3power}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\adjustbox{max width=\textwidth}{%
+\begin{tabular}{@{}l r c c ccc c ccc c ccc c c@{}}
+\toprule
+ & & & & \multicolumn{3}{c}{$P(\text{pass}\mid\Delta=0)$} & $\Delta=0.025$ & \multicolumn{3}{c}{$P(\text{pass}\mid\Delta=0.05)$} & Residual & \multicolumn{3}{c}{P1 observed} & U0 & P1 paired difference \\
+\cmidrule(lr){5-7}\cmidrule(lr){8-8}\cmidrule(lr){9-11}\cmidrule(lr){13-15}
+Scenario & $|X|$ & $s_{\mathrm{ref}}$ & $se_{\mathrm{boot}}$ & F & M & R & M & F & M & R & (0.8) & diff. & pred. & exceeds & pass & (90\% CI) \\
+\midrule
+5\%, late (base) & 859 & 0.0089 & 0.0137 & 1.000 & 0.994 & 0.881 & 0.564 & 0.000 & 0.008 & 0.085 & 0.041 & $+0.059$ & 0.98 & 9/10 & 10/10 & $+0.063$ ($+0.053$, $+0.073$) \\
+1\%, late & 176 & 0.0318 & 0.0303 & 0.000 & 0.000 & 0.000 & 0.000 & 0.000 & 0.000 & 0.000 & 0.086 & $+0.096$ & 0.87 & 9/10 & 0/10 & $+0.098$ ($+0.074$, $+0.123$) \\
+10\%, late & 1{,}718 & 0.0146 & 0.0099 & 1.000 & 0.942 & 0.896 & 0.635 & 0.002 & 0.114 & 0.149 & 0.042 & $+0.067$ & 1.00 & 10/10 & 10/10 & $+0.066$ ($+0.060$, $+0.072$) \\
+20\%, late & 3{,}404 & 0.0051 & 0.0080 & 1.000 & 1.000 & 1.000 & 0.977 & 0.000 & 0.007 & 0.067 & 0.043 & $+0.065$ & 1.00 & 10/10 & 10/10 & $+0.065$ ($+0.060$, $+0.070$) \\
+5\%, early & 840 & 0.0152 & 0.0142 & 0.999 & 0.850 & 0.723 & 0.476 & 0.000 & 0.060 & 0.119 & 0.037 & $+0.002$ & 0.02 & 0/10 & 8/10 & $+0.006$ ($-0.004$, $+0.015$) \\
+5\%, mid & 851 & 0.0160 & 0.0144 & 0.998 & 0.822 & 0.702 & 0.464 & 0.000 & 0.067 & 0.125 & 0.039 & $+0.015$ & 0.22 & 2/10 & 8/10 & $+0.019$ ($+0.006$, $+0.031$) \\
+1\%, early & 177 & 0.0241 & 0.0301 & 0.000 & 0.000 & 0.000 & 0.000 & 0.000 & 0.000 & 0.000 & 0.076 & $-0.002$ & 0.02 & 1/10 & 0/10 & $+0.002$ ($-0.018$, $+0.023$) \\
+1\%, mid & 167 & 0.0291 & 0.0319 & 0.000 & 0.000 & 0.000 & 0.000 & 0.000 & 0.000 & 0.000 & 0.078 & $+0.009$ & 0.03 & 0/10 & 0/10 & $+0.021$ ($+0.002$, $+0.039$) \\
+10\%, early & 1{,}706 & 0.0118 & 0.0101 & 1.000 & 0.983 & 0.946 & 0.687 & 0.000 & 0.076 & 0.123 & 0.043 & $-0.008$ & 0.00 & 0/10 & 10/10 & $-0.004$ ($-0.012$, $+0.004$) \\
+10\%, mid & 1{,}716 & 0.0097 & 0.0098 & 1.000 & 0.998 & 0.971 & 0.753 & 0.000 & 0.050 & 0.120 & 0.040 & $+0.018$ & 0.05 & 1/10 & 10/10 & $+0.020$ ($+0.015$, $+0.025$) \\
+20\%, early & 3{,}457 & 0.0093 & 0.0081 & 1.000 & 0.999 & 0.993 & 0.838 & 0.000 & 0.073 & 0.126 & 0.043 & $-0.005$ & 0.00 & 0/10 & 10/10 & $-0.005$ ($-0.011$, $+0.000$) \\
+20\%, mid & 3{,}432 & 0.0077 & 0.0079 & 1.000 & 1.000 & 0.998 & 0.901 & 0.000 & 0.049 & 0.112 & 0.043 & $+0.015$ & 0.01 & 0/10 & 10/10 & $+0.015$ ($+0.008$, $+0.022$) \\
+MI patients & 945 & 0.0235 & 0.0157 & 0.918 & 0.540 & 0.477 & 0.365 & 0.002 & 0.113 & 0.140 & 0.051 & $+0.093$ & 1.00 & 10/10 & 5/10 & $+0.093$ ($+0.073$, $+0.112$) \\
+women aged $\ge65$ & 855 & 0.0139 & 0.0157 & 1.000 & 0.855 & 0.683 & 0.430 & 0.000 & 0.035 & 0.105 & 0.041 & $+0.071$ & 1.00 & 10/10 & 9/10 & $+0.064$ ($+0.052$, $+0.076$) \\
+one institution & 850 & 0.0156 & 0.0139 & 0.999 & 0.845 & 0.732 & 0.487 & 0.000 & 0.069 & 0.125 & 0.043 & $+0.054$ & 0.92 & 9/10 & 8/10 & $+0.061$ ($+0.051$, $+0.070$) \\
+three waves & 839 & 0.0097 & 0.0142 & 1.000 & 0.985 & 0.840 & 0.522 & 0.000 & 0.010 & 0.089 & 0.037 & $+0.033$ & 0.71 & 6/10 & 10/10 & $+0.035$ ($+0.027$, $+0.044$) \\
+re-consent & 431 & 0.0117 & 0.0196 & 0.998 & 0.803 & 0.522 & 0.256 & 0.000 & 0.005 & 0.073 & 0.046 & $+0.011$ & 0.07 & 1/10 & 8/10 & $+0.011$ ($-0.002$, $+0.023$) \\
+institution exit & 4{,}310 & 0.0143 & 0.0099 & 1.000 & 0.948 & 0.903 & 0.643 & 0.002 & 0.111 & 0.150 & 0.046 & $+0.039$ & 0.68 & 6/10 & 10/10 & $+0.048$ ($+0.041$, $+0.055$) \\
+late-joining cohort & 856 & 0.0140 & 0.0139 & 1.000 & 0.894 & 0.767 & 0.499 & 0.000 & 0.052 & 0.116 & 0.037 & $+0.069$ & 1.00 & 10/10 & 9/10 & $+0.068$ ($+0.061$, $+0.075$) \\
+\bottomrule
+\end{tabular}}
+\end{table*}

@@ -1,0 +1,22 @@
+\begin{table}[h]
+\centering
+\caption{E4 latency and bandwidth sensitivity of the multi-container deployment: mean wall-clock seconds per round ($R=10$). Delay is an artificial one-way delay applied to each request and each response; bandwidth is an artificial per-link rate. For both $K=3$ and $K=10$: one distinct final hash over the nine settings, and 3.9\,MB per round exchanged with data center 1 (the model is 1.9\,MB each way).}
+\label{tab:a-lat}
+\footnotesize
+\adjustbox{max width=\columnwidth}{%
+\begin{tabular}{@{}r r r r r@{}}
+\toprule
+& & \multicolumn{3}{c}{Bandwidth} \\
+\cmidrule(l){3-5}
+$K$ & Delay (ms) & unlimited & 100\,Mb/s & 10\,Mb/s \\
+\midrule
+3 & 0 & 1.92 & 2.24 & 5.02 \\
+3 & 50 & 2.02 & 2.32 & 5.12 \\
+3 & 200 & 2.34 & 2.64 & 5.42 \\
+\midrule
+10 & 0 & 2.20 & 2.44 & 5.21 \\
+10 & 50 & 2.21 & 2.52 & 5.30 \\
+10 & 200 & 2.52 & 2.82 & 5.61 \\
+\bottomrule
+\end{tabular}}
+\end{table}

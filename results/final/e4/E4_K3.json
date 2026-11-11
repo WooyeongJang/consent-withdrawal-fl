@@ -1,0 +1,432 @@
+{
+ "K": 3,
+ "rounds": 10,
+ "subjects": 100,
+ "withdrawals": 20,
+ "withdraw_round": 5,
+ "contract": "0xdCce60e87991524e9E9DB83A6aa35b72Ec7251e9",
+ "key_txs": [
+  {
+   "fn": "deploy:ConsentLedger",
+   "hash": "0x1ef80e4aa8cf75a2e952ca1cb7dd6bd82ed1fdb06c08019b8360da3a498cb312",
+   "block": null
+  },
+  {
+   "fn": "commitTrainingConfig",
+   "hash": "0x7db60c210b696dc6da70ce393dd70f3552272b83e5000b086174362f88095bef",
+   "block": 231684196
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xaa1687de82f7620592411301553ee64f8a31effe2b2e8fe886437eb359dfa201",
+   "block": 231684203
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x66212fa0f5480c63d6fdf118fbc97ea0964bc5f9ab690c6ee738cb0e011b66a8",
+   "block": 231684208
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x1d7f4401ccfa0416379edf47b1e402cfd507eb75274dfbef1236abe9d03a6ebb",
+   "block": 231684213
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x6a293ffff7e337c04e89ba26b33b3f2a6bb627b992ef073e542fb24b4e3944dc",
+   "block": 231684217
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x5cf5db4f1ffebe79cf1c38372f961272f04849e8eccc11871bd3d040661ae14b",
+   "block": 231684244
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x6081c4a68b9393a9b20022a178c6055b66d619213dea5bfc9345f621f58cc2e3",
+   "block": 231684249
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x0a940b1902b12a4a093229bb551453f11c4d620692de9e42c31ce472f8d0d088",
+   "block": 231684254
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x3d0ed471da2ffda8d6d5ea99aab9adb54abbdea4931b235f970a506962c5bb83",
+   "block": 231684259
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x58504995a675bed4e18522c2d79b29d886ba419d2c3dc176f4db63fc42f5cef5",
+   "block": 231684264
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x62d8c2302323ef3cefde6fa6d949b8351bcb60d15dacfcc3570699bffe41791b",
+   "block": 231684268
+  }
+ ],
+ "tx_total": 262,
+ "fee_kaia": 0.4624139025,
+ "fn": {
+  "deploy:ConsentLedger": {
+   "count": 1,
+   "gas_mean": 2608906,
+   "gas_sd": 0.0,
+   "gas_min": 2608906,
+   "gas_max": 2608906,
+   "latency_mean_s": 1.3379900455474854,
+   "latency_p95_s": 1.3379900455474854,
+   "fee_kaia": 0.0,
+   "calldata_bytes": null
+  },
+  "registerPolicy": {
+   "count": 100,
+   "gas_mean": 59803.24,
+   "gas_sd": 5.5912789234664375,
+   "gas_min": 59782,
+   "gas_max": 59806,
+   "latency_mean_s": 1.5112422871589661,
+   "latency_p95_s": 1.7124271988868713,
+   "fee_kaia": 0.16445891,
+   "calldata_bytes": 132
+  },
+  "commitTrainingConfig": {
+   "count": 1,
+   "gas_mean": 59679,
+   "gas_sd": 0.0,
+   "gas_min": 59679,
+   "gas_max": 59679,
+   "latency_mean_s": 0.24755167961120605,
+   "latency_p95_s": 0.24755167961120605,
+   "fee_kaia": 0.0016411725,
+   "calldata_bytes": 36
+  },
+  "openRound": {
+   "count": 10,
+   "gas_mean": 60769,
+   "gas_sd": 0.0,
+   "gas_min": 60769,
+   "gas_max": 60769,
+   "latency_mean_s": 1.1892883062362671,
+   "latency_p95_s": 2.280827975273132,
+   "fee_kaia": 0.016711475,
+   "calldata_bytes": 100
+  },
+  "commitInput": {
+   "count": 30,
+   "gas_mean": 66816.6,
+   "gas_sd": 5.986651818838307,
+   "gas_min": 66811,
+   "gas_max": 66823,
+   "latency_mean_s": 0.634638508160909,
+   "latency_p95_s": 1.1001989603042603,
+   "fee_kaia": 0.055123695,
+   "calldata_bytes": 196
+  },
+  "commitUpdate": {
+   "count": 30,
+   "gas_mean": 62332,
+   "gas_sd": 6.752777206453653,
+   "gas_min": 62314,
+   "gas_max": 62338,
+   "latency_mean_s": 0.785854983329773,
+   "latency_p95_s": 1.594011092185974,
+   "fee_kaia": 0.0514239,
+   "calldata_bytes": 132
+  },
+  "decide": {
+   "count": 30,
+   "gas_mean": 69883,
+   "gas_sd": 5.656854249492381,
+   "gas_min": 69875,
+   "gas_max": 69887,
+   "latency_mean_s": 0.9995895465215047,
+   "latency_p95_s": 1.610185194015503,
+   "fee_kaia": 0.057653475,
+   "calldata_bytes": 132
+  },
+  "aggregate": {
+   "count": 10,
+   "gas_mean": 67078.6,
+   "gas_sd": 7.2,
+   "gas_min": 67057,
+   "gas_max": 67081,
+   "latency_mean_s": 0.9816161155700683,
+   "latency_p95_s": 1.5518819093704221,
+   "fee_kaia": 0.018446615,
+   "calldata_bytes": 100
+  },
+  "sampleAudit": {
+   "count": 10,
+   "gas_mean": 37979,
+   "gas_sd": 0.0,
+   "gas_min": 37979,
+   "gas_max": 37979,
+   "latency_mean_s": 1.0821056127548219,
+   "latency_p95_s": 2.0346126079559315,
+   "fee_kaia": 0.010444225,
+   "calldata_bytes": 36
+  },
+  "requestWithdrawal": {
+   "count": 20,
+   "gas_mean": 104756.8,
+   "gas_sd": 11178.78831358748,
+   "gas_min": 102172,
+   "gas_max": 153484,
+   "latency_mean_s": 0.9459954738616944,
+   "latency_p95_s": 1.6038889288902283,
+   "fee_kaia": 0.05761624,
+   "calldata_bytes": 100
+  },
+  "declareFirstUse": {
+   "count": 20,
+   "gas_mean": 52534.9,
+   "gas_sd": 660.5160028341478,
+   "gas_min": 52372,
+   "gas_max": 55414,
+   "latency_mean_s": 0.8448352932929992,
+   "latency_p95_s": 0.9475785374641419,
+   "fee_kaia": 0.028894195,
+   "calldata_bytes": 68
+  }
+ },
+ "time": {
+  "run_with_ledger_s": 72.87173295021057,
+  "train_only_s": 17.48276996612549,
+  "register_s": 3.0956642627716064,
+  "requests_s": 19.469574689865112,
+  "declare_s": 1.0840082168579102,
+  "per_round_ledger_s": 3.483538007736206,
+  "per_round_train_s": 1.7482769966125489
+ },
+ "tx_per_round": 12,
+ "comm_per_round_bytes": 11434632,
+ "param_bytes": 1905772,
+ "l1_units": [
+  {
+   "k": "0",
+   "r": 1,
+   "n": 7692,
+   "s": 0.7664024829864502,
+   "ok": true
+  },
+  {
+   "k": "1",
+   "r": 1,
+   "n": 5071,
+   "s": 0.5153918266296387,
+   "ok": true
+  },
+  {
+   "k": "2",
+   "r": 1,
+   "n": 4310,
+   "s": 0.43930792808532715,
+   "ok": true
+  },
+  {
+   "k": "0",
+   "r": 2,
+   "n": 7692,
+   "s": 0.7679874897003174,
+   "ok": true
+  },
+  {
+   "k": "1",
+   "r": 2,
+   "n": 5071,
+   "s": 0.5188858509063721,
+   "ok": true
+  },
+  {
+   "k": "2",
+   "r": 2,
+   "n": 4310,
+   "s": 0.4434018135070801,
+   "ok": true
+  },
+  {
+   "k": "0",
+   "r": 3,
+   "n": 7692,
+   "s": 0.7666168212890625,
+   "ok": true
+  },
+  {
+   "k": "1",
+   "r": 3,
+   "n": 5071,
+   "s": 0.5187563896179199,
+   "ok": true
+  },
+  {
+   "k": "2",
+   "r": 3,
+   "n": 4310,
+   "s": 0.4430694580078125,
+   "ok": true
+  },
+  {
+   "k": "0",
+   "r": 4,
+   "n": 7692,
+   "s": 0.7737383842468262,
+   "ok": true
+  },
+  {
+   "k": "1",
+   "r": 4,
+   "n": 5071,
+   "s": 0.5203711986541748,
+   "ok": true
+  },
+  {
+   "k": "2",
+   "r": 4,
+   "n": 4310,
+   "s": 0.44269871711730957,
+   "ok": true
+  },
+  {
+   "k": "0",
+   "r": 5,
+   "n": 7684,
+   "s": 0.7633240222930908,
+   "ok": true
+  },
+  {
+   "k": "1",
+   "r": 5,
+   "n": 5064,
+   "s": 0.5088033676147461,
+   "ok": true
+  },
+  {
+   "k": "2",
+   "r": 5,
+   "n": 4300,
+   "s": 0.4344172477722168,
+   "ok": true
+  },
+  {
+   "k": "0",
+   "r": 6,
+   "n": 7684,
+   "s": 0.7657041549682617,
+   "ok": true
+  },
+  {
+   "k": "1",
+   "r": 6,
+   "n": 5064,
+   "s": 0.5108082294464111,
+   "ok": true
+  },
+  {
+   "k": "2",
+   "r": 6,
+   "n": 4300,
+   "s": 0.4363267421722412,
+   "ok": true
+  },
+  {
+   "k": "0",
+   "r": 7,
+   "n": 7684,
+   "s": 0.7709810733795166,
+   "ok": true
+  },
+  {
+   "k": "1",
+   "r": 7,
+   "n": 5064,
+   "s": 0.5068361759185791,
+   "ok": true
+  },
+  {
+   "k": "2",
+   "r": 7,
+   "n": 4300,
+   "s": 0.4452853202819824,
+   "ok": true
+  },
+  {
+   "k": "0",
+   "r": 8,
+   "n": 7684,
+   "s": 0.7689468860626221,
+   "ok": true
+  },
+  {
+   "k": "1",
+   "r": 8,
+   "n": 5064,
+   "s": 0.5162723064422607,
+   "ok": true
+  },
+  {
+   "k": "2",
+   "r": 8,
+   "n": 4300,
+   "s": 0.44314002990722656,
+   "ok": true
+  },
+  {
+   "k": "0",
+   "r": 9,
+   "n": 7684,
+   "s": 0.7662186622619629,
+   "ok": true
+  },
+  {
+   "k": "1",
+   "r": 9,
+   "n": 5064,
+   "s": 0.5120103359222412,
+   "ok": true
+  },
+  {
+   "k": "2",
+   "r": 9,
+   "n": 4300,
+   "s": 0.43387627601623535,
+   "ok": true
+  },
+  {
+   "k": "0",
+   "r": 10,
+   "n": 7684,
+   "s": 0.7629919052124023,
+   "ok": true
+  },
+  {
+   "k": "1",
+   "r": 10,
+   "n": 5064,
+   "s": 0.5110538005828857,
+   "ok": true
+  },
+  {
+   "k": "2",
+   "r": 10,
+   "n": 4300,
+   "s": 0.442779541015625,
+   "ok": true
+  }
+ ],
+ "l1_unit_mean_s": 0.5738801479339599,
+ "l1_all_ok": true,
+ "l1_cost_by_p": {
+  "0.1": 0.172164044380188,
+  "0.3": 0.5164921331405639,
+  "0.5": 0.8608202219009399,
+  "1.0": 1.7216404438018797
+ },
+ "inst_sizes": {
+  "0": 7692,
+  "1": 5071,
+  "2": 4310
+ }
+}

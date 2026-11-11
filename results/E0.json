@@ -1,0 +1,292 @@
+{
+ "groups": [
+  {
+   "mode": "chain",
+   "cond": "cpu",
+   "runs": 2,
+   "distinct_hashes": 1,
+   "agreement": 1.0,
+   "modal_hash": "c13b6b21aa36a895698493c6523a77fd4e4aa41d18ff03b68f5c4e7aac3480f1",
+   "mean_seconds": 295.8484870719258,
+   "torch": "2.14.0a0+4fdf77b940.nv26.08",
+   "rounds_identical": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "mode": "chain",
+   "cond": "gpu_det",
+   "runs": 2,
+   "distinct_hashes": 1,
+   "agreement": 1.0,
+   "modal_hash": "17996070d8ac494a8627de521300f19e854071c1d08f6538907f57679416c1bf",
+   "mean_seconds": 8.36135375732556,
+   "torch": "2.14.0a0+4fdf77b940.nv26.08",
+   "rounds_identical": [
+    true,
+    true,
+    true,
+    true,
+    true
+   ]
+  },
+  {
+   "mode": "unit",
+   "cond": "cpu",
+   "runs": 10,
+   "distinct_hashes": 1,
+   "agreement": 1.0,
+   "modal_hash": "bd598bcdfcb328f19b343d93a01bf66efd879de3cc7a9d176eb8f071e2e0a2d3",
+   "mean_seconds": 25.94363618749194,
+   "torch": "2.14.0a0+4fdf77b940.nv26.08"
+  },
+  {
+   "mode": "unit",
+   "cond": "cpu_t4",
+   "runs": 2,
+   "distinct_hashes": 1,
+   "agreement": 1.0,
+   "modal_hash": "3cce2a864dca73c8e498b0d81fbcb528acbbc448c492621b3b89f7bc0d6d9039",
+   "mean_seconds": 32.939607354812324,
+   "torch": "2.14.0a0+4fdf77b940.nv26.08"
+  },
+  {
+   "mode": "unit",
+   "cond": "gpu_det",
+   "runs": 10,
+   "distinct_hashes": 1,
+   "agreement": 1.0,
+   "modal_hash": "4df780be8f157d674adcad9d2dbf3d8b90f9f25fd576da8ebd72880efe93460f",
+   "mean_seconds": 1.1260804083663971,
+   "torch": "2.14.0a0+4fdf77b940.nv26.08"
+  },
+  {
+   "mode": "unit",
+   "cond": "gpu_det_pipvenv",
+   "runs": 2,
+   "distinct_hashes": 1,
+   "agreement": 1.0,
+   "modal_hash": "63a279814ac1c5da828591c51aa0d09db068f40fba8b5797b0d654e2ab9f27e4",
+   "mean_seconds": 1.2455044782254845,
+   "torch": "2.14.1+cu130"
+  },
+  {
+   "mode": "unit",
+   "cond": "gpu_nondet",
+   "runs": 10,
+   "distinct_hashes": 10,
+   "agreement": 0.1,
+   "modal_hash": "196ae727a2aff0bb80f1cb75082317aff52c2c2321cdcbc39831f63a699a6399",
+   "mean_seconds": 3.259110923251137,
+   "torch": "2.14.0a0+4fdf77b940.nv26.08",
+   "differing_tensors": [
+    "body.0.bn1.bias",
+    "body.0.bn1.running_mean",
+    "body.0.bn1.running_var",
+    "body.0.bn1.weight",
+    "body.0.bn2.bias",
+    "body.0.bn2.running_mean",
+    "body.0.bn2.running_var",
+    "body.0.bn2.weight",
+    "body.0.conv1.weight",
+    "body.0.conv2.weight",
+    "body.1.bn1.bias",
+    "body.1.bn1.running_mean",
+    "body.1.bn1.running_var",
+    "body.1.bn1.weight",
+    "body.1.bn2.bias",
+    "body.1.bn2.running_mean",
+    "body.1.bn2.running_var",
+    "body.1.bn2.weight",
+    "body.1.conv1.weight",
+    "body.1.conv2.weight",
+    "body.1.shortcut.0.weight",
+    "body.1.shortcut.1.bias",
+    "body.1.shortcut.1.running_mean",
+    "body.1.shortcut.1.running_var",
+    "body.1.shortcut.1.weight",
+    "body.2.bn1.bias",
+    "body.2.bn1.running_mean",
+    "body.2.bn1.running_var",
+    "body.2.bn1.weight",
+    "body.2.bn2.bias",
+    "body.2.bn2.running_mean",
+    "body.2.bn2.running_var",
+    "body.2.bn2.weight",
+    "body.2.conv1.weight",
+    "body.2.conv2.weight",
+    "body.2.shortcut.0.weight",
+    "body.2.shortcut.1.bias",
+    "body.2.shortcut.1.running_mean",
+    "body.2.shortcut.1.running_var",
+    "body.2.shortcut.1.weight",
+    "head.2.bias",
+    "head.2.running_mean",
+    "head.2.running_var",
+    "head.2.weight",
+    "head.4.bias",
+    "head.4.weight",
+    "head.6.bias",
+    "head.6.running_mean",
+    "head.6.running_var",
+    "head.6.weight",
+    "head.8.bias",
+    "head.8.weight",
+    "stem.0.weight",
+    "stem.1.bias",
+    "stem.1.running_mean",
+    "stem.1.running_var",
+    "stem.1.weight"
+   ]
+  }
+ ],
+ "pilot": {
+  "gpu_det": {
+   "label": "초기값 고정",
+   "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "test_macro_auc": [
+    0.9315961592811426,
+    0.9306896048063917,
+    0.9313313533684067,
+    0.930844168894669,
+    0.9309569226968003
+   ],
+   "mean": 0.9310836418094821,
+   "sd": 0.0003717207774104319,
+   "ci95": [
+    0.9306221634964457,
+    0.9315451201225186
+   ],
+   "per_class_mean": {
+    "NORM": 0.9503626654848647,
+    "MI": 0.9375490728177296,
+    "STTC": 0.9354929257090999,
+    "CD": 0.9283223671441326,
+    "HYP": 0.9036911778915837
+   },
+   "val_curve": {
+    "1": {
+     "10": 0.9087324226779494,
+     "20": 0.9272692264439492,
+     "30": 0.9317907095719601,
+     "40": 0.9336797493514656,
+     "50": 0.9335927297995898
+    },
+    "2": {
+     "10": 0.9123868823489492,
+     "20": 0.9226975326420248,
+     "30": 0.9277731443442179,
+     "40": 0.933721958475059,
+     "50": 0.9341763124298158
+    },
+    "3": {
+     "10": 0.9078408177906866,
+     "20": 0.9288732505451536,
+     "30": 0.9297144955873762,
+     "40": 0.9349386009659449,
+     "50": 0.934787209245501
+    },
+    "4": {
+     "10": 0.9059465429083448,
+     "20": 0.9247622383162014,
+     "30": 0.9306390803816568,
+     "40": 0.933621931495896,
+     "50": 0.9335647307759813
+    },
+    "5": {
+     "10": 0.9091167304285349,
+     "20": 0.9230904273286568,
+     "30": 0.929757579102964,
+     "40": 0.9340863557096787,
+     "50": 0.9346254724674475
+    }
+   },
+   "seconds_per_run": 79.61727454196662,
+   "benchmark_reference": 0.93
+  },
+  "gpu_det_vinit": {
+   "label": "초기값도 시드별",
+   "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "test_macro_auc": [
+    0.9307484690985852,
+    0.9312143436454324,
+    0.9307323919919435,
+    0.930335885793667,
+    0.9315082642109485
+   ],
+   "mean": 0.9309078709481153,
+   "sd": 0.00045764790364927367,
+   "ci95": [
+    0.9303397171203632,
+    0.9314760247758674
+   ],
+   "per_class_mean": {
+    "NORM": 0.9500752964280904,
+    "MI": 0.938044776119403,
+    "STTC": 0.9355682003383841,
+    "CD": 0.9291931116804472,
+    "HYP": 0.901657970174252
+   },
+   "val_curve": {
+    "1": {
+     "10": 0.9070932574117302,
+     "20": 0.9270800284602381,
+     "30": 0.9310258527056406,
+     "40": 0.93187904188399,
+     "50": 0.9324135559796767
+    },
+    "2": {
+     "10": 0.906155608085017,
+     "20": 0.9243039322516993,
+     "30": 0.9296689747391589,
+     "40": 0.9326566897868513,
+     "50": 0.9326222348818218
+    },
+    "3": {
+     "10": 0.910941386996188,
+     "20": 0.9268995462364295,
+     "30": 0.9291420187207576,
+     "40": 0.9341140915749628,
+     "50": 0.9342910168323806
+    },
+    "4": {
+     "10": 0.9058950796952171,
+     "20": 0.9254573878112602,
+     "30": 0.9307451631733595,
+     "40": 0.9347205582646343,
+     "50": 0.9348590929324848
+    },
+    "5": {
+     "10": 0.9081511562325255,
+     "20": 0.9245639529058133,
+     "30": 0.9286515179203692,
+     "40": 0.9337262063294867,
+     "50": 0.9337861956466111
+    }
+   },
+   "seconds_per_run": 79.58061218000948,
+   "benchmark_reference": 0.93
+  }
+ },
+ "cross": {
+  "gpu_det vs cpu": false,
+  "gpu_det vs gpu_det_pipvenv": false,
+  "cpu vs cpu_t4": false
+ }
+}

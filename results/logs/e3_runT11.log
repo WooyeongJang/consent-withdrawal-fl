@@ -1,0 +1,35 @@
+== T11 smoke 02:52:10
+[E3B-s902] round 10: 300ce246c869
+T11    U0                 L1=False L2=True L3=통과 dup=True → 배포 불가(탐지)
+T11    U0                 L1=False L2=True L3=통과 dup=False → 배포 불가(탐지)
+honest U0                 L1=True L2=True L3=exempt dup=False → 배포 가능
+B4 탐지: {('T11', True): 2} | 오탐: {'honest_job_deployable': True, 'honest_device_accepts': True, 'training_L1_fail': 0} | 동일 재현: False | 거래 439 | 수수료 0.764
+== T11 full 02:56:40
+[E3B-s1] round 10: 09ecf4185596
+[E3B-s1] round 20: 6883191b88a1
+[E3B-s1] round 30: fa0ae83ca31d
+[E3B-s1] round 40: 2c3a2e6c142e
+[E3B-s1] round 50: 5fc0df8c54f4
+T11    U0                 L1=False L2=True L3=통과 dup=False → 배포 불가(탐지)
+T11    U0                 L1=False L2=True L3=통과 dup=False → 배포 불가(탐지)
+T11    U0                 L1=False L2=True L3=통과 dup=False → 배포 불가(탐지)
+T11    U0                 L1=False L2=True L3=통과 dup=False → 배포 불가(탐지)
+T11    U0                 L1=False L2=True L3=통과 dup=False → 배포 불가(탐지)
+T11    U0                 L1=False L2=True L3=통과 dup=False → 배포 불가(탐지)
+T11    U0                 L1=False L2=True L3=통과 dup=False → 배포 불가(탐지)
+T11    U0                 L1=False L2=True L3=통과 dup=False → 배포 불가(탐지)
+T11    U0                 L1=False L2=True L3=통과 dup=False → 배포 불가(탐지)
+T11    U0                 L1=False L2=True L3=통과 dup=False → 배포 불가(탐지)
+T11    U0                 L1=False L2=True L3=통과 dup=False → 배포 불가(탐지)
+T11    U0                 L1=False L2=True L3=통과 dup=False → 배포 불가(탐지)
+T11    U0                 L1=False L2=True L3=통과 dup=False → 배포 불가(탐지)
+T11    U0                 L1=False L2=True L3=통과 dup=False → 배포 불가(탐지)
+T11    U0                 L1=False L2=True L3=통과 dup=False → 배포 불가(탐지)
+T11    U0                 L1=False L2=True L3=통과 dup=False → 배포 불가(탐지)
+T11    U0                 L1=False L2=True L3=통과 dup=False → 배포 불가(탐지)
+T11    U0                 L1=False L2=True L3=통과 dup=False → 배포 불가(탐지)
+T11    U0                 L1=False L2=True L3=통과 dup=False → 배포 불가(탐지)
+T11    U0                 L1=False L2=True L3=통과 dup=False → 배포 불가(탐지)
+honest U0                 L1=True L2=True L3=exempt dup=False → 배포 가능
+B4 탐지: {('T11', True): 20} | 오탐: {'honest_job_deployable': True, 'honest_device_accepts': True, 'training_L1_fail': 0} | 동일 재현: True | 거래 3691 | 수수료 6.418
+== T11 done 04:08:57

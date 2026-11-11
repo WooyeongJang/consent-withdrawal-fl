@@ -1,0 +1,52 @@
+{
+ "rows": [
+  {
+   "variant": "b",
+   "n_inject": 1,
+   "rel_dist_to_U0": 0.006750442933264165,
+   "L3": "\ud1b5\uacfc",
+   "auc": 0.49674407052563063,
+   "bit_identical_to_U0": false
+  },
+  {
+   "variant": "b",
+   "n_inject": 1,
+   "rel_dist_to_U0": 0.002345273821804178,
+   "L3": "\ud1b5\uacfc",
+   "auc": 0.49580768747644766,
+   "bit_identical_to_U0": false
+  },
+  {
+   "variant": "b",
+   "n_inject": 5,
+   "rel_dist_to_U0": 0.0066606307787794765,
+   "L3": "\ud1b5\uacfc",
+   "auc": 0.4944816206278334,
+   "bit_identical_to_U0": false
+  },
+  {
+   "variant": "b",
+   "n_inject": 25,
+   "rel_dist_to_U0": 0.007132002644711907,
+   "L3": "\ud1b5\uacfc",
+   "auc": 0.49680402187938927,
+   "bit_identical_to_U0": false
+  },
+  {
+   "variant": "b",
+   "n_inject": 100,
+   "rel_dist_to_U0": 0.010170793432761354,
+   "L3": "\ud1b5\uacfc",
+   "auc": 0.49239331513857326,
+   "bit_identical_to_U0": false
+  },
+  {
+   "variant": "b",
+   "n_inject": 740,
+   "rel_dist_to_U0": 0.00865643176803732,
+   "L3": "\ud1b5\uacfc",
+   "auc": 0.496033218759635,
+   "bit_identical_to_U0": false
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+excluded(checksum) 1
+records 65648 excluded(short/fs) 74 excluded(invalid samples) 103
+3a45c76454242ea5d55e6f18cfd4809a7a26b1a3179bdd7b0d3e3351b294cd59 c2021_100hz.npy
+aa190ea7e480eec682b130687592bcb797cf0f47dd968009c4eb04b037d60f19 meta.csv
+9106d6a88ab89b47329cccc4bc77f4601b9e137c137065051307f29e97b10bd5 meta_A.csv
+0ed9db8e658dbd8194990bd0f38bcb8773f986f3825301f1561c87f892910f27 excluded_short.csv
+72e59479da79784071adba1d89d60ed2b6fd516f80553f3e51323a853e71e4b4 excluded_invalid.csv
+inst 0 {'all': 34807, 'n': 15293, 'NORM': 3664, 'MI': 752, 'STTC': 8277, 'CD': 3067, 'HYP': 3841}
+inst 1 {'all': 10286, 'n': 6882, 'NORM': 1365, 'MI': 387, 'STTC': 3956, 'CD': 1795, 'HYP': 1742}
+inst 2 {'all': 10247, 'n': 4604, 'NORM': 1099, 'MI': 189, 'STTC': 2342, 'CD': 963, 'HYP': 1051}
+inst 3 {'all': 10308, 'n': 6486, 'NORM': 726, 'MI': 1190, 'STTC': 2755, 'CD': 2528, 'HYP': 178}
+finite: OK
+C2021-base 9c2f89ac4d89 {"patients": 1663, "records": 1663, "by_inst": {"0": 728, "1": 371, "2": 217, "3": 347}, "by_cat": {"NORM": 323, "MI": 133, "STTC": 871, "CD": 447, "HYP": 333}, "female": 715, "age65": 838, "waves": {"45": 1663}}
+C2021-mid 0906d668db80 {"patients": 1663, "records": 1663, "by_inst": {"0": 759, "1": 340, "2": 235, "3": 329}, "by_cat": {"NORM": 361, "MI": 112, "STTC": 866, "CD": 404, "HYP": 309}, "female": 742, "age65": 846, "waves": {"25": 1663}}
+== prepared 18:09:32

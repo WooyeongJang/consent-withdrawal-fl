@@ -1,0 +1,20 @@
+\begin{table}[h]
+\centering
+\caption{Acceptance race with an honest aggregator and one concurrent withdrawal per unit. Stale reads: accepting decisions sent with a version read before a withdrawal that the ledger ordered first. Stale acceptances: those that succeeded; improper: stale acceptances whose unit's committed input set held a record of the withdrawer. Unnecessary reverts: reverted although the withdrawer's records were not in the unit. Subject check: improper acceptances found from ledger events and committed roots, ordered by block, transaction index, and log index, and acceptances flagged in error. Timestamp-only check: valid same-block acceptances that precede a same-hospital withdrawal and are flagged in error when only event times are compared. Local EVM: six controlled orderings, identical outcomes in three runs. Kairos: two independent submitters, submission offsets drawn from $\pm1.5$\,s, so the counts are not incidence rates.}
+\label{tab:a-race}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\adjustbox{max width=\columnwidth}{%
+\begin{tabular}{@{}l r r r r r r c c c@{}}
+\toprule
+ & & Stale & \multicolumn{2}{c}{Stale acceptances} & \multicolumn{2}{c}{Reverts} & \multicolumn{2}{c}{Subject check} & Timestamp \\
+\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}
+Run & Trials & reads & all & improper & all & unnec. & found & false & false flags \\
+\midrule
+Local EVM, v3.1 & 600 & 259 & 259 & 124 & 0 & -- & 124/124 & 0 & 55/55 \\
+Local EVM, v3.2 & 600 & 260 & 0 & 0 & 260 & 127 & -- & 0 & 46/46 \\
+Kairos, v3.1 & 150 & 54 & 54 & 32 & 0 & -- & 32/32 & 0 & 22/22 \\
+Kairos, v3.2 & 150 & 43 & 0 & 0 & 43 & 21 & -- & 0 & 16/16 \\
+\bottomrule
+\end{tabular}}
+\end{table}

@@ -1,0 +1,25 @@
+\begin{table}[h]
+\centering
+\caption{E2 subgroup test macro AUROC, base scenario (5\%, late). $K=3$: women aged $\ge65$ (F65) and the test records of each data center (DC), mean over 10 seeds. $K=5$: the two smallest data centers, mean over 5 seeds.}
+\label{tab:a-sub}
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\adjustbox{max width=\columnwidth}{%
+\begin{tabular}{@{}l c c c c c c@{}}
+\toprule
+& \multicolumn{4}{c}{$K=3$} & \multicolumn{2}{c}{$K=5$} \\
+\cmidrule(lr){2-5}\cmidrule(l){6-7}
+Method & F65 & DC1 & DC2 & DC3 & DC4 & DC5 \\
+\midrule
+P1 & 0.9140 & 0.9471 & 0.9356 & 0.9200 & 0.9320 & 0.9682 \\
+U0 & 0.9139 & 0.9470 & 0.9355 & 0.9197 & 0.9332 & 0.9674 \\
+U1 & 0.9137 & 0.9463 & 0.9351 & 0.9196 & 0.9333 & 0.9669 \\
+U2 & 0.9010 & 0.9347 & 0.9256 & 0.9091 & 0.9192 & 0.9568 \\
+U3 & 0.9033 & 0.9384 & 0.9274 & 0.9102 & 0.9183 & 0.9531 \\
+U4 & 0.9142 & 0.9468 & 0.9358 & 0.9201 & 0.9316 & 0.9683 \\
+U4s & 0.9142 & 0.9466 & 0.9361 & 0.9201 & 0.9316 & 0.9687 \\
+\midrule
+Test records & 575 & 483 & 599 & 1,074 & 133 & 74 \\
+\bottomrule
+\end{tabular}}
+\end{table}

@@ -1,0 +1,44 @@
+{
+ "mode": "chain",
+ "cond": "cpu",
+ "tag": "",
+ "run": 2,
+ "base_seed": 1,
+ "init_seed": 20261025,
+ "rounds_total": 50,
+ "env": {
+  "torch": "2.14.0a0+4fdf77b940.nv26.08",
+  "cuda": "13.4",
+  "cudnn": 92500,
+  "python": "3.12.3",
+  "host": "6aaf31b7965b",
+  "threads": 8,
+  "deterministic": true,
+  "cudnn_benchmark": false
+ },
+ "n_train": {
+  "0": 7692,
+  "1": 5071,
+  "2": 4310
+ },
+ "norm": {
+  "mean": -0.0008255738933323695,
+  "std": 0.23210063658945274
+ },
+ "round_hashes": [
+  "02f4ca684f7a92d8f33a893627f6d4e12b9272215f34a1a0e74d557c72be0bd1",
+  "c0fc4629610ba0091b16f7e0d483631928675c5b21039a8c059b8deaa3f2cbd4",
+  "2b935c7ba7b6af205d3ee3c9d3742ef099c875535c83e674fff47c4b29a17f52",
+  "273aab4be525f0a496fd7f24929dcc950c598628318fb367e2b4ba5b3c85c082",
+  "c13b6b21aa36a895698493c6523a77fd4e4aa41d18ff03b68f5c4e7aac3480f1"
+ ],
+ "round_seconds": [
+  57.548300409689546,
+  59.44546233676374,
+  60.29538953769952,
+  60.55685267876834,
+  60.52479145023972
+ ],
+ "val_auc": {},
+ "hash": "c13b6b21aa36a895698493c6523a77fd4e4aa41d18ff03b68f5c4e7aac3480f1"
+}

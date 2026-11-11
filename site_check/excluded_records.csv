@@ -1,0 +1,12 @@
+ecg_id,patient_id,strat_fold,reason
+3743,2221,8,site_missing_all_records
+4844,9669,6,site_missing_all_records
+7662,4438,5,site_missing_all_records
+7663,3702,7,site_missing_all_records
+7666,4226,6,site_missing_all_records
+9694,686,6,site_missing_all_records
+9704,916,7,site_missing_all_records
+9812,8118,1,site_missing_all_records
+13675,7702,8,site_missing_all_records
+14959,5167,4,site_missing_all_records
+17516,3561,2,site_missing_all_records

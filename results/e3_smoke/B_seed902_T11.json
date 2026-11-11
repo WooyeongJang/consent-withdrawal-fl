@@ -1,0 +1,109 @@
+{
+ "type": "B",
+ "seed": 902,
+ "contract": "0xC1A163fa20FD4eDc83E370195ff69060978329d8",
+ "b3_contract": "0xA7186a94604eC8fed8fD808Cf18a0b79EBfe97f6",
+ "cohort": 74,
+ "orig_identical_to_offline_late": false,
+ "I2": {
+  "final_deployable": false,
+  "round1_deployable": false
+ },
+ "training_L1": {
+  "sampled": 13,
+  "fail": 0
+ },
+ "instances": [
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "300ce246c8691db12950eb13098a790ee4cff199255c238359f4b2b06af73dcc",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": null,
+    "diff": null,
+    "ci90": null
+   },
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "a",
+   "steps": 0,
+   "rel_dist_to_U0": 0.7182016803428083,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": true
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "5f7980ffef6b0aeba3dfea8f8f1dd39e58494bded790c04750c5a2e49454fdea",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": null,
+    "diff": null,
+    "ci90": null
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "b",
+   "n_inject": 25,
+   "rel_dist_to_U0": 0.015151523929668146,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": false,
+    "tolerance_step_1.77177e-06": true,
+    "tolerance_step_1e-05": true,
+    "tolerance_step_0.0001": true,
+    "tolerance_step_0.001": true,
+    "tolerance_step_0.01": true
+   }
+  },
+  {
+   "attack": "honest",
+   "method": "U0",
+   "h_out": "498c2eaf6d943d8caba6e2e1b1e04118b5722410fa82236f251d0692929d2db1",
+   "L1": true,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": true,
+   "detected": {
+    "B4": null
+   },
+   "B4_evidence": "정직한 U0"
+  }
+ ],
+ "false_positives": {
+  "honest_job_deployable": true,
+  "honest_device_accepts": true,
+  "training_L1_fail": 0
+ },
+ "tx_total": 439,
+ "fee_kaia": 0.764055655,
+ "wall_s": 267.9041495323181
+}

@@ -1,0 +1,6043 @@
+{
+ "type": "B",
+ "seed": 1,
+ "contract": "0x9DA2FAF3BADb71ddb7cebdAB5B220968008984a2",
+ "b3_contract": "0x981Ea12F096b076069f23BE4B5877C1413130d0a",
+ "cohort": 740,
+ "orig_identical_to_offline_late": true,
+ "I2": {
+  "final_deployable": false,
+  "round1_deployable": false
+ },
+ "training_L1": {
+  "sampled": 36,
+  "fail": 0
+ },
+ "instances": [
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "a2e26cdc0f00ec4b3da570d01bec4c57280c75c32188ceaefce3b2f316d284ab",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_9)",
+   "disguised_round": 9
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "74471be1ad729a77829d3ca84017927b06a1b8a69d3a1bedc9afaadbf158d949",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_37)",
+   "disguised_round": 37
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "931ff759ec9ba2aa00bfb38e61fe8d3c94915b32ef4f339e1c43f2009923cbc5",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_49)",
+   "disguised_round": 49
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "ab4879facb70ef9a29174dbf4a65cdb3bc1d0d168bc34ea154924151cc6d7d9d",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_5)",
+   "disguised_round": 5
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "1033201f874959bf7417f5ae123c340f99f24fae6b898883e37b197c30075a85",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_17)",
+   "disguised_round": 17
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "9733ca0b80940a21a957cb726fb739eb924f5164b71e0dc8621aaa6d41bb9d2f",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_8)",
+   "disguised_round": 8
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "c03ec78eb6b247a07b60444f7fc0965acda3b949b0b836322e004bc4f5a2c0a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_32)",
+   "disguised_round": 32
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "931ff759ec9ba2aa00bfb38e61fe8d3c94915b32ef4f339e1c43f2009923cbc5",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_49)",
+   "disguised_round": 49
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "9e6396a9ebb916a30466e6e743e5ded452efd5cee7f8fcb263172dc5a82b61b7",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_29)",
+   "disguised_round": 29
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "6843fbff624aba4727448d31ec23a684a5fa37b54171b55502cf3a9bfee963a9",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_31)",
+   "disguised_round": 31
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "2cb48ba73d8a446533bd8948ead2a759890be436b3200642b9c0dba62d5ae001",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_42)",
+   "disguised_round": 42
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "af6d27876febeed477e81a84d9827d57e54caee99fe3cb01ecaf771a1ce8ce8d",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_25)",
+   "disguised_round": 25
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "a5d56c08b65e356dfe471efa1d6258fefc26aa22ed5e525967b0b68635ab41cb",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_14)",
+   "disguised_round": 14
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "b89de8012bb030e53450dc18e724edf7febf4dbf13a17cceb02c73841b84027a",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_7)",
+   "disguised_round": 7
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "c03ec78eb6b247a07b60444f7fc0965acda3b949b0b836322e004bc4f5a2c0a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_32)",
+   "disguised_round": 32
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "e7971db2b1ad0b31a241862bd0b283a2a435a02af26e7029df4c0fdace6c3e92",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_2)",
+   "disguised_round": 2
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "af6d27876febeed477e81a84d9827d57e54caee99fe3cb01ecaf771a1ce8ce8d",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_25)",
+   "disguised_round": 25
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "acb311410c7d07c0e78b1ea32023e59b4085cdc7f1ad3d8d06b672632880b6d1",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_28)",
+   "disguised_round": 28
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "e8356b335a1b93cd4824c71c9a582990eb34516be201c51852ee9962966370d8",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_39)",
+   "disguised_round": 39
+  },
+  {
+   "attack": "T4",
+   "method": "U0",
+   "h_out": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 재실행 출력 불일치, 출력 = 이전 모델"
+  },
+  {
+   "attack": "T7",
+   "method": "U0",
+   "h_out": "931ff759ec9ba2aa00bfb38e61fe8d3c94915b32ef4f339e1c43f2009923cbc5",
+   "L1": false,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": true,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 출력 불일치, 계보 중복(M_49)",
+   "disguised_round": 49
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu2,lr0.005)",
+   "h_out": "c596d916072a6dcac173dd33c8d5e5d7b4cb7e5907d0752496f67ae162f05199",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5744096219067957,
+    "diff": 0.07830331959210246,
+    "ci90": [
+     0.05459382879644641,
+     0.1020128103877585
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 2,
+   "lr": 0.005
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu10,lr0.025)",
+   "h_out": "fcb6d7a0546ef835df47a5d414aa5f8d6bea8af25a56b27d62b308fb93b0c6ff",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5677678683582464,
+    "diff": 0.07166156604355323,
+    "ci90": [
+     0.04853233639463249,
+     0.09479079569247396
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 10,
+   "lr": 0.025
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu5,lr0.025)",
+   "h_out": "aaa46ba1acd9c5fd2789c15fd960c676f216a12fc23a726fd11d25695a48d17f",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5694365143711959,
+    "diff": 0.0733302120565027,
+    "ci90": [
+     0.04973458259445304,
+     0.09692584151855235
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 5,
+   "lr": 0.025
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu5,lr0.005)",
+   "h_out": "b09b7d0fedb7ee5d562ecda4d7b4ff16360db8814c9b195ba1ab57f09520e0c9",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.57882889312672,
+    "diff": 0.08272259081202682,
+    "ci90": [
+     0.058941803130503526,
+     0.10650337849355011
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 5,
+   "lr": 0.005
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu20,lr0.025)",
+   "h_out": "31db2d363417a143766580fb4b0f16c7aedf1414854612685da14d9dbdebd688",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.56579232851058,
+    "diff": 0.06968602619588682,
+    "ci90": [
+     0.04621728397691967,
+     0.09315476841485397
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 20,
+   "lr": 0.025
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu2,lr0.005)",
+   "h_out": "c596d916072a6dcac173dd33c8d5e5d7b4cb7e5907d0752496f67ae162f05199",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5744096219067957,
+    "diff": 0.07830331959210246,
+    "ci90": [
+     0.05459382879644641,
+     0.1020128103877585
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 2,
+   "lr": 0.005
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu5,lr0.025)",
+   "h_out": "aaa46ba1acd9c5fd2789c15fd960c676f216a12fc23a726fd11d25695a48d17f",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5694365143711959,
+    "diff": 0.0733302120565027,
+    "ci90": [
+     0.04973458259445304,
+     0.09692584151855235
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 5,
+   "lr": 0.025
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu2,lr0.005)",
+   "h_out": "c596d916072a6dcac173dd33c8d5e5d7b4cb7e5907d0752496f67ae162f05199",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5744096219067957,
+    "diff": 0.07830331959210246,
+    "ci90": [
+     0.05459382879644641,
+     0.1020128103877585
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 2,
+   "lr": 0.005
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu2,lr0.005)",
+   "h_out": "c596d916072a6dcac173dd33c8d5e5d7b4cb7e5907d0752496f67ae162f05199",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5744096219067957,
+    "diff": 0.07830331959210246,
+    "ci90": [
+     0.05459382879644641,
+     0.1020128103877585
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 2,
+   "lr": 0.005
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu2,lr0.005)",
+   "h_out": "c596d916072a6dcac173dd33c8d5e5d7b4cb7e5907d0752496f67ae162f05199",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5744096219067957,
+    "diff": 0.07830331959210246,
+    "ci90": [
+     0.05459382879644641,
+     0.1020128103877585
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 2,
+   "lr": 0.005
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu20,lr0.025)",
+   "h_out": "31db2d363417a143766580fb4b0f16c7aedf1414854612685da14d9dbdebd688",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.56579232851058,
+    "diff": 0.06968602619588682,
+    "ci90": [
+     0.04621728397691967,
+     0.09315476841485397
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 20,
+   "lr": 0.025
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu2,lr0.005)",
+   "h_out": "c596d916072a6dcac173dd33c8d5e5d7b4cb7e5907d0752496f67ae162f05199",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5744096219067957,
+    "diff": 0.07830331959210246,
+    "ci90": [
+     0.05459382879644641,
+     0.1020128103877585
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 2,
+   "lr": 0.005
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu10,lr0.025)",
+   "h_out": "fcb6d7a0546ef835df47a5d414aa5f8d6bea8af25a56b27d62b308fb93b0c6ff",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5677678683582464,
+    "diff": 0.07166156604355323,
+    "ci90": [
+     0.04853233639463249,
+     0.09479079569247396
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 10,
+   "lr": 0.025
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu5,lr0.005)",
+   "h_out": "b09b7d0fedb7ee5d562ecda4d7b4ff16360db8814c9b195ba1ab57f09520e0c9",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.57882889312672,
+    "diff": 0.08272259081202682,
+    "ci90": [
+     0.058941803130503526,
+     0.10650337849355011
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 5,
+   "lr": 0.005
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu10,lr0.025)",
+   "h_out": "fcb6d7a0546ef835df47a5d414aa5f8d6bea8af25a56b27d62b308fb93b0c6ff",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5677678683582464,
+    "diff": 0.07166156604355323,
+    "ci90": [
+     0.04853233639463249,
+     0.09479079569247396
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 10,
+   "lr": 0.025
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu2,lr0.005)",
+   "h_out": "c596d916072a6dcac173dd33c8d5e5d7b4cb7e5907d0752496f67ae162f05199",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5744096219067957,
+    "diff": 0.07830331959210246,
+    "ci90": [
+     0.05459382879644641,
+     0.1020128103877585
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 2,
+   "lr": 0.005
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu20,lr0.025)",
+   "h_out": "31db2d363417a143766580fb4b0f16c7aedf1414854612685da14d9dbdebd688",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.56579232851058,
+    "diff": 0.06968602619588682,
+    "ci90": [
+     0.04621728397691967,
+     0.09315476841485397
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 20,
+   "lr": 0.025
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu5,lr0.005)",
+   "h_out": "b09b7d0fedb7ee5d562ecda4d7b4ff16360db8814c9b195ba1ab57f09520e0c9",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.57882889312672,
+    "diff": 0.08272259081202682,
+    "ci90": [
+     0.058941803130503526,
+     0.10650337849355011
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 5,
+   "lr": 0.005
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu10,lr0.025)",
+   "h_out": "fcb6d7a0546ef835df47a5d414aa5f8d6bea8af25a56b27d62b308fb93b0c6ff",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5677678683582464,
+    "diff": 0.07166156604355323,
+    "ci90": [
+     0.04853233639463249,
+     0.09479079569247396
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 10,
+   "lr": 0.025
+  },
+  {
+   "attack": "T5",
+   "method": "U4-FedOSD(Tu10,lr0.025)",
+   "h_out": "fcb6d7a0546ef835df47a5d414aa5f8d6bea8af25a56b27d62b308fb93b0c6ff",
+   "L1": true,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5677678683582464,
+    "diff": 0.07166156604355323,
+    "ci90": [
+     0.04853233639463249,
+     0.09479079569247396
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L3 동등성 검정 불통과(잔존 영향)",
+   "Tu": 10,
+   "lr": 0.025
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "ae74487bd791a02b87e008f02f195bee9c9bd31bf3e035716ee1ff58f7d4d1ae",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "include 139 withdrawn"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "98e35eb3c96554b43420ce44ae387e3600ce0621bcfc3381c0eebd262d86c60c",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "exclude 41 valid"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "108d32dd2935bf6143f2dc2ed258906edd19ec2e182b202bba042a7e00c52b44",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "include 143 withdrawn"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "c34e2cbf03e6852e41c3ca74143efcab9d248093eb0ac148c956f8c08ce00d91",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "exclude 186 valid"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "628c6eb17a65cbee85442ac710ecf904a493bc439a3d4ea51fd16162bad09281",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "include 68 withdrawn"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "65660e276e2e2447823ce409874787d20a2b32ea4ce787baee6064e097dee4f6",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "exclude 172 valid"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "1b1a5de79fe87963e328a74ed055bf0f421b5bd8b491dbd8bde60cd881f310df",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "include 166 withdrawn"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "d544f9b5436130eaf3f799e34446e73764a6f37f32671714128f2d4bc17971ae",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "exclude 193 valid"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "39d53c9fc90a2e2dac664029f44a1a7c2dbef15ddf2703e3f79aa5f44e40175e",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "include 184 withdrawn"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "6fe9ff0e2d77312a21b8239933d0634c96294072a02b18d17b37ca21de8ceccd",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "exclude 76 valid"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "6e6cdf674745003f61ab61272ad2d0af76ebe2d03b2dd921997dbdb12d130f2c",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "include 150 withdrawn"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "8077548040565aecea8af716d1b314b34a964bd288828da01fc9f6a1c5f6eb82",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "exclude 162 valid"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "1284f0805c815e6a59471e86a24d1aa05ccb47b7a9d911f807c2b30c3dc6ed83",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "include 113 withdrawn"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "cadcbd1c5576b896400e9dddaf0267281b196580ad0eaf5541e847aeea61f89c",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "exclude 53 valid"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "65e82955822bbb75ecbef5061a032a63d8c5cabd491892c1622004bf47ee4232",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "include 99 withdrawn"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "79b29689d95dea43357c0404934fa5360ab01fab92b55ad91fcc30352df8598d",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "exclude 61 valid"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "a3ca3117f65cedcc8a7a9c82a3251a2b40866608f6ca43992be6b5852a89e922",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "include 115 withdrawn"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "1cbade42f33aa1348ba11e0af061dda24c0106e13a4b81206d4a347ceffbac80",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "exclude 168 valid"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "a5986d407e201062ea8c07daa9260c59785456c36d96870972c0045787acd9de",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "include 149 withdrawn"
+  },
+  {
+   "attack": "T6",
+   "method": "U0",
+   "h_out": "a8e1bf9802efcc726c0695ba759d51808bc084a675d3eca9da9d65cef126647f",
+   "L1": true,
+   "L2": false,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L2 입력 집합 불일치",
+   "variant": "exclude 70 valid"
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "c16ec0843ad549799aa18f503eede7e925216f00977c6e07b26af88895b6aeea",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": 0.516553710703315,
+    "diff": 0.0204474083886218,
+    "ci90": [
+     -0.005985539244194805,
+     0.046880356021438405
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "a",
+   "steps": 2350,
+   "rel_dist_to_U0": 0.7477055270944066,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": true
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "cc1c20a652b1ca3b020fb9ed5c2ff4e41f1e44a39233ecd8a8443db73720428b",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": 0.49681115894531297,
+    "diff": 0.0007048566306197546,
+    "ci90": [
+     -0.0232035328822532,
+     0.02461324614349271
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "b",
+   "n_inject": 5,
+   "rel_dist_to_U0": 0.007977267291967956,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": false,
+    "tolerance_step_1.77177e-06": true,
+    "tolerance_step_1e-05": true,
+    "tolerance_step_0.0001": true,
+    "tolerance_step_0.001": true,
+    "tolerance_step_0.01": false
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "931955899dab3b619cba3bdc9a26fe816d6068de1904e0f448a14c20c2788697",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5767962567516643,
+    "diff": 0.08068995443697113,
+    "ci90": [
+     0.05757151066828605,
+     0.10380839820565621
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "c",
+   "gamma": 0.001,
+   "round_dev": {
+    "seed_rule": {
+     "6": 0.3352645977644946,
+     "25": 0.07628207802750842,
+     "28": 0.0738381169861182,
+     "40": 0.03024750317835416,
+     "44": 0.017516889285198154
+    },
+    "claimed_batch": {
+     "6": 0.2719368507928183,
+     "25": 0.043252733084687606,
+     "28": 0.03592644097364394,
+     "40": 0.012751591612898653,
+     "44": 0.007290347942608121
+    }
+   },
+   "rel_dist_to_U0": 0.7031836922528272,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": true,
+    "tolerance_end": true,
+    "tolerance_step_seed_rule_0": true,
+    "tolerance_step_seed_rule_1.77177e-06": true,
+    "tolerance_step_seed_rule_1e-05": true,
+    "tolerance_step_seed_rule_0.0001": true,
+    "tolerance_step_seed_rule_0.001": true,
+    "tolerance_step_seed_rule_0.01": true,
+    "tolerance_step_claimed_batch_0": true,
+    "tolerance_step_claimed_batch_1.77177e-06": true,
+    "tolerance_step_claimed_batch_1e-05": true,
+    "tolerance_step_claimed_batch_0.0001": true,
+    "tolerance_step_claimed_batch_0.001": true,
+    "tolerance_step_claimed_batch_0.01": true
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "e3c2203ef140e90cee95c2396111d75398cdb974a983931c85ce7605b759f7ba",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5215910518322275,
+    "diff": 0.025484749517534322,
+    "ci90": [
+     0.0006704326478873882,
+     0.050299066387181256
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "d",
+   "round_dev": {
+    "seed_rule": {
+     "12": 0.17783857891107954,
+     "16": 0.12812462446854359,
+     "22": 0.10383374689312004,
+     "32": 0.06363828655989849,
+     "39": 0.035919225544827384
+    },
+    "claimed_batch": {
+     "12": 0.0,
+     "16": 0.0,
+     "22": 0.0,
+     "32": 0.0,
+     "39": 0.0
+    }
+   },
+   "same_label_neighbors": 838,
+   "rel_dist_to_U0": 0.574721333557044,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": true,
+    "tolerance_end": false,
+    "tolerance_step_seed_rule_0": true,
+    "tolerance_step_seed_rule_1.77177e-06": true,
+    "tolerance_step_seed_rule_1e-05": true,
+    "tolerance_step_seed_rule_0.0001": true,
+    "tolerance_step_seed_rule_0.001": true,
+    "tolerance_step_seed_rule_0.01": true,
+    "tolerance_step_claimed_batch_0": false,
+    "tolerance_step_claimed_batch_1.77177e-06": false,
+    "tolerance_step_claimed_batch_1e-05": false,
+    "tolerance_step_claimed_batch_0.0001": false,
+    "tolerance_step_claimed_batch_0.001": false,
+    "tolerance_step_claimed_batch_0.01": false
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "24f0342eb895f74b716c4e912e9060888a628fe802b245443604f0eb051a0309",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": 0.5015187676285529,
+    "diff": 0.005412465313859638,
+    "ci90": [
+     -0.019260229922893782,
+     0.03008516055061306
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "e",
+   "chosen_seed": 1008,
+   "dist_to_P1": 0.6170320784451292,
+   "u0_dist_to_P1": 0.6460070897679756,
+   "candidate_dist_to_P1": [
+    0.649723839385558,
+    0.6752788889454107,
+    0.6566958125181546,
+    0.6364704304545209,
+    0.6301309533387441,
+    0.5897373982469425,
+    0.5858292755652476,
+    0.6170320784451292
+   ],
+   "rel_dist_to_U0": 0.6489924019637072,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": false,
+    "L1_without_config_commit": false
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "54d407e38c20fe617aa256de615174b3d28ba399566b9fd47ed5317b46ea94fe",
+   "L1": true,
+   "L2": true,
+   "L3": null,
+   "ledger_refused": true,
+   "deployable": false,
+   "lineage_duplicate": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "원장: 승인되지 않은 (방법, prog)로 처리 작업 생성 거부",
+   "variant": "f",
+   "sub": "f1",
+   "rel_dist_to_U0": 0.7026751162531493,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": true,
+    "tolerance_end": true,
+    "name_only_approval": false
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "1ccb8007d6b4184faf73d6ba67e7bf656255320dcda501a5b350c7482ddfdba6",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": 0.519881010836921,
+    "diff": 0.02377470852222774,
+    "ci90": [
+     -0.00194823579765643,
+     0.04949765284211191
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "a",
+   "steps": 1900,
+   "rel_dist_to_U0": 0.7534145073362087,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": true
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "86db44221b50e09a7f7458c333de98ab95ed201139f8e0b435b7bf40451fdb57",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": 0.4962573226296377,
+    "diff": 0.0001510203149444611,
+    "ci90": [
+     -0.02440941227028337,
+     0.024711452900172293
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "b",
+   "n_inject": 25,
+   "rel_dist_to_U0": 0.005918338099460526,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": false,
+    "tolerance_step_1.77177e-06": true,
+    "tolerance_step_1e-05": true,
+    "tolerance_step_0.0001": true,
+    "tolerance_step_0.001": true,
+    "tolerance_step_0.01": false
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "e33d3e80b4db60c7c1c8ebedf42192a27095f0c85e90e994c25d4161d859d5b8",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5769375706569526,
+    "diff": 0.0808312683422594,
+    "ci90": [
+     0.057704282887595076,
+     0.10395825379692372
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "c",
+   "gamma": 0.001,
+   "round_dev": {
+    "seed_rule": {
+     "6": 0.3555046510592554,
+     "9": 0.24895047639742815,
+     "10": 0.20331924527734432,
+     "11": 0.2166086564969964,
+     "40": 0.031072216866521542
+    },
+    "claimed_batch": {
+     "6": 0.2915808162143081,
+     "9": 0.1868974006238086,
+     "10": 0.16295565924540759,
+     "11": 0.13853849814605662,
+     "40": 0.012662444690722549
+    }
+   },
+   "rel_dist_to_U0": 0.7032513553019918,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": true,
+    "tolerance_end": true,
+    "tolerance_step_seed_rule_0": true,
+    "tolerance_step_seed_rule_1.77177e-06": true,
+    "tolerance_step_seed_rule_1e-05": true,
+    "tolerance_step_seed_rule_0.0001": true,
+    "tolerance_step_seed_rule_0.001": true,
+    "tolerance_step_seed_rule_0.01": true,
+    "tolerance_step_claimed_batch_0": true,
+    "tolerance_step_claimed_batch_1.77177e-06": true,
+    "tolerance_step_claimed_batch_1e-05": true,
+    "tolerance_step_claimed_batch_0.0001": true,
+    "tolerance_step_claimed_batch_0.001": true,
+    "tolerance_step_claimed_batch_0.01": true
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "e3c2203ef140e90cee95c2396111d75398cdb974a983931c85ce7605b759f7ba",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5215910518322275,
+    "diff": 0.025484749517534322,
+    "ci90": [
+     0.0006704326478873882,
+     0.050299066387181256
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "d",
+   "round_dev": {
+    "seed_rule": {
+     "16": 0.12812462446854359,
+     "17": 0.1201423181503632,
+     "21": 0.10438918359850502,
+     "23": 0.08256924681485703,
+     "42": 0.024528418339501354
+    },
+    "claimed_batch": {
+     "16": 0.0,
+     "17": 0.0,
+     "21": 0.0,
+     "23": 0.0,
+     "42": 0.0
+    }
+   },
+   "same_label_neighbors": 838,
+   "rel_dist_to_U0": 0.574721333557044,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": true,
+    "tolerance_end": false,
+    "tolerance_step_seed_rule_0": true,
+    "tolerance_step_seed_rule_1.77177e-06": true,
+    "tolerance_step_seed_rule_1e-05": true,
+    "tolerance_step_seed_rule_0.0001": true,
+    "tolerance_step_seed_rule_0.001": true,
+    "tolerance_step_seed_rule_0.01": true,
+    "tolerance_step_claimed_batch_0": false,
+    "tolerance_step_claimed_batch_1.77177e-06": false,
+    "tolerance_step_claimed_batch_1e-05": false,
+    "tolerance_step_claimed_batch_0.0001": false,
+    "tolerance_step_claimed_batch_0.001": false,
+    "tolerance_step_claimed_batch_0.01": false
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "903069b21ca2b0d73e65029305ae242b4ca945ee388fca4e56ed410cadd11132",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": 0.5006095054298798,
+    "diff": 0.004503203115186594,
+    "ci90": [
+     -0.021088268352622425,
+     0.030094674582995612
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "e",
+   "chosen_seed": 1007,
+   "dist_to_P1": 0.5858292755652476,
+   "u0_dist_to_P1": 0.6460070897679756,
+   "candidate_dist_to_P1": [
+    0.649723839385558,
+    0.6752788889454107,
+    0.6566958125181546,
+    0.6364704304545209,
+    0.6301309533387441,
+    0.5897373982469425,
+    0.5858292755652476,
+    0.6170320784451292
+   ],
+   "rel_dist_to_U0": 0.6374030805958623,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": false,
+    "L1_without_config_commit": false
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "54d407e38c20fe617aa256de615174b3d28ba399566b9fd47ed5317b46ea94fe",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5817022758675817,
+    "diff": 0.0855959735528885,
+    "ci90": [
+     0.06193756263692783,
+     0.10925438446884918
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "f",
+   "sub": "f2",
+   "rel_dist_to_U0": 0.7026751162531493,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": true,
+    "tolerance_end": true,
+    "name_only_approval": true
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "70053cd0d48f96a033508afc9c279e0e386d1af01625747cb903cb53721f9d23",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": 0.516844902993,
+    "diff": 0.020738600678306796,
+    "ci90": [
+     -0.004457574705743237,
+     0.045934776062356825
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "a",
+   "steps": 1950,
+   "rel_dist_to_U0": 0.7386287825683381,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": true
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "ff2b2eb2eba7c430150ea56b8cd3ba27a10a7477cd70890046b9fd45690de285",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": 0.49527668977172806,
+    "diff": -0.0008296125429651524,
+    "ci90": [
+     -0.02544583638323197,
+     0.023786611297301665
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "b",
+   "n_inject": 1,
+   "rel_dist_to_U0": 0.0022815141817746874,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": false,
+    "tolerance_step_1.77177e-06": true,
+    "tolerance_step_1e-05": true,
+    "tolerance_step_0.0001": true,
+    "tolerance_step_0.001": true,
+    "tolerance_step_0.01": false
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "26e106ec97ecac12df21bbbf406951068aeb1ee886ae77816ae606ad1d569b62",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5767705633143392,
+    "diff": 0.08066426099964596,
+    "ci90": [
+     0.05757237919179657,
+     0.10375614280749536
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "c",
+   "gamma": 0.001,
+   "round_dev": {
+    "seed_rule": {
+     "7": 0.31155302528072026,
+     "10": 0.21667536228845036,
+     "23": 0.12076025701532796,
+     "29": 0.0694326168974131,
+     "36": 0.04279228451483305
+    },
+    "claimed_batch": {
+     "7": 0.24092278633263117,
+     "10": 0.15330291111156155,
+     "23": 0.057232012011531816,
+     "29": 0.036500559393791994,
+     "36": 0.01849817792361185
+    }
+   },
+   "rel_dist_to_U0": 0.7032846913174641,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": true,
+    "tolerance_end": true,
+    "tolerance_step_seed_rule_0": true,
+    "tolerance_step_seed_rule_1.77177e-06": true,
+    "tolerance_step_seed_rule_1e-05": true,
+    "tolerance_step_seed_rule_0.0001": true,
+    "tolerance_step_seed_rule_0.001": true,
+    "tolerance_step_seed_rule_0.01": true,
+    "tolerance_step_claimed_batch_0": true,
+    "tolerance_step_claimed_batch_1.77177e-06": true,
+    "tolerance_step_claimed_batch_1e-05": true,
+    "tolerance_step_claimed_batch_0.0001": true,
+    "tolerance_step_claimed_batch_0.001": true,
+    "tolerance_step_claimed_batch_0.01": true
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "e3c2203ef140e90cee95c2396111d75398cdb974a983931c85ce7605b759f7ba",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5215910518322275,
+    "diff": 0.025484749517534322,
+    "ci90": [
+     0.0006704326478873882,
+     0.050299066387181256
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "d",
+   "round_dev": {
+    "seed_rule": {
+     "5": 0.38936897741648097,
+     "10": 0.22637452793702606,
+     "12": 0.17783857891107954,
+     "21": 0.10438918359850502,
+     "44": 0.01790843913195508
+    },
+    "claimed_batch": {
+     "5": 0.0,
+     "10": 0.0,
+     "12": 0.0,
+     "21": 0.0,
+     "44": 0.0
+    }
+   },
+   "same_label_neighbors": 838,
+   "rel_dist_to_U0": 0.574721333557044,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": true,
+    "tolerance_end": false,
+    "tolerance_step_seed_rule_0": true,
+    "tolerance_step_seed_rule_1.77177e-06": true,
+    "tolerance_step_seed_rule_1e-05": true,
+    "tolerance_step_seed_rule_0.0001": true,
+    "tolerance_step_seed_rule_0.001": true,
+    "tolerance_step_seed_rule_0.01": true,
+    "tolerance_step_claimed_batch_0": false,
+    "tolerance_step_claimed_batch_1.77177e-06": false,
+    "tolerance_step_claimed_batch_1e-05": false,
+    "tolerance_step_claimed_batch_0.0001": false,
+    "tolerance_step_claimed_batch_0.001": false,
+    "tolerance_step_claimed_batch_0.01": false
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "9df9378b5ad0c4b7c0f4398fa186730cccea462b6413437c390ded468c180fee",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": 0.49808155667972276,
+    "diff": 0.001975254365029544,
+    "ci90": [
+     -0.023261861415081603,
+     0.02721237014514069
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "e",
+   "chosen_seed": 1006,
+   "dist_to_P1": 0.5897373982469425,
+   "u0_dist_to_P1": 0.6460070897679756,
+   "candidate_dist_to_P1": [
+    0.649723839385558,
+    0.6752788889454107,
+    0.6566958125181546,
+    0.6364704304545209,
+    0.6301309533387441,
+    0.5897373982469425,
+    0.5858292755652476,
+    0.6170320784451292
+   ],
+   "rel_dist_to_U0": 0.6311890852759986,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": false,
+    "L1_without_config_commit": false
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "54d407e38c20fe617aa256de615174b3d28ba399566b9fd47ed5317b46ea94fe",
+   "L1": true,
+   "L2": true,
+   "L3": null,
+   "ledger_refused": true,
+   "deployable": false,
+   "lineage_duplicate": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "원장: 승인되지 않은 (방법, prog)로 처리 작업 생성 거부",
+   "variant": "f",
+   "sub": "f1",
+   "rel_dist_to_U0": 0.7026751162531493,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": true,
+    "tolerance_end": true,
+    "name_only_approval": false
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "863e79f88223f943e1e50a5a482543104c0c506aa62de4acd0324418916a93c3",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": 0.5203306459901109,
+    "diff": 0.024224343675417703,
+    "ci90": [
+     -0.0012949369962558036,
+     0.04974362434709121
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "a",
+   "steps": 1950,
+   "rel_dist_to_U0": 0.7449531540690341,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": true
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "04de0f34fc0a18aa1b44cacf2832e7d330976d32583992fc51d286dcd5b677a6",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": 0.4995689212182115,
+    "diff": 0.0034626189035182886,
+    "ci90": [
+     -0.020351807009615884,
+     0.02727704481665246
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "b",
+   "n_inject": 5,
+   "rel_dist_to_U0": 0.0049818774226190535,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": false,
+    "tolerance_step_1.77177e-06": true,
+    "tolerance_step_1e-05": true,
+    "tolerance_step_0.0001": true,
+    "tolerance_step_0.001": true,
+    "tolerance_step_0.01": false
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "a491403c523e9b6171b5993b46b3e58f1c4e85ecf3b0ac51a5fff0ac29b955df",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5769732559865709,
+    "diff": 0.08086695367187768,
+    "ci90": [
+     0.05778547670286941,
+     0.10394843064088596
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "c",
+   "gamma": 0.001,
+   "round_dev": {
+    "seed_rule": {
+     "22": 0.09372696657273183,
+     "24": 0.08897684815816606,
+     "33": 0.05146999050211284,
+     "41": 0.02681684413128015,
+     "43": 0.019217097595498063
+    },
+    "claimed_batch": {
+     "22": 0.054226824115729745,
+     "24": 0.04783062264521097,
+     "33": 0.027342646634818238,
+     "41": 0.010577916443483909,
+     "43": 0.008500745180696686
+    }
+   },
+   "rel_dist_to_U0": 0.7031852438688196,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": true,
+    "tolerance_end": true,
+    "tolerance_step_seed_rule_0": true,
+    "tolerance_step_seed_rule_1.77177e-06": true,
+    "tolerance_step_seed_rule_1e-05": true,
+    "tolerance_step_seed_rule_0.0001": true,
+    "tolerance_step_seed_rule_0.001": true,
+    "tolerance_step_seed_rule_0.01": true,
+    "tolerance_step_claimed_batch_0": true,
+    "tolerance_step_claimed_batch_1.77177e-06": true,
+    "tolerance_step_claimed_batch_1e-05": true,
+    "tolerance_step_claimed_batch_0.0001": true,
+    "tolerance_step_claimed_batch_0.001": true,
+    "tolerance_step_claimed_batch_0.01": true
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "e3c2203ef140e90cee95c2396111d75398cdb974a983931c85ce7605b759f7ba",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5215910518322275,
+    "diff": 0.025484749517534322,
+    "ci90": [
+     0.0006704326478873882,
+     0.050299066387181256
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "d",
+   "round_dev": {
+    "seed_rule": {
+     "3": 0.33664671986489025,
+     "8": 0.27212983286369513,
+     "12": 0.17783857891107954,
+     "25": 0.08860209898481751,
+     "42": 0.024528418339501354
+    },
+    "claimed_batch": {
+     "3": 0.0,
+     "8": 0.0,
+     "12": 0.0,
+     "25": 0.0,
+     "42": 0.0
+    }
+   },
+   "same_label_neighbors": 838,
+   "rel_dist_to_U0": 0.574721333557044,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": true,
+    "tolerance_end": false,
+    "tolerance_step_seed_rule_0": true,
+    "tolerance_step_seed_rule_1.77177e-06": true,
+    "tolerance_step_seed_rule_1e-05": true,
+    "tolerance_step_seed_rule_0.0001": true,
+    "tolerance_step_seed_rule_0.001": true,
+    "tolerance_step_seed_rule_0.01": true,
+    "tolerance_step_claimed_batch_0": false,
+    "tolerance_step_claimed_batch_1.77177e-06": false,
+    "tolerance_step_claimed_batch_1e-05": false,
+    "tolerance_step_claimed_batch_0.0001": false,
+    "tolerance_step_claimed_batch_0.001": false,
+    "tolerance_step_claimed_batch_0.01": false
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "9df9378b5ad0c4b7c0f4398fa186730cccea462b6413437c390ded468c180fee",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": 0.49808155667972276,
+    "diff": 0.001975254365029544,
+    "ci90": [
+     -0.023261861415081603,
+     0.02721237014514069
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "e",
+   "chosen_seed": 1006,
+   "dist_to_P1": 0.5897373982469425,
+   "u0_dist_to_P1": 0.6460070897679756,
+   "candidate_dist_to_P1": [
+    0.649723839385558,
+    0.6752788889454107,
+    0.6566958125181546,
+    0.6364704304545209,
+    0.6301309533387441,
+    0.5897373982469425,
+    0.5858292755652476,
+    0.6170320784451292
+   ],
+   "rel_dist_to_U0": 0.6311890852759986,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": false,
+    "L1_without_config_commit": false
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "54d407e38c20fe617aa256de615174b3d28ba399566b9fd47ed5317b46ea94fe",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "불통과",
+    "auc": 0.5817022758675817,
+    "diff": 0.0855959735528885,
+    "ci90": [
+     0.06193756263692783,
+     0.10925438446884918
+    ]
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "f",
+   "sub": "f2",
+   "rel_dist_to_U0": 0.7026751162531493,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": true,
+    "tolerance_end": true,
+    "name_only_approval": true
+   }
+  },
+  {
+   "attack": "honest",
+   "method": "U0",
+   "h_out": "576070208963f16cacafbebe3d5f9c78c07577671c8fdbd39a544a5bae66e35e",
+   "L1": true,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": true,
+   "detected": {
+    "B4": null
+   },
+   "B4_evidence": "정직한 U0"
+  },
+  {
+   "attack": "T8",
+   "delivered": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "36714f7c4d78ebe13c7b0a691614e850b10aa14bc81261a3bc33ffdd2a59f17e",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "943a3e376325ad977e4047ae326c2d950f8707c555cefd8cf6fd343e7133368d",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "6883191b88a1be9620d2e26109f143ea92244c32b48154e6d550484f877c105e",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "b82aa994babbfd6f5a06a2a0cfb3fde4282d5a781a2f9573140ee381ba580f35",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "74471be1ad729a77829d3ca84017927b06a1b8a69d3a1bedc9afaadbf158d949",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "752c5e85819ea56389c069562f5ce481d997315c1460d5bbae89257848dc4b71",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "943a3e376325ad977e4047ae326c2d950f8707c555cefd8cf6fd343e7133368d",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "f07d8e59740c3c3daea86cfe02fad74443ff7b329ef4c39a6bdb9945578c3581",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "5fc0df8c54f4119eeaee6e9df0f60e013161149dcdeb2f02dbba20464de6a6a6",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "36714f7c4d78ebe13c7b0a691614e850b10aa14bc81261a3bc33ffdd2a59f17e",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "b9d94b80d7ffc3de97034700cd8c0d7717cb6e6a28171e1311b3255d2590b435",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "3322cca9133b7074554965f8e0daa0722bd7d8fc7a7818f2047913c718e674d0",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "ce8eefa796d5bf0357d2cc19e44add195d30b36d9f8218f4365dfd9264f86fbc",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "74471be1ad729a77829d3ca84017927b06a1b8a69d3a1bedc9afaadbf158d949",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "ec78ad6911a51ed4b8bccef0ca8af903b3a38e3cb898febefdc0f6dfbd5dccdc",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "d06eee3c67801435c694ec76f76065549d02434dff1a1c6cb5fc94b9d63c9060",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "b89de8012bb030e53450dc18e724edf7febf4dbf13a17cceb02c73841b84027a",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "a2e26cdc0f00ec4b3da570d01bec4c57280c75c32188ceaefce3b2f316d284ab",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T8",
+   "delivered": "b9d94b80d7ffc3de97034700cd8c0d7717cb6e6a28171e1311b3255d2590b435",
+   "device_accepts": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "단말 대조: 배포 허용 모델 아님"
+  },
+  {
+   "attack": "T9",
+   "variant": "a",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "원장 상태 전이 불가(수락 기록 누락 시 집계 거부)"
+  },
+  {
+   "attack": "T9",
+   "variant": "b",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": true
+   },
+   "B4_evidence": "기관이 제시한 커밋과 원장 기록 교차 대조 불일치(B5는 증인 사본 대조)"
+  },
+  {
+   "attack": "T9",
+   "variant": "c",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": true,
+    "B3": true,
+    "B5": true
+   },
+   "B4_evidence": "원장 기록은 변경 불가(사후 수정 시도 자체가 불가능)"
+  },
+  {
+   "attack": "T9",
+   "variant": "a",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "원장 상태 전이 불가(수락 기록 누락 시 집계 거부)"
+  },
+  {
+   "attack": "T9",
+   "variant": "b",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": true
+   },
+   "B4_evidence": "기관이 제시한 커밋과 원장 기록 교차 대조 불일치(B5는 증인 사본 대조)"
+  },
+  {
+   "attack": "T9",
+   "variant": "c",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": true,
+    "B3": true,
+    "B5": true
+   },
+   "B4_evidence": "원장 기록은 변경 불가(사후 수정 시도 자체가 불가능)"
+  },
+  {
+   "attack": "T9",
+   "variant": "a",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "원장 상태 전이 불가(수락 기록 누락 시 집계 거부)"
+  },
+  {
+   "attack": "T9",
+   "variant": "b",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": true
+   },
+   "B4_evidence": "기관이 제시한 커밋과 원장 기록 교차 대조 불일치(B5는 증인 사본 대조)"
+  },
+  {
+   "attack": "T9",
+   "variant": "c",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": true,
+    "B3": true,
+    "B5": true
+   },
+   "B4_evidence": "원장 기록은 변경 불가(사후 수정 시도 자체가 불가능)"
+  },
+  {
+   "attack": "T9",
+   "variant": "a",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "원장 상태 전이 불가(수락 기록 누락 시 집계 거부)"
+  },
+  {
+   "attack": "T9",
+   "variant": "b",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": true
+   },
+   "B4_evidence": "기관이 제시한 커밋과 원장 기록 교차 대조 불일치(B5는 증인 사본 대조)"
+  },
+  {
+   "attack": "T9",
+   "variant": "c",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": true,
+    "B3": true,
+    "B5": true
+   },
+   "B4_evidence": "원장 기록은 변경 불가(사후 수정 시도 자체가 불가능)"
+  },
+  {
+   "attack": "T9",
+   "variant": "a",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "원장 상태 전이 불가(수락 기록 누락 시 집계 거부)"
+  },
+  {
+   "attack": "T9",
+   "variant": "b",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": true
+   },
+   "B4_evidence": "기관이 제시한 커밋과 원장 기록 교차 대조 불일치(B5는 증인 사본 대조)"
+  },
+  {
+   "attack": "T9",
+   "variant": "c",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": true,
+    "B3": true,
+    "B5": true
+   },
+   "B4_evidence": "원장 기록은 변경 불가(사후 수정 시도 자체가 불가능)"
+  },
+  {
+   "attack": "T9",
+   "variant": "a",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "원장 상태 전이 불가(수락 기록 누락 시 집계 거부)"
+  },
+  {
+   "attack": "T9",
+   "variant": "b",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": true
+   },
+   "B4_evidence": "기관이 제시한 커밋과 원장 기록 교차 대조 불일치(B5는 증인 사본 대조)"
+  },
+  {
+   "attack": "T9",
+   "variant": "c",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": true,
+    "B3": true,
+    "B5": true
+   },
+   "B4_evidence": "원장 기록은 변경 불가(사후 수정 시도 자체가 불가능)"
+  },
+  {
+   "attack": "T9",
+   "variant": "a",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "원장 상태 전이 불가(수락 기록 누락 시 집계 거부)"
+  },
+  {
+   "attack": "T9",
+   "variant": "b",
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": true
+   },
+   "B4_evidence": "기관이 제시한 커밋과 원장 기록 교차 대조 불일치(B5는 증인 사본 대조)"
+  }
+ ],
+ "false_positives": {
+  "honest_job_deployable": true,
+  "honest_device_accepts": true,
+  "training_L1_fail": 0
+ },
+ "tx_total": 4201,
+ "fee_kaia": 7.4509441325,
+ "key_txs": [
+  {
+   "fn": "deploy:ConsentLedger",
+   "hash": "0xa0c17c7a77353b5db89beb33bd63939bc361513c26133f51c2a658af1d0e1658",
+   "block": null
+  },
+  {
+   "fn": "deploy:CompletionRecord",
+   "hash": "0xfd3612e601cb371004d55696b195247fc102ef6fed9ba71f66b650570c779cd3",
+   "block": null
+  },
+  {
+   "fn": "commitTrainingConfig",
+   "hash": "0x075ee35c90a460761a2fb749da32dfc49941b515c101aecf35342bde8d22e21d",
+   "block": 231487866
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x082d7cfba82b200d5f19805b6dac52acca7a8ce12cb94384c97d0bb6fd3ae4d8",
+   "block": 231487874
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x7cc011da3b3f3e83ecc74a2bc11e7e844e2fee12874819ef4b2a8044d870c43c",
+   "block": 231487880
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xa1ff72f1ef35a83548550c28f0b0f07951e8aeb788caa487c0492f2fc5fc2954",
+   "block": 231487888
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x447189ea10fb08245feaa7171ea5aaba3ee41e12ee3c37e77caee7fa6a4a2b8e",
+   "block": 231487895
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x7720a2235c1bab87f487254423d367f6a8855a8000f01bb7a5d19941247a58ec",
+   "block": 231487901
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x86728d23103a734ae5d3debccdd86278efa8557f11786204dc0e20f3026ebedd",
+   "block": 231487907
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xee2185b8990b60a2bb55841f955f3513c3b7988a9503d20a602ed87adbd86073",
+   "block": 231487913
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x5c32ac4ff0067d2e0b64810eafd63bafb9ccc9f16048a7937daa0e3fa7c116a9",
+   "block": 231487919
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x1f57f8faef6054654e28d09cbd8239050a15cba46883b3a141fd49ba34a8a772",
+   "block": 231487925
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xcabe6c7621ea0a89e319d1c99b73073967569beb37bd981a030e8fdea639e4e2",
+   "block": 231487931
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xd9142491cafb080e18d178b1901638ec466cefcd7bf69d906a11b331d931f00c",
+   "block": 231487937
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x4ac60e26c8bec00a8231064950b2d034bb36d3ec8d8288a8867e81eb886b18d8",
+   "block": 231487943
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xabbb90adff3dceb1224d29f58e49f6d73a03f829660a7f0f2c6e2af06d33a625",
+   "block": 231487951
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x27d132b67ef1197bab21c13ad09685788684b9edb4201f50c9c95ab28b912031",
+   "block": 231487957
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x1556c32c06005caa3a8009825682fb94bff92618f627183f55a4b0af8894f44e",
+   "block": 231487963
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x8c1e57fa35885a056747e7522829bd77b84a7ef13b2754019b99b8e6c39ebc71",
+   "block": 231487969
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xc91b3e78ee5aa774638c15c4ace5d63651f7bfb655a2e60f0f7a93eeef529682",
+   "block": 231487975
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x3792abad42495c7611fed79755b8483a8170f7bb33208c03f2d361abec8d7d11",
+   "block": 231487981
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x2d9bde581fc275659b83bd1dedd4b82afe2bdc9389392dd1e666e6dd7fa03baa",
+   "block": 231487987
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xbde8638cb5a6937c2bd5ba3a9aee4e54edc49615f6940b462883c0d6795659ea",
+   "block": 231487993
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x01be9036b15e7c7d2c5bb68c158726774bd651f0b6abbbf3915ac67977615684",
+   "block": 231487999
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x83346d549b6c9e636b2de5f968b92d68297da72091f783a98b1c9f24aceaa2b9",
+   "block": 231488005
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x899fad82b1bc0db6dca65b7e5699443006130ee4ccfb0f0f77d619a411f8c19f",
+   "block": 231488011
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x4e7e3043e68aef3cf4b10378b473858ff48a9d852a8480bff92335c5b34947f6",
+   "block": 231488017
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x1f2d62121b78d5fc13428ea8d930a587619d73e6c80c64e14e0d39f725c371df",
+   "block": 231488023
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xd48e15343bbdeb55d61fe109cb308dcac3bec050b7f469c0b8c1b2244977a5fd",
+   "block": 231488029
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xb40415d7c0f628c01308cf9ea0911819436e56c538832b8230a7829517830c85",
+   "block": 231488036
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x8f030183ed1dca1e3ef8d9f03e4b1d0415c5b8b63e2081f33862ed23036da6b8",
+   "block": 231488042
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x69ee0c70d005e03a2d812704ae6a5a996ca08719aaed7f2aee8c26ca77a90dae",
+   "block": 231488048
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x8b96133610512daa34fd3c20ae6be9d0fabba58e5d0092c562a841ecf65f4661",
+   "block": 231488054
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x1637b9ca03252872a950fd886a375dd93df942ab4b5d279e399b20c6f822ab78",
+   "block": 231488061
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xa85c69abe32514ffc39fed8bedcea0244a7ae70530c5ca9b1f91696eab95745c",
+   "block": 231488068
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xd788b4bfa46e765b39fcd1b0ef9da6b8fb8778081b68b6d28273b40287f0ab60",
+   "block": 231488074
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xb26731f36688f40f286eed8a242059ed24c05e62e446456085bc1e9a6ac9171f",
+   "block": 231488080
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xfdaeef22beb78e4b805aaf73498ac82b7066f9378afd6ad670aee9d39907dc9d",
+   "block": 231488087
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x2eed22c8c299685ce429d17b25ea03816420876e1d553ab2c172fd26ef178f39",
+   "block": 231488093
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x7718fde5f1e169a4041073efddfc84f4500d728e8370b82b9cd253df3c26267c",
+   "block": 231488100
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x702f6fdb74b1cf9abfb794eb9c743b4bb25f5a4ff1c3e6e29fa80a339c567af8",
+   "block": 231488107
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x6b17a04b0e327458a24b805056c090bbebfe64831eddf03d54b677556f1d4a69",
+   "block": 231488113
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x48d5d9f96e204f8b606a02ca615dcc7f6893beadef7bf3ded2f6715d7271e9e8",
+   "block": 231488120
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x4008ade4d2e028fd3139d70f3f2053ab5feb79bcb1db33e9029da9b584a2809c",
+   "block": 231488129
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xaa12520373b1f7f7a1bd201b7316ee538538a50fb44d3cfdb19a052b9737f10a",
+   "block": 231488136
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xb4e2c36438a1d05de8c8108e321c1920c8b96e846673f909029d475b81695188",
+   "block": 231488143
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x1adc6d141d043c4beda07ce853156ce9c82f6ab494b223a556dc002cab36555f",
+   "block": 231488147
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xa3bdd4b4b2a7b14a696da10726d9b360914f2ec268cd7078e3589f5f35b0eaea",
+   "block": 231489696
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xa92d59b76ac9fd742ce67485a72fb4a35045233d61f64dcbc457d40f6ee269f4",
+   "block": 231489702
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xe0c25b5921fae09cf628370a4fbed7c4ad04946680605c080b5eaf7b23f27420",
+   "block": 231489708
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x83aa0c77abbc40cc1bd3a189e50014b1f9f421319ec37cc62b0234846fbca8c3",
+   "block": 231489714
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xa5e5cf106d045432d2919993f994bc567fe1a827609a96120f351e675b9a30ab",
+   "block": 231489720
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x15b5bdf6078cb9946dd1751a470e97a704a281ec167a70403da29a65d37292a0",
+   "block": 231489726
+  },
+  {
+   "fn": "revoke",
+   "hash": "0xf6e24206814a3719f735b31f88714de17180e7b1edc693c0b112c89c70283ccb",
+   "block": 231489728
+  },
+  {
+   "fn": "approveMethod",
+   "hash": "0x85a3b06cf832149069d2125d5c53547eb453bcf71a2ca03dfccfcb62949828ec",
+   "block": 231490074
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xb3f4e146b1b034f3695fda813709b214759224cca40f6892d5e4016af489d3ba",
+   "block": 231490075
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x408867c2195bc0e01572545bf74326a205fef318a411c9a26c001ee9053398f7",
+   "block": 231490076
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x0f0b08b041c9520c5065b3425386f5729db2f696eec34567ec529e8df40c8608",
+   "block": 231490078
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xe85c1641f1a8023e2f37baa964f9f9d28ce5c4474066cf60aba798b33c6a6513",
+   "block": 231490078
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x970cf6079c6b700ec677f605034f23dae23827cde462c5dea00e5cda3f197b93",
+   "block": 231490079
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x84281d2dba5b7404dad7e923ba4d9f9d24b7eee1c5b081fd9514efe8b77cd3db",
+   "block": 231490080
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x8312b3d471cd339cecfa9c811330ad98c5da5a520fc2bc9f19afb0619c9f64d7",
+   "block": 231490082
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xdf6e24aac1c8381e4cddcc8104ae45d8d43e82f1f7a67ffe9987b6177e0bba7d",
+   "block": 231490082
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xf17caf6de888aab08c7cc8181790aec69f93c5ad7e335a686b46d9b61de79389",
+   "block": 231490083
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x10cff13a010543f5f669a8d6fc52dee0b1da03303e6c93aa760464afab1ea973",
+   "block": 231490084
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xd59a36d895ace515afd3d6222e93208159e0044618c24ad9925fc744d73f34d5",
+   "block": 231490086
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x083cf4f42fa063b152f0677a2a5267e2fb7fcf98d9e7b3881859fa6b153be0c8",
+   "block": 231490086
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xb31f65f9e03a1b4a3961f4eaa2529dd549ec6256741914c0cd44b2f5efee81af",
+   "block": 231490087
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x3ff7c767bc94101c3d7686e0c1a579fa2a98e81fb1218865ddc1ec3268bb368c",
+   "block": 231490088
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xf1e41433b605cf83e27a249085781f29cb7899dc0370fc91cdb5fff485e6c348",
+   "block": 231490090
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x2c19152e9fb65756cbdd16f445ffa7a8553207368d14299ee1f964206e658c7f",
+   "block": 231490090
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x8e7316cd34c55800452443b3fb59134c487b11f6e5dd825c56bb4819a6736ac4",
+   "block": 231490091
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x7c0b72c6df85ca43e4ff7a3036d94b92baff0395270f79d90b7ac6a791b0dc67",
+   "block": 231490092
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x1d3132b0d875d79b4cd6556a7130c5400c3652ba9d2d5733ef0c4cc063a18e11",
+   "block": 231490094
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xe0dd9d34b8b97a5e60bdd3ca1559d70afcd959ba9b83d0517f0323eebc47a33d",
+   "block": 231490094
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x606f0e3e958bdcc9cea43fbb43df6621b93c369f7772353b9f0b653eae547e53",
+   "block": 231490095
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x97a2a5790f7ce3df2fcf9939bc208d36a134bee5ab30d66bcc3c6d5d7c61c9b4",
+   "block": 231490096
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x67c4a665dd109e1cd3d85df15786617002142b112b164b44bcee022dc2c87d8a",
+   "block": 231490098
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x80f68638d36218d4449669483799e17ba0681c0d762374789bf344e37239785f",
+   "block": 231490098
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x820006f30d53702aae2c7b04d2bcec058b0e752778bff639576179991d893f1f",
+   "block": 231490099
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xe0c2aedaeb7cc86b9617df10a9fde4090d84cc6dde6b273ccc2fded19b2972cb",
+   "block": 231490100
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x453513ec45d7fc29a91b7c9ee4486aefe44bb584d965e1378a5335c693c9dafa",
+   "block": 231490102
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x780c619ee6b02ad3cafb60c5055abfecdab3c3d24b75993897097030bf34f812",
+   "block": 231490102
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x4830901b3d2053b4391d618e8d5b0fdec019c5f62a66c787d7048a5d9718bb2e",
+   "block": 231490103
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xdeec3b31a1146d14fcb11b13e0c6a347c52be012b463f6f550b5fea9228a4e42",
+   "block": 231490104
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xf30fedbf6041b6b1a2b13c057dc978ba0b37661101d89bd8364bd58dd78c7b7b",
+   "block": 231490106
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x4e8b6f1fce2d7c61c646db792b3738b89204f0c56e96bd1a806df96acc28ae73",
+   "block": 231490107
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xa4b08ff8983f408417088c8bf8f80b93bd401a635ae08f79580c5e96ba3476f2",
+   "block": 231490108
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xbe31e0f506bbdc30ae40970aec4db765ac000cd9d618a99248937e931f1da6ef",
+   "block": 231490109
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xf085ff3996a78bd6f885e283767fa0e5c738b664c9680974a5c7730cd74027c1",
+   "block": 231490111
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x010ccda3f43af6ead3aa25e114f72428b66a17c47a93befb1d1edeab646a8f28",
+   "block": 231490111
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x562ced49150623a0925c5051d52e33055c7cb63ffec89d8b166d9052a5fd70ee",
+   "block": 231490112
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x91b2e0fc8fc3d515484fb69329047e755021de09c0540e1036086b48bcf1d276",
+   "block": 231490113
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x1f1955077e5c948d64f8f9d1531ed7cb31301cd04e8c5b6b7882ff8636f6aae2",
+   "block": 231490115
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x01388b0c1d6656fcf2c41139ec2e085cb6def69763fdd75c1699b7c6d776a01a",
+   "block": 231490115
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xe58beaa59545d5684cfed5afce733b3d667b9a88c1044f92334b71d23c048d73",
+   "block": 231490116
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xd5e4a17a53715dd33edcba03aa3bfdf732b356ff57a92e6212529defbbae9b7e",
+   "block": 231490117
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x89437250cc6b648152b9b87757c932eba35f7c28e204477eca6959bb318716c7",
+   "block": 231490119
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x19ed555579ba94a2d0d021f271729262106876a99b726fdeb0e00a4c72c9e859",
+   "block": 231490119
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xbf4207dfad5fb1a66cdd3eb7f363216231e95f1514f82b4907af06b03750a8d9",
+   "block": 231490120
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x4f0faeea71c5cfd721080e127550df4dbaa183951bd38862b71e0c2fc4211623",
+   "block": 231490121
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x1220db9bce589a1764dcaa153c643b8ab12d878f5a3603579ebcfae29f309e57",
+   "block": 231490123
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xcd94a88a737352314438c4d4e6baec4d062d57ebd77b4d61b2e29effc1db9b6d",
+   "block": 231490123
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x32406c5b5717515988ae494140cf2bca20b1a394c73c8f3db1636ffd32be3fdc",
+   "block": 231490124
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xe4c620ed9a8ca0da1b382a21882aeefad6e7800be069dd27325d7d8bf1e82dbe",
+   "block": 231490125
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x665f9b12c6ad18656253a6610c4eeabda84d19ac21062389029fc69c2f90c055",
+   "block": 231490127
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x0e5d8789e1a4143f2c336072784b96ffa6a548a40477a66e3fec10b17af7d602",
+   "block": 231490127
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x63f7d93b2050ed94f83dd5d5798de2ab2ffd5bb78d5e6412d00007318d54cb8a",
+   "block": 231490128
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x1117491bf401937232b507c7a074fef9b442e59d3761233e13ca77154b5497f4",
+   "block": 231490129
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x9616e860519c600edd41626f158b2c4b1a3b733639ecdb93a68b696ba2d113a9",
+   "block": 231490131
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xfd0e55669ec25043bf14051308ecfed164c6364c9376ca85345be59eb465f9da",
+   "block": 231490131
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x2673e3aed270f7c2f80aa3c0add14f809fca36a5e90ac08ce700ee5823c90e97",
+   "block": 231490132
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x1eebbcd84dc3dd2a4cd7b28d56b61f6e441f5c68aff45aaca761440ee903bcc8",
+   "block": 231490133
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x797d1931c544fd333770c6d12fbca998e1e58295f37cf34c07cce5f5f0b7d1fa",
+   "block": 231490135
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x04167c7cb251b4bb785ab74290579912579b6c568e02335408f37cba9e7cffeb",
+   "block": 231490135
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x1cc89047fc54e07468b9a5bc377bbc0ffc4eab8b16d7ed5e30537cf9b7a6c595",
+   "block": 231490136
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x9b2afb3ec0fc5a91bde7082b675a4e4857aac5818d6b26c2423dd44e64d99c1d",
+   "block": 231490137
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x3b0f52c39d553f320aa75e07e4ad89bb4c54af59638ff979aae57e134894be2c",
+   "block": 231490139
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x914ced9e51069f92520b0c41317a03ec8643770ff65e1303f2b23bbcb0d3d6f5",
+   "block": 231490139
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xd49a018f2bf2eafe12d762f98742eb50ea1474f13838f4e5f8110d8604a114b9",
+   "block": 231490140
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x93cfeafdddb4f2823aeb70034e55dffd6e26d4bdb3a8460af56037f3ec1bfb44",
+   "block": 231490141
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xc994dce344f0cbdda93b4a1f5c13240b21a0837363213577a4f2e98c5f91831e",
+   "block": 231490143
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x874c6463774df8aa51bf1878410141c5123279140b0b77a5e7fe2f27c8b748a4",
+   "block": 231490143
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x8c2a793f2fec4e9b68291b6ad3464bc6e8224afb6e09c3cbcb36eaa0670e5be0",
+   "block": 231490144
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x559a8c856d3dcfa0ec5e6ba7c97d88967f672b4de0e137f5e2ca58e0aaed40a1",
+   "block": 231490145
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xbcb7a44736ef7661c7943410ed9d3471e6a17c77705cf57080852ffb77cdb2c7",
+   "block": 231490147
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x59dd2cd333949f72b097cc3a26309c8f8f0c270f3f6a5437a19beb0f7a8e111f",
+   "block": 231490147
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xe2039d745024e32c80a913145d425b10d024d227d1052d2e30510e5ed02f9e45",
+   "block": 231490148
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x95236ff8916c088642c4d4187f62c99bd331804c42bd0e1efb1bda3551426346",
+   "block": 231490149
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x88ad0c7a4740d6dfe90cd416b6f849b000e6633f068834d9b2f907b73493b4cf",
+   "block": 231490151
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xd6182408c27bc3eae3153c29c7df4326dc587fea61957748bd692d727f752843",
+   "block": 231490151
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x9952a8b2da114f470e30f3133dd72d37cc4cc1be898d120b8d904abe565bdfc7",
+   "block": 231490152
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xd7213994c0b1ef2fe492774c48e19a061a887b62a50a62cc87e9dd4095b0cd3b",
+   "block": 231490153
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x92af35a756b29f5b2bccd8f3a074f29916646c11100d5687863666b8bdf9dccd",
+   "block": 231490155
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x471f60de29d47893461949720e4c1f64257b21e4fe96340c4f0da958c91232ea",
+   "block": 231490155
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x09e551e798841fe32751004e076aa4c496f5360eb6987f0835f78e9860f6ff76",
+   "block": 231490156
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xbce504c519c8d5a5532d2f4c96424de7831b1cefd5b9c0a52d1dafc302589e22",
+   "block": 231490157
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x9376e91e4cc350212b9ba42ecd82ea6e755e34da992fc2ef50031762d75ce6b1",
+   "block": 231490159
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xbbd8dfef6669310308ab9433c4742e92850a5f7fe2f6f0948f7bf9d9fcdc8ae3",
+   "block": 231490159
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x47cc5f7f179461fde0b93011863679f3f9e9b194ab9b5493c128d93c1aa14098",
+   "block": 231490160
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xe07bed721df87d37e19832bcd58ae22747d606d014f87ad2b86449c9120508e8",
+   "block": 231490161
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xaf36719ada7a07c870be6a75443a8f462f1a3aef2b62e4720200eb557f597682",
+   "block": 231490163
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x7f0d1ec95b03b09db2986c082128f524cc720d4d5209e22ebce7de39a5839668",
+   "block": 231490163
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xbfa3bcead1343b7e5aa5bff9c81a1c04d4f6a567b3b631d7de363afd12eed7e3",
+   "block": 231490164
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xcfd1db048c545901e63416afaf653b2ef98a87addc021259384512db5dcaa999",
+   "block": 231490165
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x1af028fa8e66059be55970448950c252202827e76ad1c95276064cc1a9eb56c7",
+   "block": 231490168
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x1b22d00a161704981871961596cb5425e7d743e7ee4153cf2609110b048a1094",
+   "block": 231490168
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xed78729c8840395a2dc26055d4ebb8da01343916c1dccc25b53aaecc5d5ebca0",
+   "block": 231490169
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x667951ae5ab213db939a6f4818a48507d8d9ef31e78e077b6ba2be31dea2918c",
+   "block": 231490170
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x07a26e9984229148fd62b4c9b5be02b0a331be9eccdd3bc5f6581ba1f89662dd",
+   "block": 231490172
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xdf5d903897545a6eebc8296fb83ca10083a18b8390f8dbbf211bec1f03de0679",
+   "block": 231490172
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x1508121a09967f85d65503b1abb928ca631c48bd4dbb2270b9b999bd5fe56641",
+   "block": 231490173
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x946271a3d8090edeec21b5677aced6d57909910f492c5abc14dcd5353b2c36e0",
+   "block": 231490174
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x34ea6d284d1e4198141f993ab10de5159652bfb426d39768e591e65dfd348f3b",
+   "block": 231490176
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xabec85a33e5fe4f30b5038f07b7defe02adfd07a2436c42155c7197ae2caa1bc",
+   "block": 231490176
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xf4b68ddda72a65f033a7938819913caa5f80c583ce1062d150109f893b7d5e5f",
+   "block": 231490177
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x7ddfcf9dde08ea7cce772841c25e550ca9a1375ec36d1ba080dbad84ab0281a0",
+   "block": 231490178
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x446c22afeb9782c32511cf1120ebd4bd2f6342e29a35485567b986b8fa3b2c4b",
+   "block": 231490180
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x1efc84ed62c885c5f5389d9e089ed3e0251794f49754ba02a931c2310ebc2f64",
+   "block": 231490180
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xb099961b9f9bde570f298db72055253796e8a5ee5c1e9df083b63942b7a4cdc9",
+   "block": 231490181
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x0ef71472240c15e48359adc94ed8e8367ecfdc240f8092b9a833c3de479ca244",
+   "block": 231490182
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x0587514402ec58c6de0c7042308471f9e3c57513d2bbc11e04e4dde1ba492a7a",
+   "block": 231490184
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xf5f83fc4669ac16c42cf4e76c1c66d83b5c9f577af88b3a9f303b376b8ff2684",
+   "block": 231490184
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x16b03aa03d604e9fe4ff05f36c0fc973edccaf342bc7c97982e016613021b0cb",
+   "block": 231490185
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xc4e1048d2e050735906e92ef6ca440b92850af1550db6056cbb291e47136b26f",
+   "block": 231490186
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x2f150a2fab94f7bb8bdbe8ffdfba47bfeddc1a35575cfae7437edc234171bcc2",
+   "block": 231490188
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xc07f642e4bf685f25a55b5f10032c71fd07081cde71a1399c829d89a5e72f98a",
+   "block": 231490188
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x632d9316480d4139ebcbcff13d28072a6a5aa29c570682a4d35d38d9ff12a4cc",
+   "block": 231490189
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xdfb685a0dda3bb45ec383099e47134df59d317b07d03c093a4d1c98363a32ab3",
+   "block": 231490190
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x671b41023db6334f94de5d751bae89257fe214099025145b3691e355d31406cb",
+   "block": 231490192
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x302464d2fffc8c1f624c2e269a79a01b9cebc194a2ca33f6450b3f39b48d23c7",
+   "block": 231490192
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x4578ae862a6309ff2cb03d3ed32b11838816ef34de99af6b10c830b91b249cdc",
+   "block": 231490193
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x8b173a2f1e84727fe349f2d118ffea8983b8fd7ab76ea9877e7431ae244a9ad6",
+   "block": 231490194
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xe5443444040441b1ba8cb53edde16989524bcd7b0e554c44a8f59452b4b21d8b",
+   "block": 231490197
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x218d43e61dceb397612a5f7c67923cd05bf37b980d00a775f384c01123f331fb",
+   "block": 231490197
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x5fc986af6cc891ab009180d938b7637dccfcfaa67c877889c74cd02b7dfa0156",
+   "block": 231490198
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x24cbefa5117c7f3e0834314d5d25860466985537dec3617392449def767d5d04",
+   "block": 231490199
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xc113e0bb5c81f5a43d5146ad57e872d937ce0d232da6408afbfff4ba70117096",
+   "block": 231490201
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x4a07ef0942a9cea56ce8461d508ff9483c7a455c5fda02ab2ae8ccb5113a54b4",
+   "block": 231490201
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x16a60d225e39db42eefafd8dd99fab298952b05abe6a3791be8896827691d9a9",
+   "block": 231490202
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x57934c0acf72b67fb65ceed5c75b1285bcc4309c28afba40186e633cfbe2efd8",
+   "block": 231490203
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xd4a43dd211febd46a24f7deac2e13412a5b8bb9f3cc689c718cf8a39a4f7d565",
+   "block": 231490205
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x9dc790c6226c742dd4f7fac6b10f4d1ccccd4271cf302ac0139e2dbfd36f1d83",
+   "block": 231490205
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x96d0d3220bcc3d3c86dab8511f83743a1f93a2debbfee569ed51d2027bc75618",
+   "block": 231490206
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xfc00b017544b07ed7eb8308620924a495676716b56c6911776ed8588bfc70282",
+   "block": 231490207
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x2f057fd7739e74eca21709f76bb3fe5f4efc8c9813c9c4ca80bbe62f71ed4fc2",
+   "block": 231490209
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x7c46601fa46371e0d6e633e8e1d67aa7404ecccf07b6d35f635373505c7b4e09",
+   "block": 231490209
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xc881d62f118f159bd4c94e3dee01e1d5b38d39dd4b9ca16bf8b21eec1fd6276c",
+   "block": 231490210
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x2a28f782605f935bf7cf49d256c673584f0b25f65d7382c38eb2b9e5e7aa80c3",
+   "block": 231490211
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xd56ce03618c7341ede213061db5d76667bae6da4d631ee1ab94e41dc642e4475",
+   "block": 231490213
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xe51f18c0a9bc0b54308e955a89ab0e7ce8fb7dbf2473771e8cf1f7dcc850fada",
+   "block": 231490213
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x508bbbab6191c12d6894c0ded6a062fa34e7b0ee8f7710e176c762ca216bee1e",
+   "block": 231490214
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xcb77382ed7cacca43f75229e0dbfa18a923aec8869d232e1a693ea26eaae7c17",
+   "block": 231490215
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x93735211099b674bd59d1c3c1a4719c0acec703aadfa21b6e39f7d8708f93be6",
+   "block": 231490217
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x7b9cccad9080b8a4fbe3cb4bd01e68e1d64762d8d72c84ffa1a061e3a6330a4a",
+   "block": 231490217
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x4be260a8a8d61d5d2522dcceeac3413e21e1a8c72c58e190357bb16f95a083fb",
+   "block": 231490218
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xe05148c4075e86e4aeb7cdd6759c4a32b5eadd6f6f04730304436bbfd1660420",
+   "block": 231490219
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x76ea935b7d240020d9bbc95d17c0eac5ad27722aa76b6729626b3beedf194bd6",
+   "block": 231490221
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x42456c0b3ebe89aced3d2e4d66665371ae91f30c9392e88f23d0558969aeb5de",
+   "block": 231490221
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x1c3f104cb9c84d7695e56774b9af573fb7d9d94c50392e3bc3cbc21c5a37b748",
+   "block": 231490222
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x1b21a29cb76c0ca61d1e7e0c3e415479685ed598fdfaf55674b60d48dff98b35",
+   "block": 231490223
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x337bd966cebb56355a701961824f206a3f3049e35f0d622d52f2baa1107ce3c5",
+   "block": 231490225
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x72297ab1adcfe7c99cb4b483db04c36b397363b6f1d8037d64fdabf2a17d43a1",
+   "block": 231490225
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x9e9a72c71aba99c7f54dcbb2436168f7718ab70ca00c5ead86b14f7eaf0853da",
+   "block": 231490226
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x39e6339ed6fb1f1885c6691fae24b102fbcbd23b335082b05c556797222456f1",
+   "block": 231490229
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x82b52cf6742ea9af99f58d6af50daeabd208a6584f09a2aae3881d182efdaaca",
+   "block": 231490231
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x6c17b5cc33b821aca7b00913ac771097849caeee8f8ca364b0a17769faf088cb",
+   "block": 231490231
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x2705ed0afb7d5893ec665a5c8326b07913ac998f58acab7ba704e12592a6352f",
+   "block": 231490232
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xccc45d638bf6798848712e88af90cc362f6ac062163369eb9d48459d08164fa1",
+   "block": 231490233
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x35451480f428aed063446251ebe3ad576255901e749f97ce89db3cbfae57282c",
+   "block": 231490235
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xb82a4348319b2732d71abbdb50ae87f57342052982d445cc12cfee56c3df3812",
+   "block": 231490235
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x23fa530a048ccefad92fe558a4c43ebe09a023fde50ba0f2542fc63bd59df870",
+   "block": 231490236
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x9d92f3722697bc2ac0bf17e166ee1ca9d1a4799e1ffbfed67f620268aceac801",
+   "block": 231490237
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x4926523daead6d4883d9a51290c2762fe7d3379639db4eafcfbf0902406cc8f9",
+   "block": 231490239
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x09858b7bf2d49d64dc5024ca1eed2ff734f656192fa9b5e408338db034a238d1",
+   "block": 231490239
+  },
+  {
+   "fn": "approveMethod",
+   "hash": "0xbcfce5aa1ebd8f96b5c2bddb20dd91fc0a7ee1434a9851f0d384178f5da08444",
+   "block": 231490320
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x4785abd48ac5ef44f6c4821003d8a24b6c36dd8944883c536d9735a0b945c11b",
+   "block": 231490321
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x2037b0f6b8edd6c7ae5ae15c0cb080b6169f95394917d6d4a92cdd45ac8f6ca6",
+   "block": 231490322
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xdc4179760cbcb9391db0a25a19199f244ebf29cfdba8427ba153f412c1595ee6",
+   "block": 231490324
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x81a76a50c9fd9cbcaeded34b305e7d956f09886bea2928f721498aa5abcf4e78",
+   "block": 231490324
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x89c45f299f8475621dc5952ad789b6513809eb7844f554105a90e9d5a5b0591e",
+   "block": 231490324
+  },
+  {
+   "fn": "approveMethod",
+   "hash": "0xe8677f7ded4610fa22ff5da044ee3b99ae53c900e0f68661cd3c6dd303f12537",
+   "block": 231490459
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x37b069631d3c8203db20033d852be2db83565ea22acdb4efcf77e22d3eda82ea",
+   "block": 231490460
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xa5d4780372506e60a8ea2c326ae1757d8b8829d10ecc5630b320fd8896ace169",
+   "block": 231490461
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x603d578ec9ceb447665340c4d7902feca889cab538f01694e22a8f440fbf3805",
+   "block": 231490463
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x965e6dd8e6fa19d9773f56b5a05193ed2c5196ea02ec965d78bed8a45853e18d",
+   "block": 231490463
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x74ab9cb4cba4f22da9f602c7bf37ba0b68ad7a65be79f46ec1ad11c568076182",
+   "block": 231490463
+  },
+  {
+   "fn": "approveMethod",
+   "hash": "0x84dc3a247f8db86d9b04603abb115503d2ef7bb8da31bad07e24377bdc880168",
+   "block": 231490547
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xceb231be522e9a303591f9be6bff11a25a0c35600310defbc575ce9d0ce3e4cb",
+   "block": 231490548
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xd8ab14ff0e1c090d277b166587a2d13791fbf34969d44e8a4e28eac58de744a2",
+   "block": 231490549
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x39cd35eb1ce694001bf3f6585763cdf8dceb3732d762dd1730cd026a92334a05",
+   "block": 231490551
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x07901ccf96ff80bc5ec31f7e4f05845c9e9c9f495e3b9f111a7b56d84af8b670",
+   "block": 231490551
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xfb70d419757ddb957b2ccc366adff51dabaf72567d6af4c0cdaf22e051fef1be",
+   "block": 231490551
+  },
+  {
+   "fn": "approveMethod",
+   "hash": "0x80affce5d395db613bb7970eacb240b6dd6fe8ca0ff9f20a3c9415e202b1cb14",
+   "block": 231490633
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xa8d363894851948f4a66927a516cbdd1d1b8fcc3bb5b266c213aed1fd8f0e443",
+   "block": 231490634
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x6b0c48b0b18bfcf90ceb5d065032eee09509fb8ac90aca894656c2665e9b1290",
+   "block": 231490635
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xe4b314af60364c6799fd3616a8d9fb0202588b4fcdea402aa8e6164e49ee8b7c",
+   "block": 231490637
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xa3f3ea54c296d5b28ccec51aedbef4b79dae92d597d745246d4da75fee6d8ffb",
+   "block": 231490637
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x65bc4a5045936a5a510bbd36c3f304127df0391a5cf8459fe8aefe856bcbd5b7",
+   "block": 231490637
+  },
+  {
+   "fn": "approveMethod",
+   "hash": "0xd98e63fa4eb862500e2af08eb60096ef999a2482e84f7c5c2f049f05d765f662",
+   "block": 231490806
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x4c9fa1be580bbae0b1b231654f22031f6a73f58d62431fd42f50c7883a040c7d",
+   "block": 231490807
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xcaca8aefd39dabd08c5375282390429581301952cdeef7805816ea7785b14749",
+   "block": 231490808
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x4e16ed855d12d076887474cd898cd5faaa114234b89243344768c458bf6b9e87",
+   "block": 231490810
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x2e810ebb935d1379c6cb60ece92b557360354287437a9d2796317f123b755351",
+   "block": 231490810
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x178e2c8556ccc4688e1844dc668e76bc9fcd2471386321c6cf6b1ec933e95193",
+   "block": 231490810
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x20ef6cf5cfd16dd0d6a34ad50c5777ca9839a3ca59a0b9654c140dcb0facd1fb",
+   "block": 231490876
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x6785ca8d80acd83609693a556448b253fa1c02a454b6f9d7e55044fee2decfb2",
+   "block": 231490877
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xf16c82ac22df6abe87110c315621d8800425a73f02dec462919b417bedd720c7",
+   "block": 231490879
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x446243e8b5b373addb487c1d1d2d57248b4680bac60c8e495c94849391b3ac4f",
+   "block": 231490879
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x14a2c764522c8901bd49fc90b65e46eaf282eab932ba224665ab7b638fc60333",
+   "block": 231490879
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x2a3212be816a39b7f0b4a883f5ba3a2577cc2a9ddc0c0952b57fef3319edb136",
+   "block": 231490962
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x00153ffeac83849f786b27f7621d2b414d7788fcde070043c514ebd011341429",
+   "block": 231490963
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x1335d3b403797eac85e1c29222463f9f96fc6b38c17651f4dccd04cd1b6c4d61",
+   "block": 231490965
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x0434eb2b53a946b80e7373865433fd8497c84c5e6d4592fc16b6e4b5922d4f45",
+   "block": 231490965
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xf8cda39120fbcca7498834233a335c84590a70aee0780d1c15f2b18639cbf1b3",
+   "block": 231490965
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xa136b6ebbcdfed61700d6fdce8cd7a63e76b0c623570d2acbd08891fc0831d34",
+   "block": 231491049
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x69949b8aa337d2d660df7fc3a21f2e2cc08095d9e0911c9c5efca8f89decd7bc",
+   "block": 231491050
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x70373f88ce1ae1b60af530ed15fc9386ad5f30465f21a5cdfd1cf3ca5d14b743",
+   "block": 231491052
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x9ecdcbc24ccf1b53cc6816d336d5aa5b5fb211aae1634fb0e69c8211ef5ef276",
+   "block": 231491052
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x730308687434129f9b4cd8a12e29f5a79ce6ecf174601b117553256efae3e152",
+   "block": 231491052
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x07311e26a8ae1224cdc308ce5073ee279bbb621326ec9d52964064b7e9afd287",
+   "block": 231491131
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xe046f0947805a52f47d690d0c22783c5c3b1ca0015780746ec3e867fdc17fb36",
+   "block": 231491132
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xc17d29579f0cd2c35e691027c4cefead15b6abef67bc51cde22ac55cd658293f",
+   "block": 231491134
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x842c6a20dc7458f79b65963b57178168bfdc2e9f54ee9e34028d2a363c245b7c",
+   "block": 231491134
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xa65327742b070035e4221e535a26a4ebdf3701460d2e826dd9a1096ea414a7ab",
+   "block": 231491134
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x51e92f138f44d5653a2a9c86a34963d2019ce012a64a74e1aecb8fb81970d690",
+   "block": 231491221
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xab531d506685570b1bfcd42cf373551b3e7f7ffe4d69a5841faff3a593848fb5",
+   "block": 231491222
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x8fb087f3e05b0441dd09b0b94687c3d8571ba0f738681caeebab728d841a022d",
+   "block": 231491224
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x481afcf5aacd8e43e4b91b86d3908e2ebb789bf72ee074aae1063b3b319bb19e",
+   "block": 231491224
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x9869f2309e529a4fc44f978a02d3d0d09853b595a34f4b9beeede934ad4281cf",
+   "block": 231491224
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xe58aceb17b1273876ffac284367bf5ca8c1dd6405d90adc7784c143765050759",
+   "block": 231491441
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xbf1fe50b0a3059de1a5bd8a9eb86227b2d545e9582a4ff5a5d1fec25bd455bba",
+   "block": 231491442
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x697afcfa17fd4394b52d08f1270b0ddae410adff7eb8bb6d96d09bfcd724f090",
+   "block": 231491444
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x0c329f5a98685d13e1cf04613bcb8bc18d822f7c37fa7f117bba22691265a649",
+   "block": 231491444
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xca90214c42bd6db76ecd20ba84df53295e528bf9f0eb1affc7f2dfa58de4459d",
+   "block": 231491444
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xa45c161b4ec5ee6bb80c331d317b9347bcb1683567c0f10a424d46dd23bdd36e",
+   "block": 231491529
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x021da368be1a94d768f0582844c13cc50aca8c9f0faa3e557d319c33ce12effa",
+   "block": 231491530
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x28a532d40d8dcbb01c1a87eb2dd552a851bb28af85d192fbf148c5859656d9b6",
+   "block": 231491532
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x545c6fb770db238c07476ea9fca4d6030f78b155a3ca7479f5ede840f371a7fc",
+   "block": 231491532
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xcb4c99391345bfa589028f522d4dc0a2ff56ca8592c617cf13e0f767d085dd14",
+   "block": 231491532
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x24104398eee02771c4d08607a4e0ec361f2bdd204801306a433a733981d50969",
+   "block": 231491677
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xf8f4ecadd1b95cb135d88fff72f2d06b2952b7316bb889bdf4993b7e0e60bbbd",
+   "block": 231491678
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x7fb801ef3c5592e1527bc55d582224f35fb7580408e7919e4be0518fb0c598b6",
+   "block": 231491680
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x2db3dc92d90c8e31dba230bc7aff14877734576f218589b0089183fb05cf0748",
+   "block": 231491680
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x28e8dd364c54e00be220b965a94f64e1e3d1dc58fd4363984c26395eab547c20",
+   "block": 231491680
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x832fc1b590fd26e49109fc6f1046481b01491e743f568f348a06c0edcb8519fc",
+   "block": 231491790
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x87de21d8f5b2f4bfa7139c20413dd1c7f5a1cdf1a4b11886ff9e430ea3de32a9",
+   "block": 231491791
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xdb25abe6cad8bd949b4f9f7097165c9c7803250e4bad670561edaf8d090dac5b",
+   "block": 231491793
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xe97dbd315607297a34b349142292e66fcde1c685e30a3200d73f074ebbe600f3",
+   "block": 231491793
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x745d2d98a283cae233eb8211cd119be95decbcc6ff1b637d8cb80cf0d260c0c9",
+   "block": 231491793
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xc49c9ba560c2921660cbdd5dcfaf46ef803479664b2850028a80591ccca3302d",
+   "block": 231491935
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xf62904f15e0fb6527dcc53a75e281c7e63e79b444e69f19e894cd7f74f93539e",
+   "block": 231491936
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xdfa3d4e40bab6366fce18796bfcc94a6515556024b7668b0d175af6d35bebda5",
+   "block": 231491938
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x9d5bd0a93e2fd6054da5aa890b2d1f8ae768ae1c8b49a7ab34bc93ff7f903911",
+   "block": 231491938
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xc9a01ef1a660822eba1c506f9b01294bdd5ba6d4901503dc6fea136def23c1a3",
+   "block": 231491938
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x15fcce28e5e7e631d6732dffc722a0d967b130af18b24c6aac6cc3e2a81b91d3",
+   "block": 231492024
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x42067462cf4ee34dcadcfc478a881f78d0c4101310923591620cc72555cc2f2f",
+   "block": 231492025
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x412294efec3054304df2da1a428a50f65307064e5dd45dbbd2f171a9b093c52e",
+   "block": 231492030
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x05d5dde3ea92825ee711e4d3f9ac518203d49d76bb58b77a556a9b5400d23bc5",
+   "block": 231492030
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xc8123d5ed210b01efdf8f15b54c79f938122739ad6ca2c0809219682fa783b4e",
+   "block": 231492030
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x8428e05a2a19ad7147a8f4698afcaf8d7c462b630e6c709ac154a02f3533a9dc",
+   "block": 231492248
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xdbe5afe6c738a21761c5982f0c0dc109ae3b087d53848c6eb84a9ea520d90436",
+   "block": 231492249
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x0b03c7fc8129a96ac18923d04bb2a2173809cde5f5f97629ba35c28914f55626",
+   "block": 231492251
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x15fc315b79c39ab95fc93c51c95a3405a6ae70c7bd866ae5e0e966c54b46cb57",
+   "block": 231492251
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x3385f818f2345aa702e391d6f8f44cc4468800d4de582f11aef28bc4de502a45",
+   "block": 231492251
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xbd3d4983da0bf92e891930d8928f1d43bc872ff0a832d26f50b40498d0dcad19",
+   "block": 231492357
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xbcaf086e20be991c2cfdefa4ae20705c6840bb0293d2502787728481f5504573",
+   "block": 231492358
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xf58b0df95e4c853df8da65813037f2f075945489d907cab927a285c9f9e5fe55",
+   "block": 231492360
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x9894e8342c290d11d72a948cbc01c55e58cdb125de97402bd170a170761945f4",
+   "block": 231492360
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x52e85e5e73b1d39d6c7d131a2608959da3a0d443ad687a35be76988ac4c25ed5",
+   "block": 231492360
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xcf0b8b3472fff638b8a4a9bb6bd2d5360aae561f5e0d0fe9cfbdff2cb6a7b7e1",
+   "block": 231492505
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x6bc7a92ebea154e7577d00e774e0147625590728c455a48df729c0f756fefaa2",
+   "block": 231492509
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xec9e59880cb3ea6cb2d6a307a4603f28086dee600939baf86d21c6a4c91b2c95",
+   "block": 231492511
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x8e99b2040ee0dc15bf132378ab54f55cedb5205f98b9020b672d27685624dc2a",
+   "block": 231492511
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x0d27753c54787d5a5a0a3360856a174d6458821ce0529cc6de82860aa0357e70",
+   "block": 231492511
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xd7acef8eb5aedf0f3c2bd1ed964f2b5d4ad75f7dcc0428160e8468dde1d9f6d0",
+   "block": 231492655
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x2415b43f95fea653e6010eacf5d95ac8742696b4ee56866f93fb95e2047c3e93",
+   "block": 231492656
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xb58273033a7ec4d1462227ad7912958e5970cf88e5b64067aff6b07f8c459a27",
+   "block": 231492658
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xf230f13ba2b7fc6447291d97349e812f532796c61fce2d6fca6eb418772e2fac",
+   "block": 231492658
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x6c3928d97907248651a767c98424da321fd3c16a2abc7a62768c80bb15ceb4ce",
+   "block": 231492658
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x782eef3ec0e4952d0c66ddce34bd3fcec86fc5bade3892e1dda3e3c731b8c053",
+   "block": 231493019
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x1b6b292514938a97a18e522756d07f2b403babab3aa3757c027b791fbd6e4d14",
+   "block": 231493020
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xe3c6110d13f371c6bf32368de499c0393d52d5ba8a1d01cea61bf7b8e2b0e857",
+   "block": 231493022
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x52b3d13a821227b173b3dad0b1a461c8b1d4a53ad1a3e1c310e6aecc60ddf9ce",
+   "block": 231493022
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x9b2b40e7a06c229dee300c96417236bd8fb0e19e1d0b2ee55b3e446501c04f58",
+   "block": 231493384
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xda860f627894649580f52964fce59f096f9c074163257d1437ed412750c8deca",
+   "block": 231493385
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x3f370f9db2a1dd408885293142aa07e8609dcb29a6821db9f82bce53a71d606a",
+   "block": 231493388
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x5686e9b43203a6780749e4ba6cce0b6d9b7322dae41856ff62a421dfde5a7de5",
+   "block": 231493388
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xac5d9ec5c844ce8111f5bfd9fd8b384f2e44e004a2ed719b738cb2557c0fd6f1",
+   "block": 231493751
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x39ca68a53ac73e2208ed08cf4cbac914df9e66c5e0a93eac8cc92bb074562636",
+   "block": 231493752
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x883cf657b01783276d5d84680bd5fb833dd3e338aeee2acf4ab6179ea7b06442",
+   "block": 231493754
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x2659a5194cf4974743d375ae2ad1ea1cef4eddce2e730fb7b4d095fc23fedb91",
+   "block": 231493754
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xed5056fe8ce99e85bbcd20b8d3d185a4c447d74c9a7d0f23a0abd584e88b39ec",
+   "block": 231494092
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xdbcdfe768914724c36694619c980359ad1b6c6b7f1449d3df2d484fcb4a5eeb2",
+   "block": 231494093
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x57fa168aa246cd2ec84eb1a4c5bb31ba2c6a4c7c03ce3615b0b32158e62550ea",
+   "block": 231494095
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x3b4f3ae4baf5f4db93065e3d8434f802eb0614d7fac351de1530a3f344b2e467",
+   "block": 231494095
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xc35c2b539a0598e216a0739d43f7cb28af984d446dfeeb0ede91063d2e45ff8e",
+   "block": 231494439
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xc4f516a00220a1c30bf801f53c5ed6424f907918f666a480394ea8b00e7ec9b6",
+   "block": 231494440
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xa67882104a81427deb672c0bb0b587d18ac85c163a37a27514688d86074a3588",
+   "block": 231494442
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x9083b75959fd4047b1b3ca3776fe26c71a639d930d05301c2d44d473509eaefc",
+   "block": 231494442
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x1b2583f6fb438ee96548bbfda9d2e9abf243032bf0d0cabe8af1969efbbcc675",
+   "block": 231494782
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xcb10a2ddc31e478df8177977159e3f6046e6ad772c11c231fcbc12ed4db25965",
+   "block": 231494783
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xb8848a90b6e333334cb588485709e2c0969d7651eb2bb3d839c882a7f67e8e62",
+   "block": 231494785
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xfbe2d51bf5d267b8c4d8c86bced2086dc9aad8743e31ba9d0153e461c58da805",
+   "block": 231494785
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x180585d3d9f0b5f7650fdabddb03d8cb7a076bf0d7defc6df654f48361c360da",
+   "block": 231495105
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x7691f29eaa3951d2aaa5552277e3de0a6fc7e9f8aa5ec93e01fbbbc07bfa163e",
+   "block": 231495106
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xe04cc4561e5cac1ba6346d5f43b288849ee20046c39fc7242e17a51907a0ffa0",
+   "block": 231495108
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x272783ac0cf4ab75f1a3e9010ce60bf8dbc02e37f4592d8c755f0102c8e91c8c",
+   "block": 231495108
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xd814f4597a730f4d8991eb4293850c1e23ceb3f117a120e4583d5a67ec0c3dae",
+   "block": 231495388
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xc42362f26e44f86b6c461988652f4b3a0b9b9ac9863e639746dce4f05713d7c4",
+   "block": 231495389
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xb67356c23540bafe5d5ab7cae0576fa697e2c650546e727c192308df11f434b4",
+   "block": 231495391
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x8c6922f9846bfbc623bbde7860910dece27abd9de905ab8ff95cb64578ff2bf4",
+   "block": 231495391
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x188a56dee765fd52bda13e8fee0aa59d48f6eeedec56003eb865a4aa2fd33bb9",
+   "block": 231495714
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xa878ac15b5f776b959ca1266e613b64b38e029dc7ae82e53a70c92f6ba954be4",
+   "block": 231495715
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xbdb444ee351469f5d89306fc58c493d616289432a82fa5237dac3b1efa01bd53",
+   "block": 231495717
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xafa532d3b6e36d2dd560ce51f074721806b0aadb1f6a17fa10b6e2e4d62ddf06",
+   "block": 231495717
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x21baf66f0ed357f2561c43dcefaa9fc248a73cac53bd4279e58d072adfa3f8d7",
+   "block": 231496058
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xaf9c6ffad320618b89956815ffeffac7d7347cf23b382f1a1e7dfc9d1df5cf5d",
+   "block": 231496059
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xc033815c52f60777fc6b2f08b3b92a991b3c3d9f203b14b46f559f05bf7b6b64",
+   "block": 231496061
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x87af5e45a4a229dfbddd028533e75c3c6202823d00cbfb1f5d8f097fabe03cae",
+   "block": 231496061
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x853bc7b638298477f2079ab70fbe76e02804252dfaa978713e50dc320232288e",
+   "block": 231496352
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x57076a303ebf049370e8f87aca924faf78dfff737eedd29ad2d753153b98b942",
+   "block": 231496353
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x58408ee727c8dcfff735f2019f097f7c0970709331371fc5b1f53c2520c149ea",
+   "block": 231496355
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x193c00f296bfce9d674c5f0671001b42f0b2c397480e11e755a6608ad4dee943",
+   "block": 231496355
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x57706411e9c5a996bbc180596b87612cc5ae4674138aa9d2ff70a9f740b5e00d",
+   "block": 231496658
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x500633b3ef74ce54b860f95b98114b1bb3009350f7049fbdfdea8c47f368aebf",
+   "block": 231496659
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xe5f0651f870b22fce285bd763de4a140ddcd3b50dd3ddf7380e0ecdbf3902748",
+   "block": 231496661
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xc12c8d4c5f1bf8322e556a3f545d233be8f76eb70ca53842de3f7e6bcd26c44a",
+   "block": 231496661
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xa9b180aecfcae89d4310bc8d8eaabf7d6f68c0b1c5738d1892fd5bd982789e9b",
+   "block": 231496999
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xa37532168b420ec253f553818d0633dc9b9062cf4b0c06f77735d94861e5bd0e",
+   "block": 231497000
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xcbb9836e538619c2a7a7c3f0d06a78cb4eb5e6d09c329ee1cea1731732a6b837",
+   "block": 231497002
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x8596eeee1df7f80c598fd5058640f9d0fa0d4538fb7503ddfd9b4014c062cac9",
+   "block": 231497002
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x7aecc783af256cc0834c9bf7f32b3c83e0152ddda9681cd01b38b386a9f35fe7",
+   "block": 231497301
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xfd6b5ec73f407e7d5fd586952e984205d499aacc84bca8576f1d1311e4d3c95a",
+   "block": 231497302
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x295c03ae16cc5b467db550a4804136e7db1da67ea3c9d3daf7b5769b6c757b4e",
+   "block": 231497304
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xfdae45c3149557387b98d8dfcaf8ce7d8b9a6b9f2d86a900e8ffd7d1c9d4e780",
+   "block": 231497304
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x2a6c5235eb8be3faacd264978cbd1961bb610354276d279b8b6aea0ec9276294",
+   "block": 231497589
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x4d5bf25702d6856c3e6721151f398a875836b2f4d4ce42486a9bcd03a4c8c273",
+   "block": 231497590
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x7b4adef3424915714b51e0977db2685ab4688edb4e1e15222e701228a7c726fe",
+   "block": 231497592
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xf583efc60f10c7e6ac36ca3fae468c14e051140bc5f852f86c23d918e17678d9",
+   "block": 231497592
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x510c2bed1f7001b522324ad3c57eb81b74a630c5a639504aac82f66790428601",
+   "block": 231497932
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xab918c7ea984e221f7165e847c999377a95324b069068629b37e67d83f53117b",
+   "block": 231497933
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x61c4ee4d2e702f2d30be1d026c0d7ac38986ce4443ffb833c2c31972ebda4612",
+   "block": 231497935
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x623934ae3fc3646833c438a6d8b79e071437174f3686639305fdd5e780e23d5b",
+   "block": 231497935
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xb28e3bb73ae46d615567f32c0c33ea0666186e31372a3037fd28b08b1974da45",
+   "block": 231498256
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x6e5bf8e14ecd709f8fe12615ae3de90929084357ede730fb71bd6bc1d64fc505",
+   "block": 231498257
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xd622e6742cc5f772bc0bc2ebcc3c4c39483b9153d6c7b0e5ed36166eeed63395",
+   "block": 231498259
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x73fcd7ce0d7b3e1eacd89732dc9fd5382d5f455554e85972a849ab553358dff5",
+   "block": 231498259
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xfd94577d5781e74c060613a625d2b3860f2c01b50d7dc7c1d8921238642c12d5",
+   "block": 231498541
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x960b24ee277a91f644d8c0195d40cd9799c04920d1f805331a96d6ad13cf9935",
+   "block": 231498542
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xa7723740be5dcc04a46b69142e260bb5a001685e797741a424254e362e053763",
+   "block": 231498544
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x09c28fbe2b1feca54a7e084d44588d83fa99e59015fedfc7de4ed578b9d10446",
+   "block": 231498544
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x73a332abba0cd0b0806618ee9941ac095746f00d12e8fad90b5cb5f7aa0d1548",
+   "block": 231498861
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x7678eba09b9899b446c58be2016cf7b90fd586c8f779504b7c6fb0c51af3ddb2",
+   "block": 231498862
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x77ddecb09d93abf37e4e734674d714217ce6614abac9625b0e0a2e3c4dd3d0ec",
+   "block": 231498864
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x299c8a6f8f9729abaedcabe53a3c67c9c6a2c3f033f58a58a5525370b640c5a6",
+   "block": 231498864
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x4e54593571562dc255e982dfc8422431d5ffff0d2232b10e0e054d1fd8d8658e",
+   "block": 231499205
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xc14e41fbfcfaac01e76f3cf3e0468bafee1874254016da53fa43b10de79b0361",
+   "block": 231499206
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xae77e839db3e39f12082d640a410b87459a5159899ed05c82b4bc2766eff5cd6",
+   "block": 231499208
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x5dcede0cb389763d4c4fcb9172f1c42614a277bc38a20b0f83ab10a3797c5742",
+   "block": 231499208
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x084c05f01ac10f55df57ac7ebc98b7893d5562a5b91e20d0c4b942143e0af587",
+   "block": 231499648
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x9728005b6a6bcba8c0e43f2486099f5f380b38dc2d605ac795ac4c0d64395cd6",
+   "block": 231499649
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xd38fcf0ce4d0e49077506aebee6074e3ca5c243203366c4141d2532b3c387da7",
+   "block": 231499651
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x074a452e2804cb5af603a1bad76da3ca7687409d26d0b281af300167de03698f",
+   "block": 231499651
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xf0e46d311945a49aa43f06ac190ef3a8f90052cf3054e6d3e845d52eb142b276",
+   "block": 231499651
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xde5e6d8fc77f45aa5b9cb4392794a7b453e11598a877fe434f4099b76ff69d9d",
+   "block": 231499656
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x3a9e0a2374c7d3ebb8d87ad83645fd19b6312aa926067faf3bfd84214f604815",
+   "block": 231499657
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xc34f252f0effe4fc201fcb803e2cc08d9538636d96b29d282a2a556e163e6c5e",
+   "block": 231499659
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xe7264a2e875b0c6754865cefab50fb515a1d48f1d7822b11986c3b7b4e4d8430",
+   "block": 231499659
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x8a5771d95db6a4bc27a99952ad0a3267f3405ac637c3c6dc18db0d7aaa9859f8",
+   "block": 231499659
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xdfb75e257b560decbeb0ce74af1ba52dd007aa1a85fcb7217500d392c89cc37d",
+   "block": 231499691
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x929724b2fe74a9c6ff0f38bf414f1efdd2d7a4ba3f2f1ae426c82a9d8e82cc91",
+   "block": 231499692
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x51609ca0478780be868e5523ee1e41fad9ce3bce28a70150a728f3570db6d68a",
+   "block": 231499694
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x3aaf3b686c44989ef2c0e8980543a6d01e7a440f76af3449dc24ae06d51a6332",
+   "block": 231499694
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x442cc572330e2c5754140377462d65718e91d18e031e1fb1d6b0c7944b87fdf0",
+   "block": 231499694
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xcaa1a9c827acfc8c766b79a8ffdd0d1012b208ffe6e1f55da3ce35197bfdd6c2",
+   "block": 231499906
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xc77ec1ef305c7dc0a095c0c016215e41ec4f86679db841ccf8d5797b8f2f2ea7",
+   "block": 231499907
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xe902ae6f128297e7c41d27f0e828be3c1a172aef5eb0c3e293d83bc64f83cea4",
+   "block": 231499909
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x2c9318224b61efdfc521af378d1ca3c6efc07e185f4526e9d142ae1c98ed6698",
+   "block": 231499909
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xdb88723e5138ab186f23a007835aae4ddb8611f15d1057df234089780efa5bcd",
+   "block": 231499909
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xf5bff24100b35c01e08ad8b74744300f44aaad8a908299c97b03efd4a6cc2afe",
+   "block": 231501162
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x294dff8cbba8e11caa528a743af3e9790084fbb5619011b40f9116b1eafe3587",
+   "block": 231501163
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xa143ad7f609a73060656f5fcf30888ee8e785579c343980908090ba3f460360b",
+   "block": 231501165
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x4a3e51e4c141ea3e8ddc21e64dc9ef64e593d1b7119d472db95c46c93955c365",
+   "block": 231501165
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x101e8ccf06b0bbef349e78a905aa6e26d892bbd2ed757e4447ef6ba457bbe5c6",
+   "block": 231501165
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xdf0bc596a3a19e1551ef2a3887079dfa58936be59728550071d35efdcf6850f4",
+   "block": 231501576
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xc8b4726f3b8f94c1bd6f770e97f27f9ba1ea7615e19e4ab294445ddb28bebf9b",
+   "block": 231501577
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xd832bc238736f5992b55adc3b17eb5ac6796e383c44833d14140290f992a794e",
+   "block": 231501579
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xa06c42d7bb07f68d6bd811709dbca7d5f232723beaa6083e4ab09c81a18a3054",
+   "block": 231501579
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xfd056abb3fb7b283435db1d60f728ed0fd1833eb88d7a36a3a54dff0d2afbd24",
+   "block": 231501579
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x5fa54f62d1768154eef6042f93a6c2d15807a17719ffc346184fac988bb45150",
+   "block": 231501584
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x7a1a9e6591d412b13668393c6688d589087be5d7123f48e7f3eb2c953215cd8b",
+   "block": 231501585
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x86aad2dc92814e917443271393a9ac5d455fc441de0e170405218465acaffb1f",
+   "block": 231501587
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x84a8e554d37e6327afcec228d49cd8ee481ab83c8130c86a8be852ee7581d3d0",
+   "block": 231501587
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x322692bc63cbc16a20cb21f1a9445a53a947ed3aeb1c4a4c7859b6fe528cf63b",
+   "block": 231501587
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x9be32a9a0526998f6a7615e58aa50f33356e3fdeb5ca0fb1365f03e92c3d8df0",
+   "block": 231501629
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x6776d30896829a7569d76e706c70d4894e25be562c74939379ca8f483b773266",
+   "block": 231501630
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x6973dd86f84b9dc5d84e391f0a90ae228a3b21b4416d7ce3700294df9cb324dc",
+   "block": 231501632
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x8964e81db991cb87e2d82514e6d7d13b38ba1a1432437d91d6f5e402dabf50a8",
+   "block": 231501632
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x8b900ce72a3a68a48a8f4669238f7188ff40eccd536b30031fc64acb53b4a743",
+   "block": 231501632
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xc91a89883ea7233d5059df89d72ff315b2ba998a78d63ed879aff3e14232efd2",
+   "block": 231501832
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x38a5daafc601c03ccbca195c1b8455474bb2060c6c857caaac450a1a49d0236e",
+   "block": 231501833
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x7bd6f86e8e6cbe89b80ae4decc47309bb4b88a9a6d52284df495337629fe8dc2",
+   "block": 231501835
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xea80304c5b1f5ab034ea5b7d0a0db89f22c9c1bb29c1cabf1135660259120784",
+   "block": 231501835
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x72a157180bfe4fd481a663f7f96d95288a4aa6644b68d7c3183e1abc248fa6ce",
+   "block": 231501835
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x9793e75712a80fd64ef732d386deb3bb99f055faaf1ac693b9eedb0a5d34d843",
+   "block": 231501837
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x658dce8e5bcb07cceb0f2a5f3002376821e4b121a45f9872b4df700def9fff03",
+   "block": 231501838
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xd10733049de3ebe16077022903a95de032b68c196a9cedd536dde8dba11fc33e",
+   "block": 231501840
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xde5f1efc20a7665f4f35c14976b3f90ec5796868cd59909e6bd6b85e6d46d1d6",
+   "block": 231501840
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x7151d26c46322555e424096d190adb86de2c3a1ab0fac2f33619b2315ba32a8b",
+   "block": 231501840
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xb32003494e7f36f771bf14f60b79d3c2b4946c7b7d775a6d2548617147658cbc",
+   "block": 231501845
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x372e53608c161cb87bb2cdc56df9e8c96f3678fcce950282a7de69bcc924a45c",
+   "block": 231501846
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x4ad1fa81d05b5ac67ca84c0b2d8d0c7ee04d3e7841a5a50be1429c06f9deae39",
+   "block": 231501848
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xfbb600b0c4c637e4fe7704823599f2754632462971e0ddecd53aa114799c05c9",
+   "block": 231501848
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x6e6e1edf286ffdbacc9b462a9e6a48807bae4369af16379c153ec777066235ef",
+   "block": 231501848
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xdac7b04758e99c46c295a2a7b5633f21c5c036954d942d231d23d2ca8da27926",
+   "block": 231502208
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x7d2a27c7e4cc675038f6032a57b89f70eee78bd37ba760bb58077f9113c4dacc",
+   "block": 231502209
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xbdce856d0f19b828969ab768c3a42bf6436c5b637521e07fd0c9aa91e8f83eb8",
+   "block": 231502211
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x44e52bdc88e01a47e5cc5238121cb65fcc01959c0a5a5992d6057e5e70bda3c7",
+   "block": 231502211
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x0ffa3ca8a48aae6b2ab613376b58023ad4f2276c9f6dad1e925a03a0ff5ff73b",
+   "block": 231502211
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xa6df08d1c52eb11233cd1c4069459be5637109502f9a1515242f82a673575067",
+   "block": 231502216
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x591d7169e5c95f08d73421e1c774a1cc9d8ce850421a615868e1d528c90e46bb",
+   "block": 231502217
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xb5094380acb274c48bb3bb20510f12e48edcbde3dbe4e7bb4b69af0260b67783",
+   "block": 231502219
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x0cfbd67f3f2d9185979d8bb4eb6495242cfdeef1c8795e1b86c3eb0f9070c8c0",
+   "block": 231502219
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xe97e927c62e54127cd291b3608d850edef4d1d142ea624bfcaaea7c27f54a321",
+   "block": 231502219
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x67e7a015ed3dba445fd2afc026c8d454b18212f6b9b6c05c150691767a38c5eb",
+   "block": 231502258
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xf7f435cebac2357ab79c0af4648b1e4d77d2240c5121db15020283390c80a0b4",
+   "block": 231502259
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x521c36fc256d2def60a7be250fc9d31cd200d5c676b9c7805126064a52d66d06",
+   "block": 231502261
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x63b9270c9b20164b2b41a588b77f07fae01eda7149123fdc3c902a0e979499aa",
+   "block": 231502261
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x5ab773796f841ae7d3baf7beae08d8803c3d340602d2a93fef84f94e1d94b2bb",
+   "block": 231502261
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x1096e8ecab744882b455ca2be2b6d252a63e72cca2ee1494bcb06afe1a085595",
+   "block": 231502476
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xb9f8a784247c200d7c5a0689e50b9793995688215055fbbbaea3f187b633bd17",
+   "block": 231502477
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x7dcd42c40fee186f728449940f39dd118239538b00cff9bcb5d8e708ee89aff5",
+   "block": 231502479
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x8d78045a61441d43e3912531b191373b0904dfa681b43c91d95351fe7fca9093",
+   "block": 231502479
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x1812b0a403982db44017a3ddbd2d5996f4bcb78fb7943445cacd104e5f74c228",
+   "block": 231502479
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x81c0638efc098f9962d0b1dfd98235a9e93c329f3331d5a0a14c999183911b11",
+   "block": 231502481
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xa2e205c7d2c81194b57529e0e1d38a6f38d839524bb7dd0b1682449a70fd1cc9",
+   "block": 231502482
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xf83fe23b7296a68b66179636f6df000817fa3aca571b374f997db93722599831",
+   "block": 231502484
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x788554709b65a4e2798927a9e24d2b9a86f18f0debb04987ddc5bb9b46c90b53",
+   "block": 231502484
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xa9748b294e69f6c419f47ebd07e4ffde4b2a8ccaf2e0c3b110f6c01d33a0e6b0",
+   "block": 231502484
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xdcb3315c576f6270d79f63ca6ce1889b5e42f88a08057a6d0929a50312725d6b",
+   "block": 231502906
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xacd1ebb52c36478b740032b571a4203300d0ad3d704cd8ab9e869b81bb729c8b",
+   "block": 231502907
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x73d683fc52716b21eb1dd588474b416b347872b94b3d0ad171671b3487d89277",
+   "block": 231502909
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x6791a76ea8be3374e6407c3eda54e1ca60a79ff9c9838b81e9a40d1ff600129d",
+   "block": 231502909
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xb02241fa04868c1b124509d064a2958bd4f27635723757af893f4e72ee50a1c9",
+   "block": 231502909
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x208418008465e8d14bf6a8a519d7bd818b8021affc7b3b66b26fff682cc2e423",
+   "block": 231502914
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x5e49ffd4a6d14da6cf35274d9757099aba03e937723ddda445333093cb5febe0",
+   "block": 231502915
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xda6a4bcdfce566354298f0e7c9f69f7a33a4a6a77f0a9122e139c6444e46576b",
+   "block": 231502917
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x1d2176c3cb8eed1c96eb09ffed67c827025a20f9981a3d5a5667746d69ccd747",
+   "block": 231502917
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x53ef18439ca972222ad1912a61cc2eba67befcee43d29843ed81459b8d70891d",
+   "block": 231502917
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x67936f6a2ff05f5dd25d3e2bdcdbf41456011cc6591ada1fe45a59ec93a3653c",
+   "block": 231502956
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x605d26c05a2cc3a4fe1e592d775ebb3830b151533b2020563e51c8b733b5fb50",
+   "block": 231502957
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xe6edf8c3e424f2114aab8f6cb7d994e11771abe47f0423998a31f7cc3b616c3a",
+   "block": 231502959
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x1a79cf3e60a04fad412768699526771ffd43b6fe94ef33387f0868c4363dc938",
+   "block": 231502959
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x5f1fea21aa96a936fe22f3706d574393e712df7694069cc2d5984651a9d565b5",
+   "block": 231502959
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x01e1e85378003bdcfc0c74e63c8793b74bcfdbb4ec9d3788e4452767df48024c",
+   "block": 231503145
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x69f665779f11f4fa7e5521c482729d751785a1f0fa3b173ec09b694564895698",
+   "block": 231503146
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x9eca8aee36818d8eefede2987582ebfaa59dfb700991c982f24410069abffef8",
+   "block": 231503148
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xdb7002323a7b10ff106b15b88f45c7140de266d11f200f59b7965ef67c6bd391",
+   "block": 231503148
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xd871960caa982732f4e0bc9fa8bb20eaff7549a6e7f7c73ff01d0a834f279eea",
+   "block": 231503148
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xe03dab5b8b648f9566bce4cf17f6518f42d054273d9f6b63fbade94abe93ced5",
+   "block": 231503150
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xbde76de6699e0471597dc527346035400e9703cf3ffd4c0e4d97af6ac1a9d6f6",
+   "block": 231503151
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xae5c9eab9d3de94ecacd5ddbfbe6fdc7667560c5a47df31277fd15272bd6a2b3",
+   "block": 231503153
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x168c6dbf359d09f03d1b49fd37ab0b30e35a566cb7220b5306417298fe25b5c7",
+   "block": 231503153
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x623f6000c9066d381eb653d8279420be862d1d9ff7cc2bfb41afc69cc8708057",
+   "block": 231503153
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x5c0efbad79c70cf892441516b95e189425ea0479b3f0c22fb4985c801987aff1",
+   "block": 231503158
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x9fe2d36daba4ea3d0884332f8108d2b5fe53df3fa0bbccbe43a79cf95be69d6e",
+   "block": 231503159
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x4027cda1c8075a94965267c077900f9767ba8583ae9930fc8993b90119561ac9",
+   "block": 231503161
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x65111c91e0c374a3287da5ad08ea9af0a098a57a6d808154a723c6ff6e896cd5",
+   "block": 231503161
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x374947bcbfa48e22bd564dbfbbc5660ffdd2cae59713ec07a89e4334fe8283dc",
+   "block": 231503161
+  },
+  {
+   "fn": "createJob",
+   "hash": "0xcb1a89fb37cc86150bcee7953c57b4550656eceb23c03d3d6790e8ee7188c4fe",
+   "block": 231503162
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x24d241128225e0e911b53eff03206286ddff464700cedb28c0e79b008e2c4df5",
+   "block": 231503163
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x48a20e3d3bd005e91c9e62d8483d6890badf26104e3038e79ce332e3d63e644d",
+   "block": 231503165
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x1edc6a855b59afd2b4d3763c544c5096ec49623a0d05e912a85d14a263798394",
+   "block": 231503165
+  },
+  {
+   "fn": "deploy",
+   "hash": "0x5f1d872b11e22cf0253ea4f0bfd5d2485d03e9249de4aa33337acb829e2fc2e9",
+   "block": 231503166
+  }
+ ],
+ "wall_s": 15351.497466564178
+}

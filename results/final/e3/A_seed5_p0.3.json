@@ -1,0 +1,695 @@
+{
+ "type": "A",
+ "seed": 5,
+ "p": 0.3,
+ "contract": "0x053C8B1ABFe2c6a20DeC444CdfAD4A3E5b18cfd1",
+ "b3_contract": "0x0EFbC7B5eB76054970d23D2651A3CBc20a047B94",
+ "instances": [
+  {
+   "attack": "T1",
+   "k": "1",
+   "r": 32,
+   "pid": 6418,
+   "evidence": {
+    "a": true,
+    "b": false,
+    "s": false,
+    "c": {
+     "0.1": false,
+     "0.3": false,
+     "0.5": false,
+     "1.0": false
+    }
+   },
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "정보주체가 보관한 서명 요청이 원장에 없음 → 누락 사실 드러남(지연 길이는 증명 불가, 7.1)",
+   "latency_rounds": 18,
+   "unit_sampled": false
+  },
+  {
+   "attack": "T2a",
+   "k": "0",
+   "r": 20,
+   "pid": 12541,
+   "evidence": {
+    "a": false,
+    "b": true,
+    "s": true,
+    "c": {
+     "0.1": true,
+     "0.3": true,
+     "0.5": true,
+     "1.0": true
+    }
+   },
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "집계 수락 검사(알고리즘 2) 거절: rejected",
+   "latency_rounds": 0,
+   "unit_sampled": true
+  },
+  {
+   "attack": "T2b",
+   "k": "0",
+   "r": 38,
+   "pid": 14812,
+   "evidence": {
+    "a": false,
+    "b": false,
+    "s": false,
+    "c": {
+     "0.1": false,
+     "0.3": false,
+     "0.5": false,
+     "1.0": true
+    }
+   },
+   "detected": {
+    "B4": false,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "표본 밖(재실행 안 됨)",
+   "latency_rounds": null,
+   "unit_sampled": false
+  },
+  {
+   "attack": "T3",
+   "k": "2",
+   "r": 8,
+   "pid": 14836,
+   "evidence": {
+    "a": false,
+    "b": true,
+    "s": true,
+    "c": {
+     "0.1": false,
+     "0.3": false,
+     "0.5": true,
+     "1.0": true
+    }
+   },
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "집계 수락 검사(알고리즘 2) 거절: rejected",
+   "latency_rounds": 0,
+   "unit_sampled": false
+  },
+  {
+   "attack": "T10",
+   "k": "1",
+   "r": 14,
+   "pid": 1624,
+   "evidence": {
+    "a": false,
+    "b": false,
+    "s": true,
+    "c": {
+     "0.1": false,
+     "0.3": false,
+     "0.5": false,
+     "1.0": true
+    }
+   },
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "정보주체 자기 비소속 검증 실패 라운드 [14]",
+   "latency_rounds": 0,
+   "unit_sampled": false
+  }
+ ],
+ "false_positives": {
+  "rejected_honest": [],
+  "l1_fail_honest": [],
+  "subject_check_fail_honest": {}
+ },
+ "l1_sampled_units": 50,
+ "sampled_units_by_p": {
+  "0.1": 19,
+  "0.3": 50,
+  "0.5": 82,
+  "1.0": 150
+ },
+ "baseline_rationale": {
+  "B0": "감사 기록 없음",
+  "B1": "운영자의 동의 DB(데이터 선택 시점 판정)만 있음. 기관의 실제 입력·계산을 대조할 증거 없음",
+  "B2": "운영자가 서명한 중앙 로그(접수·모델 해시). 접수 기록 작성자가 운영자이고 입력 커밋이 없음",
+  "B3": "운영자가 원장에 기록한 철회 접수·완료·모델 해시. 기록 작성자가 운영자이고 입력 커밋이 없음",
+  "B5": "B2 + 외부 증인 공동 서명. 증인은 운영자가 제출한 기록에만 서명"
+ },
+ "t1_signed_request": {
+  "sender": "0xe2fce777788CE7d0c9ABD7d5A5F01B2a7898349e",
+  "signed_at": 1793119569.138541,
+  "round": 32
+ },
+ "withdrawal_count_on_chain": 4,
+ "tx_total": 667,
+ "fee_kaia": 1.1570157225,
+ "key_txs": [
+  {
+   "fn": "deploy:ConsentLedger",
+   "hash": "0xc798dd62ae8a8416adec9cae9b449e582823b203b0354d624d1b806f67833a1f",
+   "block": null
+  },
+  {
+   "fn": "deploy:CompletionRecord",
+   "hash": "0x6aae50adfd0034cd0e309278b2cc5792af05dd7d997b505b9c8d7cf38a232399",
+   "block": null
+  },
+  {
+   "fn": "commitTrainingConfig",
+   "hash": "0xa1ce08f8f641fc4f1e0269bed17dfadf5ac1c92af493695671573e615ad85d9a",
+   "block": 231475458
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xd80907fb19fcc6e8b1637ca2632447c09b55f957347e927dd6fa2a399ff341ba",
+   "block": 231475465
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xdae17acc2233974c1d911c392b8240c2db7f86c7035bcc8a85b5096f5899ef5d",
+   "block": 231475471
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x818b128719144633ae9685b3b2941c9dc03fef53c6cbe4e190b6e7252034777e",
+   "block": 231475477
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xafb18818efb26d0c4d78f7acfe8d923b39125074ae38b815a896425b55fec8ae",
+   "block": 231475484
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x6f317f8462f037b5ca6f19b4e6ab41315f947f45dc7ece8aaaf07ea0382a4160",
+   "block": 231475491
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x28e6741a88272452d79b34695ba12c25193bff7827e9e271fadd15df782c77d9",
+   "block": 231475497
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xe1faae0d9e53608f95ab8e02bbbf8f7010847101d0008e8c18a6b26f6ac293de",
+   "block": 231475504
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xdd4c90f10ecdd918271dc022eabd160b172ad38ce574bf778521db0c2beeab07",
+   "block": 231475513
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xcb132e2b62a62f0fb60d95741e15c2f794cbca5ae2907b8b38075d92ccdbfefc",
+   "block": 231475520
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x742c9b9382cc3cc133c3437352e3f3372358058778b6379c30248231f9a7318b",
+   "block": 231475528
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x2a47c62d33512f54ceb6bdc6fd5de52f4db2858ae673b18cbc248a8cf39f5108",
+   "block": 231475535
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x19bba7c5b5ba9c603b5e79f534f3c08a38d33cdeca362884f68f0731d9b40836",
+   "block": 231475542
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x718e8cfc965c0453e7550a85e2db8d549f301d737532f267d1174cf082bde189",
+   "block": 231475548
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x8f64b05610dddf899e4f62e8ee659c03c411aee3e606de78ef9e4be561ee3790",
+   "block": 231475557
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xb6dc58e64afb8beec9d5b7e47d21a732ac72eeb94c428e929f172d7906710fae",
+   "block": 231475564
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x887c05d914e7422a40a3b0d99c7a763589eb532164684757cedf51348a365158",
+   "block": 231475570
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x70cb06eb8f3bee6ebf272cb5f381bd38fb5f9a24a21063743a78c609d8017819",
+   "block": 231475577
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x89f89f4453d8d9e2dce22120cc191b21f7cba61cb8eeaa5077f54d6fceb3ecb9",
+   "block": 231475584
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xa583e94e3dff0300f4aa17d22a76fc21d77b50ce7874d098e998f8747a9c771f",
+   "block": 231475591
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xf85a0903cd697888cfd4488a6333dbe158df0de3405fe6c4027fcf8c4f1901f5",
+   "block": 231475598
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x9a595d6fd2fb3739a3bd431ae45ad454976229b95758d7d5fdd284a3a515c26c",
+   "block": 231475605
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x2870a22afeb99181cbd084254f38cb4f7e2303416637b258ee03222506ee19a5",
+   "block": 231475611
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xd839c892fc0b37901d1f2215b223e592f9d3f05cca29586ac60766cfeba2ba4c",
+   "block": 231475618
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x38741d89d55470b48a41c4930559d4233cef64430cb539da0791b5f65507cc51",
+   "block": 231475624
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x2c97dd488d06605091b6f6daec20ca24191cd7f79e66757ddc4166e11b87e986",
+   "block": 231475630
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x0131c80ca51ef86959e86c6a72563580ae6e6aad0680ddb23b7d2cddfaae633e",
+   "block": 231475637
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xd66a04298b88522d2dbca5e604324c9b50763782f179b3744df0c0190e631007",
+   "block": 231475644
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x07d4ceaa88ca08649f89ffa25796f4d16836b85039f1e768306559ff6140b569",
+   "block": 231475652
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xe24bbbd010ef87fc1480c1747565c6ce18f678d3055f2fd885954c66e42a9fe4",
+   "block": 231475658
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x0a3a3c95fa50501af5b2e05fcb9ecca67402688086343288e243ec2b8e22caab",
+   "block": 231475665
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xed9841ce8d585b3072c0049fe88e14430311125bb6c2b43dcde7e093e52f3df1",
+   "block": 231475671
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xcf368ebd851f3174dc68972d14615a16b33d454a511440bdf0b7b0a8eee73663",
+   "block": 231475677
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x78c336d1f40ee4db1b425a21f228e721df6b7ad47c261d17ed99aa947426e71c",
+   "block": 231475683
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x3b9ae8407d43d393a690dbc67e37cccfef1e64cc06b1344f66be32088d483278",
+   "block": 231475690
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xfd865d7242c365d0c3eec2b01258b1a4c680aff02a472631e7900b09a7657f97",
+   "block": 231475697
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x03b151d32bed55b1566ce8cec926f4118844822503fd13c8769b0a0307a9d13f",
+   "block": 231475703
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x65df22461bcd641e8b5ff9519613960ef759f7063a99516bccc0e723a4f94acc",
+   "block": 231475711
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x7ba23943d93ddc3bb4a391e4b34d19a4ffe241d7eedcd17f2eb413980a547ee6",
+   "block": 231475719
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x1d2cc55516a881881e0a2865fdb0268679cd54572e28cb2d62d2f84cffa840b9",
+   "block": 231475725
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xa23409aacce853c9b7533547665d95ddf1e3c2f15da5cd7fe13bd9f44a325b20",
+   "block": 231475731
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xb80b4dce4293d117b1afb75aaf2706537a0c9613ecd6b3722b722fd45a80db73",
+   "block": 231475737
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x7edfedb75f1764a675f095fda574c3c964127b4144a6f845cf1d9dcaa605b512",
+   "block": 231475743
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x34b8ee73cb7643694f933299581181db6924b792290da69ceddb4cfe3d21687c",
+   "block": 231475749
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xbbd32d2a2a2354bdf5bdb6bbea577b62d04321db5660307df6d28b5b50b20094",
+   "block": 231475755
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x254abbd4e429bd3c8f675d632666fbdb26b9e43ec4491ecddb2735a912b4e255",
+   "block": 231475761
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x093916eb07015ef96e89900083ab02bf7c9e17b76fafa7d985e060f1be0a4a10",
+   "block": 231475767
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x36c93e8e7edaa7196d6ac2193012975bae3ccad2724d143c0bfa41d367fa8d7a",
+   "block": 231475774
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xe5e483aed21bbc9078fad76d640f3e566a3c107f95d12f3cd629880e4a00497f",
+   "block": 231475780
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x7b81765e563facf2e66e18829976bc3908b4feb002ab4e7a93136fc6a0f834de",
+   "block": 231475787
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xa67573228dd659819e7e2ec564da0aaa39ec20594f80bc4c534215d5694832e0",
+   "block": 231475794
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x71f388170a283e73338c68a9304aeebf868ae6a6995ed13af75fd203acef1f67",
+   "block": 231475857
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x7396091f46d1fcb7d79a05bc5f773f524000a87e0d255c68fe9597ace5b1578d",
+   "block": 231475857
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x2bda2dee0cfa2627ef29b82e990254a24986f23152c3c1cf445db1447a9d1ce1",
+   "block": 231475857
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x904bd2da5e7ee8f789f68ab824f39b32200b9e16b271f31f313e6ab5eb59ecc1",
+   "block": 231475857
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x605fb4bda69fb1a5ac37edb900124c9c2e88ffa2cdc375a4f12cff7c80e7a04b",
+   "block": 231475857
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x487a7e2c1fc96294c7263e4fb569f7638a3b94d05c29054506e7915218f37eb1",
+   "block": 231475857
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xc3a6bcf73ec090aaf4cf40c0ad9f3efe5512082d817813c153b813f745f1053e",
+   "block": 231475857
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x59eaa667867c12590f6aec40c993d4e98ce1241dc20f714bbf93996af825dc70",
+   "block": 231475857
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xdc7787a331ce4265dbd03590e1f26a4546e019bd89df9c11b1f1ad351429a0af",
+   "block": 231475857
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xef7823eb7211ea880dd84662f4e4f0a75da1981eb0f2cc79b224619dd4942dfe",
+   "block": 231475857
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x7c807a651d17884b1e4be698ea08900137e685a92d978157353c1b85508fb6af",
+   "block": 231475857
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xb091ff80ec74bac17700b8beca9e87496b3c11f6a78d2ecfd362e63d769d4129",
+   "block": 231475857
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x96d620a8629bd7501c818662b327f7b07c40c6cee0437eaa6cbe5c69048bfcf5",
+   "block": 231475857
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x1889590cc3e0f2d488ca669fb29c238b46f3d9359623b61f50d4839791dc7b94",
+   "block": 231475857
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x65d6bd9f9588a2b231db7060d9e42d6eb40b9f1cab33908e648dd92e72fb9215",
+   "block": 231475857
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xde5746bfe62795bfb32e53002e54b7c23477ce204e6789f30dc110209f696954",
+   "block": 231475857
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xd5749eea3b7cfbd160c2dd950a466d64f57d706691c3a9b92df9c14ae6ad115a",
+   "block": 231475857
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xcb6826df708cd069df289417db2f260afccd534558e49d5e8720d51bcf7f4d59",
+   "block": 231475857
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x046a4bc420ec51821754ca2378b41b1417f12b275b7598b5c3bf7144ac99baa0",
+   "block": 231475857
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x7af3a1d886480d29a9d894be94afcfd1145c301be2ca3448cee5f1cbe7286fcc",
+   "block": 231475857
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x1a4af756dfbce62ae883be4d6a9436d3d8627926ed0741c80fcdb1b0acc22c02",
+   "block": 231475857
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x1ce35473fce957a64521eff2c76191e0719887b3fe9d298f2e0bc1bb76909c9a",
+   "block": 231475857
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x8885464eda8bc8728a41a15323016b57deb29b0f5965045402b5c057c7c1b963",
+   "block": 231475857
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x3327ae3feb13473ccde93b7e4f52eb98645b58df458d6189b376bc6002aeb24b",
+   "block": 231475858
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x9beb977e0fbc832c6c9131e2846ae6426008d9fd274db69c1bd5f6879297676d",
+   "block": 231475858
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xd2bdd7e29b21801fd012c9ed4173d37c4c38e1b2a45fcd68486fe1dbb625ba96",
+   "block": 231475858
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xb09c916026e3929b5fa27432ad66b4b33ea4a9424939105bfdde7b2e95f07864",
+   "block": 231475858
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x52e6697cba7beccd3d5a972f4327f072c9e858650350f6ae2ba243c21039ea1b",
+   "block": 231475858
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xf5028e3f50dbd7206c862cb03dfbe5c782cdf0ffc78e9d82e1798690c05fc309",
+   "block": 231475858
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xccbc1e9c43ad561f321c5662a64558cfab53bd8023f230d1b09f754fdec12342",
+   "block": 231475858
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x146bb7002d78e8e39a75989fb04590be7654a634b3d5220c39720207e43bb1dd",
+   "block": 231475858
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xe8e63b42dc6a220bb51446eb94cc89c2551c50cda9589019e1863bd36ce7c6ad",
+   "block": 231475858
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x7d0a636f891bc1faedefbb447a942844acf24f7550a09291305e27068c9e1750",
+   "block": 231475858
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x0e9d91b9bdb73cbba0f0915c5e7520f531f30bac1b99382053e77ed21bd4bc8c",
+   "block": 231475858
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xb416e81b5d3feaa9dbf8220a2251c3f01ad38cab26d665e53032b4698f8b6d61",
+   "block": 231475858
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x9e2ce7ddd1619036e23b76c0d5565b892a9ed8b72906cca161f4fc3aedb3f612",
+   "block": 231475858
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x5e7ce6c4f78ef41daf2853134533bb3a2d5242a3dd92225fdbfef65775b3d1ea",
+   "block": 231475858
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xe1fa308e394a2169963c9a6cebda3c21e0783418e387c0a84208f0ee17434ac0",
+   "block": 231475858
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x314c293200fdc06ddc77e22b2662402bf52ff193b71b754a8c7a993e975d8b2c",
+   "block": 231475858
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xdc9f9b9f9889386681847b74a77aac638eec61d0ff63e496f08bb4b5701bd4f7",
+   "block": 231475858
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x414e4bdafd0563248244d09b2abe711031d657b2a0527f2fd7cd8dc68e9ce1c1",
+   "block": 231475858
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x56654e7df3755d3f923f8603877dac1e83ff61e06101a9a00ed3c5843cc0c889",
+   "block": 231475858
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xe188665dc5d20731258b9897855a0b2b39d3d42ed6fef69ec3da279b624ce4d6",
+   "block": 231475858
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xb86bbef378595cd0329662884a209d0eb25616bd2615b65ae1be2c910e1a5444",
+   "block": 231475858
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xa33b0feca686de27003dc57ad0b6b9045caff766d98cd61e12745665d3fae615",
+   "block": 231475858
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x17f071c3468d9825e4e172026b4a61e39fecab9764f711ff5df87592f7f3556c",
+   "block": 231475858
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x2881cafdec8efe2f8d6c2b7741c7ff13fc21d1a0a982b9101184e18c1c80cbc7",
+   "block": 231475858
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x044868eb64b64d5619c1d4ce2dd39cc0b95a22a8e903719ea4663a0e8c54ebb1",
+   "block": 231475858
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x6fb648d25da45731d428899d6e790f3280b3c1534f715d0f16361e63b830be2b",
+   "block": 231475858
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xa9b8c49c891f61660f4e964a0b017bb7ebd354c69959ac808d2888f44db8f795",
+   "block": 231475858
+  }
+ ],
+ "train_wall_s": 339.0567684173584,
+ "final_hash": "910d70922c6cc5c35cd05bd9d64ce93215da4e0c27737741f8d7282bef678f8d"
+}

@@ -1,0 +1,22 @@
+# E0 chain; start 2026-11-10T11:53:09+0900; git HEAD 4e23cc6; script sha256 2b7c4bd445344aa3
+seed  1 0x874F2Fa575d87e8C6bFb889E5715e2f2818DC9Ad: hOut 50, rejected 2, sampled 38 (json 38), injected among sampled 1, final==hOut50 True
+seed  2 0xF831be9774cb76ECb3e4Ac140463b01B5b2D7b2C: hOut 50, rejected 2, sampled 59 (json 59), injected among sampled 2, final==hOut50 True
+seed  3 0xB00DF621b8368c56e73F89A50dED288499d9425c: hOut 50, rejected 2, sampled 36 (json 36), injected among sampled 0, final==hOut50 True
+seed  4 0xae30E2dECDb2A548425B4850714fa38DC78adD08: hOut 50, rejected 2, sampled 51 (json 51), injected among sampled 1, final==hOut50 True
+seed  5 0x053C8B1ABFe2c6a20DeC444CdfAD4A3E5b18cfd1: hOut 50, rejected 2, sampled 50 (json 50), injected among sampled 1, final==hOut50 True
+seed  6 0x18F4AA04486460e6A3D1d866600e5369c810eD39: hOut 50, rejected 2, sampled 52 (json 52), injected among sampled 2, final==hOut50 True
+seed  7 0x2E08F8669410EA4e21Fb2f6AfceCC13eE755d07D: hOut 50, rejected 2, sampled 41 (json 41), injected among sampled 1, final==hOut50 True
+seed  8 0x6bE2896FEB4b9D37a111D06a31a96e5d94264baB: hOut 50, rejected 2, sampled 54 (json 54), injected among sampled 1, final==hOut50 True
+seed  9 0x3573cFc20a3Fad8D7A6b7570ad00A4B19805f3ED: hOut 50, rejected 2, sampled 43 (json 43), injected among sampled 0, final==hOut50 True
+seed 10 0xC85a5fb4EE7de3Ff9f2B40d6406Da40539710C18: hOut 50, rejected 2, sampled 42 (json 42), injected among sampled 2, final==hOut50 True
+seed 11 0x4714bE6B06a452C6c49367DA4A294B443AcA86Fe: hOut 50, rejected 2, sampled 48 (json 48), injected among sampled 1, final==hOut50 True
+seed 12 0x183BbB068D5FA34cf15c9125302C404833920249: hOut 50, rejected 2, sampled 38 (json 38), injected among sampled 0, final==hOut50 True
+seed 13 0x9964554EAb9516c599A9E82162a7d03Ec9A11b39: hOut 50, rejected 2, sampled 37 (json 37), injected among sampled 2, final==hOut50 True
+seed 14 0x005B7D1E538E61C386aca4E4e66Fd3FB682d09d0: hOut 50, rejected 2, sampled 51 (json 51), injected among sampled 1, final==hOut50 True
+seed 15 0x0DCd758174248Ac6D221b78C9302167eb9e65F2b: hOut 50, rejected 2, sampled 33 (json 33), injected among sampled 0, final==hOut50 True
+seed 16 0x439eB7509beE20E7A81c2976A4b1e001fb10321c: hOut 50, rejected 2, sampled 41 (json 41), injected among sampled 1, final==hOut50 True
+seed 17 0xC4326a8DC2f8BAdfaCE13d8A7CF3671eaf8142D1: hOut 50, rejected 2, sampled 52 (json 52), injected among sampled 2, final==hOut50 True
+seed 18 0x3C7197fcFDAF3a98b5D955C05db6B3e18b607878: hOut 50, rejected 2, sampled 43 (json 43), injected among sampled 1, final==hOut50 True
+seed 19 0xB47145FE30a498702b8e6f973A3Cc6c4cbB5b387: hOut 50, rejected 2, sampled 39 (json 39), injected among sampled 0, final==hOut50 True
+seed 20 0xb95733f7ea147094e8DbE7db3052Ef6197795b79: hOut 50, rejected 2, sampled 51 (json 51), injected among sampled 3, final==hOut50 True
+total sampled 899 (json 899)

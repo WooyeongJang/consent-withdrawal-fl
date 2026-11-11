@@ -1,0 +1,13 @@
+# Host-side Python (3.12.3) for data preparation, aggregation, tables and figures.
+# Versions are those of the environment that produced the paper's results.
+# Training, unlearning and auditing run inside the pinned NGC container (tools/toolchain.json), not here.
+numpy==2.5.4
+scipy==1.18.1
+pandas==3.1.0
+wfdb==4.3.1
+matplotlib==3.11.2
+# Optional: fast PTB-XL download from the AWS mirror s3://physionet-open
+awscli==1.46.2
+
+# Contract unit tests: see requirements-test.txt (pinned, separate environment).
+# The ledger service (ledger/requirements.txt) uses web3==6.3.0 and web3py-ext==2.1.0 in its own container.

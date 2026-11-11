@@ -1,0 +1,78 @@
+
+=============
+== PyTorch ==
+=============
+
+NVIDIA Release 26.08 (build 406036885)
+PyTorch Version 2.14.0a0+4fdf77b
+Container image Copyright (c) 2026, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+Copyright (c) 2014-2024 Facebook Inc.
+Copyright (c) 2011-2014 Idiap Research Institute (Ronan Collobert)
+Copyright (c) 2012-2014 Deepmind Technologies    (Koray Kavukcuoglu)
+Copyright (c) 2011-2012 NEC Laboratories America (Koray Kavukcuoglu)
+Copyright (c) 2011-2013 NYU                      (Clement Farabet)
+Copyright (c) 2006-2010 NEC Laboratories America (Ronan Collobert, Leon Bottou, Iain Melvin, Jason Weston)
+Copyright (c) 2006      Idiap Research Institute (Samy Bengio)
+Copyright (c) 2001-2004 Idiap Research Institute (Ronan Collobert, Samy Bengio, Johnny Mariethoz)
+Copyright (c) 2015      Google Inc.
+Copyright (c) 2015      Yangqing Jia
+Copyright (c) 2013-2016 The Caffe contributors
+All rights reserved.
+
+Various files include modifications (c) NVIDIA CORPORATION & AFFILIATES.  All rights reserved.
+
+GOVERNING TERMS: The software and materials are governed by the NVIDIA Software License Agreement
+(found at https://www.nvidia.com/en-us/agreements/enterprise-software/nvidia-software-license-agreement/)
+and the Product-Specific Terms for NVIDIA AI Products
+(found at https://www.nvidia.com/en-us/agreements/enterprise-software/product-specific-terms-for-ai-products/).
+
+NOTE: CUDA Forward Compatibility mode ENABLED.
+  Using CUDA 13.4 driver version 615.65.02 with kernel driver version 580.173.02.
+  See https://docs.nvidia.com/deploy/cuda-compatibility/ for details.
+
+[mid] shadow 1/16
+[mid] shadow 2/16
+[mid] shadow 3/16
+[mid] shadow 4/16
+[mid] shadow 5/16
+[mid] shadow 6/16
+[mid] shadow 7/16
+[mid] shadow 8/16
+[mid] shadow 9/16
+[mid] shadow 10/16
+[mid] shadow 11/16
+[mid] shadow 12/16
+[mid] shadow 13/16
+[mid] shadow 14/16
+[mid] shadow 15/16
+[mid] shadow 16/16
+[mid] P1_mid: online AUC 0.5132 [0.4863, 0.5394] TPR@1% 0.017 | offline 0.5165
+[mid] U0_s1: online AUC 0.4820 [0.4536, 0.5082] TPR@1% 0.010 | offline 0.5030
+[mid] U0_s2: online AUC 0.5016 [0.4727, 0.5287] TPR@1% 0.026 | offline 0.4940
+[mid] U0_s3: online AUC 0.4916 [0.4647, 0.5184] TPR@1% 0.013 | offline 0.4913
+[mid] U0_s4: online AUC 0.4779 [0.4492, 0.5047] TPR@1% 0.011 | offline 0.5216
+[mid] U0_s5: online AUC 0.4865 [0.4606, 0.5118] TPR@1% 0.026 | offline 0.5004
+[mid] shadow LOO AUC mean 0.5040
+[late] shadow 1/16
+[late] shadow 2/16
+[late] shadow 3/16
+[late] shadow 4/16
+[late] shadow 5/16
+[late] shadow 6/16
+[late] shadow 7/16
+[late] shadow 8/16
+[late] shadow 9/16
+[late] shadow 10/16
+[late] shadow 11/16
+[late] shadow 12/16
+[late] shadow 13/16
+[late] shadow 14/16
+[late] shadow 15/16
+[late] shadow 16/16
+[late] P1_late: online AUC 0.5355 [0.5073, 0.5634] TPR@1% 0.011 | offline 0.5770
+[late] U0_s1: online AUC 0.4560 [0.4294, 0.4835] TPR@1% 0.010 | offline 0.4972
+[late] U0_s2: online AUC 0.4937 [0.4657, 0.5221] TPR@1% 0.025 | offline 0.4873
+[late] U0_s3: online AUC 0.4849 [0.4593, 0.5131] TPR@1% 0.007 | offline 0.4868
+[late] U0_s4: online AUC 0.4931 [0.4658, 0.5202] TPR@1% 0.018 | offline 0.5140
+[late] U0_s5: online AUC 0.5003 [0.4721, 0.5276] TPR@1% 0.019 | offline 0.4952
+[late] shadow LOO AUC mean 0.5409

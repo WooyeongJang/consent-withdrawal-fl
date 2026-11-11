@@ -1,0 +1,15 @@
+run: 2026-11-10T09:27:38+09:00 HEAD 5d4f84a sha256 39a47c9eeeeb3946
+comparisons 304 tests {'paired_t': 293, 'wilcoxon': 11, None: 4} flips {'all_paired_t': 0, 'all_wilcoxon': 11} among reported claims {'all_paired_t': 0, 'all_wilcoxon': 0}
+  wilcoxon-only flip: E2-early P2:lira 0.0448 -> 0.1172
+  wilcoxon-only flip: E2-early U2:lira 0.019 -> 0.1172
+  wilcoxon-only flip: E2-inst2 P1:test 0.0337 -> 0.0586
+  wilcoxon-only flip: E2-inst2 U3:lira 0.0358 -> 0.0977
+  wilcoxon-only flip: E2-latejoin P1:test 0.0438 -> 0.082
+  wilcoxon-only flip: E2-latejoin U4:test 0.0377 -> 0.082
+  wilcoxon-only flip: E2-rate10-mid P1:test 0.0286 -> 0.0547
+  wilcoxon-only flip: E2-rate10-mid U3-orig:lira 0.0286 -> 0.0586
+  wilcoxon-only flip: E2-rate20-early P2:lira 0.0149 -> 0.0645
+  wilcoxon-only flip: E2-rate20-early U2:lira 0.0369 -> 0.0977
+  wilcoxon-only flip: E2-rate20-mid U4:lira 0.0583 -> 0.041
+L3 recomputed {'U0': 145, 'U1': 77, 'U2': 66, 'U3': 68, 'U4': 3, 'U4s': 11} P1 exceeds 94
+bootstrap CI {'n_intervals': 1730, 'asymmetry_median': 0.001101043246088812, 'asymmetry_max': 0.010854638029330455, 'se_over_hanley_mcneil': {'median': 1.001195024252342, 'min': 0.9104476417938816, 'max': 1.0975500306369894}}

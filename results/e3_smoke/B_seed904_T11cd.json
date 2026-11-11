@@ -1,0 +1,312 @@
+{
+ "type": "B",
+ "seed": 904,
+ "contract": "0x8f3986495FaF6e1813ecb5A02cB2909e02Cc30D7",
+ "b3_contract": "0x9c05DeCD0EC10c0DCcf7004674587bAB11FDFA68",
+ "cohort": 74,
+ "orig_identical_to_offline_late": null,
+ "I2": {
+  "final_deployable": false,
+  "round1_deployable": false
+ },
+ "training_L1": {
+  "sampled": 10,
+  "fail": 0
+ },
+ "instances": [
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "322b9ef45e9755c0b6d0bfa1d588448614e1576efa6435b95bf1bbf37fa2a429",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": null,
+    "diff": null,
+    "ci90": null
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "c",
+   "gamma": 0.001,
+   "round_dev": {
+    "seed_rule": {
+     "3": 0.3672821442495453,
+     "4": 0.33329202759833837,
+     "5": 0.2634836828956188,
+     "6": 0.20193577434267304,
+     "7": 0.1476353095836703
+    },
+    "claimed_batch": {
+     "3": 0.31248257303457005,
+     "4": 0.20525632538496474,
+     "5": 0.17320332382367526,
+     "6": 0.1045035778753871,
+     "7": 0.05168831567091204
+    }
+   },
+   "rel_dist_to_U0": 0.7664209279034283,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": true,
+    "tolerance_step_seed_rule_0": true,
+    "tolerance_step_seed_rule_1.77177e-06": true,
+    "tolerance_step_seed_rule_1e-05": true,
+    "tolerance_step_seed_rule_0.0001": true,
+    "tolerance_step_seed_rule_0.001": true,
+    "tolerance_step_seed_rule_0.01": true,
+    "tolerance_step_claimed_batch_0": true,
+    "tolerance_step_claimed_batch_1.77177e-06": true,
+    "tolerance_step_claimed_batch_1e-05": true,
+    "tolerance_step_claimed_batch_0.0001": true,
+    "tolerance_step_claimed_batch_0.001": true,
+    "tolerance_step_claimed_batch_0.01": true
+   }
+  },
+  {
+   "attack": "T11",
+   "method": "U0",
+   "h_out": "6251134df83aa127ff6b61870fba7e4a4208d414fdb4eb1169173486169308e1",
+   "L1": false,
+   "L2": true,
+   "L3": {
+    "result": "통과",
+    "auc": null,
+    "diff": null,
+    "ci90": null
+   },
+   "lineage_duplicate": false,
+   "deployable": false,
+   "detected": {
+    "B4": true,
+    "B0": false,
+    "B1": false,
+    "B2": false,
+    "B3": false,
+    "B5": false
+   },
+   "B4_evidence": "L1 비트 단위 재실행 불일치(선언한 U0 계산과 다름)",
+   "variant": "d",
+   "round_dev": {
+    "seed_rule": {
+     "1": 0.3717324571333293,
+     "2": 0.4636186439084674,
+     "4": 0.32683339918514887,
+     "6": 0.21921854788434816,
+     "7": 0.1492615860795491
+    },
+    "claimed_batch": {
+     "1": 0.0,
+     "2": 0.0,
+     "4": 0.0,
+     "6": 0.0,
+     "7": 0.0
+    }
+   },
+   "same_label_neighbors": 77,
+   "rel_dist_to_U0": 0.9768856648151656,
+   "eps_end": 0.6529203707737139,
+   "counterfactual": {
+    "L3_only": false,
+    "tolerance_end": true,
+    "tolerance_step_seed_rule_0": true,
+    "tolerance_step_seed_rule_1.77177e-06": true,
+    "tolerance_step_seed_rule_1e-05": true,
+    "tolerance_step_seed_rule_0.0001": true,
+    "tolerance_step_seed_rule_0.001": true,
+    "tolerance_step_seed_rule_0.01": true,
+    "tolerance_step_claimed_batch_0": false,
+    "tolerance_step_claimed_batch_1.77177e-06": false,
+    "tolerance_step_claimed_batch_1e-05": false,
+    "tolerance_step_claimed_batch_0.0001": false,
+    "tolerance_step_claimed_batch_0.001": false,
+    "tolerance_step_claimed_batch_0.01": false
+   }
+  },
+  {
+   "attack": "honest",
+   "method": "U0",
+   "h_out": "36cbf064f2ba2eab07dc1cee3a2a83d5962844ddbc2377b2909b60c73afa73e4",
+   "L1": true,
+   "L2": true,
+   "L3": null,
+   "lineage_duplicate": false,
+   "deployable": true,
+   "detected": {
+    "B4": null
+   },
+   "B4_evidence": "정직한 U0"
+  }
+ ],
+ "false_positives": {
+  "honest_job_deployable": true,
+  "honest_device_accepts": true,
+  "training_L1_fail": 0
+ },
+ "tx_total": 440,
+ "fee_kaia": 0.76919227,
+ "key_txs": [
+  {
+   "fn": "deploy:ConsentLedger",
+   "hash": "0x6a956a91d85cf3e0f1505c92d786d13652d7344e097b091bed1742c2486bd8ec",
+   "block": null
+  },
+  {
+   "fn": "deploy:CompletionRecord",
+   "hash": "0x099f5cbb196941f9ba2904e2f5e13b455e40daaa8df8150b656802baf6c45d0b",
+   "block": null
+  },
+  {
+   "fn": "commitTrainingConfig",
+   "hash": "0xf84fb976b7b281132138c3f5e1caf52680dc4685fe7f3c1259d3bd4b92caf05f",
+   "block": 231449414
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x5e295b3193bbaab4c76998f2ad3f2f2944c045794b1232b7099bda5f2074d79e",
+   "block": 231449420
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x751185ac5b4a4d54c27cf637b250ea0248d4ffb004a27889f11f87e086fad13a",
+   "block": 231449424
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x5757e63d55fcacaf63fa7ec7a535fa8f4139ad62eb54dca3e026d67514e64389",
+   "block": 231449429
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x4f2d01d25a3eb61411f361e4da5b4a0a8068000c7bf9127986e85145a0ae41b5",
+   "block": 231449434
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xb829a312ccb8c904d029d1453b062e1222d63ae4ea3f84d03d2a6a6e223890f5",
+   "block": 231449439
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x01a932f50af79781d0dc9c4d0f8f27d0004ec0c7800495798afc18fc5b96690e",
+   "block": 231449444
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x45e38752072be244466854609c0f175285844e081ff38454a6920b64e7ba7ed9",
+   "block": 231449449
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x419ed1b534195e2fd15da8352ce9fb67c189abd03007b24f4527a765b9e2250b",
+   "block": 231449611
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0xfa340f799013260e951f03efdb8079c76a72ddd835894cb36baf29e2f175d58f",
+   "block": 231449615
+  },
+  {
+   "fn": "sampleAudit",
+   "hash": "0x2bee38ae811a1b7029ff7b6ae36d3b119fec4fc4442d13151dc4bc381607c30c",
+   "block": 231449619
+  },
+  {
+   "fn": "revoke",
+   "hash": "0xccf22791fae3c35b5dca0f7a0e2cb7a7a491ca1d7ca25d13febcf3496e0289cb",
+   "block": 231449621
+  },
+  {
+   "fn": "approveMethod",
+   "hash": "0x7df308627d3de7decb991a913b87d730364552d65f73dd2d071e17104bab6c94",
+   "block": 231449680
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x8381fead50ba3964d0e1b7d0a94ae7b485761608959d7fa3795f46c0dbfefa65",
+   "block": 231449681
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0x753f9e8ec0097d19b30401076ecb09807289c66d9ba818190620bcb945a1de1d",
+   "block": 231449682
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xc673ccc9bf78d95edcffe47c4dbf25e1aab84339cd81f0eeb1566ddc973c7a04",
+   "block": 231449684
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xb8f56cf7fc467f443d9538977c3d66a6b4472b5fdcdf16550d54ea75cc19ac61",
+   "block": 231449684
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xcee8772c37f4cd5918195ecee2aa6f478414cddc3f74e1392bb7d2052d170ae6",
+   "block": 231449684
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x2b35f8237cbfa48d825b862dfecf8135293d6ab383c29b43c32744a1065e4763",
+   "block": 231449720
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xdaba30a5789e70a294069767f0cfc9fda6326ccddaebd47142ddac67d1a4746e",
+   "block": 231449721
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xf4b9d6602360a22755d82e6555d3c20fd46b21bb92a70f6191e3dbd57585ad0e",
+   "block": 231449723
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x39baf8b2b2fecb987ee4c100aeb9c82506ba8dcc32719b8fa14cc7682857e15e",
+   "block": 231449723
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0x98331f8005e353cc2fd942bc87baecc41f40030e33a675abf99c8dd3c2394e5d",
+   "block": 231449723
+  },
+  {
+   "fn": "createJob",
+   "hash": "0x8a7fab7f105343bbc76354c98957f2c206f5dd1618ac38d31ef28e9e30d01ba4",
+   "block": 231449724
+  },
+  {
+   "fn": "completeJob",
+   "hash": "0xe0787b6adf5e61ab5dad12c4cf5ade67f7e1007ed3de1dc2e2c022b83873468f",
+   "block": 231449725
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xb66795e2f1c27486e48be9e8d02877e65b586ab35ca07210487aee123a2a069d",
+   "block": 231449729
+  },
+  {
+   "fn": "recordVerification",
+   "hash": "0xebb0ec5bf7a7be566d8a0b9998fc6dae96c4d46fb1ab2657c498a59be9ae79fd",
+   "block": 231449729
+  },
+  {
+   "fn": "deploy",
+   "hash": "0xe285d6125a0c6b701937c10c566c57fd5f4619a107fb54230a4a8fcf29baf1ef",
+   "block": 231449730
+  }
+ ],
+ "wall_s": 323.8712377548218
+}

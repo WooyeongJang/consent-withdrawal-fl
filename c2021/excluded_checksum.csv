@@ -1,0 +1,2 @@
+cohort,record,file,expected_sha256,served_sha256,reason
+ningbo,JS13118,training/ningbo/g3/JS13118.mat,de32699cbd677b507177b60fa06125e55a935c8ef69daa0f8e8171b06d1b6f5a,bbd5fe831ad2ce60dc62588a9f8eeccc2ea37564cf0bfb4d7a8d49c6a9eafdfd,"PhysioNet served file differs from SHA256SUMS.txt (same bytes on 2 re-downloads, 2026-10-27); 12/12 WFDB header lead checksums mismatch; excluded (user decision 2026-10-27)"

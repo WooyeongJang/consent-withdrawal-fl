@@ -1,0 +1,4219 @@
+[
+ {
+  "scenario": "during",
+  "params": {},
+  "seed": 1,
+  "contract": "0x0265A870c630085dc46Bf64Ea32C09B5ed0AFa59",
+  "rounds": 6,
+  "withdrawals": 72,
+  "updates": 18,
+  "accepted": 6,
+  "violations": 0,
+  "rejections_correct": 12,
+  "rejections_wrong": 0,
+  "race": 0,
+  "inclusion_latency_s": {
+   "mean": 0.9638425442907546,
+   "min": 0.3775012493133545,
+   "max": 1.6828320026397705,
+   "p95": 1.2068360328674317
+  },
+  "units": [
+   {
+    "k": "0",
+    "r": 1,
+    "accepted": true,
+    "tau": 1793116653,
+    "checked_version": 0,
+    "chain_version": 0,
+    "n_used": 7692,
+    "used_pids": [
+     7974,
+     9827,
+     10522,
+     16034,
+     16731,
+     18174,
+     21672,
+     21700
+    ],
+    "decide_latency_s": 0.8308017253875732
+   },
+   {
+    "k": "1",
+    "r": 1,
+    "accepted": true,
+    "tau": 1793116654,
+    "checked_version": 0,
+    "chain_version": 0,
+    "n_used": 5071,
+    "used_pids": [
+     661,
+     1109,
+     3612,
+     3759,
+     5258,
+     5390,
+     6110,
+     6461
+    ],
+    "decide_latency_s": 0.9463942050933838
+   },
+   {
+    "k": "2",
+    "r": 1,
+    "accepted": true,
+    "tau": 1793116655,
+    "checked_version": 0,
+    "chain_version": 0,
+    "n_used": 4310,
+    "used_pids": [
+     6047,
+     8736,
+     12673,
+     13644,
+     16041,
+     18233,
+     19618,
+     19837
+    ],
+    "decide_latency_s": 1.5087926387786865
+   },
+   {
+    "k": "0",
+    "r": 2,
+    "accepted": false,
+    "tau": 1793116687,
+    "checked_version": 18,
+    "chain_version": null,
+    "n_used": 7692,
+    "used_pids": [
+     7974,
+     9827,
+     10522,
+     16034,
+     16731,
+     18174,
+     21672,
+     21700
+    ],
+    "decide_latency_s": 0.8328838348388672
+   },
+   {
+    "k": "1",
+    "r": 2,
+    "accepted": false,
+    "tau": 1793116688,
+    "checked_version": 18,
+    "chain_version": null,
+    "n_used": 5071,
+    "used_pids": [
+     661,
+     1109,
+     3612,
+     3759,
+     5258,
+     5390,
+     6110,
+     6461
+    ],
+    "decide_latency_s": 0.9504697322845459
+   },
+   {
+    "k": "2",
+    "r": 2,
+    "accepted": false,
+    "tau": 1793116689,
+    "checked_version": 18,
+    "chain_version": null,
+    "n_used": 4310,
+    "used_pids": [
+     6047,
+     8736,
+     12673,
+     13644,
+     16041,
+     18233,
+     19618,
+     19837
+    ],
+    "decide_latency_s": 0.9508399963378906
+   },
+   {
+    "k": "0",
+    "r": 3,
+    "accepted": false,
+    "tau": 1793116719,
+    "checked_version": 36,
+    "chain_version": null,
+    "n_used": 7690,
+    "used_pids": [
+     7974,
+     9827,
+     16034,
+     16731,
+     21672,
+     21700
+    ],
+    "decide_latency_s": 0.826836347579956
+   },
+   {
+    "k": "1",
+    "r": 3,
+    "accepted": false,
+    "tau": 1793116720,
+    "checked_version": 36,
+    "chain_version": null,
+    "n_used": 5069,
+    "used_pids": [
+     661,
+     3759,
+     5258,
+     5390,
+     6110,
+     6461
+    ],
+    "decide_latency_s": 0.9528372287750244
+   },
+   {
+    "k": "2",
+    "r": 3,
+    "accepted": false,
+    "tau": 1793116721,
+    "checked_version": 36,
+    "chain_version": null,
+    "n_used": 4307,
+    "used_pids": [
+     8736,
+     12673,
+     16041,
+     18233,
+     19618,
+     19837
+    ],
+    "decide_latency_s": 0.9591257572174072
+   },
+   {
+    "k": "0",
+    "r": 4,
+    "accepted": false,
+    "tau": 1793116753,
+    "checked_version": 54,
+    "chain_version": null,
+    "n_used": 7688,
+    "used_pids": [
+     7974,
+     9827,
+     16731,
+     21700
+    ],
+    "decide_latency_s": 1.1734111309051514
+   },
+   {
+    "k": "1",
+    "r": 4,
+    "accepted": false,
+    "tau": 1793116754,
+    "checked_version": 54,
+    "chain_version": null,
+    "n_used": 5067,
+    "used_pids": [
+     661,
+     3759,
+     5390,
+     6110
+    ],
+    "decide_latency_s": 0.5974671840667725
+   },
+   {
+    "k": "2",
+    "r": 4,
+    "accepted": false,
+    "tau": 1793116755,
+    "checked_version": 54,
+    "chain_version": null,
+    "n_used": 4305,
+    "used_pids": [
+     12673,
+     16041,
+     18233,
+     19837
+    ],
+    "decide_latency_s": 0.9432353973388672
+   },
+   {
+    "k": "0",
+    "r": 5,
+    "accepted": false,
+    "tau": 1793116789,
+    "checked_version": 72,
+    "chain_version": null,
+    "n_used": 7686,
+    "used_pids": [
+     7974,
+     21700
+    ],
+    "decide_latency_s": 4.532549858093262
+   },
+   {
+    "k": "1",
+    "r": 5,
+    "accepted": false,
+    "tau": 1793116790,
+    "checked_version": 72,
+    "chain_version": null,
+    "n_used": 5065,
+    "used_pids": [
+     3759,
+     6110
+    ],
+    "decide_latency_s": 0.9358768463134766
+   },
+   {
+    "k": "2",
+    "r": 5,
+    "accepted": false,
+    "tau": 1793116791,
+    "checked_version": 72,
+    "chain_version": null,
+    "n_used": 4303,
+    "used_pids": [
+     18233,
+     19837
+    ],
+    "decide_latency_s": 0.8550863265991211
+   },
+   {
+    "k": "0",
+    "r": 6,
+    "accepted": true,
+    "tau": 1793116803,
+    "checked_version": 72,
+    "chain_version": 72,
+    "n_used": 7684,
+    "used_pids": [],
+    "decide_latency_s": 0.8555340766906738
+   },
+   {
+    "k": "1",
+    "r": 6,
+    "accepted": true,
+    "tau": 1793116804,
+    "checked_version": 72,
+    "chain_version": 72,
+    "n_used": 5063,
+    "used_pids": [],
+    "decide_latency_s": 0.9517984390258789
+   },
+   {
+    "k": "2",
+    "r": 6,
+    "accepted": true,
+    "tau": 1793116805,
+    "checked_version": 72,
+    "chain_version": 72,
+    "n_used": 4301,
+    "used_pids": [],
+    "decide_latency_s": 0.9456653594970703
+   }
+  ],
+  "withdrawal_events": [
+   {
+    "pid": 10522,
+    "k": "0",
+    "tEff": 1793116659,
+    "round": 2,
+    "when": "after_commit",
+    "inclusion_s": 0.9646139144897461,
+    "block": 231472761
+   },
+   {
+    "pid": 18174,
+    "k": "0",
+    "tEff": 1793116660,
+    "round": 2,
+    "when": "after_commit",
+    "inclusion_s": 0.9765894412994385,
+    "block": 231472762
+   },
+   {
+    "pid": 1109,
+    "k": "1",
+    "tEff": 1793116661,
+    "round": 2,
+    "when": "after_commit",
+    "inclusion_s": 0.9536094665527344,
+    "block": 231472763
+   },
+   {
+    "pid": 3612,
+    "k": "1",
+    "tEff": 1793116662,
+    "round": 2,
+    "when": "after_commit",
+    "inclusion_s": 1.0904083251953125,
+    "block": 231472764
+   },
+   {
+    "pid": 6047,
+    "k": "2",
+    "tEff": 1793116663,
+    "round": 2,
+    "when": "after_commit",
+    "inclusion_s": 1.5313823223114014,
+    "block": 231472765
+   },
+   {
+    "pid": 13644,
+    "k": "2",
+    "tEff": 1793116664,
+    "round": 2,
+    "when": "after_commit",
+    "inclusion_s": 0.49681615829467773,
+    "block": 231472766
+   },
+   {
+    "pid": 10522,
+    "k": "0",
+    "tEff": 1793116668,
+    "round": 2,
+    "when": "after_commit",
+    "inclusion_s": 0.3775012493133545,
+    "block": 231472770
+   },
+   {
+    "pid": 18174,
+    "k": "0",
+    "tEff": 1793116669,
+    "round": 2,
+    "when": "after_commit",
+    "inclusion_s": 1.0667753219604492,
+    "block": 231472771
+   },
+   {
+    "pid": 1109,
+    "k": "1",
+    "tEff": 1793116670,
+    "round": 2,
+    "when": "after_commit",
+    "inclusion_s": 0.9675793647766113,
+    "block": 231472772
+   },
+   {
+    "pid": 3612,
+    "k": "1",
+    "tEff": 1793116671,
+    "round": 2,
+    "when": "after_commit",
+    "inclusion_s": 1.0235421657562256,
+    "block": 231472773
+   },
+   {
+    "pid": 6047,
+    "k": "2",
+    "tEff": 1793116672,
+    "round": 2,
+    "when": "after_commit",
+    "inclusion_s": 0.8436264991760254,
+    "block": 231472774
+   },
+   {
+    "pid": 13644,
+    "k": "2",
+    "tEff": 1793116673,
+    "round": 2,
+    "when": "after_commit",
+    "inclusion_s": 1.0686805248260498,
+    "block": 231472775
+   },
+   {
+    "pid": 10522,
+    "k": "0",
+    "tEff": 1793116675,
+    "round": 2,
+    "when": "after_commit",
+    "inclusion_s": 1.0616352558135986,
+    "block": 231472777
+   },
+   {
+    "pid": 18174,
+    "k": "0",
+    "tEff": 1793116676,
+    "round": 2,
+    "when": "after_commit",
+    "inclusion_s": 0.9663655757904053,
+    "block": 231472778
+   },
+   {
+    "pid": 1109,
+    "k": "1",
+    "tEff": 1793116677,
+    "round": 2,
+    "when": "after_commit",
+    "inclusion_s": 1.0784544944763184,
+    "block": 231472779
+   },
+   {
+    "pid": 3612,
+    "k": "1",
+    "tEff": 1793116678,
+    "round": 2,
+    "when": "after_commit",
+    "inclusion_s": 0.9979605674743652,
+    "block": 231472780
+   },
+   {
+    "pid": 6047,
+    "k": "2",
+    "tEff": 1793116679,
+    "round": 2,
+    "when": "after_commit",
+    "inclusion_s": 1.192302942276001,
+    "block": 231472781
+   },
+   {
+    "pid": 13644,
+    "k": "2",
+    "tEff": 1793116680,
+    "round": 2,
+    "when": "after_commit",
+    "inclusion_s": 0.6199877262115479,
+    "block": 231472782
+   },
+   {
+    "pid": 21672,
+    "k": "0",
+    "tEff": 1793116693,
+    "round": 3,
+    "when": "after_commit",
+    "inclusion_s": 0.9621853828430176,
+    "block": 231472795
+   },
+   {
+    "pid": 16034,
+    "k": "0",
+    "tEff": 1793116694,
+    "round": 3,
+    "when": "after_commit",
+    "inclusion_s": 1.132765531539917,
+    "block": 231472796
+   },
+   {
+    "pid": 6461,
+    "k": "1",
+    "tEff": 1793116695,
+    "round": 3,
+    "when": "after_commit",
+    "inclusion_s": 0.9604976177215576,
+    "block": 231472797
+   },
+   {
+    "pid": 5258,
+    "k": "1",
+    "tEff": 1793116696,
+    "round": 3,
+    "when": "after_commit",
+    "inclusion_s": 0.863584041595459,
+    "block": 231472798
+   },
+   {
+    "pid": 19618,
+    "k": "2",
+    "tEff": 1793116697,
+    "round": 3,
+    "when": "after_commit",
+    "inclusion_s": 0.9493286609649658,
+    "block": 231472799
+   },
+   {
+    "pid": 8736,
+    "k": "2",
+    "tEff": 1793116698,
+    "round": 3,
+    "when": "after_commit",
+    "inclusion_s": 0.9613072872161865,
+    "block": 231472800
+   },
+   {
+    "pid": 21672,
+    "k": "0",
+    "tEff": 1793116700,
+    "round": 3,
+    "when": "after_commit",
+    "inclusion_s": 0.9526090621948242,
+    "block": 231472802
+   },
+   {
+    "pid": 16034,
+    "k": "0",
+    "tEff": 1793116701,
+    "round": 3,
+    "when": "after_commit",
+    "inclusion_s": 1.1114046573638916,
+    "block": 231472803
+   },
+   {
+    "pid": 6461,
+    "k": "1",
+    "tEff": 1793116702,
+    "round": 3,
+    "when": "after_commit",
+    "inclusion_s": 0.8645851612091064,
+    "block": 231472804
+   },
+   {
+    "pid": 5258,
+    "k": "1",
+    "tEff": 1793116703,
+    "round": 3,
+    "when": "after_commit",
+    "inclusion_s": 1.0706274509429932,
+    "block": 231472805
+   },
+   {
+    "pid": 19618,
+    "k": "2",
+    "tEff": 1793116704,
+    "round": 3,
+    "when": "after_commit",
+    "inclusion_s": 0.8373119831085205,
+    "block": 231472806
+   },
+   {
+    "pid": 8736,
+    "k": "2",
+    "tEff": 1793116705,
+    "round": 3,
+    "when": "after_commit",
+    "inclusion_s": 0.9678421020507812,
+    "block": 231472807
+   },
+   {
+    "pid": 21672,
+    "k": "0",
+    "tEff": 1793116707,
+    "round": 3,
+    "when": "after_commit",
+    "inclusion_s": 0.983881950378418,
+    "block": 231472809
+   },
+   {
+    "pid": 16034,
+    "k": "0",
+    "tEff": 1793116708,
+    "round": 3,
+    "when": "after_commit",
+    "inclusion_s": 1.1905412673950195,
+    "block": 231472810
+   },
+   {
+    "pid": 6461,
+    "k": "1",
+    "tEff": 1793116709,
+    "round": 3,
+    "when": "after_commit",
+    "inclusion_s": 0.8383269309997559,
+    "block": 231472811
+   },
+   {
+    "pid": 5258,
+    "k": "1",
+    "tEff": 1793116710,
+    "round": 3,
+    "when": "after_commit",
+    "inclusion_s": 0.8454208374023438,
+    "block": 231472812
+   },
+   {
+    "pid": 19618,
+    "k": "2",
+    "tEff": 1793116711,
+    "round": 3,
+    "when": "after_commit",
+    "inclusion_s": 1.0719587802886963,
+    "block": 231472813
+   },
+   {
+    "pid": 8736,
+    "k": "2",
+    "tEff": 1793116712,
+    "round": 3,
+    "when": "after_commit",
+    "inclusion_s": 0.8546226024627686,
+    "block": 231472814
+   },
+   {
+    "pid": 9827,
+    "k": "0",
+    "tEff": 1793116727,
+    "round": 4,
+    "when": "after_commit",
+    "inclusion_s": 0.7396144866943359,
+    "block": 231472829
+   },
+   {
+    "pid": 16731,
+    "k": "0",
+    "tEff": 1793116728,
+    "round": 4,
+    "when": "after_commit",
+    "inclusion_s": 0.8527705669403076,
+    "block": 231472830
+   },
+   {
+    "pid": 661,
+    "k": "1",
+    "tEff": 1793116729,
+    "round": 4,
+    "when": "after_commit",
+    "inclusion_s": 0.9607014656066895,
+    "block": 231472831
+   },
+   {
+    "pid": 5390,
+    "k": "1",
+    "tEff": 1793116730,
+    "round": 4,
+    "when": "after_commit",
+    "inclusion_s": 0.9710955619812012,
+    "block": 231472832
+   },
+   {
+    "pid": 12673,
+    "k": "2",
+    "tEff": 1793116731,
+    "round": 4,
+    "when": "after_commit",
+    "inclusion_s": 1.0161612033843994,
+    "block": 231472833
+   },
+   {
+    "pid": 16041,
+    "k": "2",
+    "tEff": 1793116732,
+    "round": 4,
+    "when": "after_commit",
+    "inclusion_s": 1.0115680694580078,
+    "block": 231472834
+   },
+   {
+    "pid": 9827,
+    "k": "0",
+    "tEff": 1793116734,
+    "round": 4,
+    "when": "after_commit",
+    "inclusion_s": 0.986661434173584,
+    "block": 231472836
+   },
+   {
+    "pid": 16731,
+    "k": "0",
+    "tEff": 1793116735,
+    "round": 4,
+    "when": "after_commit",
+    "inclusion_s": 0.9040713310241699,
+    "block": 231472837
+   },
+   {
+    "pid": 661,
+    "k": "1",
+    "tEff": 1793116736,
+    "round": 4,
+    "when": "after_commit",
+    "inclusion_s": 1.2015690803527832,
+    "block": 231472838
+   },
+   {
+    "pid": 5390,
+    "k": "1",
+    "tEff": 1793116737,
+    "round": 4,
+    "when": "after_commit",
+    "inclusion_s": 0.7476108074188232,
+    "block": 231472839
+   },
+   {
+    "pid": 12673,
+    "k": "2",
+    "tEff": 1793116738,
+    "round": 4,
+    "when": "after_commit",
+    "inclusion_s": 1.1044700145721436,
+    "block": 231472840
+   },
+   {
+    "pid": 16041,
+    "k": "2",
+    "tEff": 1793116739,
+    "round": 4,
+    "when": "after_commit",
+    "inclusion_s": 0.7430915832519531,
+    "block": 231472841
+   },
+   {
+    "pid": 9827,
+    "k": "0",
+    "tEff": 1793116741,
+    "round": 4,
+    "when": "after_commit",
+    "inclusion_s": 1.1029622554779053,
+    "block": 231472843
+   },
+   {
+    "pid": 16731,
+    "k": "0",
+    "tEff": 1793116742,
+    "round": 4,
+    "when": "after_commit",
+    "inclusion_s": 0.8719596862792969,
+    "block": 231472844
+   },
+   {
+    "pid": 661,
+    "k": "1",
+    "tEff": 1793116743,
+    "round": 4,
+    "when": "after_commit",
+    "inclusion_s": 0.8919756412506104,
+    "block": 231472845
+   },
+   {
+    "pid": 5390,
+    "k": "1",
+    "tEff": 1793116744,
+    "round": 4,
+    "when": "after_commit",
+    "inclusion_s": 1.2102553844451904,
+    "block": 231472846
+   },
+   {
+    "pid": 12673,
+    "k": "2",
+    "tEff": 1793116745,
+    "round": 4,
+    "when": "after_commit",
+    "inclusion_s": 0.7305655479431152,
+    "block": 231472847
+   },
+   {
+    "pid": 16041,
+    "k": "2",
+    "tEff": 1793116746,
+    "round": 4,
+    "when": "after_commit",
+    "inclusion_s": 1.0877048969268799,
+    "block": 231472848
+   },
+   {
+    "pid": 21700,
+    "k": "0",
+    "tEff": 1793116759,
+    "round": 5,
+    "when": "after_commit",
+    "inclusion_s": 0.960146427154541,
+    "block": 231472861
+   },
+   {
+    "pid": 7974,
+    "k": "0",
+    "tEff": 1793116760,
+    "round": 5,
+    "when": "after_commit",
+    "inclusion_s": 0.9635279178619385,
+    "block": 231472862
+   },
+   {
+    "pid": 6110,
+    "k": "1",
+    "tEff": 1793116761,
+    "round": 5,
+    "when": "after_commit",
+    "inclusion_s": 0.951784610748291,
+    "block": 231472863
+   },
+   {
+    "pid": 3759,
+    "k": "1",
+    "tEff": 1793116762,
+    "round": 5,
+    "when": "after_commit",
+    "inclusion_s": 1.0495936870574951,
+    "block": 231472864
+   },
+   {
+    "pid": 18233,
+    "k": "2",
+    "tEff": 1793116763,
+    "round": 5,
+    "when": "after_commit",
+    "inclusion_s": 0.8430354595184326,
+    "block": 231472865
+   },
+   {
+    "pid": 19837,
+    "k": "2",
+    "tEff": 1793116764,
+    "round": 5,
+    "when": "after_commit",
+    "inclusion_s": 1.0760293006896973,
+    "block": 231472866
+   },
+   {
+    "pid": 21700,
+    "k": "0",
+    "tEff": 1793116766,
+    "round": 5,
+    "when": "after_commit",
+    "inclusion_s": 1.1994733810424805,
+    "block": 231472868
+   },
+   {
+    "pid": 7974,
+    "k": "0",
+    "tEff": 1793116767,
+    "round": 5,
+    "when": "after_commit",
+    "inclusion_s": 0.723691463470459,
+    "block": 231472869
+   },
+   {
+    "pid": 6110,
+    "k": "1",
+    "tEff": 1793116768,
+    "round": 5,
+    "when": "after_commit",
+    "inclusion_s": 1.204038381576538,
+    "block": 231472870
+   },
+   {
+    "pid": 3759,
+    "k": "1",
+    "tEff": 1793116769,
+    "round": 5,
+    "when": "after_commit",
+    "inclusion_s": 0.743067741394043,
+    "block": 231472871
+   },
+   {
+    "pid": 18233,
+    "k": "2",
+    "tEff": 1793116770,
+    "round": 5,
+    "when": "after_commit",
+    "inclusion_s": 0.9561123847961426,
+    "block": 231472872
+   },
+   {
+    "pid": 19837,
+    "k": "2",
+    "tEff": 1793116771,
+    "round": 5,
+    "when": "after_commit",
+    "inclusion_s": 0.9718866348266602,
+    "block": 231472873
+   },
+   {
+    "pid": 21700,
+    "k": "0",
+    "tEff": 1793116773,
+    "round": 5,
+    "when": "after_commit",
+    "inclusion_s": 1.4202985763549805,
+    "block": 231472875
+   },
+   {
+    "pid": 7974,
+    "k": "0",
+    "tEff": 1793116774,
+    "round": 5,
+    "when": "after_commit",
+    "inclusion_s": 0.6410751342773438,
+    "block": 231472876
+   },
+   {
+    "pid": 6110,
+    "k": "1",
+    "tEff": 1793116775,
+    "round": 5,
+    "when": "after_commit",
+    "inclusion_s": 0.9566290378570557,
+    "block": 231472877
+   },
+   {
+    "pid": 3759,
+    "k": "1",
+    "tEff": 1793116776,
+    "round": 5,
+    "when": "after_commit",
+    "inclusion_s": 1.6828320026397705,
+    "block": 231472878
+   },
+   {
+    "pid": 18233,
+    "k": "2",
+    "tEff": 1793116777,
+    "round": 5,
+    "when": "after_commit",
+    "inclusion_s": 0.3831946849822998,
+    "block": 231472879
+   },
+   {
+    "pid": 19837,
+    "k": "2",
+    "tEff": 1793116778,
+    "round": 5,
+    "when": "after_commit",
+    "inclusion_s": 0.8388047218322754,
+    "block": 231472880
+   }
+  ],
+  "tx_total": 164,
+  "fee_kaia": 0.3511712325,
+  "key_txs": [
+   {
+    "fn": "deploy:ConsentLedger",
+    "hash": "0x5501136b624107b3edd2fcb96acc754be97bbceec33bf7401c95512fdedeea75",
+    "block": null
+   },
+   {
+    "fn": "commitTrainingConfig",
+    "hash": "0xe796c9c3a8b7c339ebc3a8c4b033eb122a37b0f150333fe33735b97864bd4c95",
+    "block": 231472743
+   }
+  ],
+  "wall_s": 168.36703634262085
+ },
+ {
+  "scenario": "aftersend",
+  "params": {},
+  "seed": 1,
+  "contract": "0x82C0Ba6AeADf6faA40Cf6BB8c171e158D7CDCF9b",
+  "rounds": 6,
+  "withdrawals": 24,
+  "updates": 18,
+  "accepted": 6,
+  "violations": 0,
+  "rejections_correct": 12,
+  "rejections_wrong": 0,
+  "race": 0,
+  "inclusion_latency_s": {
+   "mean": 0.9892823199431101,
+   "min": 0.25981903076171875,
+   "max": 1.5579495429992676,
+   "p95": 1.3818149447441102
+  },
+  "units": [
+   {
+    "k": "0",
+    "r": 1,
+    "accepted": true,
+    "tau": 1793116821,
+    "checked_version": 0,
+    "chain_version": 0,
+    "n_used": 7692,
+    "used_pids": [
+     7974,
+     9827,
+     10522,
+     16034,
+     16731,
+     18174,
+     21672,
+     21700
+    ],
+    "decide_latency_s": 1.0148553848266602
+   },
+   {
+    "k": "1",
+    "r": 1,
+    "accepted": true,
+    "tau": 1793116822,
+    "checked_version": 0,
+    "chain_version": 0,
+    "n_used": 5071,
+    "used_pids": [
+     661,
+     1109,
+     3612,
+     3759,
+     5258,
+     5390,
+     6110,
+     6461
+    ],
+    "decide_latency_s": 0.8714070320129395
+   },
+   {
+    "k": "2",
+    "r": 1,
+    "accepted": true,
+    "tau": 1793116823,
+    "checked_version": 0,
+    "chain_version": 0,
+    "n_used": 4310,
+    "used_pids": [
+     6047,
+     8736,
+     12673,
+     13644,
+     16041,
+     18233,
+     19618,
+     19837
+    ],
+    "decide_latency_s": 0.8582961559295654
+   },
+   {
+    "k": "0",
+    "r": 2,
+    "accepted": false,
+    "tau": 1793116842,
+    "checked_version": 6,
+    "chain_version": null,
+    "n_used": 7692,
+    "used_pids": [
+     7974,
+     9827,
+     10522,
+     16034,
+     16731,
+     18174,
+     21672,
+     21700
+    ],
+    "decide_latency_s": 0.805804967880249
+   },
+   {
+    "k": "1",
+    "r": 2,
+    "accepted": false,
+    "tau": 1793116843,
+    "checked_version": 6,
+    "chain_version": null,
+    "n_used": 5071,
+    "used_pids": [
+     661,
+     1109,
+     3612,
+     3759,
+     5258,
+     5390,
+     6110,
+     6461
+    ],
+    "decide_latency_s": 1.1078684329986572
+   },
+   {
+    "k": "2",
+    "r": 2,
+    "accepted": false,
+    "tau": 1793116844,
+    "checked_version": 6,
+    "chain_version": null,
+    "n_used": 4310,
+    "used_pids": [
+     6047,
+     8736,
+     12673,
+     13644,
+     16041,
+     18233,
+     19618,
+     19837
+    ],
+    "decide_latency_s": 0.9509990215301514
+   },
+   {
+    "k": "0",
+    "r": 3,
+    "accepted": false,
+    "tau": 1793116865,
+    "checked_version": 12,
+    "chain_version": null,
+    "n_used": 7690,
+    "used_pids": [
+     7974,
+     9827,
+     16034,
+     16731,
+     21672,
+     21700
+    ],
+    "decide_latency_s": 0.8457305431365967
+   },
+   {
+    "k": "1",
+    "r": 3,
+    "accepted": false,
+    "tau": 1793116866,
+    "checked_version": 12,
+    "chain_version": null,
+    "n_used": 5069,
+    "used_pids": [
+     661,
+     3759,
+     5258,
+     5390,
+     6110,
+     6461
+    ],
+    "decide_latency_s": 0.9667716026306152
+   },
+   {
+    "k": "2",
+    "r": 3,
+    "accepted": false,
+    "tau": 1793116867,
+    "checked_version": 12,
+    "chain_version": null,
+    "n_used": 4307,
+    "used_pids": [
+     8736,
+     12673,
+     16041,
+     18233,
+     19618,
+     19837
+    ],
+    "decide_latency_s": 0.8641934394836426
+   },
+   {
+    "k": "0",
+    "r": 4,
+    "accepted": false,
+    "tau": 1793116885,
+    "checked_version": 18,
+    "chain_version": null,
+    "n_used": 7688,
+    "used_pids": [
+     7974,
+     9827,
+     16731,
+     21700
+    ],
+    "decide_latency_s": 1.0833032131195068
+   },
+   {
+    "k": "1",
+    "r": 4,
+    "accepted": false,
+    "tau": 1793116886,
+    "checked_version": 18,
+    "chain_version": null,
+    "n_used": 5067,
+    "used_pids": [
+     661,
+     3759,
+     5390,
+     6110
+    ],
+    "decide_latency_s": 0.7654459476470947
+   },
+   {
+    "k": "2",
+    "r": 4,
+    "accepted": false,
+    "tau": 1793116887,
+    "checked_version": 18,
+    "chain_version": null,
+    "n_used": 4305,
+    "used_pids": [
+     12673,
+     16041,
+     18233,
+     19837
+    ],
+    "decide_latency_s": 0.8391861915588379
+   },
+   {
+    "k": "0",
+    "r": 5,
+    "accepted": false,
+    "tau": 1793116907,
+    "checked_version": 24,
+    "chain_version": null,
+    "n_used": 7686,
+    "used_pids": [
+     7974,
+     21700
+    ],
+    "decide_latency_s": 2.5889651775360107
+   },
+   {
+    "k": "1",
+    "r": 5,
+    "accepted": false,
+    "tau": 1793116908,
+    "checked_version": 24,
+    "chain_version": null,
+    "n_used": 5065,
+    "used_pids": [
+     3759,
+     6110
+    ],
+    "decide_latency_s": 0.8526122570037842
+   },
+   {
+    "k": "2",
+    "r": 5,
+    "accepted": false,
+    "tau": 1793116909,
+    "checked_version": 24,
+    "chain_version": null,
+    "n_used": 4303,
+    "used_pids": [
+     18233,
+     19837
+    ],
+    "decide_latency_s": 0.8366568088531494
+   },
+   {
+    "k": "0",
+    "r": 6,
+    "accepted": true,
+    "tau": 1793116921,
+    "checked_version": 24,
+    "chain_version": 24,
+    "n_used": 7684,
+    "used_pids": [],
+    "decide_latency_s": 0.8504161834716797
+   },
+   {
+    "k": "1",
+    "r": 6,
+    "accepted": true,
+    "tau": 1793116922,
+    "checked_version": 24,
+    "chain_version": 24,
+    "n_used": 5063,
+    "used_pids": [],
+    "decide_latency_s": 0.9679470062255859
+   },
+   {
+    "k": "2",
+    "r": 6,
+    "accepted": true,
+    "tau": 1793116923,
+    "checked_version": 24,
+    "chain_version": 24,
+    "n_used": 4301,
+    "used_pids": [],
+    "decide_latency_s": 0.8391480445861816
+   }
+  ],
+  "withdrawal_events": [
+   {
+    "pid": 10522,
+    "k": "0",
+    "tEff": 1793116836,
+    "round": 2,
+    "when": "after_send",
+    "inclusion_s": 1.0540027618408203,
+    "block": 231472938
+   },
+   {
+    "pid": 18174,
+    "k": "0",
+    "tEff": 1793116837,
+    "round": 2,
+    "when": "after_send",
+    "inclusion_s": 0.9527606964111328,
+    "block": 231472939
+   },
+   {
+    "pid": 1109,
+    "k": "1",
+    "tEff": 1793116838,
+    "round": 2,
+    "when": "after_send",
+    "inclusion_s": 0.9612743854522705,
+    "block": 231472940
+   },
+   {
+    "pid": 3612,
+    "k": "1",
+    "tEff": 1793116839,
+    "round": 2,
+    "when": "after_send",
+    "inclusion_s": 0.957904577255249,
+    "block": 231472941
+   },
+   {
+    "pid": 6047,
+    "k": "2",
+    "tEff": 1793116840,
+    "round": 2,
+    "when": "after_send",
+    "inclusion_s": 1.079493522644043,
+    "block": 231472942
+   },
+   {
+    "pid": 13644,
+    "k": "2",
+    "tEff": 1793116841,
+    "round": 2,
+    "when": "after_send",
+    "inclusion_s": 0.9663982391357422,
+    "block": 231472943
+   },
+   {
+    "pid": 21672,
+    "k": "0",
+    "tEff": 1793116859,
+    "round": 3,
+    "when": "after_send",
+    "inclusion_s": 0.8411235809326172,
+    "block": 231472961
+   },
+   {
+    "pid": 16034,
+    "k": "0",
+    "tEff": 1793116860,
+    "round": 3,
+    "when": "after_send",
+    "inclusion_s": 0.8393361568450928,
+    "block": 231472962
+   },
+   {
+    "pid": 6461,
+    "k": "1",
+    "tEff": 1793116861,
+    "round": 3,
+    "when": "after_send",
+    "inclusion_s": 1.0800282955169678,
+    "block": 231472963
+   },
+   {
+    "pid": 5258,
+    "k": "1",
+    "tEff": 1793116862,
+    "round": 3,
+    "when": "after_send",
+    "inclusion_s": 1.5579495429992676,
+    "block": 231472964
+   },
+   {
+    "pid": 19618,
+    "k": "2",
+    "tEff": 1793116863,
+    "round": 3,
+    "when": "after_send",
+    "inclusion_s": 0.25981903076171875,
+    "block": 231472965
+   },
+   {
+    "pid": 8736,
+    "k": "2",
+    "tEff": 1793116864,
+    "round": 3,
+    "when": "after_send",
+    "inclusion_s": 1.0918335914611816,
+    "block": 231472966
+   },
+   {
+    "pid": 9827,
+    "k": "0",
+    "tEff": 1793116879,
+    "round": 4,
+    "when": "after_send",
+    "inclusion_s": 1.0944874286651611,
+    "block": 231472981
+   },
+   {
+    "pid": 16731,
+    "k": "0",
+    "tEff": 1793116880,
+    "round": 4,
+    "when": "after_send",
+    "inclusion_s": 0.8603956699371338,
+    "block": 231472982
+   },
+   {
+    "pid": 661,
+    "k": "1",
+    "tEff": 1793116881,
+    "round": 4,
+    "when": "after_send",
+    "inclusion_s": 0.9856319427490234,
+    "block": 231472983
+   },
+   {
+    "pid": 5390,
+    "k": "1",
+    "tEff": 1793116882,
+    "round": 4,
+    "when": "after_send",
+    "inclusion_s": 1.3859293460845947,
+    "block": 231472984
+   },
+   {
+    "pid": 12673,
+    "k": "2",
+    "tEff": 1793116883,
+    "round": 4,
+    "when": "after_send",
+    "inclusion_s": 0.6193528175354004,
+    "block": 231472985
+   },
+   {
+    "pid": 16041,
+    "k": "2",
+    "tEff": 1793116884,
+    "round": 4,
+    "when": "after_send",
+    "inclusion_s": 0.8662233352661133,
+    "block": 231472986
+   },
+   {
+    "pid": 21700,
+    "k": "0",
+    "tEff": 1793116899,
+    "round": 5,
+    "when": "after_send",
+    "inclusion_s": 0.9585740566253662,
+    "block": 231473001
+   },
+   {
+    "pid": 7974,
+    "k": "0",
+    "tEff": 1793116900,
+    "round": 5,
+    "when": "after_send",
+    "inclusion_s": 1.0734293460845947,
+    "block": 231473002
+   },
+   {
+    "pid": 6110,
+    "k": "1",
+    "tEff": 1793116901,
+    "round": 5,
+    "when": "after_send",
+    "inclusion_s": 0.9584920406341553,
+    "block": 231473003
+   },
+   {
+    "pid": 3759,
+    "k": "1",
+    "tEff": 1793116902,
+    "round": 5,
+    "when": "after_send",
+    "inclusion_s": 0.859947919845581,
+    "block": 231473004
+   },
+   {
+    "pid": 18233,
+    "k": "2",
+    "tEff": 1793116903,
+    "round": 5,
+    "when": "after_send",
+    "inclusion_s": 1.0798873901367188,
+    "block": 231473005
+   },
+   {
+    "pid": 19837,
+    "k": "2",
+    "tEff": 1793116904,
+    "round": 5,
+    "when": "after_send",
+    "inclusion_s": 1.3585000038146973,
+    "block": 231473006
+   }
+  ],
+  "tx_total": 116,
+  "fee_kaia": 0.2229857025,
+  "key_txs": [
+   {
+    "fn": "deploy:ConsentLedger",
+    "hash": "0x35ead49847015ef843c08d3941f41b856d34f6d353f13ce04114829dffaff3e1",
+    "block": null
+   },
+   {
+    "fn": "commitTrainingConfig",
+    "hash": "0xa979b018665f281573096a363f26e6ad927884d69e5babd0f831059820abefd8",
+    "block": 231472912
+   }
+  ],
+  "wall_s": 118.11501097679138
+ },
+ {
+  "scenario": "aggdelay",
+  "params": {
+   "D": 0.0
+  },
+  "seed": 1,
+  "contract": "0xc3F73f21337D5F5b4265c2Fa7531fc642A04a891",
+  "rounds": 6,
+  "withdrawals": 24,
+  "updates": 18,
+  "accepted": 8,
+  "violations": 0,
+  "rejections_correct": 10,
+  "rejections_wrong": 0,
+  "race": 0,
+  "inclusion_latency_s": {
+   "mean": 1.069456954797109,
+   "min": 0.38691139221191406,
+   "max": 2.2397944927215576,
+   "p95": 1.8963505268096907
+  },
+  "units": [
+   {
+    "k": "0",
+    "r": 1,
+    "accepted": true,
+    "tau": 1793116939,
+    "checked_version": 0,
+    "chain_version": 0,
+    "n_used": 7692,
+    "used_pids": [
+     8532,
+     8599,
+     10522,
+     12094,
+     13912,
+     16731,
+     17515,
+     18174
+    ],
+    "decide_latency_s": 0.8349142074584961
+   },
+   {
+    "k": "1",
+    "r": 1,
+    "accepted": true,
+    "tau": 1793116940,
+    "checked_version": 0,
+    "chain_version": 0,
+    "n_used": 5071,
+    "used_pids": [
+     332,
+     418,
+     1822,
+     3338,
+     6110,
+     6745,
+     7331,
+     7469
+    ],
+    "decide_latency_s": 1.075073480606079
+   },
+   {
+    "k": "2",
+    "r": 1,
+    "accepted": true,
+    "tau": 1793116941,
+    "checked_version": 0,
+    "chain_version": 0,
+    "n_used": 4310,
+    "used_pids": [
+     8872,
+     8891,
+     9010,
+     11648,
+     12373,
+     16793,
+     17290,
+     19837
+    ],
+    "decide_latency_s": 0.8491518497467041
+   },
+   {
+    "k": "0",
+    "r": 2,
+    "accepted": false,
+    "tau": 1793116959,
+    "checked_version": 6,
+    "chain_version": null,
+    "n_used": 7691,
+    "used_pids": [
+     8532,
+     8599,
+     12094,
+     13912,
+     16731,
+     17515,
+     18174
+    ],
+    "decide_latency_s": 0.24567842483520508
+   },
+   {
+    "k": "1",
+    "r": 2,
+    "accepted": false,
+    "tau": 1793116960,
+    "checked_version": 6,
+    "chain_version": null,
+    "n_used": 5071,
+    "used_pids": [
+     332,
+     418,
+     1822,
+     3338,
+     6110,
+     6745,
+     7331,
+     7469
+    ],
+    "decide_latency_s": 0.9543256759643555
+   },
+   {
+    "k": "2",
+    "r": 2,
+    "accepted": true,
+    "tau": 1793116961,
+    "checked_version": 6,
+    "chain_version": 6,
+    "n_used": 4308,
+    "used_pids": [
+     8872,
+     8891,
+     9010,
+     12373,
+     17290,
+     19837
+    ],
+    "decide_latency_s": 0.9411816596984863
+   },
+   {
+    "k": "0",
+    "r": 3,
+    "accepted": false,
+    "tau": 1793116981,
+    "checked_version": 12,
+    "chain_version": null,
+    "n_used": 7690,
+    "used_pids": [
+     8532,
+     8599,
+     12094,
+     13912,
+     16731,
+     17515
+    ],
+    "decide_latency_s": 1.1966559886932373
+   },
+   {
+    "k": "1",
+    "r": 3,
+    "accepted": false,
+    "tau": 1793116982,
+    "checked_version": 12,
+    "chain_version": null,
+    "n_used": 5069,
+    "used_pids": [
+     332,
+     418,
+     3338,
+     6110,
+     7331,
+     7469
+    ],
+    "decide_latency_s": 0.4868636131286621
+   },
+   {
+    "k": "2",
+    "r": 3,
+    "accepted": false,
+    "tau": 1793116983,
+    "checked_version": 12,
+    "chain_version": null,
+    "n_used": 4307,
+    "used_pids": [
+     8872,
+     8891,
+     12373,
+     17290,
+     19837
+    ],
+    "decide_latency_s": 0.9546444416046143
+   },
+   {
+    "k": "0",
+    "r": 4,
+    "accepted": true,
+    "tau": 1793117001,
+    "checked_version": 18,
+    "chain_version": 18,
+    "n_used": 7686,
+    "used_pids": [
+     12094,
+     17515
+    ],
+    "decide_latency_s": 0.5137002468109131
+   },
+   {
+    "k": "1",
+    "r": 4,
+    "accepted": false,
+    "tau": 1793117002,
+    "checked_version": 18,
+    "chain_version": null,
+    "n_used": 5066,
+    "used_pids": [
+     418,
+     3338,
+     7331,
+     7469
+    ],
+    "decide_latency_s": 0.9891781806945801
+   },
+   {
+    "k": "2",
+    "r": 4,
+    "accepted": false,
+    "tau": 1793117003,
+    "checked_version": 18,
+    "chain_version": null,
+    "n_used": 4305,
+    "used_pids": [
+     8872,
+     8891,
+     17290
+    ],
+    "decide_latency_s": 0.8915905952453613
+   },
+   {
+    "k": "0",
+    "r": 5,
+    "accepted": false,
+    "tau": 1793117021,
+    "checked_version": 24,
+    "chain_version": null,
+    "n_used": 7686,
+    "used_pids": [
+     12094,
+     17515
+    ],
+    "decide_latency_s": 0.9668159484863281
+   },
+   {
+    "k": "1",
+    "r": 5,
+    "accepted": false,
+    "tau": 1793117022,
+    "checked_version": 24,
+    "chain_version": null,
+    "n_used": 5062,
+    "used_pids": [
+     7469
+    ],
+    "decide_latency_s": 0.7507302761077881
+   },
+   {
+    "k": "2",
+    "r": 5,
+    "accepted": false,
+    "tau": 1793117023,
+    "checked_version": 24,
+    "chain_version": null,
+    "n_used": 4304,
+    "used_pids": [
+     8891,
+     17290
+    ],
+    "decide_latency_s": 0.7636544704437256
+   },
+   {
+    "k": "0",
+    "r": 6,
+    "accepted": true,
+    "tau": 1793117038,
+    "checked_version": 24,
+    "chain_version": 24,
+    "n_used": 7682,
+    "used_pids": [],
+    "decide_latency_s": 1.3198490142822266
+   },
+   {
+    "k": "1",
+    "r": 6,
+    "accepted": true,
+    "tau": 1793117039,
+    "checked_version": 24,
+    "chain_version": 24,
+    "n_used": 5061,
+    "used_pids": [],
+    "decide_latency_s": 0.718076229095459
+   },
+   {
+    "k": "2",
+    "r": 6,
+    "accepted": true,
+    "tau": 1793117040,
+    "checked_version": 24,
+    "chain_version": 24,
+    "n_used": 4300,
+    "used_pids": [],
+    "decide_latency_s": 0.7193939685821533
+   }
+  ],
+  "withdrawal_events": [
+   {
+    "pid": 10522,
+    "k": "0",
+    "tEff": 1793116944,
+    "round": 2,
+    "when": "round_start",
+    "inclusion_s": 0.9640438556671143,
+    "block": 231473046
+   },
+   {
+    "pid": 16793,
+    "k": "2",
+    "tEff": 1793116945,
+    "round": 2,
+    "when": "round_start",
+    "inclusion_s": 0.9780209064483643,
+    "block": 231473047
+   },
+   {
+    "pid": 11648,
+    "k": "2",
+    "tEff": 1793116946,
+    "round": 2,
+    "when": "round_start",
+    "inclusion_s": 1.0540759563446045,
+    "block": 231473048
+   },
+   {
+    "pid": 18174,
+    "k": "0",
+    "tEff": 1793116950,
+    "round": 2,
+    "when": "after_commit",
+    "inclusion_s": 0.38691139221191406,
+    "block": 231473052
+   },
+   {
+    "pid": 1822,
+    "k": "1",
+    "tEff": 1793116951,
+    "round": 2,
+    "when": "after_commit",
+    "inclusion_s": 0.8503098487854004,
+    "block": 231473053
+   },
+   {
+    "pid": 6745,
+    "k": "1",
+    "tEff": 1793116952,
+    "round": 2,
+    "when": "after_commit",
+    "inclusion_s": 1.0851898193359375,
+    "block": 231473054
+   },
+   {
+    "pid": 9010,
+    "k": "2",
+    "tEff": 1793116965,
+    "round": 3,
+    "when": "round_start",
+    "inclusion_s": 2.2397944927215576,
+    "block": 231473067
+   },
+   {
+    "pid": 16731,
+    "k": "0",
+    "tEff": 1793116969,
+    "round": 3,
+    "when": "after_commit",
+    "inclusion_s": 0.9805548191070557,
+    "block": 231473071
+   },
+   {
+    "pid": 8532,
+    "k": "0",
+    "tEff": 1793116970,
+    "round": 3,
+    "when": "after_commit",
+    "inclusion_s": 1.086313009262085,
+    "block": 231473072
+   },
+   {
+    "pid": 332,
+    "k": "1",
+    "tEff": 1793116971,
+    "round": 3,
+    "when": "after_commit",
+    "inclusion_s": 0.871065616607666,
+    "block": 231473073
+   },
+   {
+    "pid": 6110,
+    "k": "1",
+    "tEff": 1793116978,
+    "round": 3,
+    "when": "after_send",
+    "inclusion_s": 2.016354560852051,
+    "block": 231473080
+   },
+   {
+    "pid": 19837,
+    "k": "2",
+    "tEff": 1793116980,
+    "round": 3,
+    "when": "after_send",
+    "inclusion_s": 0.9885015487670898,
+    "block": 231473082
+   },
+   {
+    "pid": 13912,
+    "k": "0",
+    "tEff": 1793116986,
+    "round": 4,
+    "when": "round_start",
+    "inclusion_s": 1.1026005744934082,
+    "block": 231473088
+   },
+   {
+    "pid": 8599,
+    "k": "0",
+    "tEff": 1793116987,
+    "round": 4,
+    "when": "round_start",
+    "inclusion_s": 0.863166093826294,
+    "block": 231473089
+   },
+   {
+    "pid": 12373,
+    "k": "2",
+    "tEff": 1793116988,
+    "round": 4,
+    "when": "round_start",
+    "inclusion_s": 0.9695432186126709,
+    "block": 231473090
+   },
+   {
+    "pid": 7331,
+    "k": "1",
+    "tEff": 1793116992,
+    "round": 4,
+    "when": "after_commit",
+    "inclusion_s": 0.97039794921875,
+    "block": 231473094
+   },
+   {
+    "pid": 418,
+    "k": "1",
+    "tEff": 1793116999,
+    "round": 4,
+    "when": "after_send",
+    "inclusion_s": 1.2163276672363281,
+    "block": 231473101
+   },
+   {
+    "pid": 8872,
+    "k": "2",
+    "tEff": 1793117000,
+    "round": 4,
+    "when": "after_send",
+    "inclusion_s": 1.1222083568572998,
+    "block": 231473102
+   },
+   {
+    "pid": 3338,
+    "k": "1",
+    "tEff": 1793117006,
+    "round": 5,
+    "when": "round_start",
+    "inclusion_s": 0.976060152053833,
+    "block": 231473108
+   },
+   {
+    "pid": 17515,
+    "k": "0",
+    "tEff": 1793117010,
+    "round": 5,
+    "when": "after_commit",
+    "inclusion_s": 0.962538480758667,
+    "block": 231473112
+   },
+   {
+    "pid": 12094,
+    "k": "0",
+    "tEff": 1793117011,
+    "round": 5,
+    "when": "after_commit",
+    "inclusion_s": 1.0820541381835938,
+    "block": 231473113
+   },
+   {
+    "pid": 7469,
+    "k": "1",
+    "tEff": 1793117012,
+    "round": 5,
+    "when": "after_commit",
+    "inclusion_s": 0.862743616104126,
+    "block": 231473114
+   },
+   {
+    "pid": 17290,
+    "k": "2",
+    "tEff": 1793117013,
+    "round": 5,
+    "when": "after_commit",
+    "inclusion_s": 0.950559139251709,
+    "block": 231473115
+   },
+   {
+    "pid": 8891,
+    "k": "2",
+    "tEff": 1793117014,
+    "round": 5,
+    "when": "after_commit",
+    "inclusion_s": 1.0876317024230957,
+    "block": 231473116
+   }
+  ],
+  "tx_total": 116,
+  "fee_kaia": 0.2240732175,
+  "key_txs": [
+   {
+    "fn": "deploy:ConsentLedger",
+    "hash": "0xb98391e4a985d0c39ff3446bdf7ee6972c2f07b18452a8441f9fce484e42209c",
+    "block": null
+   },
+   {
+    "fn": "commitTrainingConfig",
+    "hash": "0xfd555b49ff7006369d7b8f5f4e4b03db9c45fd88e3d7f6784882b8c3abddb8de",
+    "block": 231473030
+   }
+  ],
+  "wall_s": 117.29012966156006
+ },
+ {
+  "scenario": "aggdelay",
+  "params": {
+   "D": 10.0
+  },
+  "seed": 1,
+  "contract": "0x91856d29B6Ba01161C296FbD0b4707cfBA83603C",
+  "rounds": 6,
+  "withdrawals": 24,
+  "updates": 18,
+  "accepted": 8,
+  "violations": 0,
+  "rejections_correct": 10,
+  "rejections_wrong": 0,
+  "race": 0,
+  "inclusion_latency_s": {
+   "mean": 1.0422425071398418,
+   "min": 0.25996994972229004,
+   "max": 2.8688719272613525,
+   "p95": 1.5283868312835691
+  },
+  "units": [
+   {
+    "k": "0",
+    "r": 1,
+    "accepted": true,
+    "tau": 1793117066,
+    "checked_version": 0,
+    "chain_version": 0,
+    "n_used": 7692,
+    "used_pids": [
+     8532,
+     8599,
+     10522,
+     12094,
+     13912,
+     16731,
+     17515,
+     18174
+    ],
+    "decide_latency_s": 0.8308413028717041
+   },
+   {
+    "k": "1",
+    "r": 1,
+    "accepted": true,
+    "tau": 1793117067,
+    "checked_version": 0,
+    "chain_version": 0,
+    "n_used": 5071,
+    "used_pids": [
+     332,
+     418,
+     1822,
+     3338,
+     6110,
+     6745,
+     7331,
+     7469
+    ],
+    "decide_latency_s": 0.9586851596832275
+   },
+   {
+    "k": "2",
+    "r": 1,
+    "accepted": true,
+    "tau": 1793117068,
+    "checked_version": 0,
+    "chain_version": 0,
+    "n_used": 4310,
+    "used_pids": [
+     8872,
+     8891,
+     9010,
+     11648,
+     12373,
+     16793,
+     17290,
+     19837
+    ],
+    "decide_latency_s": 0.8311188220977783
+   },
+   {
+    "k": "0",
+    "r": 2,
+    "accepted": false,
+    "tau": 1793117098,
+    "checked_version": 6,
+    "chain_version": null,
+    "n_used": 7691,
+    "used_pids": [
+     8532,
+     8599,
+     12094,
+     13912,
+     16731,
+     17515,
+     18174
+    ],
+    "decide_latency_s": 1.0795314311981201
+   },
+   {
+    "k": "1",
+    "r": 2,
+    "accepted": false,
+    "tau": 1793117099,
+    "checked_version": 6,
+    "chain_version": null,
+    "n_used": 5071,
+    "used_pids": [
+     332,
+     418,
+     1822,
+     3338,
+     6110,
+     6745,
+     7331,
+     7469
+    ],
+    "decide_latency_s": 0.8517835140228271
+   },
+   {
+    "k": "2",
+    "r": 2,
+    "accepted": true,
+    "tau": 1793117100,
+    "checked_version": 6,
+    "chain_version": 6,
+    "n_used": 4308,
+    "used_pids": [
+     8872,
+     8891,
+     9010,
+     12373,
+     17290,
+     19837
+    ],
+    "decide_latency_s": 0.9570407867431641
+   },
+   {
+    "k": "0",
+    "r": 3,
+    "accepted": false,
+    "tau": 1793117128,
+    "checked_version": 12,
+    "chain_version": null,
+    "n_used": 7690,
+    "used_pids": [
+     8532,
+     8599,
+     12094,
+     13912,
+     16731,
+     17515
+    ],
+    "decide_latency_s": 1.418433666229248
+   },
+   {
+    "k": "1",
+    "r": 3,
+    "accepted": false,
+    "tau": 1793117129,
+    "checked_version": 12,
+    "chain_version": null,
+    "n_used": 5069,
+    "used_pids": [
+     332,
+     418,
+     3338,
+     6110,
+     7331,
+     7469
+    ],
+    "decide_latency_s": 0.47678661346435547
+   },
+   {
+    "k": "2",
+    "r": 3,
+    "accepted": false,
+    "tau": 1793117130,
+    "checked_version": 12,
+    "chain_version": null,
+    "n_used": 4307,
+    "used_pids": [
+     8872,
+     8891,
+     12373,
+     17290,
+     19837
+    ],
+    "decide_latency_s": 0.9506046772003174
+   },
+   {
+    "k": "0",
+    "r": 4,
+    "accepted": true,
+    "tau": 1793117161,
+    "checked_version": 18,
+    "chain_version": 18,
+    "n_used": 7686,
+    "used_pids": [
+     12094,
+     17515
+    ],
+    "decide_latency_s": 0.259415864944458
+   },
+   {
+    "k": "1",
+    "r": 4,
+    "accepted": false,
+    "tau": 1793117162,
+    "checked_version": 18,
+    "chain_version": null,
+    "n_used": 5066,
+    "used_pids": [
+     418,
+     3338,
+     7331,
+     7469
+    ],
+    "decide_latency_s": 0.9589018821716309
+   },
+   {
+    "k": "2",
+    "r": 4,
+    "accepted": false,
+    "tau": 1793117163,
+    "checked_version": 18,
+    "chain_version": null,
+    "n_used": 4305,
+    "used_pids": [
+     8872,
+     8891,
+     17290
+    ],
+    "decide_latency_s": 0.8511495590209961
+   },
+   {
+    "k": "0",
+    "r": 5,
+    "accepted": false,
+    "tau": 1793117191,
+    "checked_version": 24,
+    "chain_version": null,
+    "n_used": 7686,
+    "used_pids": [
+     12094,
+     17515
+    ],
+    "decide_latency_s": 1.3252630233764648
+   },
+   {
+    "k": "1",
+    "r": 5,
+    "accepted": false,
+    "tau": 1793117192,
+    "checked_version": 24,
+    "chain_version": null,
+    "n_used": 5062,
+    "used_pids": [
+     7469
+    ],
+    "decide_latency_s": 0.837932825088501
+   },
+   {
+    "k": "2",
+    "r": 5,
+    "accepted": false,
+    "tau": 1793117193,
+    "checked_version": 24,
+    "chain_version": null,
+    "n_used": 4304,
+    "used_pids": [
+     8891,
+     17290
+    ],
+    "decide_latency_s": 0.6066327095031738
+   },
+   {
+    "k": "0",
+    "r": 6,
+    "accepted": true,
+    "tau": 1793117214,
+    "checked_version": 24,
+    "chain_version": 24,
+    "n_used": 7682,
+    "used_pids": [],
+    "decide_latency_s": 0.8464975357055664
+   },
+   {
+    "k": "1",
+    "r": 6,
+    "accepted": true,
+    "tau": 1793117215,
+    "checked_version": 24,
+    "chain_version": 24,
+    "n_used": 5061,
+    "used_pids": [],
+    "decide_latency_s": 0.9488265514373779
+   },
+   {
+    "k": "2",
+    "r": 6,
+    "accepted": true,
+    "tau": 1793117216,
+    "checked_version": 24,
+    "chain_version": 24,
+    "n_used": 4300,
+    "used_pids": [],
+    "decide_latency_s": 0.9479029178619385
+   }
+  ],
+  "withdrawal_events": [
+   {
+    "pid": 10522,
+    "k": "0",
+    "tEff": 1793117072,
+    "round": 2,
+    "when": "round_start",
+    "inclusion_s": 0.8521571159362793,
+    "block": 231473174
+   },
+   {
+    "pid": 16793,
+    "k": "2",
+    "tEff": 1793117073,
+    "round": 2,
+    "when": "round_start",
+    "inclusion_s": 0.9683001041412354,
+    "block": 231473175
+   },
+   {
+    "pid": 11648,
+    "k": "2",
+    "tEff": 1793117074,
+    "round": 2,
+    "when": "round_start",
+    "inclusion_s": 1.0852882862091064,
+    "block": 231473176
+   },
+   {
+    "pid": 18174,
+    "k": "0",
+    "tEff": 1793117078,
+    "round": 2,
+    "when": "after_commit",
+    "inclusion_s": 0.8489320278167725,
+    "block": 231473180
+   },
+   {
+    "pid": 1822,
+    "k": "1",
+    "tEff": 1793117079,
+    "round": 2,
+    "when": "after_commit",
+    "inclusion_s": 0.973289966583252,
+    "block": 231473181
+   },
+   {
+    "pid": 6745,
+    "k": "1",
+    "tEff": 1793117080,
+    "round": 2,
+    "when": "after_commit",
+    "inclusion_s": 1.0216500759124756,
+    "block": 231473182
+   },
+   {
+    "pid": 9010,
+    "k": "2",
+    "tEff": 1793117103,
+    "round": 3,
+    "when": "round_start",
+    "inclusion_s": 0.25996994972229004,
+    "block": 231473205
+   },
+   {
+    "pid": 16731,
+    "k": "0",
+    "tEff": 1793117107,
+    "round": 3,
+    "when": "after_commit",
+    "inclusion_s": 0.9727988243103027,
+    "block": 231473209
+   },
+   {
+    "pid": 8532,
+    "k": "0",
+    "tEff": 1793117108,
+    "round": 3,
+    "when": "after_commit",
+    "inclusion_s": 0.9778347015380859,
+    "block": 231473210
+   },
+   {
+    "pid": 332,
+    "k": "1",
+    "tEff": 1793117109,
+    "round": 3,
+    "when": "after_commit",
+    "inclusion_s": 1.0006468296051025,
+    "block": 231473211
+   },
+   {
+    "pid": 6110,
+    "k": "1",
+    "tEff": 1793117116,
+    "round": 3,
+    "when": "after_send",
+    "inclusion_s": 0.9647352695465088,
+    "block": 231473218
+   },
+   {
+    "pid": 19837,
+    "k": "2",
+    "tEff": 1793117117,
+    "round": 3,
+    "when": "after_send",
+    "inclusion_s": 0.9685745239257812,
+    "block": 231473219
+   },
+   {
+    "pid": 13912,
+    "k": "0",
+    "tEff": 1793117133,
+    "round": 4,
+    "when": "round_start",
+    "inclusion_s": 1.0632176399230957,
+    "block": 231473235
+   },
+   {
+    "pid": 8599,
+    "k": "0",
+    "tEff": 1793117134,
+    "round": 4,
+    "when": "round_start",
+    "inclusion_s": 0.9700927734375,
+    "block": 231473236
+   },
+   {
+    "pid": 12373,
+    "k": "2",
+    "tEff": 1793117135,
+    "round": 4,
+    "when": "round_start",
+    "inclusion_s": 0.9901585578918457,
+    "block": 231473237
+   },
+   {
+    "pid": 7331,
+    "k": "1",
+    "tEff": 1793117139,
+    "round": 4,
+    "when": "after_commit",
+    "inclusion_s": 0.9738383293151855,
+    "block": 231473241
+   },
+   {
+    "pid": 418,
+    "k": "1",
+    "tEff": 1793117149,
+    "round": 4,
+    "when": "after_send",
+    "inclusion_s": 2.8688719272613525,
+    "block": 231473251
+   },
+   {
+    "pid": 8872,
+    "k": "2",
+    "tEff": 1793117150,
+    "round": 4,
+    "when": "after_send",
+    "inclusion_s": 1.4801831245422363,
+    "block": 231473252
+   },
+   {
+    "pid": 3338,
+    "k": "1",
+    "tEff": 1793117166,
+    "round": 5,
+    "when": "round_start",
+    "inclusion_s": 0.9607882499694824,
+    "block": 231473268
+   },
+   {
+    "pid": 17515,
+    "k": "0",
+    "tEff": 1793117170,
+    "round": 5,
+    "when": "after_commit",
+    "inclusion_s": 0.9784753322601318,
+    "block": 231473272
+   },
+   {
+    "pid": 12094,
+    "k": "0",
+    "tEff": 1793117171,
+    "round": 5,
+    "when": "after_commit",
+    "inclusion_s": 0.9436066150665283,
+    "block": 231473273
+   },
+   {
+    "pid": 7469,
+    "k": "1",
+    "tEff": 1793117172,
+    "round": 5,
+    "when": "after_commit",
+    "inclusion_s": 1.536893367767334,
+    "block": 231473274
+   },
+   {
+    "pid": 17290,
+    "k": "2",
+    "tEff": 1793117173,
+    "round": 5,
+    "when": "after_commit",
+    "inclusion_s": 0.6072037220001221,
+    "block": 231473275
+   },
+   {
+    "pid": 8891,
+    "k": "2",
+    "tEff": 1793117174,
+    "round": 5,
+    "when": "after_commit",
+    "inclusion_s": 0.7463128566741943,
+    "block": 231473276
+   }
+  ],
+  "tx_total": 116,
+  "fee_kaia": 0.2240732175,
+  "key_txs": [
+   {
+    "fn": "deploy:ConsentLedger",
+    "hash": "0xff96efc0b40e6a1e8e6ce4439805bbd869b7fb38e962d5cc1d266484d147b673",
+    "block": null
+   },
+   {
+    "fn": "commitTrainingConfig",
+    "hash": "0x7e882dcdfbc3bb28a7bd4f1d3839609c5fc2c8171631463f126c01d797803c6d",
+    "block": 231473147
+   }
+  ],
+  "wall_s": 175.7177665233612
+ },
+ {
+  "scenario": "aggdelay",
+  "params": {
+   "D": 40.0
+  },
+  "seed": 1,
+  "contract": "0xaDfD221Bbc2C98390A31Ae659D00bcbb0fF25524",
+  "rounds": 6,
+  "withdrawals": 24,
+  "updates": 18,
+  "accepted": 8,
+  "violations": 0,
+  "rejections_correct": 10,
+  "rejections_wrong": 0,
+  "race": 0,
+  "inclusion_latency_s": {
+   "mean": 0.9661263326803843,
+   "min": 0.29229187965393066,
+   "max": 1.6053407192230225,
+   "p95": 1.354664123058319
+  },
+  "units": [
+   {
+    "k": "0",
+    "r": 1,
+    "accepted": true,
+    "tau": 1793117272,
+    "checked_version": 0,
+    "chain_version": 0,
+    "n_used": 7692,
+    "used_pids": [
+     8532,
+     8599,
+     10522,
+     12094,
+     13912,
+     16731,
+     17515,
+     18174
+    ],
+    "decide_latency_s": 0.8432579040527344
+   },
+   {
+    "k": "1",
+    "r": 1,
+    "accepted": true,
+    "tau": 1793117273,
+    "checked_version": 0,
+    "chain_version": 0,
+    "n_used": 5071,
+    "used_pids": [
+     332,
+     418,
+     1822,
+     3338,
+     6110,
+     6745,
+     7331,
+     7469
+    ],
+    "decide_latency_s": 0.839169979095459
+   },
+   {
+    "k": "2",
+    "r": 1,
+    "accepted": true,
+    "tau": 1793117274,
+    "checked_version": 0,
+    "chain_version": 0,
+    "n_used": 4310,
+    "used_pids": [
+     8872,
+     8891,
+     9010,
+     11648,
+     12373,
+     16793,
+     17290,
+     19837
+    ],
+    "decide_latency_s": 0.9691965579986572
+   },
+   {
+    "k": "0",
+    "r": 2,
+    "accepted": false,
+    "tau": 1793117332,
+    "checked_version": 6,
+    "chain_version": null,
+    "n_used": 7691,
+    "used_pids": [
+     8532,
+     8599,
+     12094,
+     13912,
+     16731,
+     17515,
+     18174
+    ],
+    "decide_latency_s": 0.8723154067993164
+   },
+   {
+    "k": "1",
+    "r": 2,
+    "accepted": false,
+    "tau": 1793117333,
+    "checked_version": 6,
+    "chain_version": null,
+    "n_used": 5071,
+    "used_pids": [
+     332,
+     418,
+     1822,
+     3338,
+     6110,
+     6745,
+     7331,
+     7469
+    ],
+    "decide_latency_s": 0.7144303321838379
+   },
+   {
+    "k": "2",
+    "r": 2,
+    "accepted": true,
+    "tau": 1793117334,
+    "checked_version": 6,
+    "chain_version": 6,
+    "n_used": 4308,
+    "used_pids": [
+     8872,
+     8891,
+     9010,
+     12373,
+     17290,
+     19837
+    ],
+    "decide_latency_s": 1.073235273361206
+   },
+   {
+    "k": "0",
+    "r": 3,
+    "accepted": false,
+    "tau": 1793117392,
+    "checked_version": 12,
+    "chain_version": null,
+    "n_used": 7690,
+    "used_pids": [
+     8532,
+     8599,
+     12094,
+     13912,
+     16731,
+     17515
+    ],
+    "decide_latency_s": 0.7691280841827393
+   },
+   {
+    "k": "1",
+    "r": 3,
+    "accepted": false,
+    "tau": 1793117393,
+    "checked_version": 12,
+    "chain_version": null,
+    "n_used": 5069,
+    "used_pids": [
+     332,
+     418,
+     3338,
+     6110,
+     7331,
+     7469
+    ],
+    "decide_latency_s": 0.8863587379455566
+   },
+   {
+    "k": "2",
+    "r": 3,
+    "accepted": false,
+    "tau": 1793117394,
+    "checked_version": 12,
+    "chain_version": null,
+    "n_used": 4307,
+    "used_pids": [
+     8872,
+     8891,
+     12373,
+     17290,
+     19837
+    ],
+    "decide_latency_s": 0.9394900798797607
+   },
+   {
+    "k": "0",
+    "r": 4,
+    "accepted": true,
+    "tau": 1793117453,
+    "checked_version": 18,
+    "chain_version": 18,
+    "n_used": 7686,
+    "used_pids": [
+     12094,
+     17515
+    ],
+    "decide_latency_s": 0.8444430828094482
+   },
+   {
+    "k": "1",
+    "r": 4,
+    "accepted": false,
+    "tau": 1793117454,
+    "checked_version": 18,
+    "chain_version": null,
+    "n_used": 5066,
+    "used_pids": [
+     418,
+     3338,
+     7331,
+     7469
+    ],
+    "decide_latency_s": 0.9428784847259521
+   },
+   {
+    "k": "2",
+    "r": 4,
+    "accepted": false,
+    "tau": 1793117455,
+    "checked_version": 18,
+    "chain_version": null,
+    "n_used": 4305,
+    "used_pids": [
+     8872,
+     8891,
+     17290
+    ],
+    "decide_latency_s": 0.9564545154571533
+   },
+   {
+    "k": "0",
+    "r": 5,
+    "accepted": false,
+    "tau": 1793117514,
+    "checked_version": 24,
+    "chain_version": null,
+    "n_used": 7686,
+    "used_pids": [
+     12094,
+     17515
+    ],
+    "decide_latency_s": 0.5959987640380859
+   },
+   {
+    "k": "1",
+    "r": 5,
+    "accepted": false,
+    "tau": 1793117515,
+    "checked_version": 24,
+    "chain_version": null,
+    "n_used": 5062,
+    "used_pids": [
+     7469
+    ],
+    "decide_latency_s": 0.8263139724731445
+   },
+   {
+    "k": "2",
+    "r": 5,
+    "accepted": false,
+    "tau": 1793117516,
+    "checked_version": 24,
+    "chain_version": null,
+    "n_used": 4304,
+    "used_pids": [
+     8891,
+     17290
+    ],
+    "decide_latency_s": 0.942347526550293
+   },
+   {
+    "k": "0",
+    "r": 6,
+    "accepted": true,
+    "tau": 1793117568,
+    "checked_version": 24,
+    "chain_version": 24,
+    "n_used": 7682,
+    "used_pids": [],
+    "decide_latency_s": 0.844057559967041
+   },
+   {
+    "k": "1",
+    "r": 6,
+    "accepted": true,
+    "tau": 1793117569,
+    "checked_version": 24,
+    "chain_version": 24,
+    "n_used": 5061,
+    "used_pids": [],
+    "decide_latency_s": 0.8320131301879883
+   },
+   {
+    "k": "2",
+    "r": 6,
+    "accepted": true,
+    "tau": 1793117570,
+    "checked_version": 24,
+    "chain_version": 24,
+    "n_used": 4300,
+    "used_pids": [],
+    "decide_latency_s": 0.8627402782440186
+   }
+  ],
+  "withdrawal_events": [
+   {
+    "pid": 10522,
+    "k": "0",
+    "tEff": 1793117277,
+    "round": 2,
+    "when": "round_start",
+    "inclusion_s": 0.9545166492462158,
+    "block": 231473379
+   },
+   {
+    "pid": 16793,
+    "k": "2",
+    "tEff": 1793117278,
+    "round": 2,
+    "when": "round_start",
+    "inclusion_s": 0.8328492641448975,
+    "block": 231473380
+   },
+   {
+    "pid": 11648,
+    "k": "2",
+    "tEff": 1793117279,
+    "round": 2,
+    "when": "round_start",
+    "inclusion_s": 0.7233078479766846,
+    "block": 231473381
+   },
+   {
+    "pid": 18174,
+    "k": "0",
+    "tEff": 1793117284,
+    "round": 2,
+    "when": "after_commit",
+    "inclusion_s": 1.064453363418579,
+    "block": 231473386
+   },
+   {
+    "pid": 1822,
+    "k": "1",
+    "tEff": 1793117285,
+    "round": 2,
+    "when": "after_commit",
+    "inclusion_s": 1.222463607788086,
+    "block": 231473387
+   },
+   {
+    "pid": 6745,
+    "k": "1",
+    "tEff": 1793117286,
+    "round": 2,
+    "when": "after_commit",
+    "inclusion_s": 0.601203203201294,
+    "block": 231473388
+   },
+   {
+    "pid": 9010,
+    "k": "2",
+    "tEff": 1793117337,
+    "round": 3,
+    "when": "round_start",
+    "inclusion_s": 0.9713239669799805,
+    "block": 231473439
+   },
+   {
+    "pid": 16731,
+    "k": "0",
+    "tEff": 1793117341,
+    "round": 3,
+    "when": "after_commit",
+    "inclusion_s": 0.8680880069732666,
+    "block": 231473443
+   },
+   {
+    "pid": 8532,
+    "k": "0",
+    "tEff": 1793117342,
+    "round": 3,
+    "when": "after_commit",
+    "inclusion_s": 0.9980330467224121,
+    "block": 231473444
+   },
+   {
+    "pid": 332,
+    "k": "1",
+    "tEff": 1793117343,
+    "round": 3,
+    "when": "after_commit",
+    "inclusion_s": 0.9509930610656738,
+    "block": 231473445
+   },
+   {
+    "pid": 6110,
+    "k": "1",
+    "tEff": 1793117350,
+    "round": 3,
+    "when": "after_send",
+    "inclusion_s": 0.9957020282745361,
+    "block": 231473452
+   },
+   {
+    "pid": 19837,
+    "k": "2",
+    "tEff": 1793117351,
+    "round": 3,
+    "when": "after_send",
+    "inclusion_s": 0.9729597568511963,
+    "block": 231473453
+   },
+   {
+    "pid": 13912,
+    "k": "0",
+    "tEff": 1793117397,
+    "round": 4,
+    "when": "round_start",
+    "inclusion_s": 0.7136757373809814,
+    "block": 231473499
+   },
+   {
+    "pid": 8599,
+    "k": "0",
+    "tEff": 1793117398,
+    "round": 4,
+    "when": "round_start",
+    "inclusion_s": 1.0113592147827148,
+    "block": 231473500
+   },
+   {
+    "pid": 12373,
+    "k": "2",
+    "tEff": 1793117399,
+    "round": 4,
+    "when": "round_start",
+    "inclusion_s": 0.8578205108642578,
+    "block": 231473501
+   },
+   {
+    "pid": 7331,
+    "k": "1",
+    "tEff": 1793117403,
+    "round": 4,
+    "when": "after_commit",
+    "inclusion_s": 0.9780957698822021,
+    "block": 231473505
+   },
+   {
+    "pid": 418,
+    "k": "1",
+    "tEff": 1793117411,
+    "round": 4,
+    "when": "after_send",
+    "inclusion_s": 1.6053407192230225,
+    "block": 231473513
+   },
+   {
+    "pid": 8872,
+    "k": "2",
+    "tEff": 1793117412,
+    "round": 4,
+    "when": "after_send",
+    "inclusion_s": 0.29229187965393066,
+    "block": 231473514
+   },
+   {
+    "pid": 3338,
+    "k": "1",
+    "tEff": 1793117458,
+    "round": 5,
+    "when": "round_start",
+    "inclusion_s": 1.3592360019683838,
+    "block": 231473560
+   },
+   {
+    "pid": 17515,
+    "k": "0",
+    "tEff": 1793117462,
+    "round": 5,
+    "when": "after_commit",
+    "inclusion_s": 0.9709508419036865,
+    "block": 231473564
+   },
+   {
+    "pid": 12094,
+    "k": "0",
+    "tEff": 1793117463,
+    "round": 5,
+    "when": "after_commit",
+    "inclusion_s": 0.9768943786621094,
+    "block": 231473565
+   },
+   {
+    "pid": 7469,
+    "k": "1",
+    "tEff": 1793117464,
+    "round": 5,
+    "when": "after_commit",
+    "inclusion_s": 0.9627115726470947,
+    "block": 231473566
+   },
+   {
+    "pid": 17290,
+    "k": "2",
+    "tEff": 1793117465,
+    "round": 5,
+    "when": "after_commit",
+    "inclusion_s": 0.9740047454833984,
+    "block": 231473567
+   },
+   {
+    "pid": 8891,
+    "k": "2",
+    "tEff": 1793117466,
+    "round": 5,
+    "when": "after_commit",
+    "inclusion_s": 1.3287568092346191,
+    "block": 231473568
+   }
+  ],
+  "tx_total": 116,
+  "fee_kaia": 0.2240732175,
+  "key_txs": [
+   {
+    "fn": "deploy:ConsentLedger",
+    "hash": "0xada723ca7e1bd67b76a60b8d75e2688da76d1e3710c9014df1e5310c411bb44a",
+    "block": null
+   },
+   {
+    "fn": "commitTrainingConfig",
+    "hash": "0x6c6d75a91e7d962a01ca12052260bf99cd26312b32448d6f51c71f8bb33a65a7",
+    "block": 231473324
+   }
+  ],
+  "wall_s": 353.90644788742065
+ },
+ {
+  "scenario": "version",
+  "params": {
+   "sync_q": 0.3
+  },
+  "seed": 1,
+  "contract": "0x0F62D3CB53788FCd2B2dA63C526ec7bE10281F5F",
+  "rounds": 6,
+  "withdrawals": 24,
+  "updates": 18,
+  "accepted": 12,
+  "violations": 0,
+  "rejections_correct": 6,
+  "rejections_wrong": 0,
+  "race": 0,
+  "inclusion_latency_s": {
+   "mean": 0.9830740789572397,
+   "min": 0.721266508102417,
+   "max": 1.321582555770874,
+   "p95": 1.0988558053970336
+  },
+  "units": [
+   {
+    "k": "0",
+    "r": 1,
+    "accepted": true,
+    "tau": 1793117587,
+    "checked_version": 0,
+    "chain_version": 0,
+    "n_used": 7692,
+    "used_pids": [
+     7974,
+     9827,
+     10522,
+     16034,
+     16731,
+     18174,
+     21672,
+     21700
+    ],
+    "decide_latency_s": 0.8722028732299805
+   },
+   {
+    "k": "1",
+    "r": 1,
+    "accepted": true,
+    "tau": 1793117588,
+    "checked_version": 0,
+    "chain_version": 0,
+    "n_used": 5071,
+    "used_pids": [
+     661,
+     1109,
+     3612,
+     3759,
+     5258,
+     5390,
+     6110,
+     6461
+    ],
+    "decide_latency_s": 0.9555561542510986
+   },
+   {
+    "k": "2",
+    "r": 1,
+    "accepted": true,
+    "tau": 1793117589,
+    "checked_version": 0,
+    "chain_version": 0,
+    "n_used": 4310,
+    "used_pids": [
+     6047,
+     8736,
+     12673,
+     13644,
+     16041,
+     18233,
+     19618,
+     19837
+    ],
+    "decide_latency_s": 1.0617156028747559
+   },
+   {
+    "k": "0",
+    "r": 2,
+    "accepted": false,
+    "tau": 1793117607,
+    "checked_version": 6,
+    "chain_version": null,
+    "n_used": 7692,
+    "used_pids": [
+     7974,
+     9827,
+     10522,
+     16034,
+     16731,
+     18174,
+     21672,
+     21700
+    ],
+    "decide_latency_s": 0.9565048217773438
+   },
+   {
+    "k": "1",
+    "r": 2,
+    "accepted": false,
+    "tau": 1793117608,
+    "checked_version": 6,
+    "chain_version": null,
+    "n_used": 5071,
+    "used_pids": [
+     661,
+     1109,
+     3612,
+     3759,
+     5258,
+     5390,
+     6110,
+     6461
+    ],
+    "decide_latency_s": 0.8317601680755615
+   },
+   {
+    "k": "2",
+    "r": 2,
+    "accepted": true,
+    "tau": 1793117609,
+    "checked_version": 6,
+    "chain_version": 6,
+    "n_used": 4307,
+    "used_pids": [
+     8736,
+     12673,
+     16041,
+     18233,
+     19618,
+     19837
+    ],
+    "decide_latency_s": 1.1825387477874756
+   },
+   {
+    "k": "0",
+    "r": 3,
+    "accepted": true,
+    "tau": 1793117627,
+    "checked_version": 12,
+    "chain_version": 12,
+    "n_used": 7688,
+    "used_pids": [
+     7974,
+     9827,
+     16731,
+     21700
+    ],
+    "decide_latency_s": 0.606436014175415
+   },
+   {
+    "k": "1",
+    "r": 3,
+    "accepted": true,
+    "tau": 1793117628,
+    "checked_version": 12,
+    "chain_version": 12,
+    "n_used": 5067,
+    "used_pids": [
+     661,
+     3759,
+     5390,
+     6110
+    ],
+    "decide_latency_s": 0.8446226119995117
+   },
+   {
+    "k": "2",
+    "r": 3,
+    "accepted": false,
+    "tau": 1793117629,
+    "checked_version": 12,
+    "chain_version": null,
+    "n_used": 4307,
+    "used_pids": [
+     8736,
+     12673,
+     16041,
+     18233,
+     19618,
+     19837
+    ],
+    "decide_latency_s": 0.9533419609069824
+   },
+   {
+    "k": "0",
+    "r": 4,
+    "accepted": true,
+    "tau": 1793117648,
+    "checked_version": 18,
+    "chain_version": 18,
+    "n_used": 7686,
+    "used_pids": [
+     7974,
+     21700
+    ],
+    "decide_latency_s": 0.9423925876617432
+   },
+   {
+    "k": "1",
+    "r": 4,
+    "accepted": false,
+    "tau": 1793117649,
+    "checked_version": 18,
+    "chain_version": null,
+    "n_used": 5067,
+    "used_pids": [
+     661,
+     3759,
+     5390,
+     6110
+    ],
+    "decide_latency_s": 1.4063115119934082
+   },
+   {
+    "k": "2",
+    "r": 4,
+    "accepted": false,
+    "tau": 1793117650,
+    "checked_version": 18,
+    "chain_version": null,
+    "n_used": 4307,
+    "used_pids": [
+     8736,
+     12673,
+     16041,
+     18233,
+     19618,
+     19837
+    ],
+    "decide_latency_s": 0.3723015785217285
+   },
+   {
+    "k": "0",
+    "r": 5,
+    "accepted": true,
+    "tau": 1793117668,
+    "checked_version": 24,
+    "chain_version": 24,
+    "n_used": 7684,
+    "used_pids": [],
+    "decide_latency_s": 1.0690598487854004
+   },
+   {
+    "k": "1",
+    "r": 5,
+    "accepted": true,
+    "tau": 1793117669,
+    "checked_version": 24,
+    "chain_version": 24,
+    "n_used": 5063,
+    "used_pids": [],
+    "decide_latency_s": 0.7179560661315918
+   },
+   {
+    "k": "2",
+    "r": 5,
+    "accepted": false,
+    "tau": 1793117670,
+    "checked_version": 24,
+    "chain_version": null,
+    "n_used": 4307,
+    "used_pids": [
+     8736,
+     12673,
+     16041,
+     18233,
+     19618,
+     19837
+    ],
+    "decide_latency_s": 0.9930713176727295
+   },
+   {
+    "k": "0",
+    "r": 6,
+    "accepted": true,
+    "tau": 1793117682,
+    "checked_version": 24,
+    "chain_version": 24,
+    "n_used": 7684,
+    "used_pids": [],
+    "decide_latency_s": 0.8379418849945068
+   },
+   {
+    "k": "1",
+    "r": 6,
+    "accepted": true,
+    "tau": 1793117683,
+    "checked_version": 24,
+    "chain_version": 24,
+    "n_used": 5063,
+    "used_pids": [],
+    "decide_latency_s": 1.2875919342041016
+   },
+   {
+    "k": "2",
+    "r": 6,
+    "accepted": true,
+    "tau": 1793117684,
+    "checked_version": 24,
+    "chain_version": 24,
+    "n_used": 4301,
+    "used_pids": [],
+    "decide_latency_s": 0.9909651279449463
+   }
+  ],
+  "withdrawal_events": [
+   {
+    "pid": 10522,
+    "k": "0",
+    "tEff": 1793117592,
+    "round": 2,
+    "when": "round_start",
+    "inclusion_s": 0.9659996032714844,
+    "block": 231473694
+   },
+   {
+    "pid": 18174,
+    "k": "0",
+    "tEff": 1793117593,
+    "round": 2,
+    "when": "round_start",
+    "inclusion_s": 0.9759743213653564,
+    "block": 231473695
+   },
+   {
+    "pid": 1109,
+    "k": "1",
+    "tEff": 1793117594,
+    "round": 2,
+    "when": "round_start",
+    "inclusion_s": 1.0960514545440674,
+    "block": 231473696
+   },
+   {
+    "pid": 3612,
+    "k": "1",
+    "tEff": 1793117595,
+    "round": 2,
+    "when": "round_start",
+    "inclusion_s": 0.8463966846466064,
+    "block": 231473697
+   },
+   {
+    "pid": 6047,
+    "k": "2",
+    "tEff": 1793117596,
+    "round": 2,
+    "when": "round_start",
+    "inclusion_s": 1.0993506908416748,
+    "block": 231473698
+   },
+   {
+    "pid": 13644,
+    "k": "2",
+    "tEff": 1793117597,
+    "round": 2,
+    "when": "round_start",
+    "inclusion_s": 1.0749156475067139,
+    "block": 231473699
+   },
+   {
+    "pid": 21672,
+    "k": "0",
+    "tEff": 1793117612,
+    "round": 3,
+    "when": "round_start",
+    "inclusion_s": 1.0955023765563965,
+    "block": 231473714
+   },
+   {
+    "pid": 16034,
+    "k": "0",
+    "tEff": 1793117613,
+    "round": 3,
+    "when": "round_start",
+    "inclusion_s": 1.0630755424499512,
+    "block": 231473715
+   },
+   {
+    "pid": 6461,
+    "k": "1",
+    "tEff": 1793117614,
+    "round": 3,
+    "when": "round_start",
+    "inclusion_s": 0.7309648990631104,
+    "block": 231473716
+   },
+   {
+    "pid": 5258,
+    "k": "1",
+    "tEff": 1793117615,
+    "round": 3,
+    "when": "round_start",
+    "inclusion_s": 0.9567766189575195,
+    "block": 231473717
+   },
+   {
+    "pid": 19618,
+    "k": "2",
+    "tEff": 1793117616,
+    "round": 3,
+    "when": "round_start",
+    "inclusion_s": 1.065026044845581,
+    "block": 231473718
+   },
+   {
+    "pid": 8736,
+    "k": "2",
+    "tEff": 1793117617,
+    "round": 3,
+    "when": "round_start",
+    "inclusion_s": 0.993544340133667,
+    "block": 231473719
+   },
+   {
+    "pid": 9827,
+    "k": "0",
+    "tEff": 1793117632,
+    "round": 4,
+    "when": "round_start",
+    "inclusion_s": 0.944272518157959,
+    "block": 231473734
+   },
+   {
+    "pid": 16731,
+    "k": "0",
+    "tEff": 1793117633,
+    "round": 4,
+    "when": "round_start",
+    "inclusion_s": 1.0921237468719482,
+    "block": 231473735
+   },
+   {
+    "pid": 661,
+    "k": "1",
+    "tEff": 1793117634,
+    "round": 4,
+    "when": "round_start",
+    "inclusion_s": 0.8483321666717529,
+    "block": 231473736
+   },
+   {
+    "pid": 5390,
+    "k": "1",
+    "tEff": 1793117635,
+    "round": 4,
+    "when": "round_start",
+    "inclusion_s": 0.9627854824066162,
+    "block": 231473737
+   },
+   {
+    "pid": 12673,
+    "k": "2",
+    "tEff": 1793117636,
+    "round": 4,
+    "when": "round_start",
+    "inclusion_s": 1.0102431774139404,
+    "block": 231473738
+   },
+   {
+    "pid": 16041,
+    "k": "2",
+    "tEff": 1793117637,
+    "round": 4,
+    "when": "round_start",
+    "inclusion_s": 0.8793413639068604,
+    "block": 231473739
+   },
+   {
+    "pid": 21700,
+    "k": "0",
+    "tEff": 1793117653,
+    "round": 5,
+    "when": "round_start",
+    "inclusion_s": 1.321582555770874,
+    "block": 231473755
+   },
+   {
+    "pid": 7974,
+    "k": "0",
+    "tEff": 1793117654,
+    "round": 5,
+    "when": "round_start",
+    "inclusion_s": 0.721266508102417,
+    "block": 231473756
+   },
+   {
+    "pid": 6110,
+    "k": "1",
+    "tEff": 1793117655,
+    "round": 5,
+    "when": "round_start",
+    "inclusion_s": 0.9534318447113037,
+    "block": 231473757
+   },
+   {
+    "pid": 3759,
+    "k": "1",
+    "tEff": 1793117656,
+    "round": 5,
+    "when": "round_start",
+    "inclusion_s": 0.9812755584716797,
+    "block": 231473758
+   },
+   {
+    "pid": 18233,
+    "k": "2",
+    "tEff": 1793117657,
+    "round": 5,
+    "when": "round_start",
+    "inclusion_s": 1.0131971836090088,
+    "block": 231473759
+   },
+   {
+    "pid": 19837,
+    "k": "2",
+    "tEff": 1793117658,
+    "round": 5,
+    "when": "round_start",
+    "inclusion_s": 0.9023475646972656,
+    "block": 231473760
+   }
+  ],
+  "tx_total": 116,
+  "fee_kaia": 0.2253113775,
+  "key_txs": [
+   {
+    "fn": "deploy:ConsentLedger",
+    "hash": "0x7aee26cede97e5e595e78db8540c0de9d57fd2eae450ff2ac666fe153c353af2",
+    "block": null
+   },
+   {
+    "fn": "commitTrainingConfig",
+    "hash": "0xc7bb05eb5110a0b01a94fa284385cc2e19bd4044193d5ea390df4cf6faeb8a5c",
+    "block": 231473677
+   }
+  ],
+  "wall_s": 116.0377049446106
+ },
+ {
+  "scenario": "offline",
+  "params": {
+   "m": 2
+  },
+  "seed": 1,
+  "contract": "0xb7d3aB5a113755528B69Cc8281200B6555467B9a",
+  "rounds": 6,
+  "withdrawals": 24,
+  "updates": 16,
+  "accepted": 15,
+  "violations": 0,
+  "rejections_correct": 1,
+  "rejections_wrong": 0,
+  "race": 0,
+  "inclusion_latency_s": {
+   "mean": 1.0236874918142955,
+   "min": 0.49736547470092773,
+   "max": 2.103203296661377,
+   "p95": 1.4324850082397458
+  },
+  "units": [
+   {
+    "k": "0",
+    "r": 1,
+    "accepted": true,
+    "tau": 1793117703,
+    "checked_version": 0,
+    "chain_version": 0,
+    "n_used": 7692,
+    "used_pids": [
+     7974,
+     9827,
+     10522,
+     16034,
+     16731,
+     18174,
+     21672,
+     21700
+    ],
+    "decide_latency_s": 1.5165600776672363
+   },
+   {
+    "k": "1",
+    "r": 1,
+    "accepted": true,
+    "tau": 1793117704,
+    "checked_version": 0,
+    "chain_version": 0,
+    "n_used": 5071,
+    "used_pids": [
+     661,
+     1109,
+     3612,
+     3759,
+     5258,
+     5390,
+     6110,
+     6461
+    ],
+    "decide_latency_s": 0.24574756622314453
+   },
+   {
+    "k": "2",
+    "r": 1,
+    "accepted": true,
+    "tau": 1793117705,
+    "checked_version": 0,
+    "chain_version": 0,
+    "n_used": 4310,
+    "used_pids": [
+     6047,
+     8736,
+     12673,
+     13644,
+     16041,
+     18233,
+     19618,
+     19837
+    ],
+    "decide_latency_s": 1.0746307373046875
+   },
+   {
+    "k": "1",
+    "r": 2,
+    "accepted": true,
+    "tau": 1793117720,
+    "checked_version": 6,
+    "chain_version": 6,
+    "n_used": 5069,
+    "used_pids": [
+     661,
+     3759,
+     5258,
+     5390,
+     6110,
+     6461
+    ],
+    "decide_latency_s": 0.9401443004608154
+   },
+   {
+    "k": "2",
+    "r": 2,
+    "accepted": true,
+    "tau": 1793117721,
+    "checked_version": 6,
+    "chain_version": 6,
+    "n_used": 4307,
+    "used_pids": [
+     8736,
+     12673,
+     16041,
+     18233,
+     19618,
+     19837
+    ],
+    "decide_latency_s": 0.8887608051300049
+   },
+   {
+    "k": "1",
+    "r": 3,
+    "accepted": true,
+    "tau": 1793117735,
+    "checked_version": 12,
+    "chain_version": 12,
+    "n_used": 5067,
+    "used_pids": [
+     661,
+     3759,
+     5390,
+     6110
+    ],
+    "decide_latency_s": 0.8221592903137207
+   },
+   {
+    "k": "2",
+    "r": 3,
+    "accepted": true,
+    "tau": 1793117736,
+    "checked_version": 12,
+    "chain_version": 12,
+    "n_used": 4305,
+    "used_pids": [
+     12673,
+     16041,
+     18233,
+     19837
+    ],
+    "decide_latency_s": 0.9367156028747559
+   },
+   {
+    "k": "0",
+    "r": 4,
+    "accepted": false,
+    "tau": 1793117757,
+    "checked_version": 18,
+    "chain_version": null,
+    "n_used": 7690,
+    "used_pids": [
+     7974,
+     9827,
+     16034,
+     16731,
+     21672,
+     21700
+    ],
+    "decide_latency_s": 0.9334707260131836
+   },
+   {
+    "k": "1",
+    "r": 4,
+    "accepted": true,
+    "tau": 1793117758,
+    "checked_version": 18,
+    "chain_version": 18,
+    "n_used": 5065,
+    "used_pids": [
+     3759,
+     6110
+    ],
+    "decide_latency_s": 1.0445036888122559
+   },
+   {
+    "k": "2",
+    "r": 4,
+    "accepted": true,
+    "tau": 1793117759,
+    "checked_version": 18,
+    "chain_version": 18,
+    "n_used": 4303,
+    "used_pids": [
+     18233,
+     19837
+    ],
+    "decide_latency_s": 0.5946993827819824
+   },
+   {
+    "k": "0",
+    "r": 5,
+    "accepted": true,
+    "tau": 1793117776,
+    "checked_version": 24,
+    "chain_version": 24,
+    "n_used": 7684,
+    "used_pids": [],
+    "decide_latency_s": 0.47957277297973633
+   },
+   {
+    "k": "1",
+    "r": 5,
+    "accepted": true,
+    "tau": 1793117777,
+    "checked_version": 24,
+    "chain_version": 24,
+    "n_used": 5063,
+    "used_pids": [],
+    "decide_latency_s": 0.9365940093994141
+   },
+   {
+    "k": "2",
+    "r": 5,
+    "accepted": true,
+    "tau": 1793117778,
+    "checked_version": 24,
+    "chain_version": 24,
+    "n_used": 4301,
+    "used_pids": [],
+    "decide_latency_s": 0.9767282009124756
+   },
+   {
+    "k": "0",
+    "r": 6,
+    "accepted": true,
+    "tau": 1793117789,
+    "checked_version": 24,
+    "chain_version": 24,
+    "n_used": 7684,
+    "used_pids": [],
+    "decide_latency_s": 1.187035322189331
+   },
+   {
+    "k": "1",
+    "r": 6,
+    "accepted": true,
+    "tau": 1793117790,
+    "checked_version": 24,
+    "chain_version": 24,
+    "n_used": 5063,
+    "used_pids": [],
+    "decide_latency_s": 0.8288111686706543
+   },
+   {
+    "k": "2",
+    "r": 6,
+    "accepted": true,
+    "tau": 1793117791,
+    "checked_version": 24,
+    "chain_version": 24,
+    "n_used": 4301,
+    "used_pids": [],
+    "decide_latency_s": 0.8290486335754395
+   }
+  ],
+  "withdrawal_events": [
+   {
+    "pid": 10522,
+    "k": "0",
+    "tEff": 1793117708,
+    "round": 2,
+    "when": "round_start",
+    "inclusion_s": 0.9830992221832275,
+    "block": 231473810
+   },
+   {
+    "pid": 18174,
+    "k": "0",
+    "tEff": 1793117709,
+    "round": 2,
+    "when": "round_start",
+    "inclusion_s": 1.3041925430297852,
+    "block": 231473811
+   },
+   {
+    "pid": 1109,
+    "k": "1",
+    "tEff": 1793117710,
+    "round": 2,
+    "when": "round_start",
+    "inclusion_s": 0.6146142482757568,
+    "block": 231473812
+   },
+   {
+    "pid": 3612,
+    "k": "1",
+    "tEff": 1793117711,
+    "round": 2,
+    "when": "round_start",
+    "inclusion_s": 1.1029043197631836,
+    "block": 231473813
+   },
+   {
+    "pid": 6047,
+    "k": "2",
+    "tEff": 1793117712,
+    "round": 2,
+    "when": "round_start",
+    "inclusion_s": 0.9585814476013184,
+    "block": 231473814
+   },
+   {
+    "pid": 13644,
+    "k": "2",
+    "tEff": 1793117713,
+    "round": 2,
+    "when": "round_start",
+    "inclusion_s": 1.07503342628479,
+    "block": 231473815
+   },
+   {
+    "pid": 21672,
+    "k": "0",
+    "tEff": 1793117724,
+    "round": 3,
+    "when": "round_start",
+    "inclusion_s": 1.3267278671264648,
+    "block": 231473826
+   },
+   {
+    "pid": 16034,
+    "k": "0",
+    "tEff": 1793117725,
+    "round": 3,
+    "when": "round_start",
+    "inclusion_s": 0.6216347217559814,
+    "block": 231473827
+   },
+   {
+    "pid": 6461,
+    "k": "1",
+    "tEff": 1793117726,
+    "round": 3,
+    "when": "round_start",
+    "inclusion_s": 0.9840054512023926,
+    "block": 231473828
+   },
+   {
+    "pid": 5258,
+    "k": "1",
+    "tEff": 1793117727,
+    "round": 3,
+    "when": "round_start",
+    "inclusion_s": 1.4511480331420898,
+    "block": 231473829
+   },
+   {
+    "pid": 19618,
+    "k": "2",
+    "tEff": 1793117728,
+    "round": 3,
+    "when": "round_start",
+    "inclusion_s": 0.49736547470092773,
+    "block": 231473830
+   },
+   {
+    "pid": 8736,
+    "k": "2",
+    "tEff": 1793117729,
+    "round": 3,
+    "when": "round_start",
+    "inclusion_s": 0.9465177059173584,
+    "block": 231473831
+   },
+   {
+    "pid": 9827,
+    "k": "0",
+    "tEff": 1793117739,
+    "round": 4,
+    "when": "round_start",
+    "inclusion_s": 0.958446741104126,
+    "block": 231473841
+   },
+   {
+    "pid": 16731,
+    "k": "0",
+    "tEff": 1793117740,
+    "round": 4,
+    "when": "round_start",
+    "inclusion_s": 1.0555639266967773,
+    "block": 231473842
+   },
+   {
+    "pid": 661,
+    "k": "1",
+    "tEff": 1793117741,
+    "round": 4,
+    "when": "round_start",
+    "inclusion_s": 1.0929560661315918,
+    "block": 231473843
+   },
+   {
+    "pid": 5390,
+    "k": "1",
+    "tEff": 1793117742,
+    "round": 4,
+    "when": "round_start",
+    "inclusion_s": 0.7939620018005371,
+    "block": 231473844
+   },
+   {
+    "pid": 12673,
+    "k": "2",
+    "tEff": 1793117743,
+    "round": 4,
+    "when": "round_start",
+    "inclusion_s": 0.9526138305664062,
+    "block": 231473845
+   },
+   {
+    "pid": 16041,
+    "k": "2",
+    "tEff": 1793117745,
+    "round": 4,
+    "when": "round_start",
+    "inclusion_s": 2.103203296661377,
+    "block": 231473847
+   },
+   {
+    "pid": 21700,
+    "k": "0",
+    "tEff": 1793117762,
+    "round": 5,
+    "when": "round_start",
+    "inclusion_s": 0.9705080986022949,
+    "block": 231473864
+   },
+   {
+    "pid": 7974,
+    "k": "0",
+    "tEff": 1793117763,
+    "round": 5,
+    "when": "round_start",
+    "inclusion_s": 1.1760942935943604,
+    "block": 231473865
+   },
+   {
+    "pid": 6110,
+    "k": "1",
+    "tEff": 1793117764,
+    "round": 5,
+    "when": "round_start",
+    "inclusion_s": 0.7128181457519531,
+    "block": 231473866
+   },
+   {
+    "pid": 3759,
+    "k": "1",
+    "tEff": 1793117765,
+    "round": 5,
+    "when": "round_start",
+    "inclusion_s": 0.9951341152191162,
+    "block": 231473867
+   },
+   {
+    "pid": 18233,
+    "k": "2",
+    "tEff": 1793117766,
+    "round": 5,
+    "when": "round_start",
+    "inclusion_s": 0.9517295360565186,
+    "block": 231473868
+   },
+   {
+    "pid": 19837,
+    "k": "2",
+    "tEff": 1793117767,
+    "round": 5,
+    "when": "round_start",
+    "inclusion_s": 0.9396452903747559,
+    "block": 231473869
+   }
+  ],
+  "tx_total": 110,
+  "fee_kaia": 0.21473969,
+  "key_txs": [
+   {
+    "fn": "deploy:ConsentLedger",
+    "hash": "0x8dbe0194ad128cf86917f00cf66fe6e14e978e739fb89d41b9f298a505f1f8f5",
+    "block": null
+   },
+   {
+    "fn": "commitTrainingConfig",
+    "hash": "0xd3d5a59202a6fc1a0809df4297a5bbfbf0bd10252a4a8fcec6dd6881fe525a16",
+    "block": 231473793
+   }
+  ],
+  "wall_s": 104.98713374137878
+ }
+]

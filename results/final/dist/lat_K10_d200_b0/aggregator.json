@@ -1,0 +1,277 @@
+{
+ "final_hash": "f9bd61c520af5ac0fa739b5fca2af55b4ec196f813cbe47742e43b94a25fcd86",
+ "rounds": 10,
+ "K": 10,
+ "scenario": "",
+ "seed": 1,
+ "delay_ms": 200.0,
+ "rate_mbps": 0.0,
+ "wall_s": 26.387526750564575,
+ "per_round": [
+  {
+   "r": 1,
+   "wall_s": 4.547465562820435,
+   "train_phase_s": 4.505818843841553
+  },
+  {
+   "r": 2,
+   "wall_s": 2.284106969833374,
+   "train_phase_s": 2.243201732635498
+  },
+  {
+   "r": 3,
+   "wall_s": 2.3076610565185547,
+   "train_phase_s": 2.2676267623901367
+  },
+  {
+   "r": 4,
+   "wall_s": 2.272368907928467,
+   "train_phase_s": 2.229645013809204
+  },
+  {
+   "r": 5,
+   "wall_s": 2.287660598754883,
+   "train_phase_s": 2.2416279315948486
+  },
+  {
+   "r": 6,
+   "wall_s": 2.2867395877838135,
+   "train_phase_s": 2.2412798404693604
+  },
+  {
+   "r": 7,
+   "wall_s": 2.3079347610473633,
+   "train_phase_s": 2.265225887298584
+  },
+  {
+   "r": 8,
+   "wall_s": 2.2892279624938965,
+   "train_phase_s": 2.243593692779541
+  },
+  {
+   "r": 9,
+   "wall_s": 2.277982234954834,
+   "train_phase_s": 2.233173131942749
+  },
+  {
+   "r": 10,
+   "wall_s": 2.3158934116363525,
+   "train_phase_s": 2.2721107006073
+  }
+ ],
+ "comm": {
+  "0": {
+   "sent": 19256633,
+   "recv": 19851270,
+   "by_path": {
+    "/registry": {
+     "calls": 1,
+     "sent": 10,
+     "recv": 591263
+    },
+    "/norm": {
+     "calls": 1,
+     "sent": 72,
+     "recv": 184
+    },
+    "/round": {
+     "calls": 10,
+     "sent": 19256551,
+     "recv": 19259823
+    }
+   }
+  },
+  "1": {
+   "sent": 19256633,
+   "recv": 19652548,
+   "by_path": {
+    "/registry": {
+     "calls": 1,
+     "sent": 10,
+     "recv": 392540
+    },
+    "/norm": {
+     "calls": 1,
+     "sent": 72,
+     "recv": 185
+    },
+    "/round": {
+     "calls": 10,
+     "sent": 19256551,
+     "recv": 19259823
+    }
+   }
+  },
+  "2": {
+   "sent": 19256633,
+   "recv": 19515849,
+   "by_path": {
+    "/registry": {
+     "calls": 1,
+     "sent": 10,
+     "recv": 255842
+    },
+    "/norm": {
+     "calls": 1,
+     "sent": 72,
+     "recv": 184
+    },
+    "/round": {
+     "calls": 10,
+     "sent": 19256551,
+     "recv": 19259823
+    }
+   }
+  },
+  "3": {
+   "sent": 19256633,
+   "recv": 19285823,
+   "by_path": {
+    "/registry": {
+     "calls": 1,
+     "sent": 10,
+     "recv": 25827
+    },
+    "/norm": {
+     "calls": 1,
+     "sent": 72,
+     "recv": 183
+    },
+    "/round": {
+     "calls": 10,
+     "sent": 19256551,
+     "recv": 19259813
+    }
+   }
+  },
+  "4": {
+   "sent": 19256633,
+   "recv": 19268780,
+   "by_path": {
+    "/registry": {
+     "calls": 1,
+     "sent": 10,
+     "recv": 8785
+    },
+    "/norm": {
+     "calls": 1,
+     "sent": 72,
+     "recv": 182
+    },
+    "/round": {
+     "calls": 10,
+     "sent": 19256551,
+     "recv": 19259813
+    }
+   }
+  },
+  "5": {
+   "sent": 19256633,
+   "recv": 19268347,
+   "by_path": {
+    "/registry": {
+     "calls": 1,
+     "sent": 10,
+     "recv": 8351
+    },
+    "/norm": {
+     "calls": 1,
+     "sent": 72,
+     "recv": 183
+    },
+    "/round": {
+     "calls": 10,
+     "sent": 19256551,
+     "recv": 19259813
+    }
+   }
+  },
+  "6": {
+   "sent": 19256633,
+   "recv": 19268576,
+   "by_path": {
+    "/registry": {
+     "calls": 1,
+     "sent": 10,
+     "recv": 8581
+    },
+    "/norm": {
+     "calls": 1,
+     "sent": 72,
+     "recv": 182
+    },
+    "/round": {
+     "calls": 10,
+     "sent": 19256551,
+     "recv": 19259813
+    }
+   }
+  },
+  "7": {
+   "sent": 19256633,
+   "recv": 19268422,
+   "by_path": {
+    "/registry": {
+     "calls": 1,
+     "sent": 10,
+     "recv": 8427
+    },
+    "/norm": {
+     "calls": 1,
+     "sent": 72,
+     "recv": 182
+    },
+    "/round": {
+     "calls": 10,
+     "sent": 19256551,
+     "recv": 19259813
+    }
+   }
+  },
+  "8": {
+   "sent": 19256633,
+   "recv": 19268491,
+   "by_path": {
+    "/registry": {
+     "calls": 1,
+     "sent": 10,
+     "recv": 8496
+    },
+    "/norm": {
+     "calls": 1,
+     "sent": 72,
+     "recv": 182
+    },
+    "/round": {
+     "calls": 10,
+     "sent": 19256551,
+     "recv": 19259813
+    }
+   }
+  },
+  "9": {
+   "sent": 19256633,
+   "recv": 19268751,
+   "by_path": {
+    "/registry": {
+     "calls": 1,
+     "sent": 10,
+     "recv": 8756
+    },
+    "/norm": {
+     "calls": 1,
+     "sent": 72,
+     "recv": 182
+    },
+    "/round": {
+     "calls": 10,
+     "sent": 19256551,
+     "recv": 19259813
+    }
+   }
+  }
+ },
+ "model_bytes_serialized": 1925463,
+ "accepted": 100,
+ "rejected": 0
+}

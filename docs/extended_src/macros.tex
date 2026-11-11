@@ -1,0 +1,20 @@
+% ---- Draft markers -------------------------------------------------------
+% \prelim{x}: a preliminary number that the final rerun will replace.
+% \todo{...}: an open writing item.
+% \citetodo{Key}: a reference that is not yet in references.bib (original
+%                 paper not yet checked); renders as [Key?].
+\newcommand{\prelim}[1]{\textcolor{blue}{#1}}
+\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
+\newcommand{\citetodo}[1]{\textcolor{red}{[#1?]}}
+\newcommand{\rev}[1]{#1} % 2026-11-08 투고 전 표시 제거: 본문의 \rev{} 래퍼는 모두 벗겼고 정의는 식별 함수로 둔다(지도교수 검토판은 태그 jbhi-v32–v41 참조)
+
+% ---- Notation -------------------------------------------------------------
+\newcommand{\Lone}{L1}
+\newcommand{\Ltwo}{L2}
+\newcommand{\Lthree}{L3}
+\newcommand{\Lfour}{L4}
+\newcommand{\teff}{t_{\mathrm{eff}}}
+\newcommand{\treq}{t_{\mathrm{req}}}
+\newcommand{\rzero}{r_0}
+\newcommand{\Hash}{\mathsf{H}}
+\newcommand{\prog}{\mathit{prog}}

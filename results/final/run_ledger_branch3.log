@@ -1,0 +1,114 @@
+== [final] E3 유형 A(시드 1–20) 2026-10-28 03:39:06
+== [final] KAIA 잔액 78.256926825 2026-10-28 03:39:06
+skip seed 1
+skip seed 2
+skip seed 3
+skip seed 4
+skip seed 5
+skip seed 6
+skip seed 7
+skip seed 8
+skip seed 9
+skip seed 10
+skip seed 11
+skip seed 12
+skip seed 13
+skip seed 14
+skip seed 15
+skip seed 16
+skip seed 17
+skip seed 18
+skip seed 19
+skip seed 20
+== done 03:39:06
+E3-A 결과 20 개, 관문 실패 []
+== [final] E3 유형 B 스모크 2026-10-28 03:39:06
+[E3B-s902] round 10: e5e3979d93d9
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T4     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T7     U0                 L1=False L2=True L3=exempt dup=True → 배포 불가(탐지)
+T5     U4-FedOSD(Tu5,lr0.025) L1=True L2=True L3=통과 dup=False → 배포 가능
+T5     U4-FedOSD(Tu5,lr0.005) L1=True L2=True L3=통과 dup=False → 배포 가능
+T5     U4-FedOSD(Tu10,lr0.025) L1=True L2=True L3=통과 dup=False → 배포 가능
+T5     U4-FedOSD(Tu5,lr0.025) L1=True L2=True L3=통과 dup=False → 배포 가능
+T5     U4-FedOSD(Tu5,lr0.005) L1=True L2=True L3=통과 dup=False → 배포 가능
+T5     U4-FedOSD(Tu2,lr0.005) L1=True L2=True L3=통과 dup=False → 배포 가능
+T5     U4-FedOSD(Tu2,lr0.005) L1=True L2=True L3=통과 dup=False → 배포 가능
+T5     U4-FedOSD(Tu10,lr0.025) L1=True L2=True L3=통과 dup=False → 배포 가능
+T5     U4-FedOSD(Tu10,lr0.025) L1=True L2=True L3=통과 dup=False → 배포 가능
+T5     U4-FedOSD(Tu5,lr0.005) L1=True L2=True L3=통과 dup=False → 배포 가능
+T5     U4-FedOSD(Tu10,lr0.025) L1=True L2=True L3=통과 dup=False → 배포 가능
+T5     U4-FedOSD(Tu10,lr0.025) L1=True L2=True L3=통과 dup=False → 배포 가능
+T5     U4-FedOSD(Tu5,lr0.025) L1=True L2=True L3=통과 dup=False → 배포 가능
+T5     U4-FedOSD(Tu20,lr0.025) L1=True L2=True L3=통과 dup=False → 배포 가능
+T5     U4-FedOSD(Tu20,lr0.025) L1=True L2=True L3=통과 dup=False → 배포 가능
+T5     U4-FedOSD(Tu5,lr0.005) L1=True L2=True L3=통과 dup=False → 배포 가능
+T5     U4-FedOSD(Tu20,lr0.025) L1=True L2=True L3=통과 dup=False → 배포 가능
+T5     U4-FedOSD(Tu5,lr0.005) L1=True L2=True L3=통과 dup=False → 배포 가능
+T5     U4-FedOSD(Tu5,lr0.025) L1=True L2=True L3=통과 dup=False → 배포 가능
+T5     U4-FedOSD(Tu5,lr0.005) L1=True L2=True L3=통과 dup=False → 배포 가능
+T6     U0                 L1=True L2=False L3=exempt dup=False → 배포 불가(탐지)
+T6     U0                 L1=True L2=False L3=exempt dup=False → 배포 불가(탐지)
+T6     U0                 L1=True L2=False L3=exempt dup=False → 배포 불가(탐지)
+T6     U0                 L1=True L2=False L3=exempt dup=False → 배포 불가(탐지)
+T6     U0                 L1=True L2=False L3=exempt dup=False → 배포 불가(탐지)
+T6     U0                 L1=True L2=False L3=exempt dup=False → 배포 불가(탐지)
+T6     U0                 L1=True L2=False L3=exempt dup=False → 배포 불가(탐지)
+T6     U0                 L1=True L2=False L3=exempt dup=False → 배포 불가(탐지)
+T6     U0                 L1=True L2=False L3=exempt dup=False → 배포 불가(탐지)
+T6     U0                 L1=True L2=False L3=exempt dup=False → 배포 불가(탐지)
+T6     U0                 L1=True L2=False L3=exempt dup=False → 배포 불가(탐지)
+T6     U0                 L1=True L2=False L3=exempt dup=False → 배포 불가(탐지)
+T6     U0                 L1=True L2=False L3=exempt dup=False → 배포 불가(탐지)
+T6     U0                 L1=True L2=False L3=exempt dup=False → 배포 불가(탐지)
+T6     U0                 L1=True L2=False L3=exempt dup=False → 배포 불가(탐지)
+T6     U0                 L1=True L2=False L3=exempt dup=False → 배포 불가(탐지)
+T6     U0                 L1=True L2=False L3=exempt dup=False → 배포 불가(탐지)
+T6     U0                 L1=True L2=False L3=exempt dup=False → 배포 불가(탐지)
+T6     U0                 L1=True L2=False L3=exempt dup=False → 배포 불가(탐지)
+T6     U0                 L1=True L2=False L3=exempt dup=False → 배포 불가(탐지)
+T11    U0                 L1=False L2=True L3=통과 dup=True → 배포 불가(탐지)
+Traceback (most recent call last):
+    main()
+    o = TM.forge_inject(data, store, cohort, rng.sample(cohort, nk), 1, os.path.join(run_dir, "U0"), u0["norm"],
+                                             ^^^^^^^^^^^^^^^^^^^^^^
+    raise ValueError("Sample larger than population or is negative")
+ValueError: Sample larger than population or is negative
+== [final] 중단: B 스모크 실패 2026-10-28 04:49:05
